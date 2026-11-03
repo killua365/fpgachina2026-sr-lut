@@ -2,7 +2,7 @@
 
 **查表超分 · 双板协同 · 端侧加速**
 
-[技术报告](docs/report.pdf) · [操作手册](docs/user_guide.md) · [构建与复现](docs/reproduction.md) · [PYNQ Skill](skill/README.md) · [配套下载](https://github.com/killua365/sr-lut-fpga/releases/tag/project-20261104)
+[技术报告](docs/report.pdf) · [操作手册](docs/user_guide.md) · [构建与复现](docs/reproduction.md) · [PYNQ Skill](skill/README.md) · [配套下载](https://github.com/killua365/fpgachina2026-sr-lut/releases/tag/project-20261104)
 
 ![系统实物与超分对比显示](docs/assets/system_overview.png)
 
@@ -88,8 +88,8 @@ flowchart LR
 ## 6. 获取与运行
 
 ```powershell
-git clone https://github.com/killua365/sr-lut-fpga.git
-cd sr-lut-fpga
+git clone https://github.com/killua365/fpgachina2026-sr-lut.git
+cd fpgachina2026-sr-lut
 python tools/fetch_release_assets.py
 ```
 
