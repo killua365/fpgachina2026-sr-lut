@@ -1,0 +1,47 @@
+{
+  "contract": {
+    "schema": "n5_business_session_v1",
+    "candidate": "26101201",
+    "limits": {
+      "load": 180,
+      "warmup": 30,
+      "acknowledgement": 5,
+      "window": 720,
+      "source_stop": 300,
+      "recovery": 120,
+      "hold": 1260,
+      "total": 1380
+    },
+    "operator_limits": {
+      "load": 180,
+      "warmup": 30,
+      "acknowledgement": 5,
+      "window": 2400,
+      "source_stop": 300,
+      "recovery": 120,
+      "hold": 2940,
+      "total": 3060
+    },
+    "demo_limits": {
+      "load": 180,
+      "warmup": 30,
+      "acknowledgement": 5,
+      "window": null,
+      "source_stop": 300,
+      "recovery": 120,
+      "hold": null,
+      "total": null
+    },
+    "vivado": "2026.1",
+    "flash_write_allowed": false,
+    "display_end_dp_tests": false,
+    "source_start_order": "nexys_first",
+    "n5_passed": false,
+    "n6_passed": false,
+    "formal_release": false
+  },
+  "hardware_manifest_sha256": "16a336723d8fb7c9355989ade5ad6dfb029d603ac272cda63d76efcb5dcfc5f4",
+  "source_commit": "9c2dd94ae4561753b5a37f01640e8b55c80bda55",
+  "host": "report/validation/repository_20261104/controller",
+  "host_sha256": "be2628aa4b9d1a1fcbcc16f39d245c137b889c9879222b168595f41bfc9090b3"
+}

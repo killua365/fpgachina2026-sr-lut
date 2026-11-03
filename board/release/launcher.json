@@ -42,10 +42,10 @@
       "sha256": "de70a297597b24dfa439232a2254c4e2e0c1f4983eeb413e98147cc771367ed0"
     }
   ],
-  "qualification": "report/validation/dp_start_20261026/launcher/result.json",
-  "qualification_sha256": "5a5981ede145f523895015330e666ff26c53016c75b20022e566ea296820ac96",
+  "qualification": "report/validation/repository_20261104/launcher/result.json",
+  "qualification_sha256": "51d4a61cdd4e71e7d546dab3825cf8a8c5de4d729b3fa16b3d45415aecac902e",
   "session_tools": "build/artifacts/session",
-  "session_tool_manifest_sha256": "b27c9d6aa55414be464a81341e0a385fa5d4cb4796895926e7fd8057670f4b0c",
+  "session_tool_manifest_sha256": "606502b40988a2ba48eca503e96cf4b85d5b62126200ef40bf823e865910df05",
   "source_contract": "board/release/source.json",
   "source_contract_sha256": "bbde714c2afae306f4924b392083e6fb37ac4093216345c9ae77c7d7cf69c193",
   "real_board_launcher_run": false,

@@ -41,7 +41,7 @@
     "formal_release": false
   },
   "hardware_manifest_sha256": "16a336723d8fb7c9355989ade5ad6dfb029d603ac272cda63d76efcb5dcfc5f4",
-  "source_commit": "2d0b1956899925a9f64a5f316f6ea7b72ba83eb4",
-  "host": "report/validation/dp_start_20261026/controller",
-  "host_sha256": "d0a71c28b508bbef3742d90051dabb5e60100dd69a232a339225263f21dcd41d"
+  "source_commit": "9c2dd94ae4561753b5a37f01640e8b55c80bda55",
+  "host": "report/validation/repository_20261104/controller",
+  "host_sha256": "be2628aa4b9d1a1fcbcc16f39d245c137b889c9879222b168595f41bfc9090b3"
 }
