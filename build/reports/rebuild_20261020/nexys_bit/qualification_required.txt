@@ -1,0 +1,1 @@
+New build only. Re-run RTL/host/pixel/on-board qualification before adopting it. Existing demo continues using the immutable qualified BIT.

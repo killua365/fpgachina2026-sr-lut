@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_m0_legacy_clone_smoke_archive",
+  "archived_host_utc": "2026-09-07T12:54:02.624738+00:00",
+  "raw_local_directory": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907",
+  "raw_files": [
+    {
+      "path": "boot_inventory.json",
+      "bytes": 12537,
+      "sha256": "0372b99d2bec75daa3f9ca263b898ecbaf0b40c2954d1d34ed746beaca077445"
+    },
+    {
+      "path": "boot_inventory_v2.json",
+      "bytes": 13073,
+      "sha256": "c7aa307dcb0b8ce3664433e7ce8817dcc6a8819576a900f8083bd44453de073d"
+    },
+    {
+      "path": "camera_x4/end_input.jpg",
+      "bytes": 4276,
+      "sha256": "745c7fa6b1615ffbb0175dac9892f96dc742fafbb643db370a5173e7d20f425a"
+    },
+    {
+      "path": "camera_x4/end_output.jpg",
+      "bytes": 148839,
+      "sha256": "2116ef5a19678b84799f4f39871e172144be34a6cefed85a1275df66d674290b"
+    },
+    {
+      "path": "camera_x4/report.json",
+      "bytes": 1508,
+      "sha256": "569b3ff9721e387ea0f161499cc8121c889a27881d3c67eea711042bb6fed6ff"
+    },
+    {
+      "path": "camera_x4/start_input.jpg",
+      "bytes": 4299,
+      "sha256": "5014cd5c82aa7d6503b0b043a2beb5d40dfb8d8085115fda1793101cadbe9511"
+    },
+    {
+      "path": "camera_x4/start_output.jpg",
+      "bytes": 149137,
+      "sha256": "0a4cfa8e68f915d36bf7610ca58b733ad04e3871f4ca3d75c625f7271fdf4cbc"
+    },
+    {
+      "path": "camera_x4/status_after.json",
+      "bytes": 11057,
+      "sha256": "ad82471cc9b357ac4b07b7f8946df8549ff538333de4b381eebc044c5a4ad0c6"
+    },
+    {
+      "path": "camera_x4/status_before.json",
+      "bytes": 11063,
+      "sha256": "52e77b743baacde42be0a6d26415863adb603faf8ae6b3185789a558be1fc6e1"
+    },
+    {
+      "path": "image_x4/last_pixel.json",
+      "bytes": 2831,
+      "sha256": "9a0de23a09042ee1658b2dbd8e60d075bf8843cf3c3962457b0aba63564b0e59"
+    },
+    {
+      "path": "image_x4/last_pixel.png",
+      "bytes": 97,
+      "sha256": "232394c6ef826212ebdc45bf58e1c1c215fcf1469b57c95089553acc58cda58a"
+    },
+    {
+      "path": "image_x4/odd_roi.json",
+      "bytes": 2893,
+      "sha256": "fb373b4359cf920a90c1a844560e5cc9772445af6a4daf9b8f42e0addcaebad9"
+    },
+    {
+      "path": "image_x4/odd_roi.png",
+      "bytes": 20144,
+      "sha256": "05bb819219ae0248586a79370c68b4392e5ee5065d656521484c6c39cbced346"
+    },
+    {
+      "path": "image_x4/reference.png",
+      "bytes": 323375,
+      "sha256": "c780332920e9aca401e5d0fb2b9070ef268a5f7109db781a031d360f3c1b7b91"
+    },
+    {
+      "path": "image_x4/report.json",
+      "bytes": 1291,
+      "sha256": "c908f84c77e28f9db11e9a1e1816da2c2863933f144d69c0f24b8f6473c69401"
+    },
+    {
+      "path": "image_x4/source.png",
+      "bytes": 31143,
+      "sha256": "408f290a88500fdf8b5ae71dbd6d4f3e2fc74ec9578f4d717e637c50e679e47d"
+    },
+    {
+      "path": "image_x4/source_response.json",
+      "bytes": 44820,
+      "sha256": "df25e6fc79a1fe69db3ef5f18faa852348e57ead609f3d05c1e3d247b330ad25"
+    },
+    {
+      "path": "image_x4/status_before.json",
+      "bytes": 9792,
+      "sha256": "4ebc872b8fce5f2f557997ab8750dedbb5b486349f93c45e110aa2db4e4d0cc6"
+    },
+    {
+      "path": "image_x4/whole.json",
+      "bytes": 2879,
+      "sha256": "1736deb1ad1d705a3fbe904f4638933ad02fbf291bdfc771a85476349f197d56"
+    },
+    {
+      "path": "image_x4/whole.png",
+      "bytes": 369313,
+      "sha256": "854c1aa85dcb286e954fef4f70643e0b40406188d99997126d0d14ccfbd260cd"
+    },
+    {
+      "path": "video_create.json",
+      "bytes": 876,
+      "sha256": "0109f5c5e8ff1c410264258c3db1a84e0303d24fd28069c182064214e3eae5e1"
+    },
+    {
+      "path": "video_decode_probe.json",
+      "bytes": 279,
+      "sha256": "83758511b4c276077b213153adf7201cec2538128bebd4092d048cb5def0175f"
+    },
+    {
+      "path": "video_output_x4.mp4",
+      "bytes": 1400616,
+      "sha256": "3f5add39cfb00338ac1f2e757f5fc2fb3b12ef101b6f20007bbea78ac14a2fd2"
+    },
+    {
+      "path": "video_report.json",
+      "bytes": 18079,
+      "sha256": "4c2b6a8ebe10c69d377ac69fc764090f43f87294598d79d1e16a983ff8a4a700"
+    },
+    {
+      "path": "video_status.json",
+      "bytes": 1695,
+      "sha256": "ce76addad5a6b41086227cf1ad550e09a185a41616461b4e4c587433877df666"
+    }
+  ],
+  "boot_id": "6de1c357-9814-4a06-9af7-fc9a568f9d8d",
+  "root_card": {
+    "root_block": "mmcblk0p2",
+    "disk": "mmcblk0",
+    "cid": "035344534333324780dba606de014500",
+    "size_bytes": 31914983424
+  },
+  "board_clock_trusted": false,
+  "board_observed_utc_untrusted": "2025-05-25T07:25:14.651647+00:00",
+  "time_basis": "Host UTC in smoke reports; boot ID and board monotonic uptime",
+  "legacy_identity": {
+    "identity_match": true,
+    "manifest_match": true,
+    "application_version": "1.9.0",
+    "hardware_stage": 39,
+    "release_status": "formal",
+    "overlays": {
+      "media_x2": {
+        "directory": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x2",
+        "identity_match": true,
+        "bit": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x2/sr_lut_x2.bit",
+          "expected_sha256": "02BBAE6C1DF3FE271BDD09363734E286D431F301B59984B8C310ED8066F781BE",
+          "actual_sha256": "02BBAE6C1DF3FE271BDD09363734E286D431F301B59984B8C310ED8066F781BE",
+          "match": true
+        },
+        "hwh": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x2/sr_lut_x2.hwh",
+          "expected_sha256": "1360DEE27054F07C3FF99047C5ADF78A1B6C429FDA6EEC13EA95404391AA7512",
+          "actual_sha256": "1360DEE27054F07C3FF99047C5ADF78A1B6C429FDA6EEC13EA95404391AA7512",
+          "match": true
+        }
+      },
+      "media_x4": {
+        "directory": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x4",
+        "identity_match": true,
+        "bit": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x4/sr_lut_x4.bit",
+          "expected_sha256": "D5372A9E7FB146FD68BAA99AF40343F0033F387DB132F8EC962B539E798F93A3",
+          "actual_sha256": "D5372A9E7FB146FD68BAA99AF40343F0033F387DB132F8EC962B539E798F93A3",
+          "match": true
+        },
+        "hwh": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/media_x4/sr_lut_x4.hwh",
+          "expected_sha256": "C7307908D2895C05B04483C193245782015B541A9D949EBFD33D487A663E22A5",
+          "actual_sha256": "C7307908D2895C05B04483C193245782015B541A9D949EBFD33D487A663E22A5",
+          "match": true
+        }
+      },
+      "camera_x4": {
+        "directory": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/camera_x4",
+        "identity_match": true,
+        "bit": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/camera_x4/sr_lut_x4.bit",
+          "expected_sha256": "C58493CA0E0C7D1CA9DCCF636CDAAB14D494712D4B2F3A60B61CBE56FCF80D01",
+          "actual_sha256": "C58493CA0E0C7D1CA9DCCF636CDAAB14D494712D4B2F3A60B61CBE56FCF80D01",
+          "match": true
+        },
+        "hwh": {
+          "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/overlays/camera_x4/sr_lut_x4.hwh",
+          "expected_sha256": "C8905AD9291394A52DD2125E71C142B76648AC3B462A012CB0165FC2715D83CB",
+          "actual_sha256": "C8905AD9291394A52DD2125E71C142B76648AC3B462A012CB0165FC2715D83CB",
+          "match": true
+        }
+      }
+    },
+    "manifests": {
+      "application": {
+        "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/manifest/application.json",
+        "sha256": "C176F70423888F47E86842ABDBC467E97BD3C2C187633C5F65E7D0A7E9FB6163"
+      },
+      "hardware": {
+        "path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA/manifest/hardware_release.json",
+        "sha256": "7407B149D7C1C6DD84B189CE143A21CF8C4B9258115A8D50CFBF17496DC4A662"
+      }
+    },
+    "release_archive_sha256": "6DBCF99BB2BA515C8821213C19B8D39E33A3F1A19BCD94B6D28B46F502E07909"
+  },
+  "spare_card_boot_verified": true,
+  "image_x4": {
+    "kind": "legacy_clone_image_x4_smoke",
+    "boot_id": "6de1c357-9814-4a06-9af7-fc9a568f9d8d",
+    "host_observed_utc": "2026-09-07T12:42:11.965566+00:00",
+    "source_sha256": "408f290a88500fdf8b5ae71dbd6d4f3e2fc74ec9578f4d717e637c50e679e47d",
+    "reference_sha256": "c780332920e9aca401e5d0fb2b9070ef268a5f7109db781a031d360f3c1b7b91",
+    "checks": [
+      {
+        "name": "whole",
+        "roi": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "different_pixels": 0,
+        "png_sha256": "854c1aa85dcb286e954fef4f70643e0b40406188d99997126d0d14ccfbd260cd",
+        "formal_fpga_result": true,
+        "passed": true
+      },
+      {
+        "name": "odd_roi",
+        "roi": [
+          17,
+          19,
+          31,
+          27
+        ],
+        "different_pixels": 0,
+        "png_sha256": "05bb819219ae0248586a79370c68b4392e5ee5065d656521484c6c39cbced346",
+        "formal_fpga_result": true,
+        "passed": true
+      },
+      {
+        "name": "last_pixel",
+        "roi": [
+          127,
+          127,
+          1,
+          1
+        ],
+        "different_pixels": 0,
+        "png_sha256": "232394c6ef826212ebdc45bf58e1c1c215fcf1469b57c95089553acc58cda58a",
+        "formal_fpga_result": true,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "hdmi_acceptance": false
+  },
+  "video_x4": {
+    "passed": true,
+    "job_id": "5110555c0b3efa8ce5f01e6f",
+    "input_sha256": "BD25DE652CB3F8B928FE5F1EF3A11AFD0FF30B16072A05AC753616FC7185EEE6",
+    "output_sha256": "3f5add39cfb00338ac1f2e757f5fc2fb3b12ef101b6f20007bbea78ac14a2fd2",
+    "decoded_stream": {
+      "codec_name": "h264",
+      "width": 1276,
+      "height": 1028,
+      "pix_fmt": "yuv420p",
+      "nb_read_frames": "30"
+    },
+    "requires_pc_agent": true,
+    "pixel_exactness_claimed": false,
+    "hdmi_acceptance": false
+  },
+  "camera_x4": {
+    "kind": "legacy_clone_camera_smoke",
+    "boot_id": "6de1c357-9814-4a06-9af7-fc9a568f9d8d",
+    "host_observed_utc": "2026-09-07T12:48:06.049408+00:00",
+    "frames": [
+      {
+        "path": "start_input.jpg",
+        "view": "input",
+        "size": [
+          240,
+          135
+        ],
+        "sequence": 3171,
+        "sha256": "5014cd5c82aa7d6503b0b043a2beb5d40dfb8d8085115fda1793101cadbe9511",
+        "decoded_geometry_matches": true
+      },
+      {
+        "path": "start_output.jpg",
+        "view": "output",
+        "size": [
+          1920,
+          1080
+        ],
+        "sequence": 3171,
+        "sha256": "0a4cfa8e68f915d36bf7610ca58b733ad04e3871f4ca3d75c625f7271fdf4cbc",
+        "decoded_geometry_matches": true
+      },
+      {
+        "path": "end_input.jpg",
+        "view": "input",
+        "size": [
+          240,
+          135
+        ],
+        "sequence": 3521,
+        "sha256": "745c7fa6b1615ffbb0175dac9892f96dc742fafbb643db370a5173e7d20f425a",
+        "decoded_geometry_matches": true
+      },
+      {
+        "path": "end_output.jpg",
+        "view": "output",
+        "size": [
+          1920,
+          1080
+        ],
+        "sequence": 3522,
+        "sha256": "2116ef5a19678b84799f4f39871e172144be34a6cefed85a1275df66d674290b",
+        "decoded_geometry_matches": true
+      }
+    ],
+    "same_source_frame_claimed": false,
+    "hdmi_acceptance": false,
+    "passed": true,
+    "elapsed_seconds": 20.156999999890104,
+    "source_frames_before": 3169,
+    "source_frames_after": 3523,
+    "last_error": null
+  },
+  "legacy_smoke_passed": true,
+  "physical_card_rollback_verified": null,
+  "software_mode_rollback_verified": null,
+  "hdmi_acceptance": false,
+  "hdmi_deployment_allowed": false,
+  "limitations": [
+    "Initial inventory retained; optional device-tree model node absent, fixed in v2 probe",
+    "Legacy x4 smoke only, not the new HDMI performance or stability matrix",
+    "Video uses the existing PC Agent; not standalone HDMI export",
+    "Camera captures are asynchronous previews, not a same-frame quality comparison",
+    "Monitor, cable and mouse available per user; USB hub not available",
+    "No mouse enumerated while the camera occupies the USB host port",
+    "Original-card physical rollback and return to spare remain pending",
+    "Boot delays and failed ancillary services are recorded, not repaired"
+  ]
+}

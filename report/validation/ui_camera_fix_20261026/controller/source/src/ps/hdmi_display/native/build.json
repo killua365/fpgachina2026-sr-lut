@@ -1,0 +1,23 @@
+{
+  "machine": "arm-linux-gnueabihf",
+  "compiler": "gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": [
+    "-shared",
+    "-O3",
+    "-fPIC",
+    "-mfpu=neon",
+    "-mfloat-abi=hard",
+    "-march=armv7-a",
+    "-mtune=cortex-a9",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fno-strict-aliasing"
+  ],
+  "source_sha256": "65dbc68a107d514b45acb682d7ead7d873a3cd004e1f9f4efffbbf1dea213d59",
+  "library_sha256": "9c7df4263f9194e02c54aff0aed13c19c6263047e9e56e2c17974cf231f8496d",
+  "hardware_access": false,
+  "compile_command": "gcc -shared -O3 -fPIC -mfpu=neon -mfloat-abi=hard -march=armv7-a -mtune=cortex-a9 -Wall -Wextra -Werror -fno-strict-aliasing src/ps/hdmi_display/native/hdmi_pixels.c -o src/ps/hdmi_display/native/libhdmi_pixels.so",
+  "qualification": "board/experiments/2026-10-18/presentation_r8/arm_tests.json",
+  "production_board_package_replaced": false
+}

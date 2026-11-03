@@ -1,0 +1,24 @@
+{
+  "root": "D:\\FPGA\\sr_lut_fpga",
+  "hardware_manifest_sha256": "16a336723d8fb7c9355989ade5ad6dfb029d603ac272cda63d76efcb5dcfc5f4",
+  "changes": [
+    {
+      "source": "build/artifacts/nexys/dependencies/n3_mig.xci",
+      "source_sha256": "3a569987d613c6f42878cbfb374724b173ed40d31340e5c6ec780c016ae10bff",
+      "prepared_sha256": "25741d0dd92494e7a064ddc17638b69355d3f1a779c7d32891ca98d95bdebbcf",
+      "changed_fields": [
+        "gen_directory",
+        "XML_INPUT_FILE"
+      ]
+    },
+    {
+      "source": "build/artifacts/nexys/dependencies/n3_vdma.xci",
+      "source_sha256": "7aa5837d05a924d0fb252fff8206eaef71be46df63bd1de18974a3f8a8705085",
+      "prepared_sha256": "38c1f9ed3d2addcebde1a84a2a850126162de5b98453c340ab4e88a003c726da",
+      "changed_fields": [
+        "gen_directory"
+      ]
+    }
+  ],
+  "hardware_access": false
+}

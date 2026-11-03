@@ -1,0 +1,158 @@
+{
+  "schema": "sr_lut_release_assets_v1",
+  "repository": "killua365/sr-lut-fpga",
+  "tag": "project-20261104",
+  "files": [
+    {
+      "path": "board/recovery/releases/sr_lut_app_1.9.0_board_candidate_vivado2026_1.zip",
+      "name": "board--recovery--releases--sr_lut_app_1.9.0_board_candidate_vivado2026_1.zip",
+      "bytes": 19282110,
+      "sha256": "3589c1909fd15cbfcb5a9b9f0dee1fc7c18bd701759967457f3c098b8286865c"
+    },
+    {
+      "path": "board/recovery/releases/sr_lut_app_1.9.0_board_release.zip",
+      "name": "board--recovery--releases--sr_lut_app_1.9.0_board_release.zip",
+      "bytes": 19281196,
+      "sha256": "6dbcf99bb2ba515c8821213c19b8d39e33a3f1a19bcd94b6d28b46f502e07909"
+    },
+    {
+      "path": "board/release/sr_lut_demo_r15_repack.zip",
+      "name": "board--release--sr_lut_demo_r15_repack.zip",
+      "bytes": 89764908,
+      "sha256": "a6e6a375e80fc5a16994a43b8f7a0e37a3ac5291d5d3bb6acc41422842c477d2"
+    },
+    {
+      "path": "board/release/sr_lut_demo_r16_repack.zip",
+      "name": "board--release--sr_lut_demo_r16_repack.zip",
+      "bytes": 89765058,
+      "sha256": "16cddeda10c70a12ff33d6c6918f50b1c481f7c69db3f195e72b6951a64011c3"
+    },
+    {
+      "path": "board/release/sr_lut_demo_r17_repack.zip",
+      "name": "board--release--sr_lut_demo_r17_repack.zip",
+      "bytes": 89765156,
+      "sha256": "2d82e611c0dd81c9ed792a2cefc28c1ce8412259a9ec4a6755d80b4a54331e1e"
+    },
+    {
+      "path": "build/reports/rebuild_20261020/generated_configs.zip",
+      "name": "build--reports--rebuild_20261020--generated_configs.zip",
+      "bytes": 43352725,
+      "sha256": "f3a345489f4ecf7989011917cc2af81362a50430fdf1779f7fdedd55ef2012c6"
+    },
+    {
+      "path": "data/video/demo_clip/frames.rgb",
+      "name": "data--video--demo_clip--frames.rgb",
+      "bytes": 106920000,
+      "sha256": "81f79a8564b5325d8c946b0177d842a8a920679ee2c71c838aebae5270613335"
+    },
+    {
+      "path": "data/video/performance_30fps/frames.rgb",
+      "name": "data--video--performance_30fps--frames.rgb",
+      "bytes": 46656000,
+      "sha256": "87d6a0c6a194dfcccae2a72aa6a4de8a454a3f95c3e619b5c68da3eebccfd45d"
+    },
+    {
+      "path": "report/performance/camera_r5_evidence.zip",
+      "name": "report--performance--camera_r5_evidence.zip",
+      "bytes": 169788824,
+      "sha256": "5e78ccf4ac27f39d2e3bf015b901a16d4c872a746b96307b4b139478d1ccacd8"
+    },
+    {
+      "path": "report/validation/historical_validation.zip",
+      "name": "report--validation--historical_validation.zip",
+      "bytes": 360817040,
+      "sha256": "db6243beb2fc9a26b8d72c1c103845cd5fb9e6ef364589fa0838d3f11085604b"
+    },
+    {
+      "path": "report/validation/vga_candidate_20261021/evidence.zip",
+      "name": "report--validation--vga_candidate_20261021--evidence.zip",
+      "bytes": 690392,
+      "sha256": "94a10a084f6a8be2623da504f766591d6155b7214e85fb8242650c9f59fc6db2"
+    },
+    {
+      "path": "runtime/board/project_venv_armv7.tar.gz",
+      "name": "runtime--board--project_venv_armv7.tar.gz",
+      "bytes": 6095657,
+      "sha256": "3e25fd2cbebc1eb0779318360d2566d7ac4bea7c6488e54a91308545c8a8f356"
+    },
+    {
+      "path": "runtime/host_python_3_12_14.zip",
+      "name": "runtime--host_python_3_12_14.zip",
+      "bytes": 78177656,
+      "sha256": "fab7f52737cfccb69b97777db625bb40c4e42f71146a6b3a04a365ddd3e3c4a0"
+    },
+    {
+      "path": "runtime/reference_python_3_12_14.zip",
+      "name": "runtime--reference_python_3_12_14.zip",
+      "bytes": 122505895,
+      "sha256": "2efbc794d948b0641a9e226b0207539f3bb1f7df184d1e90f9bb5cad6c446249"
+    },
+    {
+      "path": "src/third_party/algorithm_sources.zip",
+      "name": "src--third_party--algorithm_sources.zip",
+      "bytes": 18204,
+      "sha256": "fd456539a39f5c2e257dbcb525d856cfed2592185b4e9d1c431c694ef7014678"
+    },
+    {
+      "path": "src/third_party/digilent_hdmi_rx.zip",
+      "name": "src--third_party--digilent_hdmi_rx.zip",
+      "bytes": 611420,
+      "sha256": "b2dfeac6eb5b4853b35a85ef2af6eacc98cc359948476d3eb7ece72ca94510f5"
+    },
+    {
+      "path": "src/third_party/digilent_nexys_video_board.zip",
+      "name": "src--third_party--digilent_nexys_video_board.zip",
+      "bytes": 14477,
+      "sha256": "6ab07a5fa1b5d880f2938cee76111ce88af9c9f391de761c2bf02d3bac975223"
+    },
+    {
+      "path": "src/third_party/digilent_video.zip",
+      "name": "src--third_party--digilent_video.zip",
+      "bytes": 712637,
+      "sha256": "36bb75d4f82b4286c328b39223c27c99ec424d45e08d60eaa77a219cf4f96434"
+    },
+    {
+      "path": "src/third_party/fpga_displayport.zip",
+      "name": "src--third_party--fpga_displayport.zip",
+      "bytes": 177010,
+      "sha256": "f9ef61594331d261829ab50be6bbb3f36026563193bf15c9512cfc5bf8f35850"
+    },
+    {
+      "path": "src/third_party/hdmi_ffmpeg.zip",
+      "name": "src--third_party--hdmi_ffmpeg.zip",
+      "bytes": 20849018,
+      "sha256": "cea437c894dad2b2e5c57138f1e30563706901b6f1108d1d42027be2612f2367"
+    },
+    {
+      "path": "src/third_party/hdmi_python.zip",
+      "name": "src--third_party--hdmi_python.zip",
+      "bytes": 1326499,
+      "sha256": "b23f59b8cc2a6f149b16b2c46ae4263206242aac62cddf1afca07e84ad2d356a"
+    },
+    {
+      "path": "src/third_party/mjpegzero.zip",
+      "name": "src--third_party--mjpegzero.zip",
+      "bytes": 54642,
+      "sha256": "bf1d3bbeb6f2ebec11d4b936207c7ceb929a72b812826fce9375c7ac0000970e"
+    },
+    {
+      "path": "board/release/skill/pynq_skill_20261023.zip",
+      "name": "board--release--skill--pynq_skill_20261023.zip",
+      "bytes": 201207,
+      "sha256": "7c256d4db4a586316a08aed63a9c852a3424213829832d7c6a87e82d72099b6f"
+    },
+    {
+      "path": "board/release/skill/pynq_skill_20261104.zip",
+      "name": "board--release--skill--pynq_skill_20261104.zip",
+      "bytes": 201207,
+      "sha256": "b1c3458ece015ee343d342e5ce2d9296bcc7e0b5809aa593827bb20004c41a63"
+    },
+    {
+      "path": ".git/qualification-history.bundle",
+      "name": "qualification-history.bundle",
+      "bytes": 669319233,
+      "sha256": "499f628e97ec930ca46fae0c022cf77d9a1f145a5e90785c4da1ccb1c8e6a947",
+      "optional_history": true
+    }
+  ]
+}

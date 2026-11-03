@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_1080p30_candidate",
+  "mode": "1920x1080@30",
+  "scale": 2,
+  "vivado": "2026.1",
+  "part": "xc7z020clg400-1",
+  "status": "candidate_not_board_verified",
+  "timing": {
+    "setup_wns_ns": 0.194,
+    "hold_wns_ns": 0.028,
+    "setup_tns_ns": 0,
+    "hold_tns_ns": 0
+  },
+  "files": [
+    {
+      "path": "sr_lut_x2.bit",
+      "sha256": "58EE93D840AD639B7CB511002F4CED6DFAFE6402805D73CB2A9375451EAC4806",
+      "bytes": 4045777
+    },
+    {
+      "path": "sr_lut_x2.hwh",
+      "sha256": "996C69BD8511A9CB3B25ED77356FC806003ADEAA8A0E5626D16204F707BAB243",
+      "bytes": 693034
+    },
+    {
+      "path": "sr_lut_x2.xsa",
+      "sha256": "E1B43D34A078390A1E9487EF4715A3005689E28F045DD641FC20F2855F83B1BC",
+      "bytes": 1396943
+    },
+    {
+      "path": "stage_40i_scale2_system_synth_utilization.rpt",
+      "sha256": "FBD5EE6B08459D5BA11FE937ABBE167D49AC06FA8B4F5B5F364EB2E7069E2EC1",
+      "bytes": 60527
+    },
+    {
+      "path": "stage_40j_scale2_system_synth_timing.rpt",
+      "sha256": "433A4D99CA2B00944394114C11DD7AFFBA0AC7B9F74BCDCF88EED68F55999F5E",
+      "bytes": 1357927
+    },
+    {
+      "path": "stage_40k_scale2_system_synth_drc.rpt",
+      "sha256": "2922190A4A74798D0D911A1B7DCC302C46C4E30B94564D4E3EB251C0A0B09022",
+      "bytes": 10342
+    },
+    {
+      "path": "stage_40l_scale2_system_route_utilization.rpt",
+      "sha256": "721EBE2CA49883B865E4EDA01AB54854DE9A43DBE4BB9DC0296F1977AE48DF46",
+      "bytes": 57362
+    },
+    {
+      "path": "stage_40m_scale2_system_route_timing.rpt",
+      "sha256": "51FAF3F3F5566C8B16EF953D779C25F3BB26807CA94C03F383D9E3073E913CDB",
+      "bytes": 1188441
+    },
+    {
+      "path": "stage_40n_scale2_system_route_methodology.rpt",
+      "sha256": "58B7E49ACD2E2F15E46901AA4520FD0231A5FB8D360DA1060A85AF2BD85AD2D0",
+      "bytes": 2360
+    },
+    {
+      "path": "stage_40o_scale2_system_route_drc.rpt",
+      "sha256": "7F2FE2FA2B6CE9B8ACA5D7A7AAC57EAE19FD97D340FA749EEE05F4C2D47F5AEE",
+      "bytes": 9861
+    }
+  ]
+}

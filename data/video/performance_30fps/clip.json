@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_rgb_clip",
+  "pixel_format": "rgb24",
+  "width": 480,
+  "height": 270,
+  "frame_count": 120,
+  "fps_numerator": 30,
+  "fps_denominator": 1,
+  "frames_sha256": "87d6a0c6a194dfcccae2a72aa6a4de8a454a3f95c3e619b5c68da3eebccfd45d",
+  "source_name": "Generated moving RGB ramp and checkerboard, 120 frames at 30 fps",
+  "time_mapping": "generated frame index / 30",
+  "synthetic": true
+}

@@ -1,0 +1,186 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug off --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_15 -L axi_datamover_v5_1_38 -L axi_vdma_v6_3_25 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_sr_identity_core_behav xil_defaultlib.tb_sr_identity_core xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package axi_vdma_v6_3_25.axi_vdma_pkg
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_datamover_v5_1_38.axi_datamover_pkg
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sm [\axi_vdma_sm(c_include_sf=1,c_us...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_cmdsts_if [\axi_vdma_cmdsts_if(c_include_s2...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sts_mngr [axi_vdma_sts_mngr_default]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vregister [\axi_vdma_vregister(c_num_fstore...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vaddrreg_mux [\axi_vdma_vaddrreg_mux(c_num_fst...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vidreg_module [\axi_vdma_vidreg_module(c_includ...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_greycoder [\axi_vdma_greycoder(c_dwidth=5)\]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_genlock_mngr [\axi_vdma_genlock_mngr(c_num_fst...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mngr [\axi_vdma_mngr(c_prmry_is_aclk_a...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_regdirect [\axi_vdma_regdirect(c_num_regist...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_register [\axi_vdma_register(c_linebuffer_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_mux [\axi_vdma_reg_mux(c_total_num_re...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_module [\axi_vdma_reg_module(c_total_num...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_fsync_gen [\axi_vdma_fsync_gen(c_use_fsync=...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vid_cdc [\axi_vdma_vid_cdc(c_prmry_is_acl...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sof_gen [axi_vdma_sof_gen_default]
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=2,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=1...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=1...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=12)
+Compiling module xpm.xpm_cdc_gray(INIT_SYNC_FF=1,WIDT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=13)
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture amd of entity axi_vdma_v6_3_25.axi_vdma_afifo [\axi_vdma_afifo(c_family="artix7...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_skid_buf [\axi_vdma_skid_buf(c_wdata_width...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mm2s_linebuf [\axi_vdma_mm2s_linebuf(c_data_wi...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_skid_buf [axi_vdma_skid_buf_default]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sm [\axi_vdma_sm(c_include_sf=1,c_us...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_cmdsts_if [\axi_vdma_cmdsts_if(c_dm_status_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mngr [\axi_vdma_mngr(c_prmry_is_aclk_a...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_register [\axi_vdma_register(c_channel_is_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_mux [\axi_vdma_reg_mux(c_total_num_re...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_module [\axi_vdma_reg_module(c_total_num...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_fsync_gen [\axi_vdma_fsync_gen(c_use_fsync=...]
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture amd of entity axi_vdma_v6_3_25.axi_vdma_afifo [\axi_vdma_afifo(c_family="artix7...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_s2mm_linebuf [\axi_vdma_s2mm_linebuf(c_s2mm_so...]
+Compiling module xpm.xpm_cdc_single(SRC_INPUT_REG=0)
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=4,INI...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=4,IN...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reset [\axi_vdma_reset(c_prmry_is_aclk_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_rst_module [\axi_vdma_rst_module(c_include_s...]
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=4,INI...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_lite_if [\axi_vdma_lite_if(c_num_ce=62)\]
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_if [\axi_vdma_reg_if(c_enable_debug_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_intrpt [\axi_vdma_intrpt(c_enable_debug_...]
+Compiling module xpm.xpm_fifo_rst_default
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=7...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rd_sf [\axi_datamover_rd_sf(c_sf_fifo_d...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_reset [axi_datamover_reset_default]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=8,c_depth=4)\]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=8,c...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=68,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=68,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_cmd_status [\axi_datamover_cmd_status(c_fami...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rd_status_cntl [axi_datamover_rd_status_cntl_def...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_strb_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_op_mo...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_pcc [\axi_datamover_pcc(c_is_mm2s=1,c...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=59,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=59,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_addr_cntl [\axi_datamover_addr_cntl(c_famil...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=55,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=55,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rdmux [\axi_datamover_rdmux(c_sel_addr_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rddata_cntl [\axi_datamover_rddata_cntl(c_ali...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_mm2s_full_wrap [\axi_datamover_mm2s_full_wrap(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_ibttcc [\axi_datamover_ibttcc(c_sf_xfer_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_ms_strb_set [\axi_datamover_ms_strb_set(c_str...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_mssai_skid_buf [axi_datamover_mssai_skid_buf_def...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_strb_...]
+Compiling architecture working of entity axi_datamover_v5_1_38.axi_datamover_slice [\axi_datamover_slice(c_data_widt...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=5,c_depth=16)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=5,c...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_scatter [\axi_datamover_s2mm_scatter(c_en...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=28,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=28,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_realign [\axi_datamover_s2mm_realign(c_en...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_stbs_set [\axi_datamover_stbs_set(c_strobe...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_stbs_set [\axi_datamover_stbs_set(c_strobe...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_skid_buf [\axi_datamover_skid_buf(c_wdata_...]
+Compiling module xpm.xpm_fifo_rst_default_1
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=5...
+Compiling module xpm.xpm_counter_updn
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=1...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling module xpm.xpm_fifo_rst_default_2
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_indet_btt [\axi_datamover_indet_btt(c_ibtt_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=32,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_family="ar...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_cmd_status [\axi_datamover_cmd_status(c_sts_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=23,c_depth=6)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=23,...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=2,c_depth=6)\]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=2,c...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wr_status_cntl [\axi_datamover_wr_status_cntl(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_addr_cntl [\axi_datamover_addr_cntl(c_addr_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=53,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=53,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wrdata_cntl [\axi_datamover_wrdata_cntl(c_rea...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wr_demux [\axi_datamover_wr_demux(c_sel_ad...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_skid2mm_buf [\axi_datamover_skid2mm_buf(c_mda...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_full_wrap [\axi_datamover_s2mm_full_wrap(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover [\axi_datamover(c_include_mm2s=1,...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma [\axi_vdma(c_use_mm2s_fsync=1,c_i...]
+Compiling architecture n3_vdma_arch of entity xil_defaultlib.n3_vdma [n3_vdma_default]
+Compiling module xil_defaultlib.vdma_axi_fence
+Compiling module xil_defaultlib.axi_lite_command_default
+Compiling module xil_defaultlib.vdma_frame_control_default
+Compiling module xil_defaultlib.hdmi_geometry
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=3,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0,CDC_...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=3,INIT...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=5,INIT...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=3,INIT...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling module xil_defaultlib.hdmi_token_cdc
+Compiling module xil_defaultlib.hdmi_frame_input
+Compiling module xil_defaultlib.sr_identity_marker_rx
+Compiling module xpm.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module xil_defaultlib.atomic_status_cdc
+Compiling module xpm.xpm_fifo_rst(SIM_ASSERT_CHK=1)
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling module xil_defaultlib.video_pair_fifo(PIXELS_PER_BEAT=...
+Compiling module xil_defaultlib.video_crc_check
+Compiling architecture rtl of entity xil_defaultlib.dp_framebuffer_source [\dp_framebuffer_source(transfer_...]
+Compiling module xpm.xpm_cdc_array_single(DEST_SYNC_F...
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=3,INI...
+Compiling module xil_defaultlib.bridge_frame_owner
+Compiling module xil_defaultlib.sr_identity_tracker
+Compiling module xpm.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module xil_defaultlib.bridge_pipeline_control(BUSINESS...
+Compiling module xil_defaultlib.bridge_core(BUSINESS_IDENTITY=1)
+Compiling module xil_defaultlib.tb_sr_identity_core
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sr_identity_core_behav

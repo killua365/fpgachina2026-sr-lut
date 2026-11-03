@@ -1,0 +1,21 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_interpolator/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_interpolator} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E4 interpolator x2 direct: checking 10041 rows
+E4 interpolator x2 E1-E3 chain: checking 10041 rows
+E4 interpolator x4 direct: checking 10041 rows
+E4 interpolator x4 E1-E3 chain: checking 10041 rows
+E4_INTERPOLATOR_PASS transactions=40164 numerator_checks=401640 chain_checks=20082 latency=5
+$finish called at time : 2409856 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator.sv" Line 473
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:44 2026...

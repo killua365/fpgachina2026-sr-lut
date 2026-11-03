@@ -1,0 +1,66 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_quantizer.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_simplex_selector.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_simplex_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_address_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_address_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_line_buffer_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_line_buffer_dynamic
+INFO: [VRFC 10-311] analyzing module sr_lut_line_memory_2r_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rotation_map.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rotation_map
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_result_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_result_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_task_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_task_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rgb_scheduler.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rgb_scheduler
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_fusion.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_fusion
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_block_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_block_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_perf_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_perf_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_output_fifo_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_row_bank_dynamic
+INFO: [VRFC 10-311] analyzing module sr_lut_output_fifo_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_axis_top_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_axis_top_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_axis_wrapper_dynamic.v" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_axis_wrapper_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_quantizer.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_simplex_selector.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_simplex_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_address_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_address_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_interpolator_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_fusion_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_fusion_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_block_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_block_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_result_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_result_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_e6.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_e6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_perf_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_perf_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_line_buffer_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_line_buffer_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_output_fifo_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_output_fifo_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_top_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_top_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_wrapper_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_wrapper_dynamic
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_wrapper_dynamic_x2

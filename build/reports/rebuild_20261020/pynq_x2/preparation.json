@@ -1,0 +1,956 @@
+{
+  "root": "D:\\FPGA\\sr_lut_fpga",
+  "platform": "pynq",
+  "snapshot": "D:\\FPGA\\tmp\\sr_lut_build_20261020_x2\\source",
+  "files": [
+    {
+      "path": "src/rtl/nexys_bridge/aux_channel.vhd",
+      "sha256": "fe1ae11915f62e96c516d2eae1da9ec44645968da8bd150d3c81b8c938ed7fd7"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/aux_interface.vhd",
+      "sha256": "2977c8f03eefada74a93110dfcbc0256d8d1b547f5885c0a52b2191908ed5f68"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/aux_io.vhd",
+      "sha256": "d02eb0f666c48b7a5897a6a3711d5f8e05883767650ddab64052bd6274e1a7ce"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/channel_managemnt.vhd",
+      "sha256": "bbe94b88c2260ebb5379eafd40b0d07042c29c903cf6fa68a6de73df14775bea"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/diagnostic_mux.vhd",
+      "sha256": "d15b7ad4220718ffc2ae7811a016df8614c16936323cc31f870c49ea4ff6a509"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/diagnostic_uart.vhd",
+      "sha256": "7f171f4ebef44d9b94657fbd7f3394ed4810505578b79a4b936c84db21c2ba69"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_1080p60_n32768_source.vhd",
+      "sha256": "d6d46979ed4b876200c48b2a1d596f065e42584360ca6aaf6f328b6822ee651d"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_1080p60_source.vhd",
+      "sha256": "179f0c3a6d53faf431f4506a209db205c06179d7237f647391161f418020f062"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_1280x1024_n32768_source.vhd",
+      "sha256": "d51faf310a8f789816e03ef66bf77f0b042927c5fbd18f8e28bd3ec8a692385b"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_1280x1024_source.vhd",
+      "sha256": "4c16d3eb29fff31cdaae5e464bcecd523c72c7c306b768c81ded5b9956a2932b"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_aux_messages.vhd",
+      "sha256": "bdb275c069b0f95bc3067fc0c98c44c74d741fb59971d0bd945c60ad4143829d"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/dp_register_decode.vhd",
+      "sha256": "31e4a5cef2716f0e35dd039bbd8a5b6286c5c4f2f30d4499ccc099b915d61fb8"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/edid_decode.vhd",
+      "sha256": "f9a1a315fdff0e61569f5c4930becbd8c4fb10cf3c4e2d2c9dc5d7f65fa1fa3d"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/edid_observer.vhd",
+      "sha256": "7d79af2741bab4238bdc69baba8aed8336e58d97cb2ea957981f527220edb494"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/enhanced_framing.vhd",
+      "sha256": "bef6106cd24914e17b6eb0943605468eaeeec9a42947730e72a7bc01aa748c9a"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/epoch_scrambler_reset.vhd",
+      "sha256": "0577191bc6feb2a5804ac74d1417b9e8919c359d9a4a4678da2656bde747a033"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/gtp_diagnostic_mux.vhd",
+      "sha256": "0adb904ca50ba49acf804bb26f751fe62670febbf095862662c34e8d7f0708c4"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/gtp_health_monitor.vhd",
+      "sha256": "25cfb155aa11b876319e341590f802c4c2276a5d22fb4c659a50611c714eb112"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/gtp_ref_monitor.vhd",
+      "sha256": "702b899e6c594d7bd54123e08380b3b0208830b44b7b06852d9cc87011fad926"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/gtp_tx_drive.vhd",
+      "sha256": "0ddff629d32d19b38570cfecdce8a8c4848246ac3ee5399ba3702b0de68b81f1"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/gtx_tx_reset_controller.vhd",
+      "sha256": "093614de8943e96ccb03e18d5028f30bc4bdd2f6c530446e85ceb3fa08ae3443"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/hotplug_decode.vhd",
+      "sha256": "45c93e532c7f98c4f8cbb5a44e1eca7d7d1b71352c101cf6bfdfa63c38c8ed56"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/idle_pattern_inserter.vhd",
+      "sha256": "f5b4acb601c511356f5c21029a497e75a373e5942e56c0c8f06eb28b0b7d08de"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/link_signal_mgmt.vhd",
+      "sha256": "30aa5cc32e451be9c0640fb7aba95ea1a6a5ad4c6393de4434a047450caeda01"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/main_stream_processing.vhd",
+      "sha256": "97b83e5ff646fa7376aa4f657c1a7cdad6d34a1c336c903e284613912f31e44a"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_epoch_bridge.vhd",
+      "sha256": "3f886ad5e38f87a792984dbace76093b17219fe080abf52c6b1f5577f398841b"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_export.vhd",
+      "sha256": "1a01dfd6b5c459ff497102d0315d69c4306939133f3ae601918ec26a0499c275"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_nine_bank.vhd",
+      "sha256": "f4624617fd0e874719ef1c4833dd1c1f4283b1036bd1da8f3a67f8f862e5082f"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_page_source.vhd",
+      "sha256": "eb56955448764b3630128bda12342b6aeda30c0083f5386b5af2c3bec08b2a6f"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_publication_bridge.vhd",
+      "sha256": "261c8f11ad4dbb353c7c2cc18dff0b16005d822d1fe8e092c5f3ba95d09c33bb"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_transport.vhd",
+      "sha256": "122c079c72221b02b4b6f5f0dedb1cc44ee6290401c219794e7a967e0948a233"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_capture_uart.vhd",
+      "sha256": "201249b5716ff3b9673bb3296edc80319e012c7b09dcfb3efe484adabf816729"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_diagnostic_sequence.vhd",
+      "sha256": "732fe84e4cd5fcdee21c34f676c706d89ec2ecb9374f1ca45731b4db42b68aa0"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_rx_capture_input.vhd",
+      "sha256": "d895860521d29c95721281918229f3772e623c984216178dabf023c2dac21e97"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_rx_drp_reset.vhd",
+      "sha256": "6caa2a76b1b479e516125a82f0494737d653d43419de38949565d04551f5d056"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_rx_lane_control.vhd",
+      "sha256": "51359c6a97aef866723d98c7104b1e284f4a87842e573920fd07d27f626dcd42"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_rx_startup_guard.vhd",
+      "sha256": "937ea20a7a7a68c65d35db5d772f871c37a4fbc4f9bb685c79dc628dc6d429e4"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_rx_window_capture.vhd",
+      "sha256": "c3d24901e28857f4fffb19f8277865323e04d44b75c3d53afe734c82a3a0d7e5"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_session_transport.vhd",
+      "sha256": "20323a5fd7097f60e48be14de2f29beb9db1f8f0f423eb02f4ac91a896bc8f0c"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_top_diagnostic.vhd",
+      "sha256": "8327f9be05bc20fd4f25d0931a861e0abd32278454a360e9867f575f73cfc7f5"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_transceiver_probe.vhd",
+      "sha256": "ae7a2e282c784d0ce2ea51f62d96c6dd99794526e4b0f1aaa140974b405c8592"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_tx_window_capture.vhd",
+      "sha256": "b2ead59f5b0a71f41b0a15ee645f15514e9fd3ac0b4450ee02873b34251ea817"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/pma_uart_session.vhd",
+      "sha256": "df496fd3c6ee1f7dd551d3811deca9ee36927fe477f697c1077f64c21952a529"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/README.md",
+      "sha256": "808870d138d5f722d02d102023c06b288fd3d01ac00711f8757e6002e2c6166b"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/ser_diagnostic_mux.vhd",
+      "sha256": "416f88f653abc0c79f8978e848de27d940721d9b8f0763729d6f579d8066544b"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/ser_measurement_window.vhd",
+      "sha256": "a1ba162c6507a37401be7603952dfe80925e19246e4e4d2e4bf729dacfa9c87c"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/ser_pattern_source.vhd",
+      "sha256": "a676351e690f64f6267954d239f2b130f0fcc815f25e27487d098b6add0fbf35"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/stream_capture_mux.vhd",
+      "sha256": "37425dc2a36ff3ed0f0dcbde70b5ecd32c65bf265e25f839f1629a0fe11d4c19"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/stream_diagnostic.vhd",
+      "sha256": "2cbcc6fb0dc8a9185e259721c965a8d22a6d0a1819212e6b2a12f0a08809071e"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/stream_window_capture.vhd",
+      "sha256": "5fdfa0db46845869150e40c7f760db69a2a0dc446a6dca22195f2bfc62e91e54"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/top_level.vhd",
+      "sha256": "601b87fb11ce60efa8b1334c89bbfcceb3b1fb486558e160920c0e4bc09ce1be"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/top_level_hd1080_n32768.vhd",
+      "sha256": "e3b7cd7e98429f819106a1ae08bdea95b504ba87fb46068653d4dac325348182"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/top_level_n32768.vhd",
+      "sha256": "a668e13eb37fc7a0390d8b8cd11fc14388f6b1746e3227d3fb3caed971a244a1"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/top_level_pma.vhd",
+      "sha256": "d14e346ac48e1f03f4fdee7ecfa1d797faefbb3566ac74db95f66cfd1e0e86e3"
+    },
+    {
+      "path": "src/rtl/nexys_bridge/transceiver.vhd",
+      "sha256": "be129313224ce2ec959866db04cd9b4f4a6b9b1d97cb041230af10f6ea5c3f3c"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/axi_lite_command.sv",
+      "sha256": "62bb16ad0838b56ac319fa77eb694a096daf8f6d7efd55afdea3c1b18ce6f98d"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_axi_test.sv",
+      "sha256": "7ebfe4463771fb365f29ca75c6cef71db73804379cdb5c4b08df3a219adcd8ce"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_board_top.sv",
+      "sha256": "289ecace6243d0b844fe90565627d8b82eeda3b2f7eb2ee3dca63efec12e1897"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_suite.sv",
+      "sha256": "2a3ab07dd5492bb9b8c617051815e7fa020665b5e77b12324fbcada4b69bc59a"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_telemetry.sv",
+      "sha256": "8a1c627f90dd3896818f02cd26ff2314774415b9c871ea152ea371425eb73fdb"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_test_port.sv",
+      "sha256": "24868f6263811bc449c60648f05be73b347b20a8cdd91f0f035f8e97c761b15c"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/ddr_uart.sv",
+      "sha256": "4036fec054fec88316ddf4117945841e368b52602e106195c79276d44d4c8f9f"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/dp_framebuffer_link.vhd",
+      "sha256": "bdabdc3377377eda6f90be480e1c63ecdaf0aeb56db0d20a61c64d549c4d1d10"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/dp_framebuffer_link_continuous.vhd",
+      "sha256": "07d70b83fec207d9c0dc305058cab65d559848314a5e76e1650bcf66c3f4a5ff"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/dp_framebuffer_source.vhd",
+      "sha256": "90455f150b90933a5329a4c58286c5eed6d08cab956f7fd2b3dfd67638e405cc"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_board_top.sv",
+      "sha256": "9e9cdb1adefef2a123cc6d6e3028186890d7fc8b7032feb02d0850e3d216dd27"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_core.sv",
+      "sha256": "ee6958f6be28fd5d063053515b0f436023ba2b4bd75392afa4fcafc5d45ba352"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_idle_pattern_inserter.vhd",
+      "sha256": "c0d96756ab14f7ba77772fd6af97e67bc45f031a5b75105fb5948755e2e88595"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_main_stream_processing.vhd",
+      "sha256": "cdb638cee9e592d9a39e74774e16cf221cf49e815ac21d55dadc1e83a400819a"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_owner.sv",
+      "sha256": "2a3ba0d986e3c1fa147b96331cbc5328739e4da043541a7edc9c50afb924e528"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_pipeline_control.sv",
+      "sha256": "3cc12f19fda5c880cfca0634bd334a27a76329492d026c3916f94c8d1cf45c7c"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/frame_uart.sv",
+      "sha256": "9100f1c60bb4029cc9096f2baab4a96989b5dd3a2c2b7c3a8f63343b37878140"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/mig_128.prj",
+      "sha256": "e389b57c1645b0ac6480fe8821c8ad69cb482eb8e6ad703df78135228ee1713c"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/mig_128_shared_clock.prj",
+      "sha256": "ec14abf3c4e8f64b06ccb96c721aa14b6d9e0df3f2d0409f3ae5afe1f98c57f9"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/mig_derivation.json",
+      "sha256": "3655f2d446a43b5c724f139b4c8d5822e3fee8ceaf812ac79d6ad80e51759619"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/mig_shared_clock_derivation.json",
+      "sha256": "756833a590da768ed8df4d5fe39fc7de162e6332a37316ede5b42193fe3e8b15"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/vdma_axi_fence.sv",
+      "sha256": "fad0f64d1eeb9cf474e0e7ce3cf1b5aa9ad17499cc912bb687ac42b5f89b86fc"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/vdma_frame_control.sv",
+      "sha256": "63648893dd5f4ea36a845f9126e56cbae1800008dc2b23250eb18bd1f94b4fc3"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pair_fifo.sv",
+      "sha256": "18bb3d453e062bc764e611c4f7296fdec31c18efb7264ba34f1bfd8cf6233cc9"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_axis.sv",
+      "sha256": "19b5a668fbd15517f30a61af3b2e92ae1d11f4c5dc514f0137272844651e5cb0"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_check.sv",
+      "sha256": "190e7c08957b0a129036478ea40eb784e17edbbeee14b170081174561032a912"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_pixel.sv",
+      "sha256": "80ffde3a33f41d974653356c90cb146af90eacab29eae390e11c9d1921d1ce81"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/atomic_status_cdc.sv",
+      "sha256": "e5aeac23560aae3ee02e9b170f07de31ba6ff8c40c47ab86f2b8883b9887b53a"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_board_top.sv",
+      "sha256": "32735b642b40ca8870ff9114936b853023841f764362bd4544ebef4f6eb39e90"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_board_top_continuous.sv",
+      "sha256": "5feee30a54ce57776f2023160310d0f252f08f8f0826a2ae2aeef916fde5fdad"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_core.sv",
+      "sha256": "de06d7963695057a4e6fc75fff88339d4bdd35913687a52f2d0d7f242024e52b"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_frame_owner.sv",
+      "sha256": "ff624cf65ac4bfbea2b0e00e32e3cd6c9ad9b74b71332026098dbaae7c3bfcbe"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_pipeline_control.sv",
+      "sha256": "55f3291667e35a4cb912373fec4d66d5b5fdb0912309172710eda67211b8fd0a"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_telemetry.sv",
+      "sha256": "e9cd1552761647303fabf26870593cc85cab4b0ed972024cde253ecca505810b"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_uart.sv",
+      "sha256": "6b79d5a4683904a6477699ee1018f920932bd4611ca4ddc88ddaea7a49d7bf2c"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/eeprom_8b.vhd",
+      "sha256": "b80c9921ad6f4f86010f5393513c2a3d7cdeb1f44c49335e1a1570176e83a94b"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/frame_crc32.vh",
+      "sha256": "ef2bf2f325e96aaa15bffec18c1d54059f84cdc46991a27b6ce0533d1bd68dc5"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/hdmi_frame_input.sv",
+      "sha256": "26a11d1a7d09dc152bcc63066333f544eb7cb80c4a439ba1cbccedc123e4281e"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/hdmi_geometry.sv",
+      "sha256": "f72c39d8ce62e4583b43f6a522eca05a7b0f320806318512e5c59dd4cfff5655"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/hdmi_receiver.vhd",
+      "sha256": "a15ef2bd0352f978174eae19064b86836be78a6e5099afcff06cb7b5fe085ca8"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/hdmi_token_cdc.sv",
+      "sha256": "df2a33c2d21d20eed51a067e015933516d793700bba8c86ed9902f4499c42ee0"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/n4_1080p30.data",
+      "sha256": "388cede653847cf9d4aa0b7da9a308a2cc4ec02e2c7f9f508f5d00226a750973"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/README.md",
+      "sha256": "2dac1e71c56ffbf0ae6465c4d47a4383f36d83d3821f458b6d8eeb0698dd389d"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/sr_identity_marker_rx.sv",
+      "sha256": "29aceb56799f594563364812baaf89f37f62af2cbc29a3cd517d900a6a39c3ae"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/sr_identity_tracker.sv",
+      "sha256": "b01b77ac98ac6d5318e8416780b77bbdd5790bf16cbc0348e20b5dc56f9fe3e4"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/twi_slavectl.vhd",
+      "sha256": "02e621f2706a17ece697372b5586c482b48c7002f7452a0609e00da85b4945b8"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/video_crc_check.sv",
+      "sha256": "87f50c438f8c20eeb590300b2f0417d5877315b0f5004a515a9d2a74fd4b4bc4"
+    },
+    {
+      "path": "src/rtl/sr_lut_address_gen.sv",
+      "sha256": "eb3ee1917acbce57923e8b7c9d05b14a02a42f6e4c734aefc964863ef8ccf53e"
+    },
+    {
+      "path": "src/rtl/sr_lut_axis_async_fifo_16.v",
+      "sha256": "4b7b65a778c87361d9c1e360f81af8b137761cc5356a9d264a931c0444b7faf1"
+    },
+    {
+      "path": "src/rtl/sr_lut_axis_top_dynamic.sv",
+      "sha256": "4e6710a19767678c00ed232e11f9dcff3ab21199f8462ac5f5dfaf03c5e49e74"
+    },
+    {
+      "path": "src/rtl/sr_lut_axis_wrapper_dynamic.v",
+      "sha256": "d26a942f557a467d25bf4c4d0186b1d8c0486edf74a80a243a9ba0b3c3f24328"
+    },
+    {
+      "path": "src/rtl/sr_lut_axis_wrapper_video.v",
+      "sha256": "aaa995cde3b699f7bef31fd5f4645f2d46b31e54ae0b312e155358eafd485faa"
+    },
+    {
+      "path": "src/rtl/sr_lut_block_fifo.sv",
+      "sha256": "56480e5adf1938f66af9561113390a8cbf3ff70175c8816373e43e143fe6f40b"
+    },
+    {
+      "path": "src/rtl/sr_lut_crc32_word.sv",
+      "sha256": "feb0e5061fc976f05d82472c072ffcd683a145ef10a76eb9bf3d6849dd40c6b5"
+    },
+    {
+      "path": "src/rtl/sr_lut_fusion.sv",
+      "sha256": "0fa2ec56e62bf94c393dd7b1574e48a9f290be23e0550bc22eae4e4723a7fe9f"
+    },
+    {
+      "path": "src/rtl/sr_lut_hdmi_monitor.v",
+      "sha256": "9424de176382d06132c6da7fba4858876d238518cde9eed42f325e39d7746dbe"
+    },
+    {
+      "path": "src/rtl/sr_lut_interpolator.sv",
+      "sha256": "a02f7fd450d96e5bb9f5792ac2d6fd706f35d1cd042259ed3fc22d4fb2a7b59a"
+    },
+    {
+      "path": "src/rtl/sr_lut_jpeg_packer_async.v",
+      "sha256": "44a58a53ea3b1db74f58bdd6feca4332f72fcea3147d783e564568ad5295fbcd"
+    },
+    {
+      "path": "src/rtl/sr_lut_line_buffer_dynamic.sv",
+      "sha256": "c36e015457adac8355f5b7e856c8868960159297a4e566b272e49d07b631f9d7"
+    },
+    {
+      "path": "src/rtl/sr_lut_mjpeg_axis_wrapper.v",
+      "sha256": "7cd9f2233334040dc0ea69d86a10b5c41ce2dfd1e3b05c0f927e5b8f2e3441ef"
+    },
+    {
+      "path": "src/rtl/sr_lut_mjpeg_status.v",
+      "sha256": "adb4a00cb4f00676b9147250faa2155ed8d30fd99755d4410827b5e5f1a678b1"
+    },
+    {
+      "path": "src/rtl/sr_lut_output_fifo_dynamic.sv",
+      "sha256": "eea27f5b00cd38791cd44f13a341f1e157033eaca3518699dbc3b885eabc8bcb"
+    },
+    {
+      "path": "src/rtl/sr_lut_perf_monitor.sv",
+      "sha256": "c709665d1cf4f068133b10e01f1da6b09cb7a5f2055a7904be45d53976937e8b"
+    },
+    {
+      "path": "src/rtl/sr_lut_pkg.sv",
+      "sha256": "c88135e246a4f49d14689dd4d5de9290d4640b46c2d32b3941ce62de42242324"
+    },
+    {
+      "path": "src/rtl/sr_lut_quantizer.sv",
+      "sha256": "f10ddbd3905e9d426c9d8d3b3a2748eb22c77e1ce3ce085e0eeff2e690f5b631"
+    },
+    {
+      "path": "src/rtl/sr_lut_result_pipeline.sv",
+      "sha256": "84e32377858c5ec9e8a81a62201b07b179ec443a99e0b05394326def832064e6"
+    },
+    {
+      "path": "src/rtl/sr_lut_rgb_scheduler.sv",
+      "sha256": "33be5feabc839ee9173f9074a475d04b68c8d648c18d529447a1a478ee6a8f54"
+    },
+    {
+      "path": "src/rtl/sr_lut_rgb_to_yuyv_axis.v",
+      "sha256": "3b699a9edbef375d11b231282acaa1b14b59309de6f837ecfae2d11b9fd1f279"
+    },
+    {
+      "path": "src/rtl/sr_lut_rgbx_video_adapter.v",
+      "sha256": "de93285e6d124916dd9b80da930f90753cee499cb8beb1d6e96e8f02f3f6bd02"
+    },
+    {
+      "path": "src/rtl/sr_lut_rom.sv",
+      "sha256": "b7c0d9f681fa71df7d60c96632c7309281b443f5cae260b56978a2dae1897c20"
+    },
+    {
+      "path": "src/rtl/sr_lut_rotation_map.sv",
+      "sha256": "1f569feea00f954da288150d060ddc5435e16be78c2072bff4070d3c317b7e90"
+    },
+    {
+      "path": "src/rtl/sr_lut_simplex_selector.sv",
+      "sha256": "137609ab212934a93ee0452592fdac24c42366289bb0cb161952380692e9c05b"
+    },
+    {
+      "path": "src/rtl/sr_lut_task_pipeline.sv",
+      "sha256": "2c89ad37c921c15ea02358fe2c4deed84cc9c7f6e74c33c22a5d70fb06de817f"
+    },
+    {
+      "path": "src/rtl/sr_lut_video420_packer.sv",
+      "sha256": "212727d2676c3be99cabace95b8f78a4ffa6c63bfec0add6f1f5297f1e86d8a3"
+    },
+    {
+      "path": "data/lut/bram_mem/lut_mem_manifest.json",
+      "sha256": "fc106cbca9e762a1a7d240224e61ebbe82890daf075cd3bca01b3b958b6243cf"
+    },
+    {
+      "path": "data/lut/bram_mem/model_s_x2_4bit.mem",
+      "sha256": "0c5415c57bcfc6bac675bfc13c815b9b8b8505c41f8e9a7d78753f74759df5b6"
+    },
+    {
+      "path": "data/lut/bram_mem/model_s_x4_5bit.mem",
+      "sha256": "a8a377838900967d0eebc81f47943490102daf801b11970a4008599cc4058f8d"
+    },
+    {
+      "path": "build/scripts/nexys/archive_audit.py",
+      "sha256": "996e2757f1f7aad8bc3992c1a0d89fafdedf9b932786d5551c6d1a59f2cf0848"
+    },
+    {
+      "path": "build/scripts/nexys/audit_reference.tcl",
+      "sha256": "c626b8e2102f601adbfaee7ee342391b8a231137f24cebdfa44305f587137a4f"
+    },
+    {
+      "path": "build/scripts/nexys/bridge_hdmi_cdc.tcl",
+      "sha256": "ac0951e4d59327ad0415376a4375009085d54facd7ab6e7de223c9c42e9aa0ae"
+    },
+    {
+      "path": "build/scripts/nexys/bridge_hdmi_pins.xdc",
+      "sha256": "2b86a107f4f0364fc157fe075ead73f965c33e853e7dd432fc124ca0f905195a"
+    },
+    {
+      "path": "build/scripts/nexys/build_n5_business_board.tcl",
+      "sha256": "c84747e45d66ebae31055fcc4b799faec53b4c5e222617ce5324745d6955be53"
+    },
+    {
+      "path": "build/scripts/nexys/frame_board_cdc.tcl",
+      "sha256": "b58b276659291e9133e17b2d7716875faa2b56eb347f860661ab483e9ea56c19"
+    },
+    {
+      "path": "build/scripts/nexys/frame_board_clocks.tcl",
+      "sha256": "d0ccfb298bd2f8ffc9e9e126838f25d7dd499fa2792324627647fe88ebf4ab03"
+    },
+    {
+      "path": "build/scripts/nexys/frame_board_pins.xdc",
+      "sha256": "d9450e9324dfa75819c7e7627c250c3c29705e8debdbd6a0273848ba27c28531"
+    },
+    {
+      "path": "build/scripts/nexys/frame_implementation.py",
+      "sha256": "15e354f9cfb5f0e64ffd94e5e6ee62a71f58c0f43f8844b0e86b585618a3155c"
+    },
+    {
+      "path": "build/scripts/nexys/reference_cdc.tcl",
+      "sha256": "7d2533e7686fe20e441a356256bbb6ce41cc2d8a7f3143bb5cdb0f837203e6a1"
+    },
+    {
+      "path": "build/scripts/nexys/reference_clocks.tcl",
+      "sha256": "3fdc9dabed4771fdf800e7e819364c234daf7265a02a716bf91a1cedebed720e"
+    },
+    {
+      "path": "build/scripts/nexys/reference_pins.xdc",
+      "sha256": "8816a5c3a06aa2f4c4c441fb502117cdff9592fd6574119384fc59cbaca80d14"
+    },
+    {
+      "path": "build/scripts/nexys/simulate_n5_core.tcl",
+      "sha256": "0dc1c2f9dde5705341c91b3c219b47ab1f605fbe58ddd679876859aa0f988ea1"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/result.json",
+      "sha256": "e3e69a5293e915920a2687ea69acbfbccef99e50df2d69cd8e9a92a15bd6cb27"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/source/analyze_business_capture.py",
+      "sha256": "6259dc1b33aee4a02dc9169a03725531ce7934d70e7961add325a157885d20b1"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/source/decode_bridge_diagnostic.py",
+      "sha256": "c81636384adaaf62692130fa574418f7b4c645ba80cfa4995908c395509fe74c"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/source/decode_business_diagnostic.py",
+      "sha256": "dd9c3dbd22145035382845f356a3706c15652289799bc9a33a07bd0893d8a875"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/source/decode_frame_diagnostic.py",
+      "sha256": "ddd97ca15897b899e790e3badce13821fce9ea9652cfa36ed375cfa9d0ed073c"
+    },
+    {
+      "path": "build/scripts/nexys/work/reproduction_20261018_host/source/test_business_diagnostic.py",
+      "sha256": "aea218ad21f7940342885f7499ec40c450f28c082328f8434397d0a0685d6a83"
+    },
+    {
+      "path": "build/scripts/pynq/add_hdmi_output.tcl",
+      "sha256": "8bb3888fc0f6fe162c435e7df82f3e539b8e6e86ba9932b59a183d2479c54aa2"
+    },
+    {
+      "path": "build/scripts/pynq/audit_frozen_1080p30.tcl",
+      "sha256": "a3e4e2f6c7349b603c0b37f73d2b8c5732e6d41dd8c7eac462115ea232e9aca7"
+    },
+    {
+      "path": "build/scripts/pynq/board_repository.tcl",
+      "sha256": "0a1f66be3b65cb3433ff5eb71c245a3d75f4f35f173ad3810f175e8b3cdefcfc"
+    },
+    {
+      "path": "build/scripts/pynq/boards/pynq_z2/1.0/board.xml",
+      "sha256": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae"
+    },
+    {
+      "path": "build/scripts/pynq/boards/pynq_z2/1.0/part0_pins.xml",
+      "sha256": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f"
+    },
+    {
+      "path": "build/scripts/pynq/boards/pynq_z2/1.0/preset.xml",
+      "sha256": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe"
+    },
+    {
+      "path": "build/scripts/pynq/boards/pynq_z2/1.0/pynq_z2.jpg",
+      "sha256": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+    },
+    {
+      "path": "build/scripts/pynq/boards/README.md",
+      "sha256": "0b2c7bf69b26df5f57b0df2fd2279063d661ad4150073840deccfe3a2c808e26"
+    },
+    {
+      "path": "build/scripts/pynq/build_camera_overlay.ps1",
+      "sha256": "dd9216b9ce88fb57c312dd798e37d039a1334f4faf54ce13008df074aba4db86"
+    },
+    {
+      "path": "build/scripts/pynq/build_hdmi_1080p30.ps1",
+      "sha256": "656f1b925c9f8e74558722fc92dc8372bee834c284f4d2249b8868675890c636"
+    },
+    {
+      "path": "build/scripts/pynq/build_hdmi_1080p60.ps1",
+      "sha256": "ac0d144ca7095ec756237966835a142d164c1a94bf182ba698735c74f1e776b4"
+    },
+    {
+      "path": "build/scripts/pynq/build_hdmi_overlay.ps1",
+      "sha256": "53641f7b68eed5205c16ac22c2f2f401dc324157150f527936648afa6882a3e6"
+    },
+    {
+      "path": "build/scripts/pynq/build_media_overlay.ps1",
+      "sha256": "8b157fdda2dc105a90e07a160e9c4c09c88d4d942db5363563525fe44e80ba7a"
+    },
+    {
+      "path": "build/scripts/pynq/build_stage39_unified.ps1",
+      "sha256": "54346b60592a756e501ee6ec5cf7aca905baf51575492af0fe82389bac04563e"
+    },
+    {
+      "path": "build/scripts/pynq/build_zynq_dynamic_system.tcl",
+      "sha256": "ff76bfe7de722e275ce34e034a5283f4dd5355242410f574b8e7164d87abd845"
+    },
+    {
+      "path": "build/scripts/pynq/check_hdmi_timing.tcl",
+      "sha256": "6499017495e7f8a761b8aaaf3ee6cc63417e4594c710bf3ba82e75abfb1bdd8b"
+    },
+    {
+      "path": "build/scripts/pynq/check_toolchain.ps1",
+      "sha256": "47605d9fd976f8b8a378de088a2ace8a6d4f96130ef10610d42d2796a163134d"
+    },
+    {
+      "path": "build/scripts/pynq/check_toolchain.tcl",
+      "sha256": "880d06b2852dd3fa3b48adf5beeb5783dbe8dfd71e762f30c19d4aca57f0734f"
+    },
+    {
+      "path": "build/scripts/pynq/freeze_hdmi_artifacts.py",
+      "sha256": "a1305122bfd7b7df9c95bb0c74ac02bef020a535171334b3aecc561c0b50e04b"
+    },
+    {
+      "path": "build/scripts/pynq/implement_zynq_dynamic_system.tcl",
+      "sha256": "548f21eeac8e7f44269c4b8cc5533ac0086f53c579fcba8a534970b357905cdc"
+    },
+    {
+      "path": "build/scripts/pynq/open_stage39_project.tcl",
+      "sha256": "71cbda366f77c4f4eb7624fc8472534ee5c91dc70906a65c0a82f44a87b2ef15"
+    },
+    {
+      "path": "build/scripts/pynq/pynq_z2_front_panel_gpio.xdc",
+      "sha256": "1c30b8adb3f521842c042066a10ca9829f4fde82f242ab89a78c8b97b7abdd47"
+    },
+    {
+      "path": "build/scripts/pynq/pynq_z2_hdmi_out.xdc",
+      "sha256": "d4d7384f8ff224b091041d1ee7f838f2c5d00a2612fa0f8feaae9bd958068da5"
+    },
+    {
+      "path": "build/scripts/pynq/simulator.ps1",
+      "sha256": "0e42737947a175726e95bbe17accacf5c8bb03c900ce82f2d14c5653f7f26c46"
+    },
+    {
+      "path": "build/scripts/pynq/stage_config.tcl",
+      "sha256": "afddbc6c74a5affdb02abd5ffc3775b3292219bed29f58d7a5fe860089962419"
+    },
+    {
+      "path": "build/scripts/pynq/toolchain.ps1",
+      "sha256": "80909630fff770c4ce22ed171f83cd41009ac4e565f74c46bc6e7ff046377791"
+    },
+    {
+      "path": "build/scripts/pynq/verify_dynamic_system.tcl",
+      "sha256": "9463aeb9f54fe36bb13cdba4de56f1a75ed9af77a65b18a9c9f04914bdff0daf"
+    },
+    {
+      "path": "sim/nexys/derive_pma_diagnostic_top.py",
+      "sha256": "018fc5b896739e54564fb5b8b031368b6a2e0b7de88f2733bc6785cd3c826a4d"
+    },
+    {
+      "path": "sim/nexys/derive_pma_transceiver_probe.py",
+      "sha256": "70a32b8d027a4efcc90f38d532430155af276b97b670db34cd4a76bf3c8c60e2"
+    },
+    {
+      "path": "sim/nexys/derive_sxga_n32768.py",
+      "sha256": "e973bb08d5459866e80daaa14d311c30086ecc1d0f688253b177bdd385bd0159"
+    },
+    {
+      "path": "sim/nexys/qualify_bridge_continuous.py",
+      "sha256": "604a0c1606794f6b160b1f5b69b70d65c51b3540ee7e4ea894e526ffd4d86d58"
+    },
+    {
+      "path": "sim/nexys/qualify_bridge_matrix.py",
+      "sha256": "be035acbf063d3e903e0518afad4904ae57eec1db7697c1e5311640982f4a959"
+    },
+    {
+      "path": "sim/nexys/qualify_bridge_ordered.py",
+      "sha256": "589746e7b4d35c58b87f65a88e9fb8a59617b1cdd068053dcc7358eae2772bde"
+    },
+    {
+      "path": "sim/nexys/qualify_bridge_ordered_v2.py",
+      "sha256": "fd6e7352178a403d127624711dc487bfdd4432f0cfb28f25ad80514c47107e54"
+    },
+    {
+      "path": "sim/nexys/qualify_bridge_ordered_v3.py",
+      "sha256": "615de690dba73478c4fec72bf66b7456939849a0640a166ce35a8a0225626a2e"
+    },
+    {
+      "path": "sim/nexys/qualify_business_session.py",
+      "sha256": "b244480aba3af9dfa730d8470fb9bae88b6bee01407f301734d5d604a5e0ca74"
+    },
+    {
+      "path": "sim/nexys/tb_bridge_pipeline.sv",
+      "sha256": "5d5fb81d2367221e086f17be947dc875fddda884ce49c9518f187e22909bd5a4"
+    },
+    {
+      "path": "sim/nexys/tb_bridge_uart.sv",
+      "sha256": "ca05aea651a7f13f3cfbe5633be8806df7f5e362b22d09b200422e6350bd7b13"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_core.sv",
+      "sha256": "000e170d08e484a4df499381a5438e9cda4ced5b5e948e392a1ff546896cd0c3"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_marker_rx.sv",
+      "sha256": "713c01f695ce67a5b09f7b0ab5699ea7409c011857b2b8cde5490f0a122560c6"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_pipeline.sv",
+      "sha256": "b4ee6ca22f56c95f868998805e6f9e76d393ef89035a6a16dad4ace5923875a8"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_telemetry.sv",
+      "sha256": "6631206611b330f88c70a3f2998c59b2a563da953ebe9bcaf31f9c9ef61942df"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_tracker.sv",
+      "sha256": "f62f5d833de90fada78528823c0467e30e8419917b82c0a9ccb0d9a2f759ab55"
+    },
+    {
+      "path": "sim/nexys/tb_sr_identity_uart.sv",
+      "sha256": "83a143d8c65b4aff09ea7fe1e2b9a570fe884f39a654fe09aac4536872a10631"
+    },
+    {
+      "path": "sim/nexys/test_bridge_candidate.py",
+      "sha256": "7ba7fb2738ecef9f808dff5b669043feabc9c40a832e2f0bf515f74350e2bf4a"
+    },
+    {
+      "path": "sim/nexys/test_bridge_continuous_analysis.py",
+      "sha256": "aa249c68a196516c7bf42cf5e0e0d91976aca48510ce74c7f340a71de31b5cfc"
+    },
+    {
+      "path": "sim/nexys/test_bridge_continuous_identity.py",
+      "sha256": "9271c5f608541be4e5f0f9ed195592b0805d127567fdc91c27454d5f8c5e6f25"
+    },
+    {
+      "path": "sim/nexys/test_bridge_continuous_loader.py",
+      "sha256": "9b8aa41ce921a25f29294460e39e03a4c75c658df19accafb9276b594cb18198"
+    },
+    {
+      "path": "sim/nexys/test_bridge_continuous_ordered_analysis.py",
+      "sha256": "a2783a363851a818a87a1414ec9623a1d727169ab98030bf3e01770c89c2bd01"
+    },
+    {
+      "path": "sim/nexys/test_bridge_continuous_supervisor.py",
+      "sha256": "dc6b5fadbc7e1972e0127527b0933ece6fa07b10cdaf7f6f2314d5ba94177608"
+    },
+    {
+      "path": "sim/nexys/test_bridge_diagnostic.py",
+      "sha256": "41389c2b1dda8504e1445b06fe1426f093cb06ce9975c801ccd585daa670e5d6"
+    },
+    {
+      "path": "sim/nexys/test_bridge_loader.py",
+      "sha256": "80d6c5a807d892afe9b13990e84eb81763ce555cd073704d24917e962173e47a"
+    },
+    {
+      "path": "sim/nexys/test_bridge_matrix.py",
+      "sha256": "a1fd28ed50da4032dba00a0ea662d998d8e00ccb2875b70bf5dd53c4008cdd7b"
+    },
+    {
+      "path": "sim/nexys/test_bridge_matrix_analysis.py",
+      "sha256": "e2d388fa39f3a951eb4f7584b72b071da9815ad4b234b64c6872d6e9128ad656"
+    },
+    {
+      "path": "sim/nexys/test_bridge_matrix_loader.py",
+      "sha256": "2423bb0f22941fbb410797673ee07f44717e97a7fba3429e7d4357c49c1c3739"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_analysis.py",
+      "sha256": "6d553a1f9c09998c598c5cfbcc6e9848bbd41c2803f5ba0fbfffc4feae1938b7"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_gate.py",
+      "sha256": "4a2fc6f62b0d3d50f47fbbe1f74a604ffb90fd01f085c0790961cb9650616942"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_gate_v2.py",
+      "sha256": "285a938b95d7b3fe0cd5d8932310866e6ecdf6b4d95d29a8224481c11c511f3a"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_gate_v3.py",
+      "sha256": "ca5161f759e223ab60fb138bb97879b12a012ea93c4355477c7ee10a9dcdc3ac"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_json.py",
+      "sha256": "dfc506ec16439a20d9b9730fedd31d63b7dc1efa891f313c3a6e40457a66af79"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_loader.py",
+      "sha256": "f809f1e33fa188187584ebb5c3dd35ddaca5ea0c0bd75df11d1633dd85866c46"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_loader_v2.py",
+      "sha256": "a57df0e24b12e87cc0f4c8aa6d068947d5385adf7371569f11680b293f436d90"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_loader_v3.py",
+      "sha256": "1f6b22f3f28a2ae559008977a02b579c520357b4a751ab4849519cfeae84d849"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_policy.py",
+      "sha256": "673a16deb09f4a22bf6a7a8977833fecd8f275b8bf8d2bade566ca035bed5988"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_source.py",
+      "sha256": "950746203388939168e504ce0cc907dc66a24bb306ba44627c425bee6e185686"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_supervisor.py",
+      "sha256": "d22050efb38a1be01d7567431db39eaa6f95a0574d36ad44da6a1082e4a7ed24"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_supervisor_v2.py",
+      "sha256": "de5e57a943cb991cde801a2e30bd4e32ec13dc12a690fa048aa7f361e912295c"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_supervisor_v3.py",
+      "sha256": "d2ddf23a5a1c75bf99e5b5b32b84e2b4ef5158893cee8e3fde4c6b37012a8f84"
+    },
+    {
+      "path": "sim/nexys/test_bridge_ordered_transition.py",
+      "sha256": "627cd848b00de4c921bef790cfd67635ca2ac04311e6f323aff2e47084648531"
+    },
+    {
+      "path": "sim/nexys/test_bridge_reacquire_analysis.py",
+      "sha256": "16fecad3e172282366ff11ed6c9094ab31550f2a91b8114d20cf490e87d8f6b9"
+    },
+    {
+      "path": "sim/nexys/test_bridge_reacquire_candidate.py",
+      "sha256": "071057c51292a1b80b230f9e3f663154437ad4763661e4fe489a455b4e19336f"
+    },
+    {
+      "path": "sim/nexys/test_bridge_reacquire_loader.py",
+      "sha256": "3be68bee75e60d43f652fc622df44e0e6dab19a26b025ce5ca4517049290ef02"
+    },
+    {
+      "path": "sim/nexys/test_bridge_reacquire_supervisor.py",
+      "sha256": "6897bac96b0f4bdd81a60938183c73e945c8929999f45031921e4bbfa6d149ea"
+    },
+    {
+      "path": "sim/nexys/test_bridge_run_analysis.py",
+      "sha256": "714eb9c7a9f9defa8ea18415fa977ba87c7fe493513cb2d553d4fda89511968b"
+    },
+    {
+      "path": "sim/nexys/test_bridge_supervisor.py",
+      "sha256": "1691b06ec131f889e8a1694a775561f2eb87e5d9a68c8fb058efb128a996dff4"
+    },
+    {
+      "path": "sim/nexys/test_business_evidence_files.py",
+      "sha256": "6a6d9a82046b62b77213e875d683bcebcce34b13dfe621a6ff189a9661a69a41"
+    },
+    {
+      "path": "sim/nexys/test_business_package_binding.py",
+      "sha256": "0de096813708d7e315c9a42b5a10eafa1f7947c527c453854710879ace4f5989"
+    },
+    {
+      "path": "sim/nexys/test_business_query.py",
+      "sha256": "a2bf0c4e48500ee430424399980462b7d55d684fabae2ffe587f0999f6bf816f"
+    },
+    {
+      "path": "sim/nexys/test_business_session.py",
+      "sha256": "0fc72b850d79b52a335c03037fcce5d6cc5bae728eed3ebfc53c15ce08439cf5"
+    },
+    {
+      "path": "sim/nexys/test_business_session_loader.py",
+      "sha256": "eb6ace6808eead37a50631fe18fcb77b55c38c6b2b3ce78e9c36938a669a1411"
+    },
+    {
+      "path": "sim/nexys/test_business_session_supervisor.py",
+      "sha256": "a61cd6be74f9db3fbedc490828135b68d887e829abd34f259c1605e94a274a6d"
+    },
+    {
+      "path": "sim/nexys/test_frame_diagnostic.py",
+      "sha256": "c1a68ef3247136742c2b930be7b3adf29e35cf09be339f15d600e89a5d8f64ba"
+    },
+    {
+      "path": "sim/nexys/test_longrun_heartbeat.py",
+      "sha256": "e70c18cafc27fbcf08d77f9cb2d189c1e370194d30018b59ece9a81c077655e2"
+    },
+    {
+      "path": "sim/nexys/test_longrun_lease.py",
+      "sha256": "b913c035ff48a515d2f96f671024d8f628ca9bf7f83b6f3c84590fcc353f4bb2"
+    },
+    {
+      "path": "sim/nexys/test_longrun_process.py",
+      "sha256": "03413fc3045714888925249a21468a3e7d601543b7ab261cb63a9800d8ed6bb7"
+    },
+    {
+      "path": "sim/nexys/test_sram_pattern.py",
+      "sha256": "b7dc29f86a05ccac50d25fbf55611abb1d294d1ee277ddba824f7a2a72890010"
+    }
+  ],
+  "hardware_access": false
+}

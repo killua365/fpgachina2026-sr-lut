@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": 124,
+  "hardware_access": false,
+  "check": "Recomputed original r5/r6 payload inventories; performance remains r5 historical evidence",
+  "r5_manifest_source": "camera_r5_evidence.zip!build/packages/n5_business_20261018_r5/hdmi_business_package.json",
+  "r6_manifest": "r6_package_manifest.json"
+}

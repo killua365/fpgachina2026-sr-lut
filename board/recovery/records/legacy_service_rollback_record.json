@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_m0_legacy_service_recovery_archive",
+  "host_verified_utc": "2026-09-07T13:15:42.2116696Z",
+  "installed_package_files_verified": 296,
+  "report": {
+    "kind": "hdmi_m0_legacy_service_rollback",
+    "root_card_cid": "035344534333324780dba606de014500",
+    "boot_id": "0efa890c-9405-48eb-81b7-ba58a245fd86",
+    "board_clock_trusted": false,
+    "board_utc_untrusted": "2025-05-25T15:44:38.148253+08:00",
+    "errors": [],
+    "candidate_verified": true,
+    "formal_restored": true,
+    "passed": true,
+    "hdmi_mode_rollback_verified": null,
+    "hdmi_package_rollback_verified": null,
+    "hdmi_acceptance": false,
+    "profile_sha256": "3f67dd0f43ab28f815706fee1d56bd088f6d7a65bf33c1665f15f590419ebb53",
+    "commands": [
+      {
+        "args": [
+          "stop",
+          "sr-lut-portal.service"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "start",
+          "sr-lut-candidate.service"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "stop",
+          "sr-lut-candidate.service"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "args": [
+          "start",
+          "sr-lut-portal.service"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "elapsed_seconds": 124.79566625100006
+  },
+  "independent_formal_status_verified": true,
+  "raw_files": [
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\service_recovery_profile_r2.json",
+      "bytes": 52297,
+      "sha256": "3F67DD0F43AB28F815706FEE1D56BD088F6D7A65BF33C1665F15F590419EBB53"
+    },
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\after_service_recovery.json",
+      "bytes": 13747,
+      "sha256": "158E4CB6FB16999889868B1E9320DCE07D25C95032BCDA6922FA8EFC4D8D9100"
+    },
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\hdmi_m0_service_recovery_20260907\\candidate.json",
+      "bytes": 8920,
+      "sha256": "95BD72210F75905F77317770FC9B09B81F92F8EF89E0A797D1338993046863D0"
+    },
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\hdmi_m0_service_recovery_20260907\\formal_before.json",
+      "bytes": 8861,
+      "sha256": "89C327CF39288ED5F22D1579FA7E05B5447C1E797EE6171025739A7C0AF292AD"
+    },
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\hdmi_m0_service_recovery_20260907\\formal_restored.json",
+      "bytes": 8861,
+      "sha256": "1070A03C944E5958E59CB5B7C01A6960577666C03EB57743B8C536594CDD51C3"
+    },
+    {
+      "path": "D:\\FPGA\\sr_lut_hdmi_work\\board\\local\\hdmi_m0_spare_20260907\\hdmi_m0_service_recovery_20260907\\report.json",
+      "bytes": 1198,
+      "sha256": "F732243452C00CBC768BF7BC32EC615D2505C5D7C3765F8A083F4353EBC83070"
+    }
+  ],
+  "hdmi_mode_rollback_verified": null,
+  "hdmi_package_rollback_verified": null,
+  "scope": "Existing legacy candidate 8083 to formal 8080 recovery on spare card; not HDMI acceptance"
+}

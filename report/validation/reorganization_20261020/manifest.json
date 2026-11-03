@@ -1,0 +1,724 @@
+{
+  "files": [
+    {
+      "path": "powershell_parse.txt",
+      "size": 43,
+      "sha256": "c680eef377bc1703f99c1c121aa4e526720671fdf0be5f4c39031b45cf4244fe"
+    },
+    {
+      "path": "result.json",
+      "size": 22240,
+      "sha256": "44704c75c126cadf3a953cc1d29eebe3b372b571a92035f99cc1d87f03a7a2ae"
+    },
+    {
+      "path": "source/board/host/analyze_business_session.py",
+      "size": 10828,
+      "sha256": "6e712dc6e60205534b6dd199bc85596dd618ab3d198dec7138a79cb870937fd7"
+    },
+    {
+      "path": "source/board/host/analyze_camera_performance.py",
+      "size": 5897,
+      "sha256": "3069c697d61620e98204103a0df2e703671f5fa16a1b791c51f56d01b965e1ed"
+    },
+    {
+      "path": "source/board/host/audit_business_video.py",
+      "size": 10221,
+      "sha256": "874a23795a577c9f74b00f4a30f077604eb2697f0ba2b582fad401942322f1a4"
+    },
+    {
+      "path": "source/board/host/audit_hdmi_business_pixels.py",
+      "size": 7594,
+      "sha256": "7d65b1d1a708c197b617550564870299bc172ea63547bee11d5f8da1d8396ee5"
+    },
+    {
+      "path": "source/board/host/audit_video_pixels.py",
+      "size": 5030,
+      "sha256": "cde42e73ae52e17e2c10a72bce530491fb031b8a9efd6cce378ab4cb0efa345f"
+    },
+    {
+      "path": "source/board/host/bridge_matrix_policy.py",
+      "size": 2915,
+      "sha256": "a71918baec1b761b68e44ff4156ce9a7f1ad53d7de956c7089b7113774dd9633"
+    },
+    {
+      "path": "source/board/host/bridge_ordered_clock.py",
+      "size": 162,
+      "sha256": "c4ae16fe8c721e5fd189cb4601e8ab59d55054069ebc8e21a3dc387d45db1e2b"
+    },
+    {
+      "path": "source/board/host/bridge_ordered_json.py",
+      "size": 1175,
+      "sha256": "383913f94bda0debc322d215ff2011b367f8e52976848a93009abde0aaa21445"
+    },
+    {
+      "path": "source/board/host/bridge_ordered_protocol.py",
+      "size": 1814,
+      "sha256": "e121e5d53693cb6d5141d2c2f8db73f77dfb8ba2438d6d1411a0fb4f094afa6b"
+    },
+    {
+      "path": "source/board/host/bridge_ordered_transition.py",
+      "size": 980,
+      "sha256": "ee9919558000d0930b8df3f74a0cb63c7672caa4a6984365fd83866f341a2570"
+    },
+    {
+      "path": "source/board/host/business_evidence_files.py",
+      "size": 1790,
+      "sha256": "7eb3ff10042c095893946d4349a6aa212c0c64a799443ed944593b07fca1c5d2"
+    },
+    {
+      "path": "source/board/host/business_session_gate.py",
+      "size": 11504,
+      "sha256": "59dc0bfb2b1164f49055f819d8b8e202ba6694f82b92a7e8151192ffeee590bd"
+    },
+    {
+      "path": "source/board/host/business_session_live.py",
+      "size": 2936,
+      "sha256": "4e48364a63d8be5512b44cfc351bc9f8275843e1deaaac6c3350fbc005655b8e"
+    },
+    {
+      "path": "source/board/host/business_session_policy.py",
+      "size": 6471,
+      "sha256": "a84ad1f8ee6c28479356c6802d566b764ad33571de4fad5d922eba851e3fabb5"
+    },
+    {
+      "path": "source/board/host/business_session_progress.py",
+      "size": 1613,
+      "sha256": "d9e02999f787fa1549356be7b90ecb7d553bd7894a84e8991f5025e0ad3da394"
+    },
+    {
+      "path": "source/board/host/business_session_remote.py",
+      "size": 11105,
+      "sha256": "7992b0a7a40e09124410c71b0334c1411db385489d424523ee091e5449b164eb"
+    },
+    {
+      "path": "source/board/host/business_session_source.py",
+      "size": 10013,
+      "sha256": "65d5d9a8309f6269feeaa86b38f199eabb11837e8726203a4c692488a168bc65"
+    },
+    {
+      "path": "source/board/host/capture_bridge_matrix_uart.ps1",
+      "size": 1084,
+      "sha256": "9b6ae1ec42b6833e5fddf29d1802b7afcdea9a39b92d059ffb3f626d22522c27"
+    },
+    {
+      "path": "source/board/host/capture_ftdi_uart.py",
+      "size": 10891,
+      "sha256": "03bbe499725bf0cda40fc1e29a008975b0b4abc4fa8141fd61bd14903f3b907e"
+    },
+    {
+      "path": "source/board/host/collect_business_session.py",
+      "size": 2430,
+      "sha256": "3170e069bd0fe798a6d2993484b66f237e8e8b9a68d9269112dcf9f588853a80"
+    },
+    {
+      "path": "source/board/host/collect_n4_source.py",
+      "size": 6177,
+      "sha256": "d817c56a05a41c1fb36ca40d3e1d03785db8f3e571a471cf360ceebd9360093a"
+    },
+    {
+      "path": "source/board/host/ddr_device_status.py",
+      "size": 1173,
+      "sha256": "7ca03fd0a63c4fb9458e5e7e54a1a53747477a07c072e2ef5a4bc77b02c47a93"
+    },
+    {
+      "path": "source/board/host/decode_bridge_diagnostic.py",
+      "size": 4439,
+      "sha256": "45628b8757b305d46d823524571a994ed8aa9b0d2a168757c03128af5293ce7c"
+    },
+    {
+      "path": "source/board/host/decode_business_diagnostic.py",
+      "size": 10836,
+      "sha256": "e28674c7d148e3822bfddf12f768d8ed54c19bc9b3ca821e3cd8b415cab3194d"
+    },
+    {
+      "path": "source/board/host/decode_frame_diagnostic.py",
+      "size": 5337,
+      "sha256": "473c5b4416b74f1477057d8e4d396461d51747a8ac0e3ac86eefc4dda91966cf"
+    },
+    {
+      "path": "source/board/host/deploy_business_session.py",
+      "size": 2656,
+      "sha256": "9cf21e34efeb33a80348928228187775018054984afc56510e7c2c1b6a83351a"
+    },
+    {
+      "path": "source/board/host/ftdi_status.py",
+      "size": 1675,
+      "sha256": "e095adfb48b3a15738ef0cf507c2c80eec9df6ea3b33e8c95067e14d7aaa1573"
+    },
+    {
+      "path": "source/board/host/longrun_heartbeat.ps1",
+      "size": 804,
+      "sha256": "73a5556ded706b5d7d85d20e496ea7729390aad664d7c14535bd04bdebf9d210"
+    },
+    {
+      "path": "source/board/host/longrun_heartbeat.py",
+      "size": 452,
+      "sha256": "82e0ce8d95bddbe912d24fe84fd63a72425cf6accbf1ea22aefb11123a7ce8b2"
+    },
+    {
+      "path": "source/board/host/longrun_hw.tcl",
+      "size": 2031,
+      "sha256": "c1584611eca487f163ec70900a306ecaaf50d2d15db29b60570eff62823dc840"
+    },
+    {
+      "path": "source/board/host/longrun_inventory.ps1",
+      "size": 800,
+      "sha256": "f65dab136a32cabe8df3aa36ac303d880f8f38d9c89d5c2560c58f0c1a27e5e3"
+    },
+    {
+      "path": "source/board/host/longrun_lease.py",
+      "size": 1152,
+      "sha256": "9f68f361d44808741295d0241c1f57033ef9f2dec8f5518a8fffd18c8541d30f"
+    },
+    {
+      "path": "source/board/host/longrun_process.py",
+      "size": 4118,
+      "sha256": "8bbeb2636ab600fc13627e500ceb43da13f803f6150c80f2ea7452ce1242c5c7"
+    },
+    {
+      "path": "source/board/host/prepare_business_session.py",
+      "size": 3577,
+      "sha256": "0d7a45cf8e039d54c78c83d2227f19d63d3e9c4ab33c49c3e6241777c31fdc11"
+    },
+    {
+      "path": "source/board/host/reconcile_business_session.py",
+      "size": 12793,
+      "sha256": "aae0a728691f8d810a2aaac8a38b6ffbbc7feca90e38d0ae651b9dec34b441d0"
+    },
+    {
+      "path": "source/board/host/recover_hd1080_long.tcl",
+      "size": 886,
+      "sha256": "d94af810c39d0279f2652a89ccdbc049dea88c5c07f1034aa2c434784f27357d"
+    },
+    {
+      "path": "source/board/host/resolve_hdmi_python.ps1",
+      "size": 664,
+      "sha256": "8aa11c34b1e4dcd72b8bc9a70dfe9002f4016d0bba1e50ecfcb37f943f05bfcf"
+    },
+    {
+      "path": "source/board/host/run_business_session.ps1",
+      "size": 3965,
+      "sha256": "b9a5445edfa70b13b4b5d482350924316e6933df515bc8893ef8daf822bb8f46"
+    },
+    {
+      "path": "source/board/host/run_business_session.tcl",
+      "size": 5092,
+      "sha256": "d5105f2dd0140f8b8154b3e93c5882ae79e02ebabfe6f294ff579f78928d13f6"
+    },
+    {
+      "path": "source/board/host/supervise_bridge_reacquire.py",
+      "size": 9770,
+      "sha256": "355ce6a0b5cedea01a5d8b3f3e6b28268ee24b0f88a4201c4fb951b1e090f337"
+    },
+    {
+      "path": "source/board/host/supervise_business_session.py",
+      "size": 19939,
+      "sha256": "5157e91bb10648633a8b601951f0d2af4f2fe94c7527d1c0719a447599fd53c7"
+    },
+    {
+      "path": "source/board/pynq/bounded_logs.py",
+      "size": 1360,
+      "sha256": "de1205f46de136f5719e637d5cfb4b1fd83cf412b3c8eda26c524f9dd21d1bd2"
+    },
+    {
+      "path": "source/board/pynq/hdmi_business_app.py",
+      "size": 30524,
+      "sha256": "905344a3c8125a554932bc0ec9c3c8ba7ffae497a65fe0ca69a35f7776456465"
+    },
+    {
+      "path": "source/board/pynq/hdmi_m1.py",
+      "size": 12103,
+      "sha256": "6f71db7436cda10f4ec672cc52f461dae7fc3e9497244166b7e91623462fc13d"
+    },
+    {
+      "path": "source/board/pynq/hdmi_m1_supervisor.py",
+      "size": 8167,
+      "sha256": "7fa0a7c756487770b8c47ab46f3755aa19b304ec5070f3ca4726dab0ec9a85a4"
+    },
+    {
+      "path": "source/board/pynq/install_bootpy_once.py",
+      "size": 4973,
+      "sha256": "2ec4828d78e9e605c55a329a23b3cb207ccf7d1cd9fb7b0d18c9f7621ab5cb4e"
+    },
+    {
+      "path": "source/board/pynq/legacy_service_rollback.py",
+      "size": 11362,
+      "sha256": "fa37b23a836a48be758c07ff738dde906cdba3d1dbd5ee149e42b5c350705a73"
+    },
+    {
+      "path": "source/board/release/inputs.json",
+      "size": 19108,
+      "sha256": "5565537ba49b95e0a960e8adc33625469a97943f168d798e8a4263ef9bb17a5b"
+    },
+    {
+      "path": "source/board/release/package_template.json",
+      "size": 4721,
+      "sha256": "c61e9c8c0436bbd73a81213a6b40940557c5cd4eb7d00b43da85f96062465b37"
+    },
+    {
+      "path": "source/board/release/source.json",
+      "size": 4032,
+      "sha256": "26f7b9376526806dc3a33ffad994bb72b4762f9dc34741197c39953411219aa9"
+    },
+    {
+      "path": "source/data/lut/original_npy/model_s_x2_4bit_int8.npy",
+      "size": 334212,
+      "sha256": "04745833137253b1baac2146e0d21d415c181f17d0780eced6c33ce12de2ac82"
+    },
+    {
+      "path": "source/data/lut/original_npy/model_s_x4_5bit_int8.npy",
+      "size": 105104,
+      "sha256": "ec7b0026798475dda56338fce22ef75f4647b7455dae8de65dd9cf20fbb2bf01"
+    },
+    {
+      "path": "source/sim/nexys/qualify_business_session.py",
+      "size": 3415,
+      "sha256": "804dac7482a5b3f92484b1d77d7169ec78bae0f97f0464ede530753a6a210bd8"
+    },
+    {
+      "path": "source/sim/nexys/test_bridge_continuous_supervisor.py",
+      "size": 12024,
+      "sha256": "1de96e385d70a76248ba94d5e87dd3d19657ad4f48d25c3c2c3c7be03cb9539c"
+    },
+    {
+      "path": "source/sim/nexys/test_bridge_ordered_loader.py",
+      "size": 3754,
+      "sha256": "eaeb8052eb2c591d9ec119cb2b176ad199b3173d032dd584c18bff56ea48b394"
+    },
+    {
+      "path": "source/sim/nexys/test_business_evidence_files.py",
+      "size": 1839,
+      "sha256": "c83351f1b22cb5d4aaf44fbe002ec813a0d3f89b613c73c1474e9bdae2af50a0"
+    },
+    {
+      "path": "source/sim/nexys/test_business_package_binding.py",
+      "size": 3382,
+      "sha256": "0cb4de2a2c1a0d72f1b6c9580700f918b99b0d971a40975e11882e506a5fe4e1"
+    },
+    {
+      "path": "source/sim/nexys/test_business_query.py",
+      "size": 9812,
+      "sha256": "b52c67037a94cc1ba4259580e474787a7b5254ca1fbb291d02841f49f69ded9c"
+    },
+    {
+      "path": "source/sim/nexys/test_business_session.py",
+      "size": 15118,
+      "sha256": "ef731683b4dc8bedf4f7b0759d76a5d5926874728e46321654ed21c818d454f6"
+    },
+    {
+      "path": "source/sim/nexys/test_business_session_loader.py",
+      "size": 3864,
+      "sha256": "02348510e821e98815aed6fcbab839e0a93c2e747f9afbbfa20d4318bb9fed61"
+    },
+    {
+      "path": "source/sim/nexys/test_business_session_supervisor.py",
+      "size": 7696,
+      "sha256": "4b2eb5624472d5eec930c93d7d1d7df53bd0b9b033ca9e3644625aa4807e3fb0"
+    },
+    {
+      "path": "source/sim/nexys/test_sram_pattern.py",
+      "size": 4861,
+      "sha256": "ea82328b48897df26fa0bef7f6c325f45baba8785c07e450aad93b6325ecc447"
+    },
+    {
+      "path": "source/sim/software/fixtures/nexys_restored.rpt",
+      "size": 13178,
+      "sha256": "6fd4531bed76a95b6b3f293d4c19de2ef1fecd017bf1031f982ca8438b60a50c"
+    },
+    {
+      "path": "source/sim/software/host/test_bootpy_once.py",
+      "size": 6474,
+      "sha256": "1003aa9c9f4f0b3c3a975dddc01fe9086c3f09f7d2655089395351086ce69c71"
+    },
+    {
+      "path": "source/sim/software/host/test_business_demo.py",
+      "size": 3941,
+      "sha256": "9ac6c1800bc4522745d62109e6f3fc9a6249662c4c833b4af5858b1e4f55db88"
+    },
+    {
+      "path": "source/sim/software/host/test_business_final_media.py",
+      "size": 2912,
+      "sha256": "b00ed6e877440f25b4b32044dcad0fa2e7421fc3232a9d4190ca71a1a9f611cd"
+    },
+    {
+      "path": "source/sim/software/host/test_business_operator.py",
+      "size": 6236,
+      "sha256": "4e01c635131c171b2abd1077a2e82bfe38615f0012c57e6e5d8caee92eedfe47"
+    },
+    {
+      "path": "source/sim/software/host/test_business_recovery_status.py",
+      "size": 3026,
+      "sha256": "1cf3d2dea854c5c006e81f5e6450c2bc2c97ba7fde4f4d26dbb60e2dfbb41e52"
+    },
+    {
+      "path": "source/sim/software/nexys/test_business_diagnostic.py",
+      "size": 6650,
+      "sha256": "aea218ad21f7940342885f7499ec40c450f28c082328f8434397d0a0685d6a83"
+    },
+    {
+      "path": "source/sim/software/nexys/test_camera_performance.py",
+      "size": 3463,
+      "sha256": "9dce1f0477060a2a1c47eecff4714727274d29c49e2cb7d2970df547d11927b2"
+    },
+    {
+      "path": "source/sim/software/nexys/test_device_status.py",
+      "size": 2220,
+      "sha256": "dcdbf64206ebf90cc69c2ab16d64d115d851839c76c15f9bc2226ec1aa2d7159"
+    },
+    {
+      "path": "source/sim/software/nexys/test_ftdi_capture.py",
+      "size": 3844,
+      "sha256": "f92f1582669a63504f8c056b5d02822a42ba6f3f440344ce508a6932f109d77e"
+    },
+    {
+      "path": "source/sim/software/nexys/test_ftdi_status.py",
+      "size": 1671,
+      "sha256": "9b056ee30d2ed0595d6127e3afe83088f965408c0123d819fb67e4779a1188e0"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_acp_receive.py",
+      "size": 3042,
+      "sha256": "9387f931ba09321cab11dffb62697b790cd97da388c55f795a32e0dcc2ad18fd"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_camera.py",
+      "size": 8922,
+      "sha256": "8062f99c09be89599eb1b5e2ee4f0adef6e9c969a4224175b76a1e45de4aba33"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_camera_optimized.py",
+      "size": 9522,
+      "sha256": "2867a3711f281239f2f20570dc509f907b6908f0c36b3ab7134e0a23bfad8fe9"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_camera_pipeline.py",
+      "size": 4987,
+      "sha256": "7353bd677428ffa1f07ea7c1c99ce5785d2c3012120445a2b8aa726cc7d10e9b"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_checked_copy.py",
+      "size": 1901,
+      "sha256": "ca3e44c82283affc83defac47cc0e83e31f77d277671c0a6e63c118c67cc4bf5"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_compare_layout.py",
+      "size": 7259,
+      "sha256": "aa46e01c3f86aba039ed2ca504be750c5b099e38318dd14e7f068f754f3edd89"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_display.py",
+      "size": 5781,
+      "sha256": "45656e5aa753d74aaa1bd034ee847e82ff3c5e75ad70d5d9a9944144be5318bd"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_engine.py",
+      "size": 4387,
+      "sha256": "2d71ba4bc432f1ac6bfbdce64afd212ceb13bf51659cd5e06ce6cf60a97bbc8f"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_interactive_export.py",
+      "size": 10402,
+      "sha256": "c5198e94115e75d1e360998a230b3bb34585c851e7bcdd6401dc9d7ccbf918f1"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_metrics.py",
+      "size": 4698,
+      "sha256": "a618fa364ea14a78536fb5e0385691ef9b96403d108521d6df2fb38a351dc544"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_pixels.py",
+      "size": 11657,
+      "sha256": "7ad39868008df252a39033cef716530a719a78bc49d1c3003cbefb36c78f04fd"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_presentation.py",
+      "size": 15785,
+      "sha256": "22935eeb6be1647858274cfe1f667de5bc1fb3c91588fc15c917461c2888d8ca"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_runtime.py",
+      "size": 5756,
+      "sha256": "31a743d3634268646d7b7a6cd1c1359d5f75b9c32ebc667950a97a6bc5573ea4"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_scanout.py",
+      "size": 9474,
+      "sha256": "169cc6d362047553d2e25477cb0c521f8ef4f5bb7f672c0dafe5e062e064c433"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_session_trace.py",
+      "size": 4037,
+      "sha256": "c22000734a4cb2e2f3d82677cd86f338572a559b61ef1204df9b0fde23cc48bf"
+    },
+    {
+      "path": "source/sim/software/ps/test_hdmi_workspace.py",
+      "size": 11185,
+      "sha256": "97539bde98a94b246657b3ccf9764e77ece0781a1e5e5ada267829f3d794f8d8"
+    },
+    {
+      "path": "source/sim/software/ps/test_video_pipeline.py",
+      "size": 28653,
+      "sha256": "18fdc405b9f85511c5ddd1da0c52ce211292c4d9aa75781b00efb5bf80a6f168"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/__init__.py",
+      "size": 87,
+      "sha256": "7f231d229cc101cb36cc69606b50de2abecc0cc150de03d463dd936fa27b9dbb"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/__main__.py",
+      "size": 2421,
+      "sha256": "6a6411653d0ca0d565c717e3f282021913f6e1fd0f06a4add062c71c37e5b4fb"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/acp_receive.py",
+      "size": 2830,
+      "sha256": "80ab56017519d79095640b046b3769bd7cf54aa49f99051a5cc834c6bcf84a79"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/artifact_access.py",
+      "size": 647,
+      "sha256": "5a010e66cfd5b698c07402ff092e67bf5b2839b856ff70b7d3fc06b588c43d5c"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/camera.py",
+      "size": 14642,
+      "sha256": "1a23d0987db31e972c1e5a278c22ce7ac4e805495eefb8498a9d90be4d9b269c"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/camera_performance.py",
+      "size": 9984,
+      "sha256": "0cdb09ccefce4c7a17112ae64443673209d7c4accbfecb7b7ed67f7617dd9595"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/compare_layout.py",
+      "size": 2529,
+      "sha256": "e9e18b99e9006ec6f1e5fddb6e2036cc0f62e2f65a400b21e45fde973f1ee9d0"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/compositor.py",
+      "size": 12152,
+      "sha256": "460c618195d69858a35771e416f8c36b26bf70ad185df9f271787d66318244dc"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/controls.py",
+      "size": 3219,
+      "sha256": "9bcd9b8c6c896e1ca9927976ff95395905723df0e55eaa8b3b9b726338175f8f"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/diagnostics.py",
+      "size": 10228,
+      "sha256": "b2fad75d0c0a8f55af92021f0a374ec4cace2b7c9a96329531f45234f42beabb"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/engine.py",
+      "size": 30767,
+      "sha256": "7bd08acfdbe02c25909941106ab8585af43b62b4117277946095462958b9567c"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/export.py",
+      "size": 10202,
+      "sha256": "15c03816789717719662cb8eab560c65b619638cb366e3fbd080e29bf6226d20"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/file_picker.py",
+      "size": 2752,
+      "sha256": "11362a4aa3a1a221a5d0c9b3b967d762c92ca36c1e8e119c56358a685cecbb04"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/fonts/dejavusans-bold.ttf",
+      "size": 705684,
+      "sha256": "0964c224d044d4ac864491280a46b15dc5c9a9cc72d8a730131ef3e5367ec439"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/fonts/dejavusans.ttf",
+      "size": 757076,
+      "sha256": "252d320379dd882551c53b75dfb620cb0ffe2d6657445743d79f2100f1d96f21"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/fonts/license.txt",
+      "size": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/frame_marker.py",
+      "size": 3365,
+      "sha256": "a7ff7bae413bc43ed668d32258e94f71f1e6eb8904de6a5433f26cd1f490b957"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/frame_trace.py",
+      "size": 1078,
+      "sha256": "0f7f4e505fb68320b3b0ebd03cdda336f8e5c3162f7d4a96f71d7e9865727dc6"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/frames.py",
+      "size": 3113,
+      "sha256": "325c8bb5b868e5a210be434c83d770c420dd1825ced5d0b14ab79a3b551e0be0"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/geometry.py",
+      "size": 3158,
+      "sha256": "e23db5cb56d639271ee2a26de018a68052935a9761ab8aa6ca357424a09e78af"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/image_export.py",
+      "size": 4156,
+      "sha256": "d21709e123244f07ce73efc36bccc597f9e328b4bcfde504876551276fa4afb6"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/media.py",
+      "size": 12261,
+      "sha256": "39e18c584e9c044496c5d1cc225fe63efb96eb9168e4dfb85a9bf89938cbb3cc"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/metric_overlay.py",
+      "size": 6960,
+      "sha256": "79d73b6340ddcbf51c4e68122ce2969eea5f214f60795f96b62ecd3f9fd7cb35"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/metrics.py",
+      "size": 5550,
+      "sha256": "65df0e6b252268a2c0588e8ec69a5f7bf5d582885486125f46528b5bcedc201c"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/mouse.py",
+      "size": 5280,
+      "sha256": "3cafd07a15724d68240397328850b350324b4074d49262b906fbea135cd727e4"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/native/build.json",
+      "size": 1085,
+      "sha256": "a868fdeabdd91d2d4e3941cd735f0b5a5f598840862f63e3b2381316afb23cfe"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/native/hdmi_pixels.c",
+      "size": 19887,
+      "sha256": "65dbc68a107d514b45acb682d7ead7d873a3cd004e1f9f4efffbbf1dea213d59"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/native/libhdmi_pixels.so",
+      "size": 20500,
+      "sha256": "9c7df4263f9194e02c54aff0aed13c19c6263047e9e56e2c17974cf231f8496d"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/patterns.py",
+      "size": 2775,
+      "sha256": "07c34e5f0f2428d7da55e7eb75ed685cf3d9fe219ef8638007d5171ac4e19eb7"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/pixels.py",
+      "size": 15461,
+      "sha256": "deb042f4aacae2d1e310f3dc298d8d03bdb6afc86f008bce5ca732825bee2d00"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/playback.py",
+      "size": 4501,
+      "sha256": "7ffdbf2f70bbb809d5ca0c0144535b43503823293f98ebf50b5e6073a4162fb7"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/presentation_performance.py",
+      "size": 4364,
+      "sha256": "4c89dfd9dc1edab8e7e2177b121f0f3afa3d33b588fb0be981c0e12b8ddd5ff8"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/process.py",
+      "size": 2334,
+      "sha256": "453135a3951793e62ea95d9d6911258bdac3a9ebe3960474863f6c2020a881c9"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/profiles.py",
+      "size": 2143,
+      "sha256": "ffae7972a4a3c979ddafa9896b0c1782fb00495185542411a42f09eacd6cce48"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/profiling.py",
+      "size": 9029,
+      "sha256": "b49b0a7c3c8eea0405cab3e658fc888316b517379a213431d856501d7e46c9b1"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/runtime.py",
+      "size": 27221,
+      "sha256": "51e90414de3cfbbe307f5eff37dc04e6b65bf2b020d2d563536a252528151bb0"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/scanout.py",
+      "size": 17960,
+      "sha256": "d1f4918a2ca57a4d94898abbc7ad3a6c9b62d32b3e1908f11da17116040543c0"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/snapshot.py",
+      "size": 1935,
+      "sha256": "42c6e99041e7098004dc98c3aa903a7e3e1fa03584734d8e7372eeb8281da5b2"
+    },
+    {
+      "path": "source/src/ps/hdmi_display/workspace.py",
+      "size": 35338,
+      "sha256": "525eadc346022cd9fcf254e1e53e4a6429c322ab508634c3cae5f0860757dc6f"
+    },
+    {
+      "path": "source/src/ps/video_pipeline/frame_session.py",
+      "size": 28509,
+      "sha256": "d2a8d6e0d6174b1c5a5ad3bab91f7afc8776ab768a4a51d687143edafb27e1fa"
+    },
+    {
+      "path": "source/src/reference/model_s_address.py",
+      "size": 5075,
+      "sha256": "1afad2503f80fad8258ec8253337e11b407c41f70b7203f3c78f08a0d249b321"
+    },
+    {
+      "path": "source/src/reference/model_s_evaluation.py",
+      "size": 19897,
+      "sha256": "c944e672609ce1c21daf8ee0ba07c96282f4874102737811a604b8ecbbf61666"
+    },
+    {
+      "path": "source/src/reference/model_s_fusion.py",
+      "size": 4478,
+      "sha256": "0068515e59b0bb37b51994d6fd28115ebf38990e3c1d824e23113935651ebed2"
+    },
+    {
+      "path": "source/src/reference/model_s_input.py",
+      "size": 1903,
+      "sha256": "f27a642f1b6cf742d6dead0206d96922583e244f4a978ee78ffa588e3c0d1b04"
+    },
+    {
+      "path": "source/src/reference/model_s_interpolator.py",
+      "size": 8465,
+      "sha256": "b8162d206d48bef43f3c5bb22bc9eec72f00e44325a986495c154bd7ccd37d58"
+    },
+    {
+      "path": "source/src/reference/model_s_neighborhoods.py",
+      "size": 2863,
+      "sha256": "2404804504771030c511f80bf53f88ab0e0b377e4019c2a38c14c826ecf2b537"
+    },
+    {
+      "path": "source/src/reference/model_s_output.py",
+      "size": 3768,
+      "sha256": "5067ff13e72912b7bbce11fe1822822353d818d7b04f1aaaac4424cce4ef29a4"
+    },
+    {
+      "path": "source/src/reference/model_s_quantizer.py",
+      "size": 3762,
+      "sha256": "9b3d65ceaad379298245e46276a32d513871f0665ec5717fdb4b44746ccb94c5"
+    },
+    {
+      "path": "source/src/reference/model_s_simplex.py",
+      "size": 8065,
+      "sha256": "ded3066e565a622c33bce1ca5ec2f741d9d85dc79246271b4ab9bf5f8be3701b"
+    },
+    {
+      "path": "source/tools/archive_store.py",
+      "size": 3765,
+      "sha256": "04f899c299410f99d72ec4d9303107517e96e14aa4184391cba6ba91823d6726"
+    },
+    {
+      "path": "source/tools/package_current.py",
+      "size": 3741,
+      "sha256": "d9f90fdf29582983cca2172a1bb61563dfc7ff9adc8b2a3a0f3d8ab0990bc35f"
+    },
+    {
+      "path": "tests.txt",
+      "size": 29917,
+      "sha256": "122abfdb8a7346a8ee0d2435c07cfb640393654ee037993c54d4354f83ddd77d"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "example": "sensor_gain",
+  "parameter": 3,
+  "contract": {
+    "input": {"shape": [9, 4], "dtype": "<i2"},
+    "output": {"shape": [9, 4], "dtype": "<i2"}
+  },
+  "description": "Four-channel signed sensor samples; saturating gain; offline mock"
+}

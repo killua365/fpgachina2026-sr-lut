@@ -1,0 +1,127 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite ENTERPRISE license has been detected. Your current license is active and will expire on 10-dec-2026.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 12 22:01:01 2026
+# Process ID         : 59648
+# Current directory  : D:/FPGA/sr_lut_vivado2026_migration_work
+# Command line       : vivado.exe -mode batch -source build/nexys_bridge/generate_n5_bit.tcl -log build/nexys_bridge/work/n5_bit_20261012_r1.log -journal build/nexys_bridge/work/n5_bit_20261012_r1.jou -tclargs D:/FPGA/sr_lut_hdmi_work/build/hdmi_host_env/Scripts/python.exe report/current/n5_identity_implementation_review_r2.json build/nexys_bridge/work/n5_bit_20261012_r1
+# Log file           : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_bit_20261012_r1.log
+# Journal file       : D:/FPGA/sr_lut_vivado2026_migration_work\build/nexys_bridge/work/n5_bit_20261012_r1.jou
+# Running On         : LAPTOP-5M1908N8
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16573 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 59522 MB
+# Available Virtual  : 29694 MB
+#-----------------------------------------------------------
+source build/nexys_bridge/generate_n5_bit.tcl
+# if {$argc!=3} {error "Usage: generate_n5_bit.tcl PYTHON REVIEW_JSON NEW_OUT"}
+# if {![string match "2026.1*" [version -short]]} {error "Requires Vivado 2026.1"}
+# set scripts [file dirname [file normalize [info script]]]
+# set root [file normalize [file join $scripts ../..]]
+# set out [file normalize [lindex $argv 2]]
+# if {[file exists $out]} {error "Refuse existing bitstream output"}
+# set verdict [exec [lindex $argv 0] -E -B [file join $scripts prepare_n5_bit.py] [lindex $argv 1]]
+# puts $verdict
+{"offline_bit_generation_allowed": true, "hardware_loading_allowed": false, "source_dcp": "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/routed.dcp", "dcp_sha256": "9b90300677ae0b379899fe8eefc18f7fc086cd2ae6d377d34d9ad09075aabd28", "review_sha256": "b361679cf3fb44dbc5cc31be18da37022d41b5c1786996a1b49afbf8a1af1ac0", "candidate_id": "26101201", "flash_write_allowed": false, "n5_passed": false}
+# foreach key {source_dcp dcp_sha256 review_sha256} {
+#     set pattern [format {"%s": "([^"]+)"} $key]
+#     if {![regexp $pattern $verdict match value]} {error "Missing $key"}
+#     set $key $value
+# }
+# file mkdir $out
+# open_checkpoint $source_dcp
+Command: open_checkpoint D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 355.703 ; gain = 4.699
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 927.922 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2212 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2026.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1088.176 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1766.145 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1766.145 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1766.145 ; gain = 0.000
+Read placeStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.890 . Memory (MB): peak = 1820.742 ; gain = 54.598
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1820.742 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.480 . Memory (MB): peak = 1820.742 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1820.742 ; gain = 54.598
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1820.742 ; gain = 54.598
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1858.285 ; gain = 0.262
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 173 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  OBUFTDS => OBUFTDS_DUAL_BUF (INV, OBUFTDS(x2)): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 137 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 12 instances
+  SRLC32E => SRL16E: 1 instance 
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2026.1 (64-bit) build 6511674
+open_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1866.367 ; gain = 1524.902
+# if {[get_property PART [current_design]] ne "xc7a200tsbg484-1"} {error "Wrong part"}
+# set_property BITSTREAM.CONFIG.USR_ACCESS 0x26101201 [current_design]
+# report_drc -file [file join $out bitgen_drc.rpt]
+Command: report_drc -file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_bit_20261012_r1/bitgen_drc.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2026.1/2026.1/Vivado/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_bit_20261012_r1/bitgen_drc.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2023.363 ; gain = 156.996
+# set f [open [file join $out bitgen_identity.txt] w]
+# puts $f "vivado=[version -short]\npart=[get_property PART [current_design]]\nuser_access=[get_property BITSTREAM.CONFIG.USR_ACCESS [current_design]]\nsource_dcp=$source_dcp\nsource_sha256=$dcp_sha256\nreview_sha256=$review_sha256\nflash_write_allowed=false\nhardware_loading_allowed=false"
+# close $f
+# write_bitstream [file join $out pattern.bit]
+Command: write_bitstream D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_bit_20261012_r1/pattern.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Integrating Hard IP ELF/MEM with the PDI.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Initializing bitstream generation complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2202.266 ; gain = 92.215
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_bit_20261012_r1/pattern.bit...
+Generate Bitstream complete. Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 2553.688 ; gain = 443.637
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 2553.688 ; gain = 530.324
+# close_design
+# puts "N5_OFFLINE_BIT_GENERATED_NO_HARDWARE"
+N5_OFFLINE_BIT_GENERATED_NO_HARDWARE
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 12 22:02:14 2026...

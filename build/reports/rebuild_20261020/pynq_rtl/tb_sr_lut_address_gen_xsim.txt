@@ -1,0 +1,19 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:34 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_address_gen/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_address_gen} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E3 x2_4bit: loading 10041 address cases
+E3 x4_5bit: loading 10041 address cases
+E3_ADDRESS_PASS configurations=2 vector_rows=20082 address_evaluations=200820
+$finish called at time : 40164 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_address_gen.sv" Line 376
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:36 2026...

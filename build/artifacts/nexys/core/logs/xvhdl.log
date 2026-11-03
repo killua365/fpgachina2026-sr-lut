@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.gen/sources_1/ip/n3_vdma/sim/n3_vdma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'n3_vdma'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/dp_framebuffer_source.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_framebuffer_source'

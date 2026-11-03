@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_m0_physical_card_rollback",
+  "recorded_host_utc": "2026-09-07T13:07:46.650317+00:00",
+  "initial_spare_record": "sim\\formal\\hdmi_m0_20260907\\spare_boot_smoke_record.json",
+  "initial_spare_sha256": "2506276a6b6cd3d0f4ee6ad0116da2f883bf2d1f2b53552bca1d9091bbc00ba7",
+  "steps": [
+    {
+      "step": "original",
+      "host_started_utc": "2026-09-07T12:59:09.8685254Z",
+      "host_finished_utc": "2026-09-07T12:59:11.8025740Z",
+      "boot_id": "2221609f-cd9c-4146-ba97-bf275898023d",
+      "root_card": {
+        "root_block": "mmcblk0p2",
+        "disk": "mmcblk0",
+        "cid": "035344534333324780daa60693014500",
+        "size_bytes": 31914983424
+      },
+      "legacy_release": {
+        "resolved_path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA",
+        "manifest_hashes": [
+          {
+            "path": "manifest/application.json",
+            "sha256": "c176f70423888f47e86842abdbc467e97bd3c2c187633c5f65e7d0a7e9fb6163"
+          },
+          {
+            "path": "manifest/hardware_release.json",
+            "sha256": "7407b149d7c1c6dd84b189ce143a21cf8c4b9258115a8d50cfbf17496dc4a662"
+          }
+        ]
+      },
+      "raw_path": "board\\local\\hdmi_m0_spare_20260907\\original_card_ready.json",
+      "raw_sha256": "853a2ee1f5d31527dd1abad47a085c2a8265512ddcfb1c3e863d92adea89307d"
+    },
+    {
+      "step": "spare_return",
+      "host_started_utc": "2026-09-07T13:07:24.7813820Z",
+      "host_finished_utc": "2026-09-07T13:07:26.8429003Z",
+      "boot_id": "0efa890c-9405-48eb-81b7-ba58a245fd86",
+      "root_card": {
+        "root_block": "mmcblk0p2",
+        "disk": "mmcblk0",
+        "cid": "035344534333324780dba606de014500",
+        "size_bytes": 31914983424
+      },
+      "legacy_release": {
+        "resolved_path": "/opt/sr-lut/releases/app_1_9_0_stage39_formal_6DBCF99BB2BA",
+        "manifest_hashes": [
+          {
+            "path": "manifest/application.json",
+            "sha256": "c176f70423888f47e86842abdbc467e97bd3c2c187633c5f65e7d0a7e9fb6163"
+          },
+          {
+            "path": "manifest/hardware_release.json",
+            "sha256": "7407b149d7c1c6dd84b189ce143a21cf8c4b9258115a8d50cfbf17496dc4a662"
+          }
+        ]
+      },
+      "raw_path": "board\\local\\hdmi_m0_spare_20260907\\spare_return_ready.json",
+      "raw_sha256": "d3a90c9bf9f5db90666857cd21574dcc6accc8c97a81be19ee9f5b0c51c29b92"
+    }
+  ],
+  "legacy_package_sha256": "6dbcf99bb2ba515c8821213c19b8d39e33a3f1a19bcd94b6d28b46f502e07909",
+  "physical_card_rollback_verified": true,
+  "original_card_restored_verified": true,
+  "returned_to_spare_verified": true,
+  "software_mode_rollback_verified": null,
+  "hdmi_acceptance": false,
+  "hdmi_deployment_allowed": false,
+  "scope": "Physical card round-trip and automatic formal web/hardware identity recovery; not HDMI mode or HDMI package rollback"
+}

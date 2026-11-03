@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "platform": "nexys",
+  "hardware_access": false,
+  "default_images_replaced": false,
+  "timing": {
+    "setup_wns_ns": 0.106,
+    "setup_tns_ns": 0.0,
+    "setup_failing_endpoints": 0.0,
+    "hold_wns_ns": 0.039,
+    "hold_tns_ns": 0.0,
+    "hold_failing_endpoints": 0.0,
+    "pulse_wns_ns": 0.0,
+    "pulse_tns_ns": 0.0,
+    "pulse_failing_endpoints": 0.0
+  },
+  "generated": [
+    {
+      "path": "route/routed.dcp",
+      "bytes": 38405679,
+      "sha256": "90d3c702f88e0228a83e3508aeefab69ed7061a369d86cee75273400ac5d821f"
+    }
+  ]
+}

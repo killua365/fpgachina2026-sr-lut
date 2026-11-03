@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "configuration": "Model-S x4 5-bit dynamic boundary vectors",
+  "scale": 4,
+  "sampling_bits": 5,
+  "images": [
+    {
+      "name": "minimum_constant",
+      "pattern": "constant128",
+      "input": "source_images/dynamic_boundaries/minimum_constant.png",
+      "golden": "reference_baselines/x4_5bit_boundaries/minimum_constant.png",
+      "input_shape_hwc": [
+        32,
+        32,
+        3
+      ],
+      "output_shape_hwc": [
+        128,
+        128,
+        3
+      ],
+      "input_sha256": "A0B160D86834F5113D4DD8F55D867861676B12AAB8934BCFDB7C6B9CF8AC477E",
+      "golden_sha256": "F5BEFE6719A8FE0FC83DFDABEDF125FA8AD43B4B5790ECFECBDCC704F8E100D6"
+    },
+    {
+      "name": "odd_gradient",
+      "pattern": "coordinate_gradient",
+      "input": "source_images/dynamic_boundaries/odd_gradient.png",
+      "golden": "reference_baselines/x4_5bit_boundaries/odd_gradient.png",
+      "input_shape_hwc": [
+        257,
+        319,
+        3
+      ],
+      "output_shape_hwc": [
+        1028,
+        1276,
+        3
+      ],
+      "input_sha256": "192D7705A9901CB002645CF09A70184FE6557114A279F5516239ED71897441C2",
+      "golden_sha256": "3C3B82B92BD160027E754E9C2D374A91EAE466304265B07360CD314D40945173"
+    },
+    {
+      "name": "maximum_constant",
+      "pattern": "constant128",
+      "input": "source_images/dynamic_boundaries/maximum_constant.png",
+      "golden": "reference_baselines/x4_5bit_boundaries/maximum_constant.png",
+      "input_shape_hwc": [
+        320,
+        320,
+        3
+      ],
+      "output_shape_hwc": [
+        1280,
+        1280,
+        3
+      ],
+      "input_sha256": "4852D9E98A096191E3A6FA07313D515631384F47438D5DEB6228BCDBED87AF44",
+      "golden_sha256": "59B9351CC0A9D5257B21B7940CFE9756D62D6C6058CA49E35396997F9518125D"
+    }
+  ]
+}

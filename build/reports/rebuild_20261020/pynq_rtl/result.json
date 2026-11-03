@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "cases": 16,
+  "hardware_access": false,
+  "vivado": "2026.1",
+  "test_kind": "RTL simulation using relocated frozen vectors"
+}

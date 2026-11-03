@@ -1,0 +1,26 @@
+# Bound artifacts and qualified sources must retain their exact bytes in every checkout.
+* -text
+*.py diff
+*.ps1 diff
+*.sh diff
+*.cmd diff
+*.tcl diff
+*.sv diff
+*.v diff
+*.vhd diff
+*.xdc diff
+*.json diff
+*.md diff
+*.txt diff
+*.rpt diff
+*.zip binary
+*.gz binary
+*.bit binary
+*.xsa binary
+*.dcp binary
+*.png binary
+*.ttf binary
+*.npy binary
+*.rgb binary
+*.avi binary
+*.mp4 binary

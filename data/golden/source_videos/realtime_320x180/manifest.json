@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "Stage 39 / App 1.9.0 320x180 compatibility and performance vector",
+  "source": "../video_validation/source_input_180x320_180f.avi",
+  "derived": "natural_motion_320x180_180f.avi",
+  "transform": "ffmpeg transpose=clock, MJPEG q=2, yuvj420p",
+  "sha256": "0EEE121A4C0DD39D64C12444C03E26E68A294A05D4BA2C332A19359150EA2834",
+  "width": 320,
+  "height": 180,
+  "fps_numerator": 30000,
+  "fps_denominator": 1001,
+  "frames": 180,
+  "codec": "mjpeg",
+  "formal_result": false
+}

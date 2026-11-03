@@ -1,0 +1,52 @@
+{
+  "recorded_host_utc": "2026-10-26T12:50:28.9775173Z",
+  "package": "/home/xilinx/sr_lut_demo_r17_repack",
+  "source_commit": "d5bb64f77844ddbca3eb12106616a22c640940da",
+  "package_sha256": "2d82e611c0dd81c9ed792a2cefc28c1ce8412259a9ec4a6755d80b4a54331e1e",
+  "run_id": "8ec56b635ae14256926ed0aa025c4c52",
+  "host_tests": {
+    "failures": 0,
+    "errors": 0,
+    "skipped": 5,
+    "total": 253,
+    "executed_passed": 248
+  },
+  "arm_native_tests": {
+    "errors": 0,
+    "total": 82,
+    "failures": 0,
+    "package": "/home/xilinx/sr_lut_demo_r16_repack",
+    "skipped": 0,
+    "scope": "ARM-native pixels, scanout, camera process lifecycle, controls, mouse, exports; no physical capture"
+  },
+  "arm_final_engine_workspace": {
+    "failures": 0,
+    "errors": 0,
+    "package": "/home/xilinx/sr_lut_demo_r17_repack",
+    "total": 24,
+    "skipped": 0
+  },
+  "unchanged_from": "c728719",
+  "unchanged_components": [
+    "src/ps/hdmi_display/mouse.py",
+    "src/ps/hdmi_display/controls.py",
+    "FPGA bitstreams",
+    "LUT data",
+    "native pixel library"
+  ],
+  "live_check": {
+    "mouse_moves": 5538,
+    "mouse_dropped": 0,
+    "camera_mode_observed": true,
+    "camera_frames": 0,
+    "current_mode": "camera",
+    "external_display_confirmation": null,
+    "phase": "showing",
+    "link_error_flags": 0,
+    "worker_errors": [],
+    "observed_modes": [
+      "image",
+      "video"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "checks": [
+    {
+      "mode": "host",
+      "interrupted_cache_recovered": true,
+      "cache_reused": true,
+      "corruption_repaired": true,
+      "initial": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\host-fab7f52737cfccb6\\python.exe",
+          "numpy": "2.2.6",
+          "opencv": "4.12.0",
+          "pillow": "11.3.0"
+        },
+        "seconds": 8.89100000000326
+      },
+      "reused": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\host-fab7f52737cfccb6\\python.exe",
+          "numpy": "2.2.6",
+          "opencv": "4.12.0",
+          "pillow": "11.3.0"
+        },
+        "seconds": 2.9219999999622814
+      },
+      "repaired": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\host-fab7f52737cfccb6\\python.exe",
+          "numpy": "2.2.6",
+          "opencv": "4.12.0",
+          "pillow": "11.3.0"
+        },
+        "seconds": 9.25
+      }
+    },
+    {
+      "mode": "reference",
+      "interrupted_cache_recovered": true,
+      "cache_reused": true,
+      "corruption_repaired": true,
+      "initial": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\reference-2efbc794d948b064\\python.exe",
+          "numpy": "1.26.4",
+          "opencv": "4.10.0",
+          "pillow": "10.4.0"
+        },
+        "seconds": 13.98399999999674
+      },
+      "reused": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\reference-2efbc794d948b064\\python.exe",
+          "numpy": "1.26.4",
+          "opencv": "4.10.0",
+          "pillow": "10.4.0"
+        },
+        "seconds": 5.047000000020489
+      },
+      "repaired": {
+        "environment": {
+          "python": "D:\\FPGA\\tmp\\sr_lut_reorganization_20261020\\offline_runtime\\cache\\reference-2efbc794d948b064\\python.exe",
+          "numpy": "1.26.4",
+          "opencv": "4.10.0",
+          "pillow": "10.4.0"
+        },
+        "seconds": 15.65600000001723
+      }
+    }
+  ]
+}

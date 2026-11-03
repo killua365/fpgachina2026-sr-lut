@@ -1,0 +1,10 @@
+test_generated_mem_file_identity (test_npy_to_mem.NpyToMemTests.test_generated_mem_file_identity) ... ok
+test_manifest_matches_files (test_npy_to_mem.NpyToMemTests.test_manifest_matches_files) ... ok
+test_mem_reconstructs_source_payload (test_npy_to_mem.NpyToMemTests.test_mem_reconstructs_source_payload) ... ok
+test_rejects_invalid_data (test_npy_to_mem.NpyToMemTests.test_rejects_invalid_data) ... ok
+test_signed_byte_order (test_npy_to_mem.NpyToMemTests.test_signed_byte_order) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.396s
+
+OK

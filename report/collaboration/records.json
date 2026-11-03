@@ -1,0 +1,17 @@
+{
+  "scope": "Index of existing collaboration and Skill derivation records; no reconstructed dialogue",
+  "sources": [
+    {
+      "path": "skill/evidence/collaboration_record.md",
+      "sha256": "8a91da4c6ac7a294c712ee98e63df84abba2c67027e9d8f9117744b51706a3be"
+    },
+    {
+      "path": "skill/evidence/derivation.md",
+      "sha256": "3497ace65ee9ecc9a35cd1edec731a3ebd24e08caa625c26e3de74fa52fef80b"
+    },
+    {
+      "path": "skill/evidence/source_index.json",
+      "sha256": "c8cb8538ad441a0d588a31c54a797ded7c29c828c2b14c1cd3ce78843be008a1"
+    }
+  ]
+}

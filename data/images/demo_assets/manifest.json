@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "sr_lut_demo_asset_audit",
+  "complete_single_image_required": true,
+  "images": [
+    {
+      "path": "baby_gt.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "20F8DE1F73F7F4305A89A638913BDFFFF4CF741E5C476AAB942A78A3C990A408",
+      "mirror_guard_correlation": 0.82638
+    },
+    {
+      "path": "bird_gt.png",
+      "width": 288,
+      "height": 288,
+      "mode": "RGB",
+      "sha256": "3C6C79C4617838957A0215020D417102FF9996489188B2CDE92BBC0359B6819A",
+      "mirror_guard_correlation": 0.295669
+    },
+    {
+      "path": "butterfly_gt.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "sha256": "469D538E9DF7C44574C95708BFCA149EB84C31539F826DDCB1A8FD27BB2C733E",
+      "mirror_guard_correlation": 0.321492
+    },
+    {
+      "path": "head_gt.png",
+      "width": 280,
+      "height": 280,
+      "mode": "RGB",
+      "sha256": "0DF5F291DD1C11EBB38E60D1BBFAD58E637FD74E05DB47B76BB3116573F1C302",
+      "mirror_guard_correlation": 0.360076
+    },
+    {
+      "path": "woman_gt.png",
+      "width": 228,
+      "height": 344,
+      "mode": "RGB",
+      "sha256": "53D941E7A4C3F808D577D6EEF6A7F85B5A2105D779A690CEE2AE283F55215F9C",
+      "mirror_guard_correlation": 0.274192
+    }
+  ],
+  "video": {
+    "path": "video/natural_motion_320x180_180f.avi",
+    "sha256": "0EEE121A4C0DD39D64C12444C03E26E68A294A05D4BA2C332A19359150EA2834"
+  }
+}

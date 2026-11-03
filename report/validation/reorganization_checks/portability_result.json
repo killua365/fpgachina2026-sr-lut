@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "files_copied": 686,
+  "independent_git": true,
+  "isolated_cache": true,
+  "system_python_on_path": false,
+  "hardware_access": false,
+  "scope": "qualified_startup_and_both_offline_interpreters",
+  "commands": [
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "demo.cmd",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "tools\\python.cmd",
+        "host",
+        "-c",
+        "import json,sys,numpy,cv2,PIL;print(json.dumps(dict(python=sys.executable,numpy=numpy.__version__,opencv=cv2.__version__,pillow=PIL.__version__)))"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "tools\\python.cmd",
+        "reference",
+        "-c",
+        "import json,sys,numpy,scipy,cv2;print(json.dumps(dict(python=sys.executable,numpy=numpy.__version__,scipy=scipy.__version__,opencv=cv2.__version__)))"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "temporary_work_directory": "D:\\FPGA\\tmp\\sr_lut_portability_20261020",
+  "final_payload_sha256": "a6e6a375e80fc5a16994a43b8f7a0e37a3ac5291d5d3bb6acc41422842c477d2",
+  "repeated_after_final_driver_path_fix": true,
+  "final_case_corrected_payload_recheck": true,
+  "final_recheck_workspace": "D:\\FPGA\\sr_lut_cleanup_pending_20261020\\verification_workspaces\\portability",
+  "final_recheck_exit_code": 0
+}

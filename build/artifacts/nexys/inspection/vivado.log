@@ -1,0 +1,126 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite ENTERPRISE license has been detected. Your current license is active and will expire on 10-dec-2026.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 12 21:42:11 2026
+# Process ID         : 53064
+# Current directory  : D:/FPGA/sr_lut_vivado2026_migration_work
+# Command line       : vivado.exe -mode batch -source build/nexys_bridge/inspect_frame_route.tcl -log build/nexys_bridge/work/n5_inspect_20261012_r1.log -journal build/nexys_bridge/work/n5_inspect_20261012_r1.jou -tclargs build/nexys_bridge/work/n5_board_20261012_r1/routed.dcp build/nexys_bridge/work/n5_inspect_20261012_r1
+# Log file           : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_inspect_20261012_r1.log
+# Journal file       : D:/FPGA/sr_lut_vivado2026_migration_work\build/nexys_bridge/work/n5_inspect_20261012_r1.jou
+# Running On         : LAPTOP-5M1908N8
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16573 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 59522 MB
+# Available Virtual  : 28280 MB
+#-----------------------------------------------------------
+source build/nexys_bridge/inspect_frame_route.tcl
+# if {$argc!=2} {error "Usage: inspect_frame_route.tcl ROUTED_DCP NEW_OUT"}
+# set out [file normalize [lindex $argv 1]]
+# if {[file exists $out]} {error "Refuse existing output"}
+# file mkdir $out
+# open_checkpoint [lindex $argv 0]
+Command: open_checkpoint build/nexys_bridge/work/n5_board_20261012_r1/routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 354.715 ; gain = 3.902
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.191 . Memory (MB): peak = 929.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2212 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2026.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1087.953 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1765.504 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1765.504 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1765.504 ; gain = 0.000
+Read placeStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.922 . Memory (MB): peak = 1821.605 ; gain = 56.102
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1821.605 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.532 . Memory (MB): peak = 1822.348 ; gain = 0.742
+Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1822.348 ; gain = 56.844
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1822.348 ; gain = 56.844
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1859.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 173 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  OBUFTDS => OBUFTDS_DUAL_BUF (INV, OBUFTDS(x2)): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 137 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 12 instances
+  SRLC32E => SRL16E: 1 instance 
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2026.1 (64-bit) build 6511674
+open_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1867.859 ; gain = 1524.613
+# report_methodology -file [file join $out methodology.rpt]
+Command: report_methodology -file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_inspect_20261012_r1/methodology.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_inspect_20261012_r1/methodology.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 2076.777 ; gain = 208.918
+# set f [open [file join $out methodology_objects.txt] w]
+# foreach violation [get_methodology_violations -quiet] {
+#     puts $f "VIOLATION $violation"
+#     foreach prop [list_property $violation] {
+#         puts $f "$prop=[get_property $prop $violation]"
+#     }
+#     if {![catch {get_cells -quiet -of_objects $violation} cells]} {puts $f "CELLS=$cells"}
+#     if {![catch {get_pins -quiet -of_objects $violation} pins]} {puts $f "PINS=$pins"}
+# }
+# close $f
+# report_cdc -details -file [file join $out cdc.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-433] Consider using Xilinx recommended XPM_CDC modules to avoid Critical severities
+INFO: [Timing 38-314] The report_cdc command only analyzes and reports clock domain crossing paths where clocks have been defined on both source and destination sides. Ports with no input delay constraint are skipped. Please run check_timing to verify there are no missing clock definitions in your design, nor any unconstrained input port.
+report_cdc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2081.602 ; gain = 4.824
+# report_cdc -details -all_checks_per_endpoint -file [file join $out cdc_all.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-433] Consider using Xilinx recommended XPM_CDC modules to avoid Critical severities
+INFO: [Timing 38-314] The report_cdc command only analyzes and reports clock domain crossing paths where clocks have been defined on both source and destination sides. Ports with no input delay constraint are skipped. Please run check_timing to verify there are no missing clock definitions in your design, nor any unconstrained input port.
+# report_io -file [file join $out io.rpt]
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 2081.602 ; gain = 0.000
+# set f [open [file join $out port_identity.txt] w]
+# foreach port [lsort [get_ports]] {
+#     puts $f "$port PACKAGE_PIN=[get_property PACKAGE_PIN [get_ports [list $port]]] IOSTANDARD=[get_property IOSTANDARD [get_ports [list $port]]]"
+# }
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals.
+# close $f
+# report_timing -from [get_clocks board100] -to [get_clocks clk_pll_i] -max_paths 10 -file [file join $out root_ui_paths.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -from_pins  -to_pins  -max_paths 10 -nworst 1 -delay_type max -sort_by slack.
+# report_bus_skew -file [file join $out bus_skew.rpt]
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+# close_design
+# puts "FRAME_ROUTE_INSPECTION_COMPLETE_NO_HARDWARE"
+FRAME_ROUTE_INSPECTION_COMPLETE_NO_HARDWARE
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 12 21:43:05 2026...

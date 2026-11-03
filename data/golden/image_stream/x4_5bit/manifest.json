@@ -1,0 +1,108 @@
+{
+  "format_version": 1,
+  "configuration": "x4_5bit",
+  "scale": 4,
+  "sampling_bits": 5,
+  "axis_word": {
+    "rgb": "R[7:0], G[15:8], B[23:16]",
+    "last": "bit[24], asserted only on final frame pixel"
+  },
+  "small": {
+    "input_shape": [
+      3,
+      4,
+      3
+    ],
+    "output_shape": [
+      12,
+      16,
+      3
+    ],
+    "input_raw_sha256": "978F3D9AB7CF76A1649F38FF6A376D467BAD74BEFD3B647F88063FA8B9315352",
+    "output_raw_sha256": "4F25D60E06C6BD39B10307F749A537C09B0FD825F731BFCD60051E75D397B044",
+    "neighborhood_line_order": "pixel_row_major, direction_0_to_3, channel_R_G_B",
+    "numerator_line_order": "pixel_row_major, direction_0_to_3, channel_R_G_B",
+    "fused_line_order": "pixel_row_major, channel_R_G_B",
+    "coverage": [
+      "four_corners",
+      "four_edges",
+      "four_directions",
+      "three_rgb_channels",
+      "rotation_restore",
+      "ties_to_even",
+      "clip_0_255"
+    ]
+  },
+  "full": {
+    "source_file": "data/test_vectors/source_images/lr_x4/woman.png",
+    "source_file_sha256": "88634EFC320A89B19C0DB225283C1DF459B8132D6D6A7B20E2F9860A1CF770DB",
+    "input_shape": [
+      86,
+      57,
+      3
+    ],
+    "output_shape": [
+      344,
+      228,
+      3
+    ],
+    "input_raw_sha256": "93890EFFF9007B5C7AD4F7884430768AD43608DA3E2D8F3D5434309FB259743B",
+    "output_raw_sha256": "25E99D2C4B1433079B47000AD0A7DD72B9BF4CB02319464E78885275BA498277"
+  },
+  "files": {
+    "small_input_axis.mem": {
+      "lines": 12,
+      "word_bits": 25,
+      "size_bytes": 96,
+      "sha256": "0E25D02141D40BD48852BB6804CD8CEE7FCF7DAE5F1935808E244BE0DF55872D"
+    },
+    "small_neighborhoods.mem": {
+      "lines": 144,
+      "word_bits": 32,
+      "size_bytes": 1296,
+      "sha256": "7458B9E5CD2FB253FAD7F1513EFAE275FEA5E8D8372AB678C7B3492535E835AE"
+    },
+    "small_native_numerators.mem": {
+      "lines": 144,
+      "word_bits": 240,
+      "size_bytes": 8784,
+      "sha256": "BADED1EC538FAA9184D1DC3AF9F80BF4530513565CB8C66175DDF465EB081165"
+    },
+    "small_restored_numerators.mem": {
+      "lines": 144,
+      "word_bits": 240,
+      "size_bytes": 8784,
+      "sha256": "1E462BC945EEC55D67AD847A213D526347C37EAEB6DECB93C59DE01A2F867598"
+    },
+    "small_fused_numerators.mem": {
+      "lines": 36,
+      "word_bits": 272,
+      "size_bytes": 2484,
+      "sha256": "423DF74AAB8547BD833C0192B2DDE7EEF52C1D472DDD188EBC870C39CB8313AC"
+    },
+    "small_rounded.mem": {
+      "lines": 36,
+      "word_bits": 240,
+      "size_bytes": 2196,
+      "sha256": "482346D63B9FEE2DCF126DA562EC7A6F070E6BD8942D1266D83904815708644F"
+    },
+    "small_output_axis.mem": {
+      "lines": 192,
+      "word_bits": 25,
+      "size_bytes": 1536,
+      "sha256": "71923044996ABDAA100ACCCFF315F438BBF06BC8E80C9848A8D85B860A627890"
+    },
+    "full_input_axis.mem": {
+      "lines": 4902,
+      "word_bits": 25,
+      "size_bytes": 39216,
+      "sha256": "F1860F7986958A52D7AF29C5B5FB8EA5B8014B4D4FEC809346157906E9D49B22"
+    },
+    "full_output_axis.mem": {
+      "lines": 78432,
+      "word_bits": 25,
+      "size_bytes": 627456,
+      "sha256": "B352423A6B8DDC3782BD0DF579F0D89038B18E9F7A3AE76F547A687BB84018CC"
+    }
+  }
+}

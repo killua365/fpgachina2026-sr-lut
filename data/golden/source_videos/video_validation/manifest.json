@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "purpose": "PYNQ-Z2 full-frame video x4 boundary validation",
+  "external_downloads": false,
+  "source": {
+    "archive": "D:/FPGA/sr_lut_fpga_x4.zip",
+    "archive_entry": "sr_lut_fpga_x4/sr_lut_fpga_stage37/11_reproduction/input/input_180x320.avi",
+    "file": "source_input_180x320_180f.avi",
+    "width": 180,
+    "height": 320,
+    "frames": 180,
+    "fps": "30000/1001",
+    "codec": "mjpeg",
+    "pixel_format": "yuvj420p",
+    "size_bytes": 3862194,
+    "sha256": "DB29DFB4171EE382E2E431EA0949AFA97B9694A6B855BD3212C58B1C16B448F6"
+  },
+  "generation": {
+    "tool": "FFmpeg 9.0 full build",
+    "filter": "scale=W:H:flags=lanczos",
+    "frame_limit": 30,
+    "codec": "ffv1",
+    "pixel_format": "bgr0"
+  },
+  "cases": [
+    {
+      "file": "motion_32x32_30f.avi",
+      "width": 32,
+      "height": 32,
+      "frames": 30,
+      "fps": "30000/1001",
+      "size_bytes": 59892,
+      "sha256": "98D378995078DF584E13C4802877565A1C7D27A9A28328DB36A47AF891AB2414",
+      "mean_temporal_delta": 2.2438,
+      "pixel_standard_deviation": 75.3204
+    },
+    {
+      "file": "motion_319x257_30f.avi",
+      "width": 319,
+      "height": 257,
+      "frames": 30,
+      "fps": "30000/1001",
+      "size_bytes": 2784434,
+      "sha256": "BD25DE652CB3F8B928FE5F1EF3A11AFD0FF30B16072A05AC753616FC7185EEE6",
+      "mean_temporal_delta": 5.8201,
+      "pixel_standard_deviation": 80.6560
+    },
+    {
+      "file": "motion_320x320_30f.avi",
+      "width": 320,
+      "height": 320,
+      "frames": 30,
+      "fps": "30000/1001",
+      "size_bytes": 3123266,
+      "sha256": "A29848A5A5180A39160966399E0043CF6A44364B19F0E743B7A7853A92F7CA45",
+      "mean_temporal_delta": 6.2046,
+      "pixel_standard_deviation": 80.9072
+    },
+    {
+      "file": "motion_480x320_30f.avi",
+      "width": 480,
+      "height": 320,
+      "frames": 30,
+      "fps": "30000/1001",
+      "codec": "ffv1",
+      "pixel_format": "bgr0",
+      "size_bytes": 4502114,
+      "sha256": "9161570D4FD385F45D6845CE654019D7CCC071A1A4C48F3B50232CCD07C13F50",
+      "mean_temporal_delta": 6.2255,
+      "pixel_standard_deviation": 80.9074,
+      "derived_from": "motion_320x320_30f.avi",
+      "generation_filter": "scale=480:320:flags=lanczos"
+    }
+  ],
+  "contact_sheet": {
+    "file": "source_contact_sheet.png",
+    "size_bytes": 313557,
+    "sha256": "9550B6E16DE591CEF53958DBF3055D8C2E70066EBBD3ACC75BE1AEDE5F166DE7"
+  }
+}

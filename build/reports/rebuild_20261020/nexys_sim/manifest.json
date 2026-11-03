@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "build.log",
+      "sha256": "ef62baf30fb69af86f2cf66649fdcb11757bfa8d2eaaa19df13ad74fe0f7e148",
+      "bytes": 31935
+    },
+    {
+      "path": "compile.log",
+      "sha256": "57300c19c0e582359954117086a5afa06642247fc226f8bb4aa489d850dfec4d",
+      "bytes": 3691
+    },
+    {
+      "path": "elaborate.log",
+      "sha256": "20bb8a469b962bbd12becdbe1478995d8d049baaadd356b0fbfdfbda777c46e0",
+      "bytes": 16114
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "9331d03284acebe701c69119a4580c812f52c93d7454be0d370f74b632b9d086",
+      "bytes": 874
+    },
+    {
+      "path": "result.json",
+      "sha256": "348c0d883e7ef097f20cf63625c9284725c285a5e4e1d3e357c70fb13de8addb",
+      "bytes": 473
+    },
+    {
+      "path": "simulate.log",
+      "sha256": "cab1640613384720a713c31aebbbd99c0e1931bd524a5a7809d4549499a6b432",
+      "bytes": 6525
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "c1a6a4e461b22c1bb62895bbdcd812e48dd641b482a28e551ba90a3904df9840",
+      "bytes": 2840
+    },
+    {
+      "path": "xvhdl.log",
+      "sha256": "758754450f863435289d721b8555537cc772748cd6be1cc276843075567386f6",
+      "bytes": 425
+    },
+    {
+      "path": "xvlog.log",
+      "sha256": "1bdc74cfab715e53372ccdfe0c78a9ad1a019d47480a0b21384f4c7d373bdc4d",
+      "bytes": 3266
+    }
+  ]
+}

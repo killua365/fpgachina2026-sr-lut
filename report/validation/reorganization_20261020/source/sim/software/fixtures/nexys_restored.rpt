@@ -1,0 +1,132 @@
+Property                                                            Type          Read-only  Value
+CLASS                                                               string        true       hw_device
+NAME                                                                string        true       xc7a200t_0
+PART                                                                string        true       xc7a200t
+VARIANT_NAME                                                        string        true       
+PROGRAM.LOG                                                         string        true       
+INDEX                                                               int           true       0
+IDCODE                                                              string        true       00010011011000110110000010010011
+IDCODE_HEX                                                          string        true       13636093
+IR_LENGTH                                                           int           true       6
+USER_CHAIN_COUNT                                                    string        true       4
+IS_SYSMON_SUPPORTED                                                 bool          true       1
+PROGRAM.IS_SUPPORTED                                                bool          true       1
+PROGRAM.FILE                                                        string        false      D:/FPGA/sr_lut_nexys_work/build/frozen/nexys_2026-10-04_hd1080_n32768_sram_r1/pattern.bit
+PROGRAM.BOOT_FILE                                                   string        false      
+PROGRAM.PLD_FILE                                                    string        false      
+PROGRAM.PARTIAL_PLD_FILES                                           string*       false      
+PROBES.PLD_FILE                                                     string        false      
+PROBES.PARTIAL_PLD_FILES                                            string*       false      
+PROGRAM.OPTIONS                                                     string        false      
+PROGRAM.HW_BITSTREAM                                                hw_bitstream  true       D:/FPGA/sr_lut_nexys_work/build/frozen/nexys_2026-10-04_hd1080_n32768_sram_r1/pattern.bit
+AUTH_JTAG.FILE                                                      string        false      
+PROBES.FILE                                                         string        false      
+FULL_PROBES.FILE                                                    string        false      
+PROBES.BOOT_FILE                                                    string        false      
+PARTIAL_PROBES.FILES                                                string*       false      
+PROGRAM.HW_CFGMEM                                                   hw_cfgmem     true       
+PROGRAM.HW_CFGMEM_BITFILE                                           string        true       
+PROGRAM.HW_CFGMEM_TYPE                                              string        true       
+PROGRAM.READBACK_FILE                                               string        false      
+PROGRAM.IS_RSA_PROGRAMMED                                           bool          true       0
+PROGRAM.IS_AES_PROGRAMMED                                           bool          true       0
+PROGRAM.DPA_PROTECT                                                 bool          false      0
+PROGRAM.DPA_COUNT                                                   int           false      0
+PROGRAM.DPA_MODE                                                    string        false      
+REGISTER.BOOT_STATUS                                                string        true       00000000000000000000000000000001
+REGISTER.BOOT_STATUS.BIT00_0_STATUS_VALID                           string        true       1
+REGISTER.BOOT_STATUS.BIT01_0_FALLBACK                               string        true       0
+REGISTER.BOOT_STATUS.BIT02_0_INTERNAL_PROG                          string        true       0
+REGISTER.BOOT_STATUS.BIT03_0_WATCHDOG_TIMEOUT_ERROR                 string        true       0
+REGISTER.BOOT_STATUS.BIT04_0_ID_ERROR                               string        true       0
+REGISTER.BOOT_STATUS.BIT05_0_CRC_ERROR                              string        true       0
+REGISTER.BOOT_STATUS.BIT06_0_WRAP_ERROR                             string        true       0
+REGISTER.BOOT_STATUS.BIT07_0_SECURITY_ERROR                         string        true       0
+REGISTER.BOOT_STATUS.BIT08_1_STATUS_VALID                           string        true       0
+REGISTER.BOOT_STATUS.BIT09_1_FALLBACK                               string        true       0
+REGISTER.BOOT_STATUS.BIT10_1_INTERNAL_PROG                          string        true       0
+REGISTER.BOOT_STATUS.BIT11_1_WATCHDOG_TIMEOUT_ERROR                 string        true       0
+REGISTER.BOOT_STATUS.BIT12_1_ID_ERROR                               string        true       0
+REGISTER.BOOT_STATUS.BIT13_1_CRC_ERROR                              string        true       0
+REGISTER.BOOT_STATUS.BIT14_1_WRAP_ERROR                             string        true       0
+REGISTER.BOOT_STATUS.BIT15_1_SECURITY_ERROR                         string        true       0
+REGISTER.BOOT_STATUS.BIT16_RESERVED                                 string        true       0000000000000000
+REGISTER.CONFIG_STATUS                                              string        true       01000000000100000111100111111100
+REGISTER.CONFIG_STATUS.BIT00_CRC_ERROR                              string        true       0
+REGISTER.CONFIG_STATUS.BIT01_DECRYPTOR_ENABLE                       string        true       0
+REGISTER.CONFIG_STATUS.BIT02_PLL_LOCK_STATUS                        string        true       1
+REGISTER.CONFIG_STATUS.BIT03_DCI_MATCH_STATUS                       string        true       1
+REGISTER.CONFIG_STATUS.BIT04_END_OF_STARTUP_(EOS)_STATUS            string        true       1
+REGISTER.CONFIG_STATUS.BIT05_GTS_CFG_B_STATUS                       string        true       1
+REGISTER.CONFIG_STATUS.BIT06_GWE_STATUS                             string        true       1
+REGISTER.CONFIG_STATUS.BIT07_GHIGH_STATUS                           string        true       1
+REGISTER.CONFIG_STATUS.BIT08_MODE_PIN_M[0]                          string        true       1
+REGISTER.CONFIG_STATUS.BIT09_MODE_PIN_M[1]                          string        true       0
+REGISTER.CONFIG_STATUS.BIT10_MODE_PIN_M[2]                          string        true       0
+REGISTER.CONFIG_STATUS.BIT11_INIT_B_INTERNAL_SIGNAL_STATUS          string        true       1
+REGISTER.CONFIG_STATUS.BIT12_INIT_B_PIN                             string        true       1
+REGISTER.CONFIG_STATUS.BIT13_DONE_INTERNAL_SIGNAL_STATUS            string        true       1
+REGISTER.CONFIG_STATUS.BIT14_DONE_PIN                               string        true       1
+REGISTER.CONFIG_STATUS.BIT15_IDCODE_ERROR                           string        true       0
+REGISTER.CONFIG_STATUS.BIT16_SECURITY_ERROR                         string        true       0
+REGISTER.CONFIG_STATUS.BIT17_SYSTEM_MONITOR_OVER-TEMP_ALARM_STATUS  string        true       0
+REGISTER.CONFIG_STATUS.BIT18_CFG_STARTUP_STATE_MACHINE_PHASE        string        true       100
+REGISTER.CONFIG_STATUS.BIT21_RESERVED                               string        true       0000
+REGISTER.CONFIG_STATUS.BIT25_CFG_BUS_WIDTH_DETECTION                string        true       00
+REGISTER.CONFIG_STATUS.BIT27_HMAC_ERROR                             string        true       0
+REGISTER.CONFIG_STATUS.BIT28_PUDC_B_PIN                             string        true       0
+REGISTER.CONFIG_STATUS.BIT29_BAD_PACKET_ERROR                       string        true       0
+REGISTER.CONFIG_STATUS.BIT30_CFGBVS_PIN                             string        true       1
+REGISTER.CONFIG_STATUS.BIT31_RESERVED                               string        true       0
+REGISTER.COR0                                                       string        true       022a3fe5
+REGISTER.COR0.BIT00_GWE_CYCLE                                       string        true       101
+REGISTER.COR0.BIT03_GTS_CYCLE                                       string        true       100
+REGISTER.COR0.BIT06_LOCK_CYCLE                                      string        true       111
+REGISTER.COR0.BIT09_MATCH_CYCLE                                     string        true       111
+REGISTER.COR0.BIT12_DONE_CYCLE                                      string        true       011
+REGISTER.COR0.BIT15_SSCLKSRC                                        string        true       00
+REGISTER.COR0.BIT17_OSCFSEL                                         string        true       010101
+REGISTER.COR0.BIT23_SINGLE                                          string        true       0
+REGISTER.COR0.BIT24_DRIVE_DONE                                      string        true       0
+REGISTER.COR0.BIT25_DONE_PIPE                                       string        true       1
+REGISTER.COR0.BIT26_RESERVED                                        string        true       0
+REGISTER.COR0.BIT27_PWRDWN_STAT                                     string        true       0
+REGISTER.COR0.BIT28_RESERVED                                        string        true       0000
+REGISTER.COR1                                                       string        true       00000000
+REGISTER.COR1.BIT00_BPI_PAGE_SIZE                                   string        true       00
+REGISTER.COR1.BIT02_BPI_1ST_READ_CYCLE                              string        true       00
+REGISTER.COR1.BIT04_RESERVED                                        string        true       0000
+REGISTER.COR1.BIT08_RBCRC_EN                                        string        true       0
+REGISTER.COR1.BIT09_RBCRC_NO_PIN                                    string        true       0
+REGISTER.COR1.BIT10_RESERVED                                        string        true       00000
+REGISTER.COR1.BIT15_RBCRC_ACTION                                    string        true       00
+REGISTER.COR1.BIT17_PERSIST_DEASSERT_AT_DESYNC                      string        true       0
+REGISTER.COR1.BIT18_RESERVED                                        string        true       00000000000000
+REGISTER.IR                                                         string        true       110101
+REGISTER.IR.BIT0_ALWAYS_ONE                                         string        true       1
+REGISTER.IR.BIT1_ALWAYS_ZERO                                        string        true       0
+REGISTER.IR.BIT2_ISC_DONE                                           string        true       1
+REGISTER.IR.BIT3_ISC_ENABLED                                        string        true       0
+REGISTER.IR.BIT4_INIT_COMPLETE                                      string        true       1
+REGISTER.IR.BIT5_DONE                                               string        true       1
+REGISTER.TIMER                                                      string        true       00000000
+REGISTER.TIMER.BIT00_TIMER_VALUE                                    string        true       000000000000000000000000000000
+REGISTER.TIMER.BIT30_TIMER_CFG_MON                                  string        true       0
+REGISTER.TIMER.BIT31_TIMER_USR_MON                                  string        true       0
+REGISTER.USERCODE                                                   string        true       ffffffff
+REGISTER.USR_ACCESS                                                 string        true       00000000
+REGISTER.WBSTAR                                                     string        true       00000000
+REGISTER.WBSTAR.BIT00_START_ADDR                                    string        true       00000000000000000000000000000
+REGISTER.WBSTAR.BIT29_RS_TS_B                                       string        true       0
+REGISTER.WBSTAR.BIT30_RS                                            string        true       00
+REGISTER.EFUSE.FUSE_DNA                                             string        true       2A13216A50392A2B
+REGISTER.EFUSE.DNA_PORT                                             string        true       0549C0A5684C854
+REGISTER.EFUSE.FUSE_CNTL                                            string        true       00C0
+REGISTER.EFUSE.FUSE_USER                                            string        true       00000000
+REGISTER.EFUSE.FUSE_KEY                                             string        true       0000000000000000000000000000000000000000000000000000000000000000
+DID                                                                 string        true       jsn-Nexys Video-210276B3E2ADB-13636093-0
+MASK                                                                string        true       00001111111111111111111111111111
+MASK_HEX                                                            string        true       0FFFFFFF
+UNKNOWN_DEVICE                                                      bool          true       0
+XSDB_USER_BSCAN                                                     string        false      1,3
+BSCAN_SWITCH_USER_MASK                                              string        false      0001

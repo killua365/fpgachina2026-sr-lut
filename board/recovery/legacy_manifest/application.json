@@ -1,0 +1,178 @@
+{
+  "schema_version": 5,
+  "name": "SR-LUT FPGA unified portal",
+  "version": "1.9.0",
+  "release_status": "formal",
+  "hardware_stage": 39,
+  "hardware_manifest": "build/manifest/release.json",
+  "frozen_overlay": {
+    "directory": "build/frozen/media_x4",
+    "bit_sha256": "D5372A9E7FB146FD68BAA99AF40343F0033F387DB132F8EC962B539E798F93A3",
+    "hwh_sha256": "C7307908D2895C05B04483C193245782015B541A9D949EBFD33D487A663E22A5",
+    "xsa_sha256": "A8967A49CF799F0A85F6A7D75D0D028C70C25B29C5BCB3D7A0B9734432ACD948",
+    "status": "formal"
+  },
+  "overlay_set": {
+    "media_x2": "build/frozen/media_x2",
+    "media_x4": "build/frozen/media_x4",
+    "camera_x4": "build/frozen/camera_x4"
+  },
+  "features": {
+    "image_roi": {
+      "status": "deployed_evidence_incomplete",
+      "overlays": [
+        "media_x2",
+        "media_x4"
+      ],
+      "input_contract": "uploaded image up to 4096x4096; FPGA ROI width 32..480 and height 32..320",
+      "output_contract": "exact 2w x 2h or 4w x 4h RGB"
+    },
+    "full_frame_video_x2": {
+      "status": "deployed_evidence_incomplete",
+      "overlay": "media_x2",
+      "input_contract": "each frame width 32..480 and height 32..320",
+      "output_contract": "exact 2w x 2h RGBX"
+    },
+    "full_frame_video_x4": {
+      "status": "deployed_evidence_incomplete",
+      "overlay": "media_x4",
+      "pipeline": "mb420-tcp-h264-v2",
+      "input_contract": "each frame width 32..480 and height 32..320",
+      "output_contract": "exact 4w x 4h MB420 transported to PC Agent for H.264 encoding"
+    },
+    "live_camera_x4": {
+      "status": "deployed_evidence_incomplete",
+      "overlay": "camera_x4",
+      "pipeline": "stage38-mjpeg-hardware",
+      "camera_contract": "640x360 YUYV at 30 FPS negotiation target",
+      "fpga_input": "480x270 BGR",
+      "fpga_output": "1920x1080 Q80 JPEG",
+      "browser_transport": "dual persistent multipart MJPEG streams decoded with createImageBitmap/canvas or Blob + Image/canvas; native browser MJPEG and sequenced single-frame fallbacks",
+      "input_preview_policy": "source 480x270; every second processed frame is offered to a non-blocking single-worker encoder; busy preview work is dropped; exact 2:1 sampled transport 240x135 JPEG Q45; page display 480x270",
+      "display_sync": "shared processed-frame ids; output canvas waits at most 180 ms for the matching or newer input canvas frame; newest-frame replacement prevents queue growth and FPGA processing never waits for browser delivery",
+      "causal_display_evidence": "board/formal/camera_causal_display_optimization.json"
+    },
+    "board_mode_control": {
+      "status": "deployed_evidence_incomplete",
+      "control_authority": "physical_buttons_only",
+      "board_only_reverification": "required_after_software_update",
+      "button_map": {
+        "BTN0": "image",
+        "BTN1": "video",
+        "BTN2": "camera",
+        "BTN3": "global_reset"
+      },
+      "led_map": {
+        "LED0": "image",
+        "LED1": "video",
+        "LED2": "camera",
+        "LED3": "transition_or_error"
+      }
+    },
+    "scale_control": {
+      "status": "deployed_evidence_incomplete",
+      "gpio_base": "0x41240000",
+      "control_authority": "physical_switches_only",
+      "board_only_reverification": "required_after_software_update",
+      "truth_table": {
+        "00": "x2",
+        "01": "x4",
+        "10": "x2",
+        "11": "x4"
+      },
+      "supported_scales": [
+        2,
+        4
+      ]
+    }
+  },
+  "verification": {
+    "host_python_tests": 298,
+    "rtl_tests": 17,
+    "host_python_status": "passed_298_2026_09_07",
+    "rtl_status": "passed_17_vivado_2026_1_2026_09_07",
+    "board_status": "deployed_evidence_incomplete",
+    "delivery_audit": "report/delivery/2026-09-07/evidence_audit.json",
+    "delivery_audit_sha256": "42E5DB5B3F778F5F85BFDB6DF13DEB3ACB1A42287B15555BD61992D47B5C0674",
+    "formal_promotion_allowed": false
+  },
+  "performance_targets": {
+    "camera_output_geometry": "1920x1080",
+    "camera_minimum_stability_seconds": 1800,
+    "integrity": "Measurements are in the dated evidence audit; uncollected counters remain null."
+  },
+  "packages": {},
+  "historical_reference": {
+    "scope": "template_release_only_not_candidate_acceptance",
+    "verification": {
+      "host_python_tests": 298,
+      "host_python_breakdown": "reference=58, lut_data=5, test_vectors=25, pynq=210",
+      "rtl_tests": 17,
+      "video_board_status": "passed_pynq_z2",
+      "video_board_evidence": "board/formal/stage39_acceptance.json",
+      "video_board_evidence_sha256": "642E7F856E26026A37A2EA6C3449803A4EB33D8610F0152DDA378B6654DAA82E",
+      "board_portal_ui_status": "passed_pynq_z2",
+      "board_portal_ui_evidence": "board/formal/portal_board_acceptance.json",
+      "board_portal_ui_evidence_sha256": "360E7BC1FDA33A1C76BE87066BF83F14ECA22F40B25711480D5C9CE70A13820A",
+      "camera_stability_status": "passed_30_minutes",
+      "camera_stability_evidence": "board/formal/camera_stability.json",
+      "camera_stability_evidence_sha256": "D3D1A915AA8EFA53F41347013DADCD996D19FB6F050149E5DA197F9D0FC30AC1",
+      "camera_stability_latest_status": "passed_1800.281_seconds",
+      "camera_stability_latest_evidence": "board/formal/camera_stability_latest.json",
+      "camera_stability_latest_evidence_sha256": "3607DD3CA86BBEA0ED77179CDEE465F2974F9FA6082A2E2F1B79A40D66ED87B5",
+      "camera_sync_order_status": "passed_60_common_frames",
+      "camera_sync_order_evidence": "board/formal/camera_sync_order.json",
+      "camera_sync_order_evidence_sha256": "88929044ADE95B0407246C294C6D556D86D9EC618D2F6519F505ACE7DB972C58",
+      "camera_async_revalidation_status": "passed_300_new_frames",
+      "camera_async_revalidation_evidence": "board/formal/camera_async_revalidation.json",
+      "camera_async_revalidation_evidence_sha256": "C620C1A0C491D0B6856EDC54690D9CD24D6540C624B6788A913FF272E5530B98",
+      "camera_browser_fps_status": "passed_15_fps_target",
+      "camera_browser_fps_evidence": "board/formal/camera_browser_fps_optimization.json",
+      "camera_browser_fps_evidence_sha256": "904B150D77B61E4A30EC0E01145AF800B39594A3746BAFB4CD4D7458DC7181D1",
+      "camera_causal_display_status": "passed_15_second_zero_timeout",
+      "camera_causal_display_evidence": "board/formal/camera_causal_display_optimization.json",
+      "camera_causal_display_evidence_sha256": "C9D7B145DF35DE99D3E0C5C31AE0EEBC0A4E6E28EDCDE59D3D8CB2A67020D80A",
+      "performance_gates": "build/formal/performance_gates.json",
+      "performance_gates_sha256": "84CDFF0326537F2578340A62860D2ECAC70C0C97FCE1B98E3D701513763C584E",
+      "image_x2_x4_pixel_exact": "full-frame and ROI changed_pixels=0",
+      "uploaded_video_x2_x4": "30_of_30_frames_each",
+      "button_and_led_mapping": "passed_btn0_through_btn3",
+      "scale_switch_truth_table": "passed_00_01_10_11",
+      "board_control_only": "passed_btn0_btn1_btn2_btn3_after_software_update",
+      "software_board_revalidation": "passed_image_roi_video_camera_idle_and_board_only_write_guards",
+      "camera_stability_revalidation": "passed_1800.281_seconds_dual_mjpeg_stress; output=36789_frames; input_preview=18397_frames; read_failures=0; reopen_count=0",
+      "latest_board_revalidation": "board/formal/board_revalidation_2026-09-02.json",
+      "latest_board_revalidation_sha256": "04BA117E0794B7495DC3168A43096280B1EF3AAD766472FFDD4125D278A9C125"
+    },
+    "performance_targets_snapshot": {
+      "camera_output_geometry": "1920x1080",
+      "camera_stability_seconds": 1806.282,
+      "camera_latest_stability_seconds": 1800.281,
+      "camera_latest_output_fps": 20.436302774001444,
+      "camera_latest_input_preview_fps": 10.219003761244966,
+      "camera_latest_capture_fps": 21.35911511039945,
+      "camera_latest_read_failures": 0,
+      "camera_latest_reopen_count": 0,
+      "camera_stability_browser_fps": 6.708041430083068,
+      "camera_optimized_browser_test_seconds": 15.123,
+      "camera_optimized_producer_fps": 19.309,
+      "camera_optimized_browser_display_fps": 19.133,
+      "camera_capture_fps": 18.827691954428026,
+      "camera_hardware_mean_ms": 40.32449214291344,
+      "camera_hardware_p99_ms": 67.45329710247464,
+      "camera_total_p99_ms": 116.02421799470906,
+      "camera_capture_report_interval_seconds": 1.0,
+      "camera_network_blocked_write_threshold_ms": 50.0,
+      "integrity": "Requires acceptance bound to this candidate's artifact hashes"
+    }
+  },
+  "candidate_build": {
+    "generated_utc": "2026-09-06T11:09:11.7627697Z",
+    "source_git_commit": "d656d81c76acc6916a02869a13558e56a708ebd3",
+    "source_worktree_dirty": true,
+    "tool": "Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026",
+    "promotion_allowed": false,
+    "required_board_port": 8083
+  },
+  "delivery_revision": "2026-09-07"
+}

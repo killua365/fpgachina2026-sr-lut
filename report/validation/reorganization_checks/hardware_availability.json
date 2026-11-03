@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-20T12:58:15.418493+00:00",
+  "host": "192.168.2.99",
+  "ssh_connected": false,
+  "error": "SSH connect timeout; no board mutation performed",
+  "hardware_smoke_completed": false,
+  "fpga_programmed": false,
+  "services_changed": false
+}

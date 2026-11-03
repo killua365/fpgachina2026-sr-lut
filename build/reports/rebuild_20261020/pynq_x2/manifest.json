@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "build.log",
+      "sha256": "47d2e772eb8345b1f285e985f7d9b31de644aea4db81f96f8b2ad731b0bfa3bf",
+      "bytes": 229281
+    },
+    {
+      "path": "generated.hwh",
+      "sha256": "36f888ad0cbc673ab08f7dc127f437a9b129cb4bd090281ce07560a3df1f8031",
+      "bytes": 693072
+    },
+    {
+      "path": "hardware_configuration.json",
+      "sha256": "7f9023244b44334e9308c7d8d0ff02eebc7149c2407d28008e0f95c7aa191bb1",
+      "bytes": 446
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "f6f31f9c18276b0ed40773543fc7ae27a104ed73800d04816b8d5d0c188b0721",
+      "bytes": 37831
+    },
+    {
+      "path": "reports/hdmi_x2_bus_skew.rpt",
+      "sha256": "6ae221098c59dd4655bc0fbc7bd33908508fd6d567eb7146ff70cc7ea96274b0",
+      "bytes": 66508
+    },
+    {
+      "path": "reports/hdmi_x2_cdc.rpt",
+      "sha256": "e94fb471971f570a4678ec3b8b158b266da4a21e0ad5765757d553e8dfa89f24",
+      "bytes": 24849
+    },
+    {
+      "path": "reports/hdmi_x2_clock_interaction.rpt",
+      "sha256": "a6af65a4597262a743a6d66ab11bba1a0ef9e43aa5a994a910c7397b3ecd4605",
+      "bytes": 2414
+    },
+    {
+      "path": "reports/stage_40g_scale2_ip_status.rpt",
+      "sha256": "41b3f13cd713382f86af5e9843f077ccf4ff7c13b5a997b83db614f350101a21",
+      "bytes": 41142
+    },
+    {
+      "path": "reports/stage_40h_scale2_recreated_bd.tcl",
+      "sha256": "a41a95104eb2a69583a1bf6466bf116f7bc00257deef77bab209d358f9f30f93",
+      "bytes": 56455
+    },
+    {
+      "path": "reports/stage_40i_scale2_system_synth_utilization.rpt",
+      "sha256": "0be798d83b1966cb1c3e5b49275ca4d94a0255ac96ee582d5b1fc41ba3b51a17",
+      "bytes": 60584
+    },
+    {
+      "path": "reports/stage_40j_scale2_system_synth_timing.rpt",
+      "sha256": "7ead5fdecd940b957b70a1a97b55ebd7d063961d5e1d99e594fc4b4a4646a2c2",
+      "bytes": 1357984
+    },
+    {
+      "path": "reports/stage_40k_scale2_system_synth_drc.rpt",
+      "sha256": "bc883c6e0a06433322ffbc2b7cd56da36e1ef46a9b494a5b27a33bc42d16262c",
+      "bytes": 10367
+    },
+    {
+      "path": "reports/stage_40l_scale2_system_route_utilization.rpt",
+      "sha256": "f027b3fb8e7e5a39f89fa173afb244971fbf84f88bb7bcded405c3b4d1eb12eb",
+      "bytes": 57419
+    },
+    {
+      "path": "reports/stage_40m_scale2_system_route_timing.rpt",
+      "sha256": "3073771fa8fef8daff726376a43d0b33c47e4cc9878e53b27db5af02bbb28618",
+      "bytes": 1188498
+    },
+    {
+      "path": "reports/stage_40n_scale2_system_route_methodology.rpt",
+      "sha256": "87f700fb1449be447be3276e335bc75bd3faac3c471a901be12e108d67cb849e",
+      "bytes": 2436
+    },
+    {
+      "path": "reports/stage_40o_scale2_system_route_drc.rpt",
+      "sha256": "0cb39a6def77788e2ab5ab79801ef99da99279372828802df74e10c2920b258a",
+      "bytes": 9886
+    },
+    {
+      "path": "result.json",
+      "sha256": "7c44704d871a0a5edbf45f091fad09020f7ea220e8b47e2ae0493cfa4ffa73c3",
+      "bytes": 1019
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿rint= [0, 2, 2, 4]
+model_s_x2_4bit_int8.npy shape= (83521, 1, 2, 2) dtype= int8 nbytes= 334084 min= -70 max= 127
+model_s_x4_4bit_int8.npy shape= (83521, 1, 4, 4) dtype= int8 nbytes= 1336336 min= -127 max= 127
+model_s_x4_5bit_int8.npy shape= (6561, 1, 4, 4) dtype= int8 nbytes= 104976 min= -127 max= 127

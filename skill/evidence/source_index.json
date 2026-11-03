@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-23",
+  "source_project_head": "b5202bd86f32dfcea36c4deb01c2214c5cb9528f",
+  "hardware_access": false,
+  "sources": [
+    {
+      "project_path": "report/performance/camera_r5_evidence.zip!board/analysis/2026-10-18/camera_r5_scan_result/result.json",
+      "original_project_path": "board/analysis/2026-10-18/camera_r5_scan_result/result.json",
+      "sha256": "e6575b7b15f1eda85499723d83e012e2f322935845050fd1054b27887d821d43",
+      "bundled_path": "evidence/project/camera_r5_result.json",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "report/validation/historical_validation.zip!delivery/render_fix_20261019_r1/implementation.json",
+      "original_project_path": "delivery/render_fix_20261019_r1/implementation.json",
+      "sha256": "a75bc05a9f78fa58cdb5401bbc1859c23073bf5548473d601bfd8ff92591332b",
+      "bundled_path": "evidence/project/render_r11_implementation.json",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "report/validation/historical_validation.zip!board/experiments/2026-10-19/render_fix_r11/arm_qualification.json",
+      "original_project_path": "board/experiments/2026-10-19/render_fix_r11/arm_qualification.json",
+      "sha256": "733b61436968dfc0b26622e5913d0bae2f95bb0c2e667e3d3bbaf1b921846697",
+      "bundled_path": "evidence/project/render_r11_arm.json",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "build/artifacts/pynq_x4/stage_40m_scale4_system_route_timing.rpt",
+      "original_project_path": "build/artifacts/pynq_x4/stage_40m_scale4_system_route_timing.rpt",
+      "sha256": "c2c8df514e70d550108ab3eb8fae861bbe2f131bd004b0df5c20a40d8b3d7d4f",
+      "bundled_path": "evidence/project/route_timing.rpt",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "build/artifacts/pynq_x4/stage_40l_scale4_system_route_utilization.rpt",
+      "original_project_path": "build/artifacts/pynq_x4/stage_40l_scale4_system_route_utilization.rpt",
+      "sha256": "bff4ddc9dd19761464d16baa915b8795e387ccbac117c33c5a942fbdde6a56f0",
+      "bundled_path": "evidence/project/route_utilization.rpt",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "build/artifacts/pynq_x4/sr_lut_x4.hwh",
+      "original_project_path": "build/artifacts/pynq_x4/sr_lut_x4.hwh",
+      "sha256": "51f72a22e64dd6494907eee473a3e63a666d3eaed5ad36feac8496916a889a7d",
+      "bundled_path": "evidence/project/overlay.hwh",
+      "evidence_type": "historical_project_record_not_new_measurement"
+    },
+    {
+      "project_path": "src/ps/video_pipeline/frame_session.py",
+      "sha256": "d2a8d6e0d6174b1c5a5ad3bab91f7afc8776ab768a4a51d687143edafb27e1fa",
+      "bundled_path": null,
+      "evidence_type": "project_source_reference"
+    },
+    {
+      "project_path": "src/ps/hdmi_display/engine.py",
+      "sha256": "7bd08acfdbe02c25909941106ab8585af43b62b4117277946095462958b9567c",
+      "bundled_path": null,
+      "evidence_type": "project_source_reference"
+    },
+    {
+      "project_path": "board/pynq/hdmi_hardware_validation.py",
+      "sha256": "9adf570c145c92ff79bdb40f0159f16dc58d0ce359c866a140b2b27d5c957c9d",
+      "bundled_path": null,
+      "evidence_type": "project_source_reference"
+    },
+    {
+      "project_path": "skill/requirements_mapping.md",
+      "sha256": "8390ca3b1a8d70404086db637b2cacedf9cb23f1563acff13080cadfa6979a2a",
+      "bundled_path": null,
+      "evidence_type": "project_source_reference"
+    },
+    {
+      "project_path": "report/performance/camera_20fps_2026-10-18.md",
+      "sha256": "b1c717a22e9ae58ebcb1faec907f0cb032c294ef6fbabf4f13966507b652cabd",
+      "bundled_path": null,
+      "evidence_type": "project_source_reference"
+    }
+  ]
+}

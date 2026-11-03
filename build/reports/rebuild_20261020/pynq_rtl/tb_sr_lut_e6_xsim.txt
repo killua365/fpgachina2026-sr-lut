@@ -1,0 +1,21 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:00 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_e6/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_e6} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E6 x2 pipeline flow=0
+E6 x2 pipeline flow=1
+E6 x4 pipeline flow=0
+E6 x4 pipeline flow=1
+E6_PIPELINE_PASS configurations=2 flow_modes=2 scheduler_blocks=576 rotation_blocks=576 fusion_blocks=144 scheduler_lanes=5760 fusion_lanes=1440 stalls=38
+$finish called at time : 16086 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_e6.sv" Line 691
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:02 2026...

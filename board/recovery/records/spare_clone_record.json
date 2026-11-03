@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "sanitized_spare_system_card_clone_record",
+  "operation": "spare_system_card_clone",
+  "started_utc": "2026-09-07T10:57:23.9333052Z",
+  "completed_utc": "2026-09-07T12:12:30.9523207Z",
+  "target_size_bytes": 31914983424,
+  "copied_size_bytes": 31914983424,
+  "image_sha256": "728B6356AD152EDED6C565796C1188255405C434683EB76A4A0837CB46D78673",
+  "spare_readback_sha256": "728B6356AD152EDED6C565796C1188255405C434683EB76A4A0837CB46D78673",
+  "spare_card_write_verified": true,
+  "spare_card_boot_verified": false,
+  "raw_report": {
+    "local_path": "D:/FPGA/_backups/pynq_spare_clone_2026-09-07_1857.json",
+    "sha256": "A0C0FA898D0BAC7206AEDA25B703094AD98AB5E93B001F24313C01ED161093E2"
+  },
+  "raw_transcript": {
+    "local_path": "D:/FPGA/_backups/pynq_spare_clone_2026-09-07_1857.json.log",
+    "sha256": "2892BC0AE3231449AF043802884B6FA359CC08F77117E62F3DDE60C242B3D176"
+  },
+  "restore_tool_sha256": "994E6F169E8FE79C3B29C69B27BB46CEB18285F0AF19B61801B238B0A9E0BA5A",
+  "safe_eject": {
+    "completed_utc": "2026-09-07T12:14:19.8792769Z",
+    "windows_eject_request_succeeded": true,
+    "disk_absent_after_eject": true,
+    "tool_sha256": "125BC2AF1F589FED72D4B9C7D9D5FDE8FBE8FCA1091FA65C90922665B39F30ED"
+  },
+  "physical_rollback_verified": false,
+  "hdmi_deployment_allowed": false
+}

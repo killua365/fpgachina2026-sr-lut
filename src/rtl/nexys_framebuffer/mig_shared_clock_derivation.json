@@ -1,0 +1,10 @@
+{
+  "parent_sha256": "e389b57c1645b0ac6480fe8821c8ad69cb482eb8e6ad703df78135228ee1713c",
+  "sha256": "ec14abf3c4e8f64b06ccb96c721aa14b6d9e0df3f2d0409f3ae5afe1f98c57f9",
+  "changes": [
+    "SystemClock Single-Ended to No Buffer",
+    "Remove physical System_Clock selection; top owns R4 IBUF"
+  ],
+  "ddr_pins_timing_electrical_unchanged": true,
+  "board_tested": false
+}

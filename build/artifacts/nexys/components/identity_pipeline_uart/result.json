@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "n5_passed": false,
+  "simulator": "2026.1",
+  "inputs": [
+    {
+      "path": "src/rtl/nexys_hdmi/sr_identity_tracker.sv",
+      "sha256": "b01b77ac98ac6d5318e8416780b77bbdd5790bf16cbc0348e20b5dc56f9fe3e4"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_uart.sv",
+      "sha256": "6b79d5a4683904a6477699ee1018f920932bd4611ca4ddc88ddaea7a49d7bf2c"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_pipeline_control.sv",
+      "sha256": "55f3291667e35a4cb912373fec4d66d5b5fdb0912309172710eda67211b8fd0a"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_frame_owner.sv",
+      "sha256": "ff624cf65ac4bfbea2b0e00e32e3cd6c9ad9b74b71332026098dbaae7c3bfcbe"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pair_fifo.sv",
+      "sha256": "18bb3d453e062bc764e611c4f7296fdec31c18efb7264ba34f1bfd8cf6233cc9"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_axis.sv",
+      "sha256": "19b5a668fbd15517f30a61af3b2e92ae1d11f4c5dc514f0137272844651e5cb0"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_pixel.sv",
+      "sha256": "80ffde3a33f41d974653356c90cb146af90eacab29eae390e11c9d1921d1ce81"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_sr_identity_tracker.sv",
+      "sha256": "f62f5d833de90fada78528823c0467e30e8419917b82c0a9ccb0d9a2f759ab55"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_bridge_uart.sv",
+      "sha256": "ca05aea651a7f13f3cfbe5633be8806df7f5e362b22d09b200422e6350bd7b13"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_sr_identity_uart.sv",
+      "sha256": "83a143d8c65b4aff09ea7fe1e2b9a570fe884f39a654fe09aac4536872a10631"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_bridge_pipeline.sv",
+      "sha256": "5d5fb81d2367221e086f17be947dc875fddda884ce49c9518f187e22909bd5a4"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_sr_identity_pipeline.sv",
+      "sha256": "b4ee6ca22f56c95f868998805e6f9e76d393ef89035a6a16dad4ace5923875a8"
+    },
+    {
+      "path": "build/nexys_bridge/simulate_n5_identity.py",
+      "sha256": "e206db130dbe495826d34c48899a1dc1cac13595d257e08552b0f010fa2ca73d"
+    }
+  ],
+  "tests": [
+    "sr_identity_tracker",
+    "bridge_uart",
+    "sr_identity_uart",
+    "bridge_pipeline",
+    "sr_identity_pipeline"
+  ]
+}

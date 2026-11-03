@@ -1,0 +1,54 @@
+{
+  "schema": "demo_launcher_manifest_v1",
+  "files": [
+    {
+      "path": "demo.cmd",
+      "sha256": "7fa9a1e33586ea925072563abf061d51ac2ca1e4a0a4fe911bec2764b2cc56aa"
+    },
+    {
+      "path": "board/host/demo_session.py",
+      "sha256": "b2e9e05e6e5d72aa22c06dd0f493d85afa58f657c7360aae2c7d88cf753c8371"
+    },
+    {
+      "path": "sim/software/host/test_demo_session.py",
+      "sha256": "72ff7a74efabfffcbbc082143ee85022254ff49954febd53176f3a5b80d263dd"
+    },
+    {
+      "path": "board/host/qualify_demo_session.py",
+      "sha256": "b2db7cee9cdaab9a89621a26b2936310bf1b8a3251acc884a5f3f80ee1e2a532"
+    },
+    {
+      "path": "tools/python.cmd",
+      "sha256": "467f2a5fc2730a5c8ea80c409fc7f72b71078e2eb06f32064f410389b9e90bf0"
+    },
+    {
+      "path": "tools/initialize_runtime.ps1",
+      "sha256": "90ef4e5c41f5eaae424ae2f88ecc00962f2ccbc6a7cb5b0d60ad27b69ca1c79e"
+    },
+    {
+      "path": "tools/runtime_paths.py",
+      "sha256": "f957bddcc91a50a62962b5cca3e8b71e492a149d5551d1a217c0c4927e0d9fca"
+    },
+    {
+      "path": "runtime/environments.json",
+      "sha256": "d8c46270ae31f4db6a14da27010f9fedd24bd92392b5539f170c497effee51e9"
+    },
+    {
+      "path": "runtime/host_python_3_12_14.json",
+      "sha256": "950a746018d2ddedd8bd84dce0ca2f5cec1d36b594d8dd80f10d75976d1631d0"
+    },
+    {
+      "path": "runtime/reference_python_3_12_14.json",
+      "sha256": "de70a297597b24dfa439232a2254c4e2e0c1f4983eeb413e98147cc771367ed0"
+    }
+  ],
+  "qualification": "report/validation/dp_start_20261026/launcher/result.json",
+  "qualification_sha256": "5a5981ede145f523895015330e666ff26c53016c75b20022e566ea296820ac96",
+  "session_tools": "build/artifacts/session",
+  "session_tool_manifest_sha256": "b27c9d6aa55414be464a81341e0a385fa5d4cb4796895926e7fd8057670f4b0c",
+  "source_contract": "board/release/source.json",
+  "source_contract_sha256": "bbde714c2afae306f4924b392083e6fb37ac4093216345c9ae77c7d7cf69c193",
+  "real_board_launcher_run": false,
+  "default_startup_changed": false,
+  "formal_release": false
+}

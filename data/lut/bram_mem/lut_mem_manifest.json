@@ -1,0 +1,99 @@
+{
+  "format": "One uppercase hexadecimal word per line",
+  "address_order": "Line number equals flat LUT address",
+  "byte_mapping": "Source LUT value 0 maps to bits 7:0; value 1 maps to bits 15:8; and so on",
+  "configurations": [
+    {
+      "name": "x2_4bit",
+      "source_npy": "model_s_x2_4bit_int8.npy",
+      "source_npy_sha256": "04745833137253B1BAAC2146E0D21D415C181F17D0780ECED6C33CE12DE2AC82",
+      "source_shape": [
+        83521,
+        1,
+        2,
+        2
+      ],
+      "dtype": "int8",
+      "entries": 83521,
+      "values_per_entry": 4,
+      "word_bits": 32,
+      "payload_bytes": 334084,
+      "payload_sha256": "6ACAFAC5D00977B812E37D6081BC565EC75C19BDF7C90AAE92D8F87FF31696E2",
+      "mem_file": "model_s_x2_4bit.mem",
+      "mem_size_bytes": 751689,
+      "mem_sha256": "0C5415C57BCFC6BAC675BFC13C815B9B8B8505C41F8E9A7D78753F74759DF5B6",
+      "first_values": [
+        7,
+        1,
+        -4,
+        -4
+      ],
+      "first_line": "FCFC0107",
+      "last_values": [
+        126,
+        81,
+        -13,
+        62
+      ],
+      "last_line": "3EF3517E"
+    },
+    {
+      "name": "x4_5bit",
+      "source_npy": "model_s_x4_5bit_int8.npy",
+      "source_npy_sha256": "EC7B0026798475DDA56338FCE22EF75F4647B7455DAE8DE65DD9CF20FBB2BF01",
+      "source_shape": [
+        6561,
+        1,
+        4,
+        4
+      ],
+      "dtype": "int8",
+      "entries": 6561,
+      "values_per_entry": 16,
+      "word_bits": 128,
+      "payload_bytes": 104976,
+      "payload_sha256": "C473F5B882E18A96AEB07B38FA0CC3379CB8531F0857F927F0BFFE2B9C4EC5C1",
+      "mem_file": "model_s_x4_5bit.mem",
+      "mem_size_bytes": 216513,
+      "mem_sha256": "A8A377838900967D0EEBC81F47943490102DAF801B11970A4008599CC4058F8D",
+      "first_values": [
+        6,
+        10,
+        -8,
+        -7,
+        7,
+        6,
+        -1,
+        -3,
+        -1,
+        7,
+        -11,
+        3,
+        -2,
+        -2,
+        -6,
+        3
+      ],
+      "first_line": "03FAFEFE03F507FFFDFF0607F9F80A06",
+      "last_values": [
+        127,
+        84,
+        -127,
+        -127,
+        127,
+        127,
+        127,
+        -30,
+        126,
+        127,
+        -127,
+        127,
+        127,
+        127,
+        74,
+        127
+      ],
+      "last_line": "7F4A7F7F7F817F7EE27F7F7F8181547F"
+    }
+  ]
+}

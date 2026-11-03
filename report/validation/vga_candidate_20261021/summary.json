@@ -1,0 +1,115 @@
+{
+  "schema": "nexys_vga_compatibility_validation_v1",
+  "date": "2026-10-21",
+  "candidate_id": "26102101",
+  "implementation_revision": 2,
+  "passed": true,
+  "formal_release": false,
+  "connection": "Nexys MiniDP -> current VGA converter -> DELL P1917S VGA input",
+  "accepted_by": "user-confirmed complete UI, mouse and board-button operation",
+  "candidate_bit": "build/candidates/nexys_vga_26102101/artifacts/pattern.bit",
+  "candidate_bit_sha256": "65710e1510827f5e274cb7848285cfb254703bba6224457ec9a50fd0ea071e14",
+  "timing": {
+    "setup_wns_ns": 0.106,
+    "setup_tns_ns": 0.0,
+    "setup_failing_endpoints": 0.0,
+    "hold_wns_ns": 0.039,
+    "hold_tns_ns": 0.0,
+    "hold_failing_endpoints": 0.0,
+    "pulse_wns_ns": 0.0,
+    "pulse_tns_ns": 0.0,
+    "pulse_failing_endpoints": 0.0
+  },
+  "state_machine_simulation_cases": 9,
+  "host_telemetry_test_cases": 5,
+  "current_default_bit_unchanged": true,
+  "current_default_rtl_unchanged": true,
+  "default_bit_sha256": "34007d57e716776b4eeb284d2d09e7ffc06cd46764edfe2854ebc3c6e0653d7d",
+  "default_demo_entry_unchanged": true,
+  "algorithm_lut_and_resolution_unchanged": true,
+  "configuration_flash_written": false,
+  "test_ended": true,
+  "source_stopped_and_services_restored": true,
+  "nexys_original_configuration_restored": true,
+  "zero_status_compatibility_branch": "Verified in simulation. Hardware power pre/post values in the final run were 0x01/0x01; zero-status branch was not exercised in that final hardware run.",
+  "scope": "Current connected converter/display. Complete power-off cold boot and DP direct connection were not retested.",
+  "interpretation": "Initial full-route candidate had invalid HDMI geometry. Original reference and final incremental candidate both passed; this experiment does not uniquely establish the physical cause of the initial HDMI failure.",
+  "cases": {
+    "initial_candidate": {
+      "candidate_id": "26102101",
+      "vga_path_passed": false,
+      "digital_video_path_verified": false,
+      "physical_display_verified": false,
+      "configuration_recovery_verified": true,
+      "source_stop_verified": true,
+      "failures": [
+        "PYNQ UI/video path did not become ready"
+      ],
+      "received_valid_crc_records": 3733,
+      "max_rx_good": 0,
+      "max_rx_bad": 1450,
+      "active_input_geometry": [],
+      "active_pipeline_error_records": 0,
+      "last_power_pre": "0x1",
+      "last_power_post": "0x1",
+      "zero_power_quirk_flag": false,
+      "bit_sha256": "6b8973c091cc6deb5b3721f70580244b7e27a845b38401744cfbeb8280edc03d",
+      "additional_observation": {
+        "authority": "user",
+        "observation": "No project UI; color blocks and moving patterns with an increasing number in the upper left.",
+        "vga_test_pattern_visible": true,
+        "project_ui_visible": false
+      }
+    },
+    "original_reference": {
+      "candidate_id": "26101201",
+      "vga_path_passed": true,
+      "digital_video_path_verified": true,
+      "physical_display_verified": true,
+      "configuration_recovery_verified": true,
+      "source_stop_verified": true,
+      "failures": [],
+      "received_valid_crc_records": 6801,
+      "max_rx_good": 5211,
+      "max_rx_bad": 0,
+      "active_input_geometry": [
+        [
+          2073600,
+          2200,
+          2475000
+        ]
+      ],
+      "active_pipeline_error_records": 0,
+      "last_power_pre": "0x1",
+      "last_power_post": "0x1",
+      "zero_power_quirk_flag": false,
+      "bit_sha256": null
+    },
+    "final_candidate": {
+      "candidate_id": "26102101",
+      "vga_path_passed": true,
+      "digital_video_path_verified": true,
+      "physical_display_verified": true,
+      "configuration_recovery_verified": true,
+      "source_stop_verified": true,
+      "failures": [],
+      "received_valid_crc_records": 3753,
+      "max_rx_good": 1424,
+      "max_rx_bad": 0,
+      "active_input_geometry": [
+        [
+          2073600,
+          2200,
+          2475000
+        ]
+      ],
+      "active_pipeline_error_records": 0,
+      "last_power_pre": "0x1",
+      "last_power_post": "0x1",
+      "zero_power_quirk_flag": false,
+      "bit_sha256": "65710e1510827f5e274cb7848285cfb254703bba6224457ec9a50fd0ea071e14"
+    }
+  },
+  "evidence_archive": "evidence.zip",
+  "evidence_sha256": "94a10a084f6a8be2623da504f766591d6155b7214e85fb8242650c9f59fc6db2"
+}

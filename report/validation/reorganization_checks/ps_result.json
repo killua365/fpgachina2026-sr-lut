@@ -1,0 +1,32 @@
+{
+  "passed": false,
+  "executed_tests_passed": true,
+  "tests": 248,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 5,
+  "skipped_cases": [
+    {
+      "test": "test_area_pixels_match_opencv_with_padding_patterns_and_random_frames (test_hdmi_camera_optimized.NativeAreaTests.test_area_pixels_match_opencv_with_padding_patterns_and_random_frames)",
+      "reason": "ARM native library required"
+    },
+    {
+      "test": "test_complete_png_export_is_readable_under_private_umask (test_hdmi_image_export.ImageExportTests.test_complete_png_export_is_readable_under_private_umask)",
+      "reason": "Checks Linux collector permissions"
+    },
+    {
+      "test": "test_fused_paint_sampling_stride_and_guard_pixels (test_hdmi_pixels.NativePixelTests.test_fused_paint_sampling_stride_and_guard_pixels)",
+      "reason": "New fused ARM painter exercised on the board"
+    },
+    {
+      "test": "test_fused_validation_checks_vector_lanes_and_scalar_tail (test_hdmi_pixels.NativePixelTests.test_fused_validation_checks_vector_lanes_and_scalar_tail)",
+      "reason": "ARM native library exercised separately on the board"
+    },
+    {
+      "test": "test_half_size_paint_actual_camera_geometry_and_vector_tails (test_hdmi_pixels.NativePixelTests.test_half_size_paint_actual_camera_geometry_and_vector_tails)",
+      "reason": "ARM native library exercised on the board"
+    }
+  ],
+  "hardware_access": false,
+  "suite": "ps"
+}

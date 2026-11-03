@@ -1,0 +1,19 @@
+{
+  "kind": "n5_marker_receiver_unit_simulation",
+  "simulator": "Vivado 2026.1",
+  "passed": true,
+  "checks": 9,
+  "board_integration_passed": false,
+  "n5_passed": false,
+  "formal_release": false,
+  "sources": [
+    {
+      "path": "src/rtl/nexys_hdmi/sr_identity_marker_rx.sv",
+      "sha256": "29aceb56799f594563364812baaf89f37f62af2cbc29a3cd517d900a6a39c3ae"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_sr_identity_marker_rx.sv",
+      "sha256": "713c01f695ce67a5b09f7b0ab5699ea7409c011857b2b8cde5490f0a122560c6"
+    }
+  ]
+}

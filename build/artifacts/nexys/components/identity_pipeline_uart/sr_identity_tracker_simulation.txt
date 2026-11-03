@@ -1,0 +1,17 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Mon Oct 12 21:18:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/sr_identity_tracker/xsim_script.tcl
+# xsim {sr_identity_tracker} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS sr_identity_tracker: commit-vs-display, repeat, replay, gap, control, corrupt, incomplete, retirement, journal
+$finish called at time : 1880 ns : File "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_sr_identity_tracker.sv" Line 67
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct 12 21:18:51 2026...

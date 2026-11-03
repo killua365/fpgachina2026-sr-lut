@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "build.log",
+      "sha256": "53a1d1f928a5ed9ffb7b196500cf8da3f59c1cbb6cf0dd3c60316b711c1a2362",
+      "bytes": 240607
+    },
+    {
+      "path": "generated.hwh",
+      "sha256": "4b88576c2d95d872c6d86e834243ce86a9b8601494468f96773f1c6caf347c03",
+      "bytes": 693070
+    },
+    {
+      "path": "hardware_configuration.json",
+      "sha256": "3bd465fc0c770c35807d4d3ae1add56b675dfcd07f6bafdf0fa8267c8b6a081a",
+      "bytes": 446
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "a991ff18bb196f2e91de6e691837fb8065699d8a8001157a52cabaf50f242c71",
+      "bytes": 33746
+    },
+    {
+      "path": "reports/hdmi_x4_bus_skew.rpt",
+      "sha256": "6a2a9dccd3a1d534e2990147698769dfc37f77bc54a0be807abedc1cf783943e",
+      "bytes": 66499
+    },
+    {
+      "path": "reports/hdmi_x4_cdc.rpt",
+      "sha256": "ca90ca85998c419f5e0c7170f28ea377e35c8fd4fd04df416ed3fe0960dcf1f8",
+      "bytes": 24849
+    },
+    {
+      "path": "reports/hdmi_x4_clock_interaction.rpt",
+      "sha256": "08e232dcc6eb3b05dd3c5c9bb93e706458ab77740da309f7f3b8c90d892522ef",
+      "bytes": 2414
+    },
+    {
+      "path": "reports/stage_40g_scale4_ip_status.rpt",
+      "sha256": "22f891e96022504a70a20c0925bc76fad76acbc80d316b64e3da615735f2c8b1",
+      "bytes": 41142
+    },
+    {
+      "path": "reports/stage_40h_scale4_recreated_bd.tcl",
+      "sha256": "f1c4760947f1e02bfacb5387d4d50f16a8f193aa9406280d9ee8a708477d79ec",
+      "bytes": 56453
+    },
+    {
+      "path": "reports/stage_40i_scale4_system_synth_utilization.rpt",
+      "sha256": "5aa7a20a490c42232fbdddcf4fdccc85c21c21cdbe1fcb59019479cd926f91f4",
+      "bytes": 60584
+    },
+    {
+      "path": "reports/stage_40j_scale4_system_synth_timing.rpt",
+      "sha256": "e3f49bc1f66ed8155914c5f5eb2183fc03f756fd493a5677f279b0281e4cc9f0",
+      "bytes": 1357282
+    },
+    {
+      "path": "reports/stage_40k_scale4_system_synth_drc.rpt",
+      "sha256": "6bfd55cdeb8e60c29ed1d9b7083f36fb74dea679fd382e7c3dcc42cb18711271",
+      "bytes": 9140
+    },
+    {
+      "path": "reports/stage_40l_scale4_system_route_utilization.rpt",
+      "sha256": "034d65d0e9f9b28970e6f435c4955177e10c78997ad0ab9a68c57cb76d01ec57",
+      "bytes": 57184
+    },
+    {
+      "path": "reports/stage_40m_scale4_system_route_timing.rpt",
+      "sha256": "97de01621c197bcea463b8e24e214551659425344a3ef5c9bee6c0d7bb359d4a",
+      "bytes": 1183709
+    },
+    {
+      "path": "reports/stage_40n_scale4_system_route_methodology.rpt",
+      "sha256": "8c7c24cb36f3c921e1762f1d58cd7c02b8436a88c4fbacf6ac533eaf20d05814",
+      "bytes": 2436
+    },
+    {
+      "path": "reports/stage_40o_scale4_system_route_drc.rpt",
+      "sha256": "28b4732857d08bb778a031a4ad4390c04ba01488e64377491b5cf05bd4414f68",
+      "bytes": 8658
+    },
+    {
+      "path": "result.json",
+      "sha256": "38950000fc551074b3a0cfa6e63877797cdf20ab128bf55c1e927fbaa7b39f4c",
+      "bytes": 1019
+    }
+  ]
+}

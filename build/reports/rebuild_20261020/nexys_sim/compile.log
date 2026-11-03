@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/atomic_status_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_status_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/axi_lite_command.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_command
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/bridge_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/bridge_frame_owner.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_frame_owner
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/bridge_pipeline_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_pipeline_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/hdmi_frame_input.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_frame_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/hdmi_geometry.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_geometry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/hdmi_token_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_token_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/sr_identity_marker_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_identity_marker_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/sr_identity_tracker.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_identity_tracker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/vdma_axi_fence.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdma_axi_fence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/vdma_frame_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdma_frame_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/video_crc_check.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_crc_check
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/video_pair_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_pair_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/tb_sr_identity_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/project/vdmatest.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/project/vdmatest.gen/sources_1/ip/n3_vdma/sim/n3_vdma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'n3_vdma'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/dp_framebuffer_source.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_framebuffer_source'

@@ -1,0 +1,47 @@
+{
+  "path": "src/third_party/algorithm_sources.zip",
+  "sha256": "fd456539a39f5c2e257dbcb525d856cfed2592185b4e9d1c431c694ef7014678",
+  "bytes": 18204,
+  "files": [
+    {
+      "path": "LeRF/common/utils.py",
+      "bytes": 6014,
+      "sha256": "b61bfda63c5d3a07fd62f0022bbfdfd6b00b394d4c50f56ded5fa1d20a2291fb"
+    },
+    {
+      "path": "LeRF/LICENSE",
+      "bytes": 1068,
+      "sha256": "f1b6808801fa6f89bbcc0ccd501ae984b6de6b8659433de57ac83ed586600b28"
+    },
+    {
+      "path": "LeRF/README.md",
+      "bytes": 9188,
+      "sha256": "9305f429f75f45b41a4afa7e9113d43235e2a3902370c2fdc5d390733e099cb8"
+    },
+    {
+      "path": "SR-LUT/1_Train_deep_model/Train_Model_S.py",
+      "bytes": 8844,
+      "sha256": "5c871509254a0120385d198397e6b76165f1446131123f699403917d9ac6d227"
+    },
+    {
+      "path": "SR-LUT/1_Train_deep_model/utils.py",
+      "bytes": 13322,
+      "sha256": "cc3146e1c1a8a29858115cf16b6718ec50ad246b4d1798ec0f03e3e0c4bf4fe0"
+    },
+    {
+      "path": "SR-LUT/2_Transfer_to_LUT/Transfer_Model_S.py",
+      "bytes": 3727,
+      "sha256": "f20209ee412c5680134b41bbf53bde016daab7e48030375df7bced6086bf803c"
+    },
+    {
+      "path": "SR-LUT/3_Test_using_LUT/Test_Model_S.py",
+      "bytes": 13734,
+      "sha256": "288aa89e10dc2b25e8298e4c3fecc031fd9e8d84d0806425832dd02e3e3ff026"
+    },
+    {
+      "path": "SR-LUT/README.md",
+      "bytes": 2537,
+      "sha256": "dbf5122642a12e6747926ac18a784447927cf454ed86aece7a6fbcd4048e40bc"
+    }
+  ]
+}

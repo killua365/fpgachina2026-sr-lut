@@ -1,0 +1,171 @@
+{
+  "configuration": "Model-S x4 5-bit",
+  "quality_metrics_role": "Python validation only; excluded from FPGA performance",
+  "psnr_contract": "Y channel, four-pixel border crop",
+  "ssim_contract": "Y channel, LeRF 11x11 Gaussian window, sigma 1.5",
+  "psnr_rgb_contract": "all RGB samples, four-pixel border crop",
+  "ssim_rgb_contract": "mean of R/G/B SSIM, LeRF 11x11 Gaussian window, sigma 1.5",
+  "images": [
+    {
+      "image": "baby",
+      "source_shape_hwc": [
+        128,
+        128,
+        3
+      ],
+      "hr_shape_hwc": [
+        512,
+        512,
+        3
+      ],
+      "fixed_input_shape_hwc": [
+        180,
+        320,
+        3
+      ],
+      "fixed_golden_shape_hwc": [
+        720,
+        1280,
+        3
+      ],
+      "roi_exact_pixels": 262144,
+      "psnr_y_db": 32.309361052665516,
+      "ssim_y": 0.8666138230151198,
+      "psnr_rgb_db": 30.810102893623466,
+      "ssim_rgb": 0.8366743751938318,
+      "input_png_sha256": "924A0F4DF5758E95BE675431C208473FF61849B54A728A4F9C17340DCD7DB6C4",
+      "golden_png_sha256": "C7351231E5C029EA6D091B5DF538F7F7E8CAB6EA65F2D861015A05B1611567F8",
+      "hr_png_sha256": "58C7E12868F314393E33F14F73F7F763307341D1ACDC8801BB07520D0E303914"
+    },
+    {
+      "image": "bird",
+      "source_shape_hwc": [
+        72,
+        72,
+        3
+      ],
+      "hr_shape_hwc": [
+        288,
+        288,
+        3
+      ],
+      "fixed_input_shape_hwc": [
+        180,
+        320,
+        3
+      ],
+      "fixed_golden_shape_hwc": [
+        720,
+        1280,
+        3
+      ],
+      "roi_exact_pixels": 82944,
+      "psnr_y_db": 31.324078433300826,
+      "ssim_y": 0.8878229509645459,
+      "psnr_rgb_db": 29.097179380080924,
+      "ssim_rgb": 0.8589729038161055,
+      "input_png_sha256": "B60725A7330DC632102BABE9F3A407FED65EB9CD644E71942AC3BED9CB8B5A22",
+      "golden_png_sha256": "56009CADBA67AD18731FB4249A1AE8908BCCDECD4CE852A13BCA00F18F0BD497",
+      "hr_png_sha256": "0E80A4BF66B2BFA5E77387259B43C1E97F1B4547D1B2A6D409FF34ABF21D8E46"
+    },
+    {
+      "image": "butterfly",
+      "source_shape_hwc": [
+        64,
+        64,
+        3
+      ],
+      "hr_shape_hwc": [
+        256,
+        256,
+        3
+      ],
+      "fixed_input_shape_hwc": [
+        180,
+        320,
+        3
+      ],
+      "fixed_golden_shape_hwc": [
+        720,
+        1280,
+        3
+      ],
+      "roi_exact_pixels": 65536,
+      "psnr_y_db": 24.756276308158604,
+      "ssim_y": 0.835140871601375,
+      "psnr_rgb_db": 23.2858790400974,
+      "ssim_rgb": 0.7931429468947738,
+      "input_png_sha256": "A8DE6CF36FAC89718C44528143002D8E25E9FB4B94C0DBDAD76F8F6D8BC8B318",
+      "golden_png_sha256": "00208091579D095F12578B1A39C95D1E4095E82345F8AD5BA79C2A7A0B0C7716",
+      "hr_png_sha256": "40242D0A61845B2FABF9A5FED3A169C892116499CF71F3A23B70CB7CA3394CBD"
+    },
+    {
+      "image": "head",
+      "source_shape_hwc": [
+        70,
+        70,
+        3
+      ],
+      "hr_shape_hwc": [
+        280,
+        280,
+        3
+      ],
+      "fixed_input_shape_hwc": [
+        180,
+        320,
+        3
+      ],
+      "fixed_golden_shape_hwc": [
+        720,
+        1280,
+        3
+      ],
+      "roi_exact_pixels": 78400,
+      "psnr_y_db": 31.724129812948565,
+      "ssim_y": 0.7597520074453782,
+      "psnr_rgb_db": 28.960161893210184,
+      "ssim_rgb": 0.6799121645469087,
+      "input_png_sha256": "B4AB45910C16674C9D54DA6E7A31B4D873CD118D6ABA2A6F887ADDACC3A5C013",
+      "golden_png_sha256": "BCF1E5998BA5116FD387E1F084353D9257B20AB7B2357B9AD0C327FF3E3286BA",
+      "hr_png_sha256": "FE791F5D1D05AE731F83584B1FDB32475B85A4ACF6794D3BDBB711D4846FFC82"
+    },
+    {
+      "image": "woman",
+      "source_shape_hwc": [
+        86,
+        57,
+        3
+      ],
+      "hr_shape_hwc": [
+        344,
+        228,
+        3
+      ],
+      "fixed_input_shape_hwc": [
+        180,
+        320,
+        3
+      ],
+      "fixed_golden_shape_hwc": [
+        720,
+        1280,
+        3
+      ],
+      "roi_exact_pixels": 78432,
+      "psnr_y_db": 28.04179763772979,
+      "ssim_y": 0.8630681666009141,
+      "psnr_rgb_db": 26.518314489808258,
+      "ssim_rgb": 0.8398248588310028,
+      "input_png_sha256": "33DE1AF0E41F947FCA6588951C1ECB20F90FA7DC776F884CF35A4AF80C38C217",
+      "golden_png_sha256": "CB083345B4F1C7A5EA93403B8AC36AB0BADAC52D1F4F10B5EDBC483980C8C090",
+      "hr_png_sha256": "B901AA763B6A6DD99467EF5EB977DE3C678D4805511D4813A480F4165A3344AB"
+    }
+  ],
+  "average_psnr_y_db": 29.63112864896066,
+  "average_ssim_y": 0.8424795639254666,
+  "average_psnr_rgb_db": 27.734327539364045,
+  "average_ssim_rgb": 0.8017054498565246,
+  "constant_input_png_sha256": "33F4BA5780A224365911122737DD219A7E13954D7A189416098A43184D1C5143",
+  "constant_golden_png_sha256": "C2F280BCC9003F36279FD01270765C123204BFBAF54C2C58EF8B01BBECAE46E6"
+}

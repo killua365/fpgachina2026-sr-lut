@@ -1,0 +1,9 @@
+{
+  "example": "image_threshold",
+  "parameter": 128,
+  "contract": {
+    "input": {"shape": [32, 48], "dtype": "uint8"},
+    "output": {"shape": [32, 48], "dtype": "uint8"}
+  },
+  "description": "Grayscale segmentation; synthetic offline mock, not FPGA evidence"
+}

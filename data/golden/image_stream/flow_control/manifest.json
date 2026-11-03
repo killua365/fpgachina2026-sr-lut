@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "pattern_length": 256,
+  "replay": "Repeat cyclically until the frame handshake completes",
+  "source_valid": "Drive input valid; keep input data stable while ready is zero",
+  "sink_ready": "Drive output ready; includes an eight-cycle continuous stall",
+  "files": {
+    "source_valid.mem": {
+      "lines": 256,
+      "word_bits": 1,
+      "size_bytes": 512,
+      "sha256": "6B5F0E77E74375C04DF1AA6B343E345E60E741B5CEF33377796C7FCBAB16E11E"
+    },
+    "sink_ready.mem": {
+      "lines": 256,
+      "word_bits": 1,
+      "size_bytes": 512,
+      "sha256": "3A1D243E80CD37D0A8A47E636631C32EB9F3B555FD52F62C44E1A2C38CB3B75E"
+    }
+  }
+}

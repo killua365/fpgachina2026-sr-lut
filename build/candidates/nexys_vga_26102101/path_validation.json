@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "passed": true,
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_access": false,
+  "scope": "host_path_configuration_and_existing_mocked_lifecycle_tests",
+  "original_hardware_source_commit": "b5202bd",
+  "original_implementation_record": "source.json",
+  "original_implementation_record_sha256": "221221f701b06d88375efc91cedd85343606d59f8a592f2c80ee9f639505d0f9",
+  "original_hardware_build_preserved": true,
+  "candidate_bit_sha256": "65710e1510827f5e274cb7848285cfb254703bba6224457ec9a50fd0ea071e14",
+  "default_bit_sha256": "34007d57e716776b4eeb284d2d09e7ffc06cd46764edfe2854ebc3c6e0653d7d",
+  "tested_sources": {
+    "load_candidate.tcl": "31d7783b98bc732c6a89420abd95d3f5dc9aadda96e3361980269cc966645dc4",
+    "build_incremental.tcl": "940f845d7c8cf62f8a2af68ce5955090d69f912ed68db0f137e5e0ba14f53f11",
+    "run_sim.ps1": "0c5ddba8944db1956d008fc8559548ae42d65c0927009293404bfc375279b490",
+    "test_candidate.py": "30aae479e47937f2f87c8c2cf106227485d0a626de2104d9bcc0138bcb629256",
+    "test_paths.py": "f795ff94c18cb7d9080f449d9f0515f884326aa2eb0fb6203e0fb4603a6da5ff"
+  },
+  "test_harness_note": "Initial Tcl path assertions were corrected for Tcl_Obj conversion and Windows short-path normalization; the three relocation tests then passed."
+}

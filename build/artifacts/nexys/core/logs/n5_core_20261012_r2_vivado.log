@@ -1,0 +1,367 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite ENTERPRISE license has been detected. Your current license is active and will expire on 10-dec-2026.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 12 21:36:14 2026
+# Process ID         : 56600
+# Current directory  : D:/FPGA/sr_lut_vivado2026_migration_work
+# Command line       : vivado.exe -mode batch -source build/nexys_bridge/simulate_n5_core.tcl -log build/nexys_bridge/work/n5_core_20261012_r2_vivado.log -journal build/nexys_bridge/work/n5_core_20261012_r2_vivado.jou -tclargs build/nexys_bridge/work/n5_core_20261012_r2 D:/FPGA/sr_lut_nexys_work
+# Log file           : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2_vivado.log
+# Journal file       : D:/FPGA/sr_lut_vivado2026_migration_work\build/nexys_bridge/work/n5_core_20261012_r2_vivado.jou
+# Running On         : LAPTOP-5M1908N8
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16573 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 59522 MB
+# Available Virtual  : 26469 MB
+#-----------------------------------------------------------
+source build/nexys_bridge/simulate_n5_core.tcl
+# if {![string match "2026.1*" [version -short]]} {error "Requires Vivado 2026.1"}
+# if {$argc!=2} {error "Usage: simulate_n5_core.tcl NEW_OUTPUT IP_SOURCE_ROOT"}
+# set root [file normalize [file join [file dirname [info script]] ../..]]
+# set out [file normalize [lindex $argv 0]]
+# set ip_root [file normalize [lindex $argv 1]]
+# if {[file exists $out]} {error "Refuse reused output"}
+# file mkdir $out
+# file mkdir [file join $out source]
+# file copy [file join $root sim/nexys_bridge/tb_sr_identity_core.sv] [file join $out source]
+# file copy [info script] [file join $out source]
+# create_project vdmatest [file join $out project] -part xc7a200tsbg484-1
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project'
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 613.609 ; gain = 270.785
+# set_property target_language Verilog [current_project]
+# foreach name {axi_lite_command.sv vdma_frame_control.sv vdma_axi_fence.sv video_pair_fifo.sv} {
+#     file copy [file join $root src/rtl/nexys_framebuffer $name] [file join $out source]
+#     add_files [file join $out source $name]
+# }
+# foreach name {bridge_frame_owner.sv hdmi_geometry.sv hdmi_token_cdc.sv hdmi_frame_input.sv atomic_status_cdc.sv
+#     bridge_pipeline_control.sv sr_identity_marker_rx.sv sr_identity_tracker.sv video_crc_check.sv bridge_core.sv frame_crc32.vh} {
+#     file copy [file join $root src/rtl/nexys_hdmi $name] [file join $out source]
+#     add_files [file join $out source $name]
+# }
+# set_property include_dirs [list [file join $out source]] [get_filesets sources_1]
+# file copy [file join $root src/rtl/nexys_framebuffer/dp_framebuffer_source.vhd] [file join $out source]
+# read_vhdl -vhdl2008 [file join $out source/dp_framebuffer_source.vhd]
+# set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
+# import_ip -files [file join $ip_root build/nexys_bridge/work/n3_vdma_frame_r3/project/n3_vdma_frame.srcs/sources_1/ip/n3_vdma/n3_vdma.xci]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2026.1/2026.1/Vivado/data/ip'.
+# generate_target simulation [get_ips n3_vdma]
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'n3_vdma'. Target already exists and is up to date.
+# add_files -fileset sim_1 [file join $out source/tb_sr_identity_core.sv]
+# set_property top tb_sr_identity_core [get_filesets sim_1]
+# set_property xsim.simulate.runtime all [get_filesets sim_1]
+# set commands [file join $out source/assertions_only.tcl]
+# set f [open $commands w]
+# puts $f "run all"
+# close $f
+# set_property xsim.simulate.custom_tcl $commands [get_filesets sim_1]
+# set_property xsim.elaborate.debug_level off [get_filesets sim_1]
+# launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Mon Oct 12 21:36:26 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_sr_identity_core'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado2026.1/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado2026.1/2026.1/Vivado/data/xsim/xsim.ini' copied to run dir:'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sr_identity_core' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_sr_identity_core_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/atomic_status_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_status_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/axi_lite_command.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_command
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/bridge_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/bridge_frame_owner.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_frame_owner
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/bridge_pipeline_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_pipeline_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/hdmi_frame_input.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_frame_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/hdmi_geometry.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_geometry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/hdmi_token_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_token_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/sr_identity_marker_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_identity_marker_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/sr_identity_tracker.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_identity_tracker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/vdma_axi_fence.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdma_axi_fence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/vdma_frame_control.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vdma_frame_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/video_crc_check.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_crc_check
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/video_pair_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_pair_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/tb_sr_identity_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_sr_identity_core_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.gen/sources_1/ip/n3_vdma/sim/n3_vdma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'n3_vdma'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/dp_framebuffer_source.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_framebuffer_source'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim'
+"xelab --incr --debug off --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_15 -L axi_datamover_v5_1_38 -L axi_vdma_v6_3_25 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_sr_identity_core_behav xil_defaultlib.tb_sr_identity_core xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug off --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_15 -L axi_datamover_v5_1_38 -L axi_vdma_v6_3_25 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_sr_identity_core_behav xil_defaultlib.tb_sr_identity_core xil_defaultlib.glbl -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package axi_vdma_v6_3_25.axi_vdma_pkg
+Compiling package xpm.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_datamover_v5_1_38.axi_datamover_pkg
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sm [\axi_vdma_sm(c_include_sf=1,c_us...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_cmdsts_if [\axi_vdma_cmdsts_if(c_include_s2...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sts_mngr [axi_vdma_sts_mngr_default]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vregister [\axi_vdma_vregister(c_num_fstore...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vaddrreg_mux [\axi_vdma_vaddrreg_mux(c_num_fst...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vidreg_module [\axi_vdma_vidreg_module(c_includ...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_greycoder [\axi_vdma_greycoder(c_dwidth=5)\]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_genlock_mngr [\axi_vdma_genlock_mngr(c_num_fst...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mngr [\axi_vdma_mngr(c_prmry_is_aclk_a...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_regdirect [\axi_vdma_regdirect(c_num_regist...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_register [\axi_vdma_register(c_linebuffer_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_mux [\axi_vdma_reg_mux(c_total_num_re...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_module [\axi_vdma_reg_module(c_total_num...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_fsync_gen [\axi_vdma_fsync_gen(c_use_fsync=...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_vid_cdc [\axi_vdma_vid_cdc(c_prmry_is_acl...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sof_gen [axi_vdma_sof_gen_default]
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=2,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=1...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=1...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=12)
+Compiling module xpm.xpm_cdc_gray(INIT_SYNC_FF=1,WIDT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=13)
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture amd of entity axi_vdma_v6_3_25.axi_vdma_afifo [\axi_vdma_afifo(c_family="artix7...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_skid_buf [\axi_vdma_skid_buf(c_wdata_width...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mm2s_linebuf [\axi_vdma_mm2s_linebuf(c_data_wi...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_skid_buf [axi_vdma_skid_buf_default]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_sm [\axi_vdma_sm(c_include_sf=1,c_us...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_cmdsts_if [\axi_vdma_cmdsts_if(c_dm_status_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_mngr [\axi_vdma_mngr(c_prmry_is_aclk_a...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_register [\axi_vdma_register(c_channel_is_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_mux [\axi_vdma_reg_mux(c_total_num_re...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_module [\axi_vdma_reg_module(c_total_num...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_fsync_gen [\axi_vdma_fsync_gen(c_use_fsync=...]
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture amd of entity axi_vdma_v6_3_25.axi_vdma_afifo [\axi_vdma_afifo(c_family="artix7...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_s2mm_linebuf [\axi_vdma_s2mm_linebuf(c_s2mm_so...]
+Compiling module xpm.xpm_cdc_single(SRC_INPUT_REG=0)
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=4,INI...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=4,IN...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reset [\axi_vdma_reset(c_prmry_is_aclk_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_rst_module [\axi_vdma_rst_module(c_include_s...]
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=4,INI...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_lite_if [\axi_vdma_lite_if(c_num_ce=62)\]
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_reg_if [\axi_vdma_reg_if(c_enable_debug_...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma_intrpt [\axi_vdma_intrpt(c_enable_debug_...]
+Compiling module xpm.xpm_fifo_rst_default
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=8...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=7...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rd_sf [\axi_datamover_rd_sf(c_sf_fifo_d...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_reset [axi_datamover_reset_default]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=8,c_depth=4)\]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=8,c...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=68,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=68,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_cmd_status [\axi_datamover_cmd_status(c_fami...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rd_status_cntl [axi_datamover_rd_status_cntl_def...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_strb_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_op_mo...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_pcc [\axi_datamover_pcc(c_is_mm2s=1,c...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=59,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=59,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_addr_cntl [\axi_datamover_addr_cntl(c_famil...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=55,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=55,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rdmux [\axi_datamover_rdmux(c_sel_addr_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_rddata_cntl [\axi_datamover_rddata_cntl(c_ali...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_mm2s_full_wrap [\axi_datamover_mm2s_full_wrap(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_ibttcc [\axi_datamover_ibttcc(c_sf_xfer_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_ms_strb_set [\axi_datamover_ms_strb_set(c_str...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_mssai_skid_buf [axi_datamover_mssai_skid_buf_def...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_strb_gen2 [\axi_datamover_strb_gen2(c_strb_...]
+Compiling architecture working of entity axi_datamover_v5_1_38.axi_datamover_slice [\axi_datamover_slice(c_data_widt...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=5,c_depth=16)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=5,c...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_scatter [\axi_datamover_s2mm_scatter(c_en...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=28,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=28,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_realign [\axi_datamover_s2mm_realign(c_en...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_stbs_set [\axi_datamover_stbs_set(c_strobe...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_stbs_set [\axi_datamover_stbs_set(c_strobe...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_skid_buf [\axi_datamover_skid_buf(c_wdata_...]
+Compiling module xpm.xpm_fifo_rst_default_1
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=5...
+Compiling module xpm.xpm_counter_updn
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_WRITE_DEPTH=1...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling module xpm.xpm_fifo_rst_default_2
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_sfifo_autord [\axi_datamover_sfifo_autord(c_dw...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_indet_btt [\axi_datamover_indet_btt(c_ibtt_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=32,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_family="ar...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_cmd_status [\axi_datamover_cmd_status(c_sts_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=23,c_depth=6)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=23,...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=2,c_depth=6)\]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=2,c...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wr_status_cntl [\axi_datamover_wr_status_cntl(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_addr_cntl [\axi_datamover_addr_cntl(c_addr_...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.srl_fifo [\srl_fifo(c_dwidth=53,c_depth=4)...]
+Compiling architecture imp of entity axi_datamover_v5_1_38.axi_datamover_fifo [\axi_datamover_fifo(c_dwidth=53,...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wrdata_cntl [\axi_datamover_wrdata_cntl(c_rea...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_wr_demux [\axi_datamover_wr_demux(c_sel_ad...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_skid2mm_buf [\axi_datamover_skid2mm_buf(c_mda...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover_s2mm_full_wrap [\axi_datamover_s2mm_full_wrap(c_...]
+Compiling architecture implementation of entity axi_datamover_v5_1_38.axi_datamover [\axi_datamover(c_include_mm2s=1,...]
+Compiling architecture implementation of entity axi_vdma_v6_3_25.axi_vdma [\axi_vdma(c_use_mm2s_fsync=1,c_i...]
+Compiling architecture n3_vdma_arch of entity xil_defaultlib.n3_vdma [n3_vdma_default]
+Compiling module xil_defaultlib.vdma_axi_fence
+Compiling module xil_defaultlib.axi_lite_command_default
+Compiling module xil_defaultlib.vdma_frame_control_default
+Compiling module xil_defaultlib.hdmi_geometry
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling module xpm.xpm_cdc_single(DEST_SYNC_FF=3,IN...
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=3,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0,CDC_...
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=3,INIT...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=5,INIT...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=3,INIT...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling module xil_defaultlib.hdmi_token_cdc
+Compiling module xil_defaultlib.hdmi_frame_input
+Compiling module xil_defaultlib.sr_identity_marker_rx
+Compiling module xpm.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module xil_defaultlib.atomic_status_cdc
+Compiling module xpm.xpm_fifo_rst(SIM_ASSERT_CHK=1)
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_fifo_base(FIFO_MEMORY_TYPE=2...
+Compiling module xpm.xpm_fifo_sync(FIFO_MEMORY_TYPE="...
+Compiling module xil_defaultlib.video_pair_fifo(PIXELS_PER_BEAT=...
+Compiling module xil_defaultlib.video_crc_check
+Compiling architecture rtl of entity xil_defaultlib.dp_framebuffer_source [\dp_framebuffer_source(transfer_...]
+Compiling module xpm.xpm_cdc_array_single(DEST_SYNC_F...
+Compiling module xpm.xpm_cdc_pulse(DEST_SYNC_FF=3,INI...
+Compiling module xil_defaultlib.bridge_frame_owner
+Compiling module xil_defaultlib.sr_identity_tracker
+Compiling module xpm.xpm_cdc_handshake(DEST_EXT_HSK=0...
+Compiling module xil_defaultlib.bridge_pipeline_control(BUSINESS...
+Compiling module xil_defaultlib.bridge_core(BUSINESS_IDENTITY=1)
+Compiling module xil_defaultlib.tb_sr_identity_core
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sr_identity_core_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 627.438 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '21' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/project/vdmatest.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sr_identity_core_behav -key {Behavioral:sim_1:Functional:tb_sr_identity_core} -tclbatch {D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/assertions_only.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/assertions_only.tcl
+## run all
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_XD_FIFO/non_blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_726  Scope: tb_sr_identity_core.core.dma.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_flush_sof.gen_linebuffer.gen_async_fifo.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/gen_sprt_for_mm2s/MM2S_LINEBUFFER_I/gen_linebuf_flush_sof/gen_linebuffer/gen_async_fifo/lb_bram/I_LINEBUFFER_FIFO/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_251  Scope: tb_sr_identity_core.core.dma.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_flush_sof.gen_linebuffer.gen_async_fifo.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_async_fifo_flush_sof.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/gen_sprt_for_s2mm/S2MM_LINEBUFFER_I/gen_s2mm_flush_sof_logic/gen_linebuffer_flush_sof/gen_async_fifo_flush_sof/lb_bram/I_LINEBUFFER_FIFO/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_511  Scope: tb_sr_identity_core.core.dma.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_async_fifo_flush_sof.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/ingress_fifo/fifo/gnuram_async_fifo.xpm_fifo_base_inst/Initial1559_984  Scope: tb_sr_identity_core.core.ingress_fifo.fifo.gnuram_async_fifo.xpm_fifo_base_inst  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/pixels/storage/xpm_fifo_base_inst/Initial1559_1080  Scope: tb_sr_identity_core.core.pixels.storage.xpm_fifo_base_inst  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+PROGRESS simulated_ns=         20000000000 raster=         0 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         40000000000 raster=         1 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         60000000000 raster=         1 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         80000000000 raster=         2 SR_new=         0 scans=         0
+PROGRESS simulated_ns=        100000000000 raster=         2 SR_new=         0 scans=         0
+PROGRESS: complete written frame          1 at         100000805000
+PROGRESS simulated_ns=        120000000000 raster=         3 SR_new=         0 scans=         0
+PROGRESS: complete displayed frame          1 identity=         0 at         132678065000
+PROGRESS: complete written frame          2 at         133334105000
+PROGRESS simulated_ns=        140000000000 raster=         4 SR_new=         1 scans=         1
+PROGRESS: complete displayed frame          2 identity=         0 at         149346065000
+PROGRESS simulated_ns=        160000000000 raster=         4 SR_new=         1 scans=         2
+PROGRESS: complete displayed frame          3 identity=         1 at         166014065000
+PROGRESS: complete written frame          3 at         166667405000
+PROGRESS simulated_ns=        180000000000 raster=         5 SR_new=         1 scans=         3
+PROGRESS: complete displayed frame          4 identity=         1 at         182682065000
+PROGRESS: complete displayed frame          5 identity=         2 at         199350065000
+BUSINESS new=         2 repeat=         3 scans=         5
+PASS: sr_identity_core actual VDMA, asynchronous 1080p30 raster, golden input pixels, DDR CRC, DP60 leases and repeated scans new=         3 repeated=         2
+$finish called at time : 199350160 ns : File "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_core_20261012_r2/source/tb_sr_identity_core.sv" Line 161
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:59:27 . Memory (MB): peak = 641.945 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:59:28 . Memory (MB): peak = 641.945 ; gain = 14.508
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sr_identity_core_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for all
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:59:58 . Memory (MB): peak = 641.945 ; gain = 18.430
+# close_sim
+INFO: xsimkernel Simulation Memory Usage: 145120 KB (Peak: 145120 KB), Simulation CPU Usage: 3467484 ms
+INFO: [Simtcl 6-16] Simulation closed
+# close_project
+# puts "N5_IDENTITY_SIMULATION_RETURNED_CHECK_LOG"
+N5_IDENTITY_SIMULATION_RETURNED_CHECK_LOG
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 12 22:36:25 2026...

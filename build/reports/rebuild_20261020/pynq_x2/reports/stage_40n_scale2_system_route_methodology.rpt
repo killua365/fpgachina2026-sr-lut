@@ -1,0 +1,41 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Tue Oct 20 20:46:34 2026
+| Host         : LAPTOP-5M1908N8 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file D:/FPGA/tmp/sr_lut_build_20261020_x2/source/board/local/hdmi_x2_1080p30/stage_40n_scale2_system_route_methodology.rpt
+| Design       : sr_lut_s40_dyn_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 1
++--------+----------+---------------------------------------------+--------+
+| Rule   | Severity | Description                                 | Checks |
++--------+----------+---------------------------------------------+--------+
+| XDCB-5 | Warning  | Runtime inefficient way to find pin objects | 1      |
++--------+----------+---------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-through : [get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[0]/D} -hier]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '5' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: D:/FPGA/tmp/sr_lut_build_20261020_x2/source/build/hdmi_x2_1080p30_work/sr_lut_s40_dyn.gen/sources_1/bd/sr_lut_s40_dyn/ip/sr_lut_s40_dyn_hdmi_rgb2dvi_0/src/rgb2dvi.xdc (Line: 5)
+Related violations: <none>
+
+

@@ -1,0 +1,77 @@
+{
+  "path": "src/third_party/mjpegzero.zip",
+  "sha256": "bf1d3bbeb6f2ebec11d4b936207c7ceb929a72b812826fce9375c7ac0000970e",
+  "bytes": 54642,
+  "files": [
+    {
+      "path": "license",
+      "bytes": 12109,
+      "sha256": "80fa2914fd3e7d5c7fe4b1c6fa9ee4593eeb173974cbf4fd1a1282a3744ddb04"
+    },
+    {
+      "path": "notice.md",
+      "bytes": 705,
+      "sha256": "ed8fb8ceb13797dfa27640b1977c5a83e71ebcb1c163452f1562488deaeb23c4"
+    },
+    {
+      "path": "rtl/axi4_lite_regs.v",
+      "bytes": 6167,
+      "sha256": "d7565fb2a1683771996f975231bdb4d78e9a500cffb10de383925b0972afe640"
+    },
+    {
+      "path": "rtl/bitstream_packer.v",
+      "bytes": 13639,
+      "sha256": "7e634718fed779eb20bc2fde393366e0e09464d709a4eab8a0956e89cc59aeaf"
+    },
+    {
+      "path": "rtl/bram_sdp.v",
+      "bytes": 3545,
+      "sha256": "b6a35190cbba613d900c09b24933fc9197ca7adb71fcd5b4605df11c44ed6768"
+    },
+    {
+      "path": "rtl/dct_1d.v",
+      "bytes": 9692,
+      "sha256": "7bcb8d1c0a3d7e2018502f829ab69f091ebbf271c55bff9ce5209d6d2ab01213"
+    },
+    {
+      "path": "rtl/dct_2d.v",
+      "bytes": 11384,
+      "sha256": "078476fe7a02bc34ec423c80fe0f0bbb6f3c0bdfaf778acb59b072fb2105b064"
+    },
+    {
+      "path": "rtl/huffman_encoder.v",
+      "bytes": 45008,
+      "sha256": "1ecc1a9406d809b3c18ed22dfbccb87f740e7daa624bc5e5fb61e8961266e224"
+    },
+    {
+      "path": "rtl/input_buffer.v",
+      "bytes": 17951,
+      "sha256": "9061bcd2000bf01972215c65d7912ea913e9951ed90f0d360080d742ba6ff95a"
+    },
+    {
+      "path": "rtl/jfif_writer.v",
+      "bytes": 68890,
+      "sha256": "f925f4d1ccde17f0fcf65355396399115d1d9403987af34f41967e2124f71b09"
+    },
+    {
+      "path": "rtl/mjpegzero_enc_top.v",
+      "bytes": 23568,
+      "sha256": "4ff8be4613d23f36cf5aaeea2df85f2316ee0210a30e8e65b48d875fba4143e3"
+    },
+    {
+      "path": "rtl/quantizer.v",
+      "bytes": 60523,
+      "sha256": "ef6b54d9ec6c426787c0286540d813f21c288c86afa6c916d067cf384d8a854f"
+    },
+    {
+      "path": "rtl/rgb_to_ycbcr.v",
+      "bytes": 6473,
+      "sha256": "1c1c15dbcba2b3b94331af40accf7ba655e7e7a2ab679962e26e8a54576c0355"
+    },
+    {
+      "path": "rtl/zigzag_reorder.v",
+      "bytes": 6900,
+      "sha256": "86f1ce86b79e881952b7447821024c36b50ad0308ed0353b7265e999f2104240"
+    }
+  ]
+}

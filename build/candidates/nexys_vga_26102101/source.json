@@ -1,0 +1,22 @@
+{
+  "schema": "nexys_vga_candidate_v1",
+  "candidate_id": "26102101",
+  "base_commit": "9602dfb039539ebd5e5e461af4d4ba4160eb2925",
+  "base_bit_sha256": "34007d57e716776b4eeb284d2d09e7ffc06cd46764edfe2854ebc3c6e0653d7d",
+  "default_artifacts_unchanged": true,
+  "default_source_unchanged": true,
+  "flash_write_allowed": false,
+  "normal_demo_eligible": false,
+  "source_patch": {
+    "path": "src/rtl/nexys_bridge/aux_channel.vhd",
+    "base_sha256": "fe1ae11915f62e96c516d2eae1da9ec44645968da8bd150d3c81b8c938ed7fd7",
+    "candidate_sha256": "c8cd3fe7d174516d8faa5986e2603f32db618b522d49f01711393f13885fd5ff"
+  },
+  "route_script_sha256": "5455cf0ce2bd3bb0596da0968f26cc2367899f25ed0d52acc60af47e751c115a",
+  "work": "build/reproduction_work/nexys_vga_26102101",
+  "policy": "Allow zero pre-read; require D0 write ACK; allow zero post-read only after zero pre-read + ACK; record quirk bit4, never D0 bit3; keep all physical training checks.",
+  "reference": "https://github.com/torvalds/linux/blob/master/drivers/gpu/drm/display/drm_dp_helper.c",
+  "reference_scope": "drm_dp_link_power_up reads the register, writes D0, waits >=1 ms without requiring a pre-existing D0/D3 value. Zero post-read fallback is this isolated experiment, not a standards compliance claim.",
+  "incremental_script_sha256": "593dbf28415e3f8784569b8965063df02a957885034626b87200173ec8cc4b25",
+  "physical_reference_dcp_sha256": "9b90300677ae0b379899fe8eefc18f7fc086cd2ae6d377d34d9ad09075aabd28"
+}

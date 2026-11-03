@@ -1,0 +1,37 @@
+{
+  "path": "src/third_party/hdmi_python.zip",
+  "sha256": "b23f59b8cc2a6f149b16b2c46ae4263206242aac62cddf1afca07e84ad2d356a",
+  "bytes": 1326499,
+  "files": [
+    {
+      "path": "dependencies.json",
+      "bytes": 3215,
+      "sha256": "e37cc1932515cbaea77eb432518b55cec7d90861c62a0bd76d00af33822a3052"
+    },
+    {
+      "path": "evdev-1.9.2.tar.gz",
+      "bytes": 33301,
+      "sha256": "5d3278892ce1f92a74d6bf888cc8525d9f68af85dbe336c95d1c87fb8f423069"
+    },
+    {
+      "path": "packaging-24.2-py3-none-any.whl",
+      "bytes": 65451,
+      "sha256": "09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1031,
+      "sha256": "d8a01a60f9fa165e310e6e48be8fbd14a3c59d0e66cc3ace40b74da3078d259a"
+    },
+    {
+      "path": "setuptools-75.8.0-py3-none-any.whl",
+      "bytes": 1228782,
+      "sha256": "e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3"
+    },
+    {
+      "path": "wheel-0.45.1-py3-none-any.whl",
+      "bytes": 72494,
+      "sha256": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"
+    }
+  ]
+}

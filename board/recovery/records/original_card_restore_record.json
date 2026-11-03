@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_m0_original_card_restore_step",
+  "host_started_utc": "2026-09-07T12:59:09.8685254Z",
+  "host_finished_utc": "2026-09-07T12:59:11.802574Z",
+  "original_card_cid": "035344534333324780daa60693014500",
+  "spare_card_cid": "035344534333324780dba606de014500",
+  "original_boot_id": "2221609f-cd9c-4146-ba97-bf275898023d",
+  "initial_spare_boot_id": "6de1c357-9814-4a06-9af7-fc9a568f9d8d",
+  "legacy_application_version": "1.9.0",
+  "legacy_package_sha256": "6DBCF99BB2BA515C8821213C19B8D39E33A3F1A19BCD94B6D28B46F502E07909",
+  "formal_8080_automatic_start_verified": true,
+  "legacy_identity_match": true,
+  "all_three_bit_hwh_pairs_match": true,
+  "original_card_restored_verified": true,
+  "returned_to_spare_verified": null,
+  "complete_physical_round_trip_verified": null,
+  "software_mode_rollback_verified": null,
+  "hdmi_deployment_allowed": false,
+  "raw_files": [
+    {
+      "path": "board/local/hdmi_m0_spare_20260907/original_card_boot.json",
+      "sha256": "4FB5976EC21283781433F614E9583624D65D5CC34458D6C5BFD2181AC571C870",
+      "meaning": "Early boot at uptime 128.6 seconds; bootpy running and HTTP not ready"
+    },
+    {
+      "path": "board/local/hdmi_m0_spare_20260907/original_card_ready.json",
+      "sha256": "853A2EE1F5D31527DD1ABAD47A085C2A8265512DDCFB1C3E863D92ADEA89307D",
+      "meaning": "Uptime 175.8 seconds; probe exits zero, formal service and all hardware identities match"
+    }
+  ],
+  "board_clock_trusted": false,
+  "scope": "Original card boots unchanged legacy release. This is one step of the physical round-trip, not HDMI or software release rollback."
+}

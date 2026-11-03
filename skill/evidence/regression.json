@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-10-20T11:15:27.452471+00:00",
+  "passed": true,
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_access": false,
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "output": "test_download_is_explicit (test_skill.HardwareAdapterTests.test_download_is_explicit) ... ok\ntest_halt_timeout_and_success (test_skill.HardwareAdapterTests.test_halt_timeout_and_success) ... ok\ntest_hls_done_is_latched (test_skill.HardwareAdapterTests.test_hls_done_is_latched) ... ok\ntest_preflight_before_download_fake_pynq (test_skill.HardwareAdapterTests.test_preflight_before_download_fake_pynq) ... ok\ntest_simple_dma_status_and_early_tlast (test_skill.HardwareAdapterTests.test_simple_dma_status_and_early_tlast) ... ok\ntest_allocation_failure_releases_only_allocated_buffer (test_skill.SessionTests.test_allocation_failure_releases_only_allocated_buffer) ... ok\ntest_bad_contract_before_allocation (test_skill.SessionTests.test_bad_contract_before_allocation) ... ok\ntest_boundary_reference (test_skill.SessionTests.test_boundary_reference) ... ok\ntest_failed_halt_retains_buffers (test_skill.SessionTests.test_failed_halt_retains_buffers) ... ok\ntest_implicit_cast_rejected (test_skill.SessionTests.test_implicit_cast_rejected) ... ok\ntest_noncontiguous_input (test_skill.SessionTests.test_noncontiguous_input) ... ok\ntest_protocol_order_reuse_snapshot (test_skill.SessionTests.test_protocol_order_reuse_snapshot) ... ok\ntest_timeout_halt_before_free (test_skill.SessionTests.test_timeout_halt_before_free) ... ok\ntest_two_independent_examples (test_skill.SessionTests.test_two_independent_examples) ... ok\ntest_all_timing_domains (test_skill.ValidationTests.test_all_timing_domains) ... ok\ntest_completion_before_window_not_recounted (test_skill.ValidationTests.test_completion_before_window_not_recounted) ... ok\ntest_completion_duplicates_and_window (test_skill.ValidationTests.test_completion_duplicates_and_window) ... ok\ntest_duplicate_manifest_and_non_dma (test_skill.ValidationTests.test_duplicate_manifest_and_non_dma) ... ok\ntest_empty_configuration_fails (test_skill.ValidationTests.test_empty_configuration_fails) ... ok\ntest_float_tolerance (test_skill.ValidationTests.test_float_tolerance) ... ok\ntest_hash_and_hwh (test_skill.ValidationTests.test_hash_and_hwh) ... ok\ntest_int64_extremes_no_wrap (test_skill.ValidationTests.test_int64_extremes_no_wrap) ... ok\ntest_integer_corruption (test_skill.ValidationTests.test_integer_corruption) ... ok\ntest_integer_tolerance_forbidden (test_skill.ValidationTests.test_integer_tolerance_forbidden) ... ok\ntest_invalid_arrays (test_skill.ValidationTests.test_invalid_arrays) ... ok\ntest_invalid_clock_and_duration (test_skill.ValidationTests.test_invalid_clock_and_duration) ... ok\ntest_unparseable_and_duplicate_resources (test_skill.ValidationTests.test_unparseable_and_duplicate_resources) ... ok\ntest_utilization_explicit_row (test_skill.ValidationTests.test_utilization_explicit_row) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.309s\n\nOK\n",
+  "source_sha256": {
+    "checks/__init__.py": "db318d630e1efb496d2e08c88abd0bc6fc110ac7ad036c74caf51c1511f4cbd9",
+    "checks/validation.py": "b0cd207649513a3a5bddce6b82fe26708360a8d2d1762a8abb7d4e7d6064c39b",
+    "examples/__init__.py": "b7e5710dc7d200f6da852344dc62671aece7c81b58bef3c6ca04afe0126a23c1",
+    "examples/mock_backend.py": "8e7f150d693f225b07a7913207437f85256118396bfa5dcad4fde48fd0ea3de5",
+    "examples/reference.py": "3f8db9faf9417248c8043b6934c6ff36c81fee5de6d626a5a148f9e91e44a9fd",
+    "run_checks.py": "ed0af2799999797bf043c9c7db905d0178a668dc57d39f06af7dce76cf5cb30c",
+    "run_hardware.py": "fe8e95ee0230b16f73e62ecbf446faf1c540b60bb12d468e7377389ae8a121e5",
+    "templates/__init__.py": "b326d3fe4f219044d2ffd0dff42861edf35f5fa1eb2af503cdbe4a6cfd482f73",
+    "templates/control_hooks.py": "a286dda414742c79d9a5afdec34efdf447f38b59ed342f0e9d05c877e3cd07c6",
+    "templates/pynq_backend.py": "a18cf11858c497fef3fa7121ea18094561a13455cb8b589ee4e34058d1709273",
+    "templates/session.py": "4dcb45ff1d9504ce548d2a75ff493c4dff8851da559f90db32f00f02e0690508",
+    "tests/run_tests.py": "341adb2005a1685ee12a99d8960ef86460ff93129acb90d4bb1377e2790941b1",
+    "tests/test_skill.py": "4daf26a1f9f0bd01b820d64152c0ca5b2d2d9564b374e4800bec6296f5b8aa74"
+  }
+}

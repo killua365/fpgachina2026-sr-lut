@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "configuration": "Model-S x4 5-bit dynamic frame",
+  "scale": 4,
+  "sampling_bits": 5,
+  "supported_input": {
+    "minimum_width": 32,
+    "maximum_width": 320,
+    "minimum_height": 32,
+    "maximum_height": 320,
+    "pixel_format": "RGB uint8"
+  },
+  "images": [
+    {
+      "name": "baby",
+      "input": "source_images/lr_x4/baby.png",
+      "golden": "reference_baselines/x4_5bit/baby.png",
+      "hr": "source_images/hr/baby_gt.png",
+      "input_shape_hwc": [128, 128, 3],
+      "output_shape_hwc": [512, 512, 3],
+      "input_sha256": "408F290A88500FDF8B5AE71DBD6D4F3E2FC74EC9578F4D717E637C50E679E47D",
+      "golden_sha256": "C780332920E9ACA401E5D0FB2B9070EF268A5F7109DB781A031D360F3C1B7B91",
+      "hr_sha256": "20F8DE1F73F7F4305A89A638913BDFFFF4CF741E5C476AAB942A78A3C990A408"
+    },
+    {
+      "name": "bird",
+      "input": "source_images/lr_x4/bird.png",
+      "golden": "reference_baselines/x4_5bit/bird.png",
+      "hr": "source_images/hr/bird_gt.png",
+      "input_shape_hwc": [72, 72, 3],
+      "output_shape_hwc": [288, 288, 3],
+      "input_sha256": "19E3C7AC8FA24856C1A0AA4421B137E208027E52D8D365D8E56CF95501606B52",
+      "golden_sha256": "881E04050FD8ED4BA24FE7BBE309242548C0C46A06EF11AE3469BDCEABA8C960",
+      "hr_sha256": "3C6C79C4617838957A0215020D417102FF9996489188B2CDE92BBC0359B6819A"
+    },
+    {
+      "name": "butterfly",
+      "input": "source_images/lr_x4/butterfly.png",
+      "golden": "reference_baselines/x4_5bit/butterfly.png",
+      "hr": "source_images/hr/butterfly_gt.png",
+      "input_shape_hwc": [64, 64, 3],
+      "output_shape_hwc": [256, 256, 3],
+      "input_sha256": "22F0C4A3E6E60CBC444EC177D37D5686C05236DA41CE4594330D775F55868D0B",
+      "golden_sha256": "B7CDB944534EE4C045366C53C6BBDA3B6F2C1D5D4806BE28F05DEDD281CEDC31",
+      "hr_sha256": "469D538E9DF7C44574C95708BFCA149EB84C31539F826DDCB1A8FD27BB2C733E"
+    },
+    {
+      "name": "head",
+      "input": "source_images/lr_x4/head.png",
+      "golden": "reference_baselines/x4_5bit/head.png",
+      "hr": "source_images/hr/head_gt.png",
+      "input_shape_hwc": [70, 70, 3],
+      "output_shape_hwc": [280, 280, 3],
+      "input_sha256": "43E473C1CD9E79220B9631F2A80604241A6B4637F2850430714AA0DFE44B49EB",
+      "golden_sha256": "D732853369D29CAA887297415121BA9F593AFECB8F67275529408E9F4069D3D3",
+      "hr_sha256": "0DF5F291DD1C11EBB38E60D1BBFAD58E637FD74E05DB47B76BB3116573F1C302"
+    },
+    {
+      "name": "woman",
+      "input": "source_images/lr_x4/woman.png",
+      "golden": "reference_baselines/x4_5bit/woman.png",
+      "hr": "source_images/hr/woman_gt.png",
+      "input_shape_hwc": [86, 57, 3],
+      "output_shape_hwc": [344, 228, 3],
+      "input_sha256": "88634EFC320A89B19C0DB225283C1DF459B8132D6D6A7B20E2F9860A1CF770DB",
+      "golden_sha256": "861CD5493C14EE43BDA2011A4F4B15717FDB1EADB47D13728C3A5814888665DD",
+      "hr_sha256": "53D941E7A4C3F808D577D6EEF6A7F85B5A2105D779A690CEE2AE283F55215F9C"
+    }
+  ]
+}

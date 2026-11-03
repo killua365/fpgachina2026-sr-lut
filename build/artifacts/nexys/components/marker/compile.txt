@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/src/rtl/nexys_hdmi/sr_identity_marker_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_identity_marker_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/sim/nexys_bridge/tb_sr_identity_marker_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_marker_rx

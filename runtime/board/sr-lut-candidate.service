@@ -1,0 +1,22 @@
+[Unit]
+Description=SR-LUT FPGA Stage 39 isolated candidate portal
+Wants=bootpy.service
+Conflicts=sr-lut-portal.service sr-lut-stage38-portal.service sr-lut-stage38-hp0-eto-portal.service sr-lut-stage38-unified-portal.service
+After=network.target bootpy.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/sr-lut/candidate
+Environment=XILINX_XRT=/usr
+Environment=PYTHONUNBUFFERED=1
+Environment=SR_LUT_X2_OVERLAY_DIR=/opt/sr-lut/candidate/overlays/media_x2
+Environment=SR_LUT_X4_OVERLAY_DIR=/opt/sr-lut/candidate/overlays/media_x4
+ExecStartPre=/usr/bin/install -o root -g root -m 0755 /opt/sr-lut/candidate/board/sr-lut-realtime30-gate /usr/local/sbin/sr-lut-realtime30-gate
+ExecStart=/usr/local/share/pynq-venv/bin/python3 -B /opt/sr-lut/candidate/roi_magnifier/server.py --host 0.0.0.0 --port 8083 --candidate --live-mode stage38-mjpeg --unified-modes --mode-buttons --scale-switches --board-control-only --stage38-overlay-dir /opt/sr-lut/candidate/overlays/camera_x4 --media-x2-overlay-dir /opt/sr-lut/candidate/overlays/media_x2 --media-x4-overlay-dir /opt/sr-lut/candidate/overlays/media_x4 --stage38-input-preview-mode decimated --stage38-input-preview-interval 2 --stage38-input-preview-quality 45 --stage38-input-preview-width 240 --stage38-input-preview-height 135 --stage38-output-buffer-policy hp1-noncoherent --stage38-output-sync-guard-delay 0 --stage38-capture-report-interval 1.0 --stage38-max-reopen-attempts 0 --stage38-reopen-backoff-seconds 0.5 --demo-sample baby --samples-dir /opt/sr-lut/candidate/dynamic_data --video-storage-dir /home/xilinx/sr_lut_candidate_video_jobs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

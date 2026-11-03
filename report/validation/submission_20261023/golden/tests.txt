@@ -1,0 +1,30 @@
+test_frozen_boundary_assets (test_dynamic_x4_boundaries.DynamicX4BoundaryTests.test_frozen_boundary_assets) ... ok
+test_manifest_covers_minimum_odd_and_maximum (test_dynamic_x4_boundaries.DynamicX4BoundaryTests.test_manifest_covers_minimum_odd_and_maximum) ... ok
+test_asset_identity_and_shapes (test_dynamic_x4_set5.DynamicX4Set5Tests.test_asset_identity_and_shapes) ... ok
+test_manifest_contract (test_dynamic_x4_set5.DynamicX4Set5Tests.test_manifest_contract) ... ok
+test_reference_outputs_are_pixel_exact (test_dynamic_x4_set5.DynamicX4Set5Tests.test_reference_outputs_are_pixel_exact) ... ok
+test_all_pixel_stream_files_unpack_to_golden_images (test_image_stream_vectors.ImageStreamVectorTests.test_all_pixel_stream_files_unpack_to_golden_images) ... ok
+test_axis_packing_and_frame_last (test_image_stream_vectors.ImageStreamVectorTests.test_axis_packing_and_frame_last) ... ok
+test_flow_control_patterns_and_files (test_image_stream_vectors.ImageStreamVectorTests.test_flow_control_patterns_and_files) ... ok
+test_full_frames_match_reference_model (test_image_stream_vectors.ImageStreamVectorTests.test_full_frames_match_reference_model) ... ok
+test_manifests_sizes_hashes_and_fixed_identity (test_image_stream_vectors.ImageStreamVectorTests.test_manifests_sizes_hashes_and_fixed_identity) ... ok
+test_reflect_neighborhoods_at_all_four_corners (test_image_stream_vectors.ImageStreamVectorTests.test_reflect_neighborhoods_at_all_four_corners) ... ok
+test_small_image_is_fixed_and_covers_quantizer_boundaries (test_image_stream_vectors.ImageStreamVectorTests.test_small_image_is_fixed_and_covers_quantizer_boundaries) ... ok
+test_small_intermediate_files_unpack_to_expected_arrays (test_image_stream_vectors.ImageStreamVectorTests.test_small_intermediate_files_unpack_to_expected_arrays) ... ok
+test_small_pipeline_is_arithmetically_continuous (test_image_stream_vectors.ImageStreamVectorTests.test_small_pipeline_is_arithmetically_continuous) ... ok
+test_all_256_quantizer_lines (test_rtl_core_vectors.RTLCoreVectorTests.test_all_256_quantizer_lines) ... ok
+test_core_numerators_match_golden (test_rtl_core_vectors.RTLCoreVectorTests.test_core_numerators_match_golden) ... ok
+test_core_vectors_and_packing (test_rtl_core_vectors.RTLCoreVectorTests.test_core_vectors_and_packing) ... ok
+test_directed_case_coverage (test_rtl_core_vectors.RTLCoreVectorTests.test_directed_case_coverage) ... ok
+test_fixed_random_case_coverage (test_rtl_core_vectors.RTLCoreVectorTests.test_fixed_random_case_coverage) ... ok
+test_generated_core_files (test_rtl_core_vectors.RTLCoreVectorTests.test_generated_core_files) ... ok
+test_generated_core_manifests (test_rtl_core_vectors.RTLCoreVectorTests.test_generated_core_manifests) ... ok
+test_generated_quantizer_files (test_rtl_core_vectors.RTLCoreVectorTests.test_generated_quantizer_files) ... ok
+test_signed_packing_and_rejections (test_rtl_core_vectors.RTLCoreVectorTests.test_signed_packing_and_rejections) ... ok
+test_unsigned_packing_and_rejections (test_rtl_core_vectors.RTLCoreVectorTests.test_unsigned_packing_and_rejections) ... ok
+test_320x180_gate_asset_identity_and_geometry (test_video_assets.RealtimeVideoAssetTests.test_320x180_gate_asset_identity_and_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 5.365s
+
+OK

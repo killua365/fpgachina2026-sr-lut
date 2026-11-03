@@ -1,0 +1,18 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:07 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_line_buffer_dynamic/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_line_buffer_dynamic} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DYNAMIC_LINE_BUFFER_PASS frames=13 checks=11594664
+$finish called at time : 144918836 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_line_buffer_dynamic.sv" Line 159
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 228.359 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:18 2026...

@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "build.log",
+      "sha256": "8680b4f190e4d4fc520ff50363ec7f3ea022d09ec02504076b1f863267f49e53",
+      "bytes": 605048
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "9331d03284acebe701c69119a4580c812f52c93d7454be0d370f74b632b9d086",
+      "bytes": 874
+    },
+    {
+      "path": "reports/bus_skew_route.rpt",
+      "sha256": "63a8e9ceed919bc4afc0abe9b77253256ab761a65bdacb43f35b860114af027e",
+      "bytes": 139041
+    },
+    {
+      "path": "reports/cdc_route.rpt",
+      "sha256": "39db463a6c4573373886e3af35be4f1093c719cf579c5d2a9826de4e28ebaad6",
+      "bytes": 33278
+    },
+    {
+      "path": "reports/cdc_synth.rpt",
+      "sha256": "25f0a1500c314a278e85da76c07bc07340bd8798148811546c09c83f3fbe96fa",
+      "bytes": 43710
+    },
+    {
+      "path": "reports/clock_interaction.rpt",
+      "sha256": "24f5a53cc079d4a5274c7284698b25fff2b4663859a4d68da2cd4f550af2712b",
+      "bytes": 18251
+    },
+    {
+      "path": "reports/clocks_route.rpt",
+      "sha256": "d04f2bd6435f4e7d65a5c672283ce8042b45d4494b28f78f27db988dca0e60f2",
+      "bytes": 19384
+    },
+    {
+      "path": "reports/clocks_synth.rpt",
+      "sha256": "1269386d959a6d04ff53c223ca9a012108720089403927f68a473408b712fa74",
+      "bytes": 23503
+    },
+    {
+      "path": "reports/drc_route.rpt",
+      "sha256": "7428467d7c852cbdf1d4efcc9904b928c24ce084566ff7e974c75efaf8410c2e",
+      "bytes": 6932
+    },
+    {
+      "path": "reports/drc_synth.rpt",
+      "sha256": "d0b1fa8360a453eeede9b77b6451066db27ba67a6c785d4c21c96235d5cac55b",
+      "bytes": 5920
+    },
+    {
+      "path": "reports/exceptions_route.rpt",
+      "sha256": "c194226db1182e5916519fae98c98797dd0ba74da4192b411a66a2bde74b71ef",
+      "bytes": 16527
+    },
+    {
+      "path": "reports/methodology_route.rpt",
+      "sha256": "e6562d58b5a6853dc5aea7649661930c53bbce33118159ca5c51555e974d44c1",
+      "bytes": 18727
+    },
+    {
+      "path": "reports/timing_route.rpt",
+      "sha256": "1b8b603b98271ef557c8b910c92f02bc42d900667cd9d495459f57e55b8c7609",
+      "bytes": 724794
+    },
+    {
+      "path": "reports/utilization_route.rpt",
+      "sha256": "80d296871847c9d8ecbfdda1adaaee319df8b8163474b0e5cb3064f6424e7cad",
+      "bytes": 14516
+    },
+    {
+      "path": "result.json",
+      "sha256": "e7549f7862da3a554adada75a394c30f39c0451d5af5636ea738dd6faf768e9d",
+      "bytes": 585
+    }
+  ]
+}

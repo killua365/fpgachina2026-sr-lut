@@ -1,0 +1,42 @@
+{
+  "path": "src/third_party/digilent_nexys_video_board.zip",
+  "sha256": "6ab07a5fa1b5d880f2938cee76111ce88af9c9f391de761c2bf02d3bac975223",
+  "bytes": 14477,
+  "files": [
+    {
+      "path": "License.txt",
+      "bytes": 1070,
+      "sha256": "28a42137bb9c77a6aa931c5ca670134620f448051dbd708a05921280a7b277ba"
+    },
+    {
+      "path": "new/board_files/nexys_video/A.0/1.2/board.xml",
+      "bytes": 57412,
+      "sha256": "5fe56998aaae57825f28e999b1415126be8ce273030398d38678912af6f14a58"
+    },
+    {
+      "path": "new/board_files/nexys_video/A.0/1.2/mig.prj",
+      "bytes": 9151,
+      "sha256": "82122fb1a992c4c2c540f31068ab6a08fe4782552562051c4d7a7548698853f1"
+    },
+    {
+      "path": "new/board_files/nexys_video/A.0/1.2/part0_pins.xml",
+      "bytes": 9141,
+      "sha256": "38c849c6c750b2ba6faaf7ad74e37a0ad9a177620587638f96d1213e4a5501e1"
+    },
+    {
+      "path": "new/board_files/nexys_video/A.0/1.2/preset.xml",
+      "bytes": 15700,
+      "sha256": "92129c4d78e232bbee4ce1d9f2385a5c39ec861528e14c44562c0be86f0860fe"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2297,
+      "sha256": "d4c1c723a9037eb972d9dc42e7a0a6957a3d9eb34c2dd1d71d1c2feadf9d2a2e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1498,
+      "sha256": "dafdac4bccc30c85c014f017c0b14c16ab90c4fa11fe9983775dd1c9b28e5320"
+    }
+  ]
+}

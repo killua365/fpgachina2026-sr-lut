@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_business_development",
+  "source_commit": "030363a3302a64269302dc09cc04b8b8060d35e5",
+  "overlays": {
+    "2": {
+      "bit": "build/frozen/n5_1080p30_x2/sr_lut_x2.bit",
+      "bit_sha256": "58ee93d840ad639b7cb511002f4ced6dfafe6402805d73cb2a9375451eac4806",
+      "hwh": "build/frozen/n5_1080p30_x2/sr_lut_x2.hwh",
+      "hwh_sha256": "996c69bd8511a9cb3b25ed77356fc806003adeaa8a0e5626d16204f707bab243"
+    },
+    "4": {
+      "bit": "build/frozen/n5_1080p30_x4/sr_lut_x4.bit",
+      "bit_sha256": "61f1b211098aef8bf1c343dbfc690da87c1a31313c78023c32aca28e73943080",
+      "hwh": "build/frozen/n5_1080p30_x4/sr_lut_x4.hwh",
+      "hwh_sha256": "51f72a22e64dd6494907eee473a3e63a666d3eaed5ad36feac8496916a889a7d"
+    }
+  },
+  "mode": "1920x1080@30",
+  "formal_release": false,
+  "business_profile": {
+    "name": "nexys_dp_bridge_v1",
+    "input_size": [
+      480,
+      270
+    ],
+    "source_fps": 30,
+    "hdmi_mode": "1920x1080@30",
+    "dp_mode": "1920x1080@60",
+    "sr_scales": [
+      2,
+      4
+    ],
+    "camera_scale": 4
+  },
+  "identity_marker": true,
+  "timing": {
+    "2": {
+      "setup_wns_ns": 0.194,
+      "setup_tns_ns": 0.0,
+      "setup_failing_endpoints": 0.0,
+      "hold_wns_ns": 0.028,
+      "hold_tns_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "pulse_wns_ns": 0.538,
+      "pulse_tns_ns": 0.0,
+      "pulse_failing_endpoints": 0.0
+    },
+    "4": {
+      "setup_wns_ns": 0.144,
+      "setup_tns_ns": 0.0,
+      "setup_failing_endpoints": 0.0,
+      "hold_wns_ns": 0.014,
+      "hold_tns_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "pulse_wns_ns": 0.538,
+      "pulse_tns_ns": 0.0,
+      "pulse_failing_endpoints": 0.0
+    }
+  },
+  "n5_passed": false,
+  "n6_passed": false,
+  "pixel_backend": "arm_neon_full_validation",
+  "display_composition_backend": "arm_neon_fused_power_of_two_fit",
+  "buffer_policy": {
+    "sr_output": "acp-cacheable",
+    "scanout": "HP1_RGBX_three_parked_buffers"
+  },
+  "materials": {
+    "images": [
+      "materials/baby.png",
+      "materials/bird.png",
+      "materials/butterfly.png",
+      "materials/head.png",
+      "materials/woman.png"
+    ],
+    "golden": {
+      "2": "materials/golden_x2.png",
+      "4": "materials/golden_x4.png"
+    },
+    "clip": "materials/demo_clip/clip.json",
+    "performance_clip": "materials/performance_30fps/clip.json",
+    "video_golden": "materials/video_golden.json"
+  },
+  "files": [
+    {
+      "path": "board/runtime/build_hdmi_pixels.py",
+      "size": 1344,
+      "sha256": "95c4d7e4e0a10ba13e18de8cca86b093fb528f0f2acd0c8a29d3c3f4c4efdce2"
+    },
+    {
+      "path": "board/runtime/hdmi_business_app.py",
+      "size": 27363,
+      "sha256": "c992f99accd7219c9d5915eb398c0ba52d2c2a2064d55b1692869baefbf637f2"
+    },
+    {
+      "path": "board/runtime/hdmi_hardware_validation.py",
+      "size": 7034,
+      "sha256": "e8ae6459193fd7cc0f4c5927673d01504000e60e62960bddd6d47af956ffcaaf"
+    },
+    {
+      "path": "board/runtime/hdmi_m1.py",
+      "size": 11869,
+      "sha256": "398851f28b2e89eec14f6a82c8b8d4d2dea9d9b6c06d084970597c9159dcb6fd"
+    },
+    {
+      "path": "board/runtime/hdmi_m1_supervisor.py",
+      "size": 7267,
+      "sha256": "fc53b7e36ce0f7110b15d3ebfeea0f74df8464fbfaa4c37e422ff52a013e5da6"
+    },
+    {
+      "path": "board/runtime/legacy_service_rollback.py",
+      "size": 11124,
+      "sha256": "a38026262b20dc99213f09366b8aebde50df8a6d792eb0a09afb2fa060b2a57c"
+    },
+    {
+      "path": "board/runtime/run_hdmi_business.sh",
+      "size": 357,
+      "sha256": "fc9c0e27b56c2771cbce4257aa6eb4ee37ef39d653b3a44968af03e527798a92"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/artifact_manifest.json",
+      "size": 2630,
+      "sha256": "e4f3a95cfcb5e64c849f4f85f69c9dd668982cf91bb407636cc42e002f2c090c"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/evidence/sr_lut_x2.xsa",
+      "size": 1396943,
+      "sha256": "e1b43d34a078390a1e9487ef4715a3005689e28f045dd641fc20f2855f83b1bc"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/original_artifact_manifest.json",
+      "size": 2092,
+      "sha256": "16e376a230a7aaf619acf879583deb9ec688b3bb6291ab44860d3c5c0d40a4c5"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/sr_lut_x2.bit",
+      "size": 4045777,
+      "sha256": "58ee93d840ad639b7cb511002f4ced6dfafe6402805d73cb2a9375451eac4806"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/sr_lut_x2.hwh",
+      "size": 693034,
+      "sha256": "996c69bd8511a9cb3b25ed77356fc806003adeaa8a0e5626d16204f707bab243"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40i_scale2_system_synth_utilization.rpt",
+      "size": 60527,
+      "sha256": "fbd5ee6b08459d5ba11fe937abbe167d49ac06fa8b4f5b5f364eb2e7069e2ec1"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40j_scale2_system_synth_timing.rpt",
+      "size": 1357927,
+      "sha256": "433a4d99ca2b00944394114c11dd7affba0ac7b9f74bcdcf88eed68f55999f5e"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40k_scale2_system_synth_drc.rpt",
+      "size": 10342,
+      "sha256": "2922190a4a74798d0d911a1b7dcc302c46c4e30b94564d4e3eb251c0a0b09022"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40l_scale2_system_route_utilization.rpt",
+      "size": 57362,
+      "sha256": "721ebe2ca49883b865e4eda01ab54854de9a43dbe4bb9dc0296f1977ae48df46"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40m_scale2_system_route_timing.rpt",
+      "size": 1188441,
+      "sha256": "51faf3f3f5566c8b16ef953d779c25f3bb26807ca94c03f383d9e3073e913cdb"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40n_scale2_system_route_methodology.rpt",
+      "size": 2360,
+      "sha256": "58b7e49acd2e2f15e46901aa4520fd0231a5fb8d360da1060a85af2bd85ad2d0"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x2/stage_40o_scale2_system_route_drc.rpt",
+      "size": 9861,
+      "sha256": "7f2fe2fa2b6ce9b8aca5d7a7aac57eae19fd97d340fa749eee05f4c2d47f5aee"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/artifact_manifest.json",
+      "size": 2629,
+      "sha256": "1d958f5da1c119f55add3b82b4a727d3e792e660a08cbd09b1e5acbdac1b8cca"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/evidence/sr_lut_x4.xsa",
+      "size": 1654751,
+      "sha256": "4813f1b9284c97907cf0bcce414c77066b4ebab46b26e0724f1b0874bedf68be"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/original_artifact_manifest.json",
+      "size": 2091,
+      "sha256": "db5f479982c9510efbf4dac39db9aa058f7f26fb812f1c5f95b01f13b98b7b2f"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/sr_lut_x4.bit",
+      "size": 4045777,
+      "sha256": "61f1b211098aef8bf1c343dbfc690da87c1a31313c78023c32aca28e73943080"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/sr_lut_x4.hwh",
+      "size": 693032,
+      "sha256": "51f72a22e64dd6494907eee473a3e63a666d3eaed5ad36feac8496916a889a7d"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40i_scale4_system_synth_utilization.rpt",
+      "size": 60527,
+      "sha256": "b4513241b9cf5175440e4616ee13cad49e63c9c589e1b140f2a7523dc90c89a8"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40j_scale4_system_synth_timing.rpt",
+      "size": 1357225,
+      "sha256": "60ab1844905114992b5b4713fe9ed05f9305466f267dd31871d06c02fad03160"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40k_scale4_system_synth_drc.rpt",
+      "size": 9115,
+      "sha256": "352083216ef88c80a118abe84ef6cc078d63a6b84a6a88b19924140dc04acf65"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40l_scale4_system_route_utilization.rpt",
+      "size": 57127,
+      "sha256": "bff4ddc9dd19761464d16baa915b8795e387ccbac117c33c5a942fbdde6a56f0"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40m_scale4_system_route_timing.rpt",
+      "size": 1183652,
+      "sha256": "c2c8df514e70d550108ab3eb8fae861bbe2f131bd004b0df5c20a40d8b3d7d4f"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40n_scale4_system_route_methodology.rpt",
+      "size": 2360,
+      "sha256": "c9c309c5e8b6a2b9f66ef271f8a406a335779076af5b134e2ffeca71f841cccf"
+    },
+    {
+      "path": "build/frozen/n5_1080p30_x4/stage_40o_scale4_system_route_drc.rpt",
+      "size": 8633,
+      "sha256": "9c83f2b4a5c25c65f08389f6cc5dd3be5fcefb758999d5ee4d0ccd1f4da7c9b5"
+    },
+    {
+      "path": "build/manifest/hdmi_rollback_baseline.json",
+      "size": 3083,
+      "sha256": "aff9335448999c712850000a97776507310f89f48c48e3c790176544003b081f"
+    },
+    {
+      "path": "materials/baby.png",
+      "size": 130049,
+      "sha256": "8bc0ccb993825c91c80ccf4739292cca4c9546937929223f9e841fa5cc22488a"
+    },
+    {
+      "path": "materials/baby_original.png",
+      "size": 371264,
+      "sha256": "20f8de1f73f7f4305a89a638913bdffff4cf741e5c476aab942a78a3c990a408"
+    },
+    {
+      "path": "materials/bird.png",
+      "size": 119491,
+      "sha256": "408093e01a5c07ed7217a4bb8b2558481a0f9ccd27f0e3db1b480402fcc3ee85"
+    },
+    {
+      "path": "materials/bird_original.png",
+      "size": 120453,
+      "sha256": "3c6c79c4617838957a0215020d417102ff9996489188b2cde92bbc0359b6819a"
+    },
+    {
+      "path": "materials/butterfly.png",
+      "size": 136981,
+      "sha256": "1a662ae91a155fec2e957752d91b4afee686bf2ccebed3f57dd4157be73e31ae"
+    },
+    {
+      "path": "materials/butterfly_original.png",
+      "size": 127529,
+      "sha256": "469d538e9df7c44574c95708bfca149eb84c31539f826ddcb1a8fd27bb2c733e"
+    },
+    {
+      "path": "materials/demo_clip/clip.json",
+      "size": 840,
+      "sha256": "0a9d750e547f87cb12cae901efbb4840e93fe90957952410d8d4d48bea7db574"
+    },
+    {
+      "path": "materials/demo_clip/frames.rgb",
+      "size": 106920000,
+      "sha256": "81f79a8564b5325d8c946b0177d842a8a920679ee2c71c838aebae5270613335"
+    },
+    {
+      "path": "materials/golden_x2.png",
+      "size": 441371,
+      "sha256": "0d1b10e6dd958d47ee319d5b37c902ebe47daaad8a01a0e6129bccc332d73b9a"
+    },
+    {
+      "path": "materials/golden_x4.png",
+      "size": 1446406,
+      "sha256": "533e9150662daa74089f820f114c12ef60f7a7c39275d976b0cc52e940990096"
+    },
+    {
+      "path": "materials/head.png",
+      "size": 133260,
+      "sha256": "284a0366db8a1f733a2929be8ee88cc6e30edd75e2b4e867cfc3c26b50a4f749"
+    },
+    {
+      "path": "materials/head_original.png",
+      "size": 113787,
+      "sha256": "0df5f291dd1c11ebb38e60d1bbfad58e637fd74e05db47b76bb3116573f1c302"
+    },
+    {
+      "path": "materials/original_video.mp4",
+      "size": 2215559,
+      "sha256": "858e47c63af5635ff78784caeafc35614d7a18e2e6103207da6345f5fd402c28"
+    },
+    {
+      "path": "materials/performance_30fps/clip.json",
+      "size": 437,
+      "sha256": "93cfd5e7b39bec9810d34bee83be51ca23e12439cc0e829dbc3a55510e616170"
+    },
+    {
+      "path": "materials/performance_30fps/frames.rgb",
+      "size": 46656000,
+      "sha256": "87d6a0c6a194dfcccae2a72aa6a4de8a454a3f95c3e619b5c68da3eebccfd45d"
+    },
+    {
+      "path": "materials/README.txt",
+      "size": 346,
+      "sha256": "e74b4d399175c7189e2a283041646e8e169e6d33c2509a1b9877c43b5b8022f1"
+    },
+    {
+      "path": "materials/video_golden.json",
+      "size": 13995,
+      "sha256": "f5b5d426967fe27e4ce496c883e93be94084df0d151a177ab6ec7e25889ec2ac"
+    },
+    {
+      "path": "materials/woman.png",
+      "size": 87716,
+      "sha256": "ad5915fabfa3458bfcd3ea74d716bcdf1e6e8672ba9e86f6d04d307e09404612"
+    },
+    {
+      "path": "materials/woman_original.png",
+      "size": 118848,
+      "sha256": "53d941e7a4c3f808d577d6eef6a7f85b5a2105d779a690cee2ae283f55215f9c"
+    },
+    {
+      "path": "sim/formal/hdmi_m0_20260907/legacy_service_rollback_record.json",
+      "size": 3312,
+      "sha256": "7a5b391dff82d62d610829fe889702f3325b9f8e150673d620b506ee61b94abd"
+    },
+    {
+      "path": "sim/formal/hdmi_m0_20260907/original_card_restore_record.json",
+      "size": 1634,
+      "sha256": "840deba61c79fd4f5054b6cd5db149baaf482aee5fea3c98c74c06bbd35fc830"
+    },
+    {
+      "path": "sim/formal/hdmi_m0_20260907/physical_card_round_trip_record.json",
+      "size": 2964,
+      "sha256": "7bce1fa85c247aeb1206755e8b7c7d16e9987e94ffe6ec94f3cddce974819653"
+    },
+    {
+      "path": "sim/formal/hdmi_m0_20260907/spare_boot_smoke_record.json",
+      "size": 12629,
+      "sha256": "2506276a6b6cd3d0f4ee6ad0116da2f883bf2d1f2b53552bca1d9091bbc00ba7"
+    },
+    {
+      "path": "sim/formal/hdmi_m0_20260907/spare_clone_record.json",
+      "size": 1329,
+      "sha256": "524ac75178397da87b9c6dbb73e616fbb4eb611ab80e9af45dee2712a55c8fc5"
+    },
+    {
+      "path": "src/ps/hdmi_display/__init__.py",
+      "size": 86,
+      "sha256": "be5d4e57f3f809b9bad944e31522a01f78ac0517c1dc2fd52c3f823f83289693"
+    },
+    {
+      "path": "src/ps/hdmi_display/__main__.py",
+      "size": 2368,
+      "sha256": "9108b4b01dffbeca0d021cb68fb15e987e80b45e897c1d50f773c45cb3b43c56"
+    },
+    {
+      "path": "src/ps/hdmi_display/acp_receive.py",
+      "size": 2762,
+      "sha256": "70a54ab84e8b633442d3f23e525d506273a339e10175cf7ec08ec2d71d0e83e0"
+    },
+    {
+      "path": "src/ps/hdmi_display/artifact_access.py",
+      "size": 631,
+      "sha256": "e0c541e321ae8319da2108f8f236ec10e6494a54656b23aa2da9ac2160812457"
+    },
+    {
+      "path": "src/ps/hdmi_display/camera.py",
+      "size": 14329,
+      "sha256": "af4a8afbc7c5cc321641de84700780a5564083da2f0a3e90f52f1f6efa4428bb"
+    },
+    {
+      "path": "src/ps/hdmi_display/camera_performance.py",
+      "size": 9807,
+      "sha256": "29a1857bcbd6e174355c92b559bab6679c2eadd4b3db8ac142e4e4effc6d6ad7"
+    },
+    {
+      "path": "src/ps/hdmi_display/compositor.py",
+      "size": 5997,
+      "sha256": "a5d2386f9869030ae035e180ea3684094b26c818e466cfc17ed7b9b79706ca3c"
+    },
+    {
+      "path": "src/ps/hdmi_display/controls.py",
+      "size": 3140,
+      "sha256": "020baee1f16ae37ca5618983335e00d4c7c12dc4229337431289fe620fad2374"
+    },
+    {
+      "path": "src/ps/hdmi_display/diagnostics.py",
+      "size": 10030,
+      "sha256": "5113d54d13782e3e07e7fe7f9d1e34af0e105405cd3b5242f90aa954a1f315fd"
+    },
+    {
+      "path": "src/ps/hdmi_display/engine.py",
+      "size": 28042,
+      "sha256": "85e19e3ecdf714c27ceea81b837ca6bccde7996adfae3bccfd14d51c6d422699"
+    },
+    {
+      "path": "src/ps/hdmi_display/export.py",
+      "size": 9997,
+      "sha256": "8e7500f2ce17776044ab707bcd8a2050e5b15ce1dc3d9c7bffdcc58b382d5fc7"
+    },
+    {
+      "path": "src/ps/hdmi_display/file_picker.py",
+      "size": 2686,
+      "sha256": "8f4e69db3eb284014a00d0c2748bbdb33232a139f8b7b4fdfdf67a66b1889938"
+    },
+    {
+      "path": "src/ps/hdmi_display/frame_marker.py",
+      "size": 3292,
+      "sha256": "7b4b23aa275091949af8c978e23a1de62e074ccc9862b1a8002b5af0c98deb5f"
+    },
+    {
+      "path": "src/ps/hdmi_display/frame_trace.py",
+      "size": 1050,
+      "sha256": "dd5143af4d3e0e037a4159fc064b4b87ea7b1161b5eb074b5066767059f086af"
+    },
+    {
+      "path": "src/ps/hdmi_display/frames.py",
+      "size": 3019,
+      "sha256": "82d3bfd5ec5523924c731a6e29b908f707ca4cb34b94cb7bc42258b74e6ba2ca"
+    },
+    {
+      "path": "src/ps/hdmi_display/geometry.py",
+      "size": 3093,
+      "sha256": "6684bfc342c5ed595a0260abd0e14f29a763c38da7fb7a808d0265571651973c"
+    },
+    {
+      "path": "src/ps/hdmi_display/image_export.py",
+      "size": 3486,
+      "sha256": "477ffad2aca4dad16bb8bd0a965f3d0ea00f3120938fe412f28f332e88818d3d"
+    },
+    {
+      "path": "src/ps/hdmi_display/media.py",
+      "size": 12018,
+      "sha256": "50609cf9631f797a4934e1aa969076535602b1c3b39127a5729e23b5140609ee"
+    },
+    {
+      "path": "src/ps/hdmi_display/mouse.py",
+      "size": 5160,
+      "sha256": "41a0a8bb85a4262b89f17d3818e8aebf2b9f7d4b7e1eba78c935b07c875fe542"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/build.json",
+      "size": 1081,
+      "sha256": "0f6fa858e220f3a15de454837d2575cd304664898bedb490c8c0de2f8d9fd583"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/hdmi_pixels.c",
+      "size": 16451,
+      "sha256": "9940a31c475a27a2605694218e07d93b03c6cc2c8668561faa9479d602c18bf0"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/libhdmi_pixels.so",
+      "size": 16336,
+      "sha256": "c8accace484a0827c93c8b920af2177f692dc5cea79254354f250900ebe6e8e1"
+    },
+    {
+      "path": "src/ps/hdmi_display/patterns.py",
+      "size": 2727,
+      "sha256": "1b6dbd125ac38d0b63e491b29316cb2ae3dec276b9d7c41c7b18403ccdcae852"
+    },
+    {
+      "path": "src/ps/hdmi_display/pixels.py",
+      "size": 11965,
+      "sha256": "79c03ba549b680e2282cdf9f8c6e3228a5b71eb9816184ba709973bd19b4ac70"
+    },
+    {
+      "path": "src/ps/hdmi_display/playback.py",
+      "size": 4369,
+      "sha256": "a18b08b88f8bf8c6374aef3130da26bf760ec55101c61f763274011b2539cad5"
+    },
+    {
+      "path": "src/ps/hdmi_display/process.py",
+      "size": 2273,
+      "sha256": "45466fdcefc0a4c94b62fc9654a40b8febf38db24fae58d59895bfed53511527"
+    },
+    {
+      "path": "src/ps/hdmi_display/profiles.py",
+      "size": 2087,
+      "sha256": "9d685083074ed1841d004922a53eb6047beec3b6c5e1df0399fd05a45eacbd8d"
+    },
+    {
+      "path": "src/ps/hdmi_display/profiling.py",
+      "size": 8866,
+      "sha256": "1d55562889f266874d04383716180e6ae13f43f35d3a2fd4488c16b8c46b3a52"
+    },
+    {
+      "path": "src/ps/hdmi_display/runtime.py",
+      "size": 20542,
+      "sha256": "4d9215f1f30935d51b0beca923f0b1d0c0e99feb4ecb2d829c561c844a9cede2"
+    },
+    {
+      "path": "src/ps/hdmi_display/scanout.py",
+      "size": 17565,
+      "sha256": "282766ef81c840ff5ba337bcc172fcdc17df034b10b1932e66d89e950345e213"
+    },
+    {
+      "path": "src/ps/hdmi_display/workspace.py",
+      "size": 22567,
+      "sha256": "aeb72260887d20ae2a9df7606a79f8b472e88359ac57a569191929f8e0ba94e1"
+    },
+    {
+      "path": "src/ps/roi_magnifier/__init__.py",
+      "size": 306,
+      "sha256": "e9a95deb71529182fa7bbcdd5c06da6150b69816b7f1d482f7696dffd037af67"
+    },
+    {
+      "path": "src/ps/roi_magnifier/geometry.py",
+      "size": 5584,
+      "sha256": "898a6e0baaefe5d2a62341da4af48142340a6c7cf4c36a0678821471704ed589"
+    },
+    {
+      "path": "src/ps/roi_magnifier/live_stream.py",
+      "size": 48500,
+      "sha256": "9532dcae8902de6100456e19b13e374cda7953395d33e73244ff9ab19de06f8d"
+    },
+    {
+      "path": "src/ps/roi_magnifier/mode_control.py",
+      "size": 13227,
+      "sha256": "aec52e7ddeeab2f9bcaeb3f76521ebc3ffe6e9d28211b7232ca22ab91df62690"
+    },
+    {
+      "path": "src/ps/roi_magnifier/processor.py",
+      "size": 10115,
+      "sha256": "d31e943db9c42ce204e679f44e421d3faf858a51774f3ed288204fcf5d38f03c"
+    },
+    {
+      "path": "src/ps/roi_magnifier/quality.py",
+      "size": 13948,
+      "sha256": "063c9f7f2a2111d636adcdc5853cdad4770d515152451407320b8966783a4b11"
+    },
+    {
+      "path": "src/ps/roi_magnifier/scale_control.py",
+      "size": 9201,
+      "sha256": "6dda8253249f6924bbe26eb9db2b4609da3494e30bddf26420391374c21e9633"
+    },
+    {
+      "path": "src/ps/roi_magnifier/server.py",
+      "size": 75613,
+      "sha256": "7436e5fb73ec65a79d844faf40e9f5684c730f8229e91c6941e3ecd144ed8bc0"
+    },
+    {
+      "path": "src/ps/sr_lut_x4_driver.py",
+      "size": 18076,
+      "sha256": "c5054811e3faff77472d68a34ae445aff490fd27cf1d5a3e1f2ce25ed1695097"
+    },
+    {
+      "path": "src/ps/video_pipeline/__init__.py",
+      "size": 63,
+      "sha256": "ec397e104ed7717fac97cb3747c79c892cae46892f99cd5bf67ffeae47b19144"
+    },
+    {
+      "path": "src/ps/video_pipeline/board_pipeline.py",
+      "size": 33379,
+      "sha256": "55dcf28a8679647346237c6f0485b254b51fa75ea1393d2eecc0b778a1873dab"
+    },
+    {
+      "path": "src/ps/video_pipeline/camera_probe.py",
+      "size": 2511,
+      "sha256": "0619155a51e28723933606a5b6fdd3a9c674664f4ec23188e70a0c16b903c421"
+    },
+    {
+      "path": "src/ps/video_pipeline/frame_session.py",
+      "size": 27772,
+      "sha256": "165921e9aaaf544dd4fc2e8d9cb8db61f9db3e9bf56346df6e3cb37886ab61cf"
+    },
+    {
+      "path": "src/ps/video_pipeline/identity.py",
+      "size": 13264,
+      "sha256": "02b97910529ead1249668e73e851e4a428acfbb82252c98c0b462f3edf060d7a"
+    },
+    {
+      "path": "src/ps/video_pipeline/input_pack.py",
+      "size": 3611,
+      "sha256": "ee1a51ca370658e02fc094f4291fa460cd6900b9d1aff982bfe70b67697460ff"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_camera.py",
+      "size": 2747,
+      "sha256": "e0001de950de19a0940f6d15a4851b0411f07ed41582af18402f4f416851090d"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_pipeline.py",
+      "size": 24769,
+      "sha256": "29a6fd6ab1ea2960f5c82ba719a983ea5e504e78c7c381470fde5e6a63fd7275"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_receiver.py",
+      "size": 14855,
+      "sha256": "a3c98593a4ec35d8a94023c6d95478d7720b05063435b46d4eb39a196054949e"
+    },
+    {
+      "path": "src/ps/video_pipeline/mb420.py",
+      "size": 2127,
+      "sha256": "4b658156abcfa847d457b31c2d098137582dbfddb8c309d6d6c486fc7cf9919e"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_camera.py",
+      "size": 7030,
+      "sha256": "79bb92146cf243a31d604268c586bc2a1c233b245fdcd79ae3b319818fbf4fed"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_protocol.py",
+      "size": 6929,
+      "sha256": "d33e1a151bb9ccb449451eba7e057c27ee5667d0ca2a06ed3f35a70bc4c1134f"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_receiver.py",
+      "size": 6111,
+      "sha256": "e9d3881d5868cfc0da6e7a2718e6f671c2f8521dc1fe08a581f7e308647a8680"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_session.py",
+      "size": 11059,
+      "sha256": "a3e591ca6a6cfa701ef4ec0847371a73f6e6ad33d70e832268fa62129bd88cd0"
+    },
+    {
+      "path": "src/ps/video_pipeline/network_benchmark.py",
+      "size": 3093,
+      "sha256": "42c30a754c4b1a2c4c7b6979f22b055aaabb72fb1338b6a0bd35e364b8799cff"
+    },
+    {
+      "path": "src/ps/video_pipeline/parallel_network_benchmark.py",
+      "size": 2337,
+      "sha256": "c337f563f2c80d7bcf5a9020df4a40d036e70828a319879247c23fb0ba19def2"
+    },
+    {
+      "path": "src/ps/video_pipeline/pc_receiver.py",
+      "size": 19253,
+      "sha256": "0021299b46760951ef639a6b71770b862672c59d2b69ccdb6e765e263c7e2ad3"
+    },
+    {
+      "path": "src/ps/video_pipeline/protocol.py",
+      "size": 8316,
+      "sha256": "ac66ecc8a787e879926f2b459305bf68ee347158d92f86fbf81ed23825f28ed2"
+    },
+    {
+      "path": "src/ps/video_pipeline/resize_probe.py",
+      "size": 1828,
+      "sha256": "e016f2d682442fea081ea5b72d5606c4d97b4a2d064b18391482074bb460d168"
+    },
+    {
+      "path": "src/ps/video_pipeline/runtime_tuning.py",
+      "size": 4684,
+      "sha256": "f5886d355fe6a788ecfdaf040cfb6e7b73a288abb005e875238b2768e925a6cf"
+    },
+    {
+      "path": "src/ps/video_pipeline/sink.py",
+      "size": 4704,
+      "sha256": "db48858b4b1e00def190af0588c354005616313be5a4fdbb6e2a7bba78346d2a"
+    },
+    {
+      "path": "src/ps/video_pipeline/yuv420.py",
+      "size": 5254,
+      "sha256": "ce9bac09dbff282d1e87a584be40ad270d5919fbb3ea8648163adcd4b42e6b3a"
+    },
+    {
+      "path": "src/third_party/hdmi_python/dependencies.json",
+      "size": 3215,
+      "sha256": "e37cc1932515cbaea77eb432518b55cec7d90861c62a0bd76d00af33822a3052"
+    },
+    {
+      "path": "src/third_party/hdmi_python/evdev-1.9.2.tar.gz",
+      "size": 33301,
+      "sha256": "5d3278892ce1f92a74d6bf888cc8525d9f68af85dbe336c95d1c87fb8f423069"
+    },
+    {
+      "path": "src/third_party/hdmi_python/packaging-24.2-py3-none-any.whl",
+      "size": 65451,
+      "sha256": "09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759"
+    },
+    {
+      "path": "src/third_party/hdmi_python/README.md",
+      "size": 1031,
+      "sha256": "d8a01a60f9fa165e310e6e48be8fbd14a3c59d0e66cc3ace40b74da3078d259a"
+    },
+    {
+      "path": "src/third_party/hdmi_python/setuptools-75.8.0-py3-none-any.whl",
+      "size": 1228782,
+      "sha256": "e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3"
+    },
+    {
+      "path": "src/third_party/hdmi_python/wheel-0.45.1-py3-none-any.whl",
+      "size": 72494,
+      "sha256": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"
+    }
+  ],
+  "session_schema": "n5_business_launch_v1",
+  "derived_from_manifest_sha256": "c051665d6d03bafb8cce0ac1800a6d9af2c90cf62c0c43c6df9cafbc78aea730",
+  "camera_acceptance": {
+    "result": "board/analysis/2026-10-18/camera_r5_scan_result/result.json",
+    "sha256": "e6575b7b15f1eda85499723d83e012e2f322935845050fd1054b27887d821d43",
+    "run_id": "228de59787e74140be1f62a6d9060c9b",
+    "camera_20fps_passed": true
+  }
+}

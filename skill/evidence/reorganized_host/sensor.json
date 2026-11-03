@@ -1,0 +1,50 @@
+{
+  "schema": "pynq_skill_validation_v1",
+  "date": "2026-10-20T20:48:55.170233+08:00",
+  "hardware_access": false,
+  "new_board_validation": false,
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config_sha256": "2c8dba06707c0d77d5133c37b92ca5869d6e2e92ca1678e5679056ca16eb78f2",
+  "checks": {
+    "golden": {
+      "passed": true,
+      "elements": 36,
+      "mismatches": 0,
+      "maximum_absolute_error": 0.0,
+      "atol": 0.0,
+      "rtol": 0.0
+    },
+    "corruption_detected": {
+      "passed": true
+    }
+  },
+  "example": "sensor_gain",
+  "execution": "offline_simulated_dma",
+  "measurement": {
+    "host_total_seconds": 0.0,
+    "hardware_access": false
+  },
+  "lifecycle_events": [
+    "sync_to_device",
+    "sync_to_device",
+    "configure",
+    "receive",
+    "start",
+    "send",
+    "complete",
+    "sync_from_device",
+    "halt",
+    "free",
+    "free"
+  ],
+  "passed": true,
+  "not_requested": [
+    "files",
+    "hwh",
+    "throughput",
+    "timing",
+    "utilization"
+  ]
+}

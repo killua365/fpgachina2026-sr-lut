@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-04",
+  "passed": true,
+  "hardware_access": false,
+  "archive": "board/release/skill/pynq_skill_20261104.zip",
+  "sha256": "b1c3458ece015ee343d342e5ce2d9296bcc7e0b5809aa593827bb20004c41a63",
+  "files_in_zip": 74,
+  "bytes": 201207,
+  "all_document_links_exist": true,
+  "all_inventory_hashes_match": true,
+  "new_board_validation": false,
+  "demo_modified_or_restarted": false
+}

@@ -1,0 +1,19 @@
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_axis_top_throughput/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_axis_top_throughput} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_AXIS_TOP_IDEAL_THROUGHPUT_PASS input=129600 output=2073600 cycles=2210094 input_stalls=2057436 fps=45.246
+$finish called at time : 22100986 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_top_throughput.sv" Line 136
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:44 . Memory (MB): peak = 229.102 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 21464 KB (Peak: 21464 KB), Simulation CPU Usage: 42593 ms
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:19:35 2026...

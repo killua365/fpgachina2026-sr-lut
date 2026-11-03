@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_rgb_clip",
+  "pixel_format": "rgb24",
+  "width": 480,
+  "height": 270,
+  "frame_count": 275,
+  "fps_numerator": 24000,
+  "fps_denominator": 1001,
+  "active_rect": {
+    "x": 37,
+    "y": 0,
+    "width": 405,
+    "height": 270
+  },
+  "frames_sha256": "81f79a8564b5325d8c946b0177d842a8a920679ee2c71c838aebae5270613335",
+  "source_name": "original_video.mp4",
+  "source_sha256": "858e47c63af5635ff78784caeafc35614d7a18e2e6103207da6345f5fd402c28",
+  "source_probe": {
+    "width": 480,
+    "height": 320,
+    "fps": "24000/1001",
+    "duration": 11.469792,
+    "source_start_time": 0.0,
+    "codec": "h264"
+  },
+  "time_mapping": "source_start_time + normalized_frame_index / normalized_fps",
+  "normalization": "CFR timeline sampling; not original decoded frame indices"
+}

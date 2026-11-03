@@ -1,0 +1,4 @@
+board_routed=true
+bitstream_generated=false
+board_tested=false
+n5_passed=false

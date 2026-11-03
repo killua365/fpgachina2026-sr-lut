@@ -1,0 +1,1 @@
+{"python": "D:\\FPGA\\sr_lut_development_archive_20261023\\checks\\portable\\cache\\host-fab7f52737cfccb6\\python.exe", "numpy": "2.2.6", "opencv": "4.12.0", "pillow": "11.3.0"}

@@ -1,0 +1,16 @@
+delivery_date=2026-09-07
+scope=current_frozen_hardware_and_development_environment
+vivado_version=2026.1
+vivado_build=6511674
+vivado_path=D:/vivado2026.1/2026.1/Vivado/bin/vivado.bat
+target_part=xc7z020clg400-1
+target_board=tul.com.tw:pynq-z2:part0:1.0
+hardware_stage=39
+application_version=1.9.0
+board_address=192.168.2.99
+formal_board_port=8080
+overlay_set=media_x2,media_x4,camera_x4
+camera_impl_strategy=Performance_ExtraTimingOpt
+board_evidence_status=deployed_evidence_incomplete
+verification_record=report/delivery/2026-09-07/verification.md
+historical_toolchain=report/history/2026-09-06/fpga_toolchain.txt

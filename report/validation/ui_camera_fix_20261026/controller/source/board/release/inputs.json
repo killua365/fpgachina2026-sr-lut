@@ -1,0 +1,591 @@
+{
+  "schema": "sr_lut_explicit_package_inputs_v1",
+  "files": [
+    {
+      "path": "board/pynq/bounded_logs.py",
+      "source": "board/pynq/bounded_logs.py"
+    },
+    {
+      "path": "board/pynq/build_hdmi_pixels.py",
+      "source": "board/pynq/build_hdmi_pixels.py"
+    },
+    {
+      "path": "board/pynq/hdmi_business_app.py",
+      "source": "board/pynq/hdmi_business_app.py"
+    },
+    {
+      "path": "board/pynq/hdmi_hardware_validation.py",
+      "source": "board/pynq/hdmi_hardware_validation.py"
+    },
+    {
+      "path": "board/pynq/hdmi_m1.py",
+      "source": "board/pynq/hdmi_m1.py"
+    },
+    {
+      "path": "board/pynq/hdmi_m1_supervisor.py",
+      "source": "board/pynq/hdmi_m1_supervisor.py"
+    },
+    {
+      "path": "board/pynq/legacy_service_rollback.py",
+      "source": "board/pynq/legacy_service_rollback.py"
+    },
+    {
+      "path": "board/pynq/run_hdmi_business.sh",
+      "source": "board/pynq/run_hdmi_business.sh"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/artifact_manifest.json",
+      "source": "build/artifacts/pynq_x2/artifact_manifest.json"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/evidence/sr_lut_x2.xsa",
+      "source": "build/artifacts/pynq_x2/evidence/sr_lut_x2.xsa"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/original_artifact_manifest.json",
+      "source": "build/artifacts/pynq_x2/original_artifact_manifest.json"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/sr_lut_x2.bit",
+      "source": "build/artifacts/pynq_x2/sr_lut_x2.bit"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/sr_lut_x2.hwh",
+      "source": "build/artifacts/pynq_x2/sr_lut_x2.hwh"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40i_scale2_system_synth_utilization.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40i_scale2_system_synth_utilization.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40j_scale2_system_synth_timing.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40j_scale2_system_synth_timing.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40k_scale2_system_synth_drc.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40k_scale2_system_synth_drc.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40l_scale2_system_route_utilization.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40l_scale2_system_route_utilization.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40m_scale2_system_route_timing.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40m_scale2_system_route_timing.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40n_scale2_system_route_methodology.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40n_scale2_system_route_methodology.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x2/stage_40o_scale2_system_route_drc.rpt",
+      "source": "build/artifacts/pynq_x2/stage_40o_scale2_system_route_drc.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/artifact_manifest.json",
+      "source": "build/artifacts/pynq_x4/artifact_manifest.json"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/evidence/sr_lut_x4.xsa",
+      "source": "build/artifacts/pynq_x4/evidence/sr_lut_x4.xsa"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/original_artifact_manifest.json",
+      "source": "build/artifacts/pynq_x4/original_artifact_manifest.json"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/sr_lut_x4.bit",
+      "source": "build/artifacts/pynq_x4/sr_lut_x4.bit"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/sr_lut_x4.hwh",
+      "source": "build/artifacts/pynq_x4/sr_lut_x4.hwh"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40i_scale4_system_synth_utilization.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40i_scale4_system_synth_utilization.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40j_scale4_system_synth_timing.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40j_scale4_system_synth_timing.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40k_scale4_system_synth_drc.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40k_scale4_system_synth_drc.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40l_scale4_system_route_utilization.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40l_scale4_system_route_utilization.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40m_scale4_system_route_timing.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40m_scale4_system_route_timing.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40n_scale4_system_route_methodology.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40n_scale4_system_route_methodology.rpt"
+    },
+    {
+      "path": "build/artifacts/pynq_x4/stage_40o_scale4_system_route_drc.rpt",
+      "source": "build/artifacts/pynq_x4/stage_40o_scale4_system_route_drc.rpt"
+    },
+    {
+      "path": "board/recovery/hdmi_rollback_baseline.json",
+      "source": "board/recovery/hdmi_rollback_baseline.json"
+    },
+    {
+      "path": "data/images/baby.png",
+      "source": "data/images/baby.png"
+    },
+    {
+      "path": "data/images/baby_original.png",
+      "source": "data/images/baby_original.png"
+    },
+    {
+      "path": "data/images/bird.png",
+      "source": "data/images/bird.png"
+    },
+    {
+      "path": "data/images/bird_original.png",
+      "source": "data/images/bird_original.png"
+    },
+    {
+      "path": "data/images/butterfly.png",
+      "source": "data/images/butterfly.png"
+    },
+    {
+      "path": "data/images/butterfly_original.png",
+      "source": "data/images/butterfly_original.png"
+    },
+    {
+      "path": "data/video/demo_clip/clip.json",
+      "source": "data/video/demo_clip/clip.json"
+    },
+    {
+      "path": "data/video/demo_clip/frames.rgb",
+      "source": "data/video/demo_clip/frames.rgb"
+    },
+    {
+      "path": "data/golden/smoke/golden_x2.png",
+      "source": "data/golden/smoke/golden_x2.png"
+    },
+    {
+      "path": "data/golden/smoke/golden_x4.png",
+      "source": "data/golden/smoke/golden_x4.png"
+    },
+    {
+      "path": "data/images/head.png",
+      "source": "data/images/head.png"
+    },
+    {
+      "path": "data/images/head_original.png",
+      "source": "data/images/head_original.png"
+    },
+    {
+      "path": "data/video/original_video.mp4",
+      "source": "data/video/original_video.mp4"
+    },
+    {
+      "path": "data/images/paired/baby_x2.png",
+      "source": "data/images/paired/baby_x2.png"
+    },
+    {
+      "path": "data/images/paired/baby_x4.png",
+      "source": "data/images/paired/baby_x4.png"
+    },
+    {
+      "path": "data/images/paired/bird_x2.png",
+      "source": "data/images/paired/bird_x2.png"
+    },
+    {
+      "path": "data/images/paired/bird_x4.png",
+      "source": "data/images/paired/bird_x4.png"
+    },
+    {
+      "path": "data/images/paired/butterfly_x2.png",
+      "source": "data/images/paired/butterfly_x2.png"
+    },
+    {
+      "path": "data/images/paired/butterfly_x4.png",
+      "source": "data/images/paired/butterfly_x4.png"
+    },
+    {
+      "path": "data/images/paired/head_x2.png",
+      "source": "data/images/paired/head_x2.png"
+    },
+    {
+      "path": "data/images/paired/head_x4.png",
+      "source": "data/images/paired/head_x4.png"
+    },
+    {
+      "path": "data/images/paired/woman_x2.png",
+      "source": "data/images/paired/woman_x2.png"
+    },
+    {
+      "path": "data/images/paired/woman_x4.png",
+      "source": "data/images/paired/woman_x4.png"
+    },
+    {
+      "path": "data/video/performance_30fps/clip.json",
+      "source": "data/video/performance_30fps/clip.json"
+    },
+    {
+      "path": "data/video/performance_30fps/frames.rgb",
+      "source": "data/video/performance_30fps/frames.rgb"
+    },
+    {
+      "path": "data/images/readme.txt",
+      "source": "data/images/readme.txt"
+    },
+    {
+      "path": "data/golden/smoke/video_golden.json",
+      "source": "data/golden/smoke/video_golden.json"
+    },
+    {
+      "path": "data/images/woman.png",
+      "source": "data/images/woman.png"
+    },
+    {
+      "path": "data/images/woman_original.png",
+      "source": "data/images/woman_original.png"
+    },
+    {
+      "path": "board/recovery/records/legacy_service_rollback_record.json",
+      "source": "board/recovery/records/legacy_service_rollback_record.json"
+    },
+    {
+      "path": "board/recovery/records/original_card_restore_record.json",
+      "source": "board/recovery/records/original_card_restore_record.json"
+    },
+    {
+      "path": "board/recovery/records/physical_card_round_trip_record.json",
+      "source": "board/recovery/records/physical_card_round_trip_record.json"
+    },
+    {
+      "path": "board/recovery/records/spare_boot_smoke_record.json",
+      "source": "board/recovery/records/spare_boot_smoke_record.json"
+    },
+    {
+      "path": "board/recovery/records/spare_clone_record.json",
+      "source": "board/recovery/records/spare_clone_record.json"
+    },
+    {
+      "path": "src/ps/hdmi_display/__init__.py",
+      "source": "src/ps/hdmi_display/__init__.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/__main__.py",
+      "source": "src/ps/hdmi_display/__main__.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/acp_receive.py",
+      "source": "src/ps/hdmi_display/acp_receive.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/artifact_access.py",
+      "source": "src/ps/hdmi_display/artifact_access.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/camera.py",
+      "source": "src/ps/hdmi_display/camera.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/camera_performance.py",
+      "source": "src/ps/hdmi_display/camera_performance.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/compare_layout.py",
+      "source": "src/ps/hdmi_display/compare_layout.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/compositor.py",
+      "source": "src/ps/hdmi_display/compositor.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/controls.py",
+      "source": "src/ps/hdmi_display/controls.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/diagnostics.py",
+      "source": "src/ps/hdmi_display/diagnostics.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/engine.py",
+      "source": "src/ps/hdmi_display/engine.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/export.py",
+      "source": "src/ps/hdmi_display/export.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/file_picker.py",
+      "source": "src/ps/hdmi_display/file_picker.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/fonts/dejavusans-bold.ttf",
+      "source": "src/ps/hdmi_display/fonts/dejavusans-bold.ttf"
+    },
+    {
+      "path": "src/ps/hdmi_display/fonts/dejavusans.ttf",
+      "source": "src/ps/hdmi_display/fonts/dejavusans.ttf"
+    },
+    {
+      "path": "src/ps/hdmi_display/fonts/license.txt",
+      "source": "src/ps/hdmi_display/fonts/license.txt"
+    },
+    {
+      "path": "src/ps/hdmi_display/frame_marker.py",
+      "source": "src/ps/hdmi_display/frame_marker.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/frame_trace.py",
+      "source": "src/ps/hdmi_display/frame_trace.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/frames.py",
+      "source": "src/ps/hdmi_display/frames.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/geometry.py",
+      "source": "src/ps/hdmi_display/geometry.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/image_export.py",
+      "source": "src/ps/hdmi_display/image_export.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/media.py",
+      "source": "src/ps/hdmi_display/media.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/metric_overlay.py",
+      "source": "src/ps/hdmi_display/metric_overlay.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/metrics.py",
+      "source": "src/ps/hdmi_display/metrics.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/mouse.py",
+      "source": "src/ps/hdmi_display/mouse.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/build.json",
+      "source": "src/ps/hdmi_display/native/build.json"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/hdmi_pixels.c",
+      "source": "src/ps/hdmi_display/native/hdmi_pixels.c"
+    },
+    {
+      "path": "src/ps/hdmi_display/native/libhdmi_pixels.so",
+      "source": "src/ps/hdmi_display/native/libhdmi_pixels.so"
+    },
+    {
+      "path": "src/ps/hdmi_display/patterns.py",
+      "source": "src/ps/hdmi_display/patterns.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/pixels.py",
+      "source": "src/ps/hdmi_display/pixels.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/playback.py",
+      "source": "src/ps/hdmi_display/playback.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/presentation_performance.py",
+      "source": "src/ps/hdmi_display/presentation_performance.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/process.py",
+      "source": "src/ps/hdmi_display/process.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/profiles.py",
+      "source": "src/ps/hdmi_display/profiles.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/profiling.py",
+      "source": "src/ps/hdmi_display/profiling.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/runtime.py",
+      "source": "src/ps/hdmi_display/runtime.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/scanout.py",
+      "source": "src/ps/hdmi_display/scanout.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/snapshot.py",
+      "source": "src/ps/hdmi_display/snapshot.py"
+    },
+    {
+      "path": "src/ps/hdmi_display/workspace.py",
+      "source": "src/ps/hdmi_display/workspace.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/__init__.py",
+      "source": "src/ps/roi_magnifier/__init__.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/geometry.py",
+      "source": "src/ps/roi_magnifier/geometry.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/live_stream.py",
+      "source": "src/ps/roi_magnifier/live_stream.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/mode_control.py",
+      "source": "src/ps/roi_magnifier/mode_control.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/processor.py",
+      "source": "src/ps/roi_magnifier/processor.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/quality.py",
+      "source": "src/ps/roi_magnifier/quality.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/scale_control.py",
+      "source": "src/ps/roi_magnifier/scale_control.py"
+    },
+    {
+      "path": "src/ps/roi_magnifier/server.py",
+      "source": "src/ps/roi_magnifier/server.py"
+    },
+    {
+      "path": "src/ps/sr_lut_x4_driver.py",
+      "source": "src/ps/sr_lut_x4_driver.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/__init__.py",
+      "source": "src/ps/video_pipeline/__init__.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/board_pipeline.py",
+      "source": "src/ps/video_pipeline/board_pipeline.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/camera_probe.py",
+      "source": "src/ps/video_pipeline/camera_probe.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/frame_session.py",
+      "source": "src/ps/video_pipeline/frame_session.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/identity.py",
+      "source": "src/ps/video_pipeline/identity.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/input_pack.py",
+      "source": "src/ps/video_pipeline/input_pack.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_camera.py",
+      "source": "src/ps/video_pipeline/live_camera.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_pipeline.py",
+      "source": "src/ps/video_pipeline/live_pipeline.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/live_receiver.py",
+      "source": "src/ps/video_pipeline/live_receiver.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/mb420.py",
+      "source": "src/ps/video_pipeline/mb420.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_camera.py",
+      "source": "src/ps/video_pipeline/mjpeg_camera.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_protocol.py",
+      "source": "src/ps/video_pipeline/mjpeg_protocol.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_receiver.py",
+      "source": "src/ps/video_pipeline/mjpeg_receiver.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/mjpeg_session.py",
+      "source": "src/ps/video_pipeline/mjpeg_session.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/network_benchmark.py",
+      "source": "src/ps/video_pipeline/network_benchmark.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/parallel_network_benchmark.py",
+      "source": "src/ps/video_pipeline/parallel_network_benchmark.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/pc_receiver.py",
+      "source": "src/ps/video_pipeline/pc_receiver.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/protocol.py",
+      "source": "src/ps/video_pipeline/protocol.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/resize_probe.py",
+      "source": "src/ps/video_pipeline/resize_probe.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/runtime_tuning.py",
+      "source": "src/ps/video_pipeline/runtime_tuning.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/sink.py",
+      "source": "src/ps/video_pipeline/sink.py"
+    },
+    {
+      "path": "src/ps/video_pipeline/yuv420.py",
+      "source": "src/ps/video_pipeline/yuv420.py"
+    },
+    {
+      "path": "src/third_party/hdmi_python/dependencies.json",
+      "component": "hdmi_python",
+      "member": "dependencies.json"
+    },
+    {
+      "path": "src/third_party/hdmi_python/evdev-1.9.2.tar.gz",
+      "component": "hdmi_python",
+      "member": "evdev-1.9.2.tar.gz"
+    },
+    {
+      "path": "src/third_party/hdmi_python/packaging-24.2-py3-none-any.whl",
+      "component": "hdmi_python",
+      "member": "packaging-24.2-py3-none-any.whl"
+    },
+    {
+      "path": "src/third_party/hdmi_python/README.md",
+      "component": "hdmi_python",
+      "member": "README.md"
+    },
+    {
+      "path": "src/third_party/hdmi_python/setuptools-75.8.0-py3-none-any.whl",
+      "component": "hdmi_python",
+      "member": "setuptools-75.8.0-py3-none-any.whl"
+    },
+    {
+      "path": "src/third_party/hdmi_python/wheel-0.45.1-py3-none-any.whl",
+      "component": "hdmi_python",
+      "member": "wheel-0.45.1-py3-none-any.whl"
+    },
+    {
+      "path": "board/recovery/legacy_manifest/application.json",
+      "source": "board/recovery/legacy_manifest/application.json"
+    },
+    {
+      "path": "board/recovery/legacy_manifest/release.json",
+      "source": "board/recovery/legacy_manifest/release.json"
+    }
+  ]
+}

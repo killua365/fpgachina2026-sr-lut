@@ -1,0 +1,731 @@
+STAGE33_FULL_RTL_REGRESSION
+SCHEDULER D:\FPGA\sr_lut_fpga\src\rtl\sr_lut_rgb_scheduler.sv
+LINE_BUFFER D:\FPGA\sr_lut_fpga\src\rtl\sr_lut_line_buffer_dynamic.sv
+COMPILE_EXIT_CODE 0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_quantizer.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_simplex_selector.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_simplex_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_address_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_address_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_line_buffer_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_line_buffer_dynamic
+INFO: [VRFC 10-311] analyzing module sr_lut_line_memory_2r_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rotation_map.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rotation_map
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_result_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_result_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_task_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_task_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_rgb_scheduler.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_rgb_scheduler
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_fusion.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_fusion
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_block_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_block_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_perf_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_perf_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_output_fifo_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_row_bank_dynamic
+INFO: [VRFC 10-311] analyzing module sr_lut_output_fifo_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_axis_top_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_axis_top_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/src/rtl/sr_lut_axis_wrapper_dynamic.v" into library work
+INFO: [VRFC 10-311] analyzing module sr_lut_axis_wrapper_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_quantizer.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_quantizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_simplex_selector.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_simplex_selector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_address_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_address_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_interpolator_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_fusion_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_fusion_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_block_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_block_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_result_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_result_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_e6.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_e6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_perf_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_perf_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_line_buffer_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_line_buffer_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_output_fifo_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_output_fifo_dynamic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_top_throughput.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_top_throughput
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_wrapper_dynamic.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_wrapper_dynamic
+INFO: [VRFC 10-311] analyzing module tb_sr_lut_axis_wrapper_dynamic_x2
+
+=== tb_sr_lut_quantizer ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_quantizer -L xpm -s stage33_all_tb_sr_lut_quantizer 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.tb_sr_lut_quantizer
+Built simulation snapshot stage33_all_tb_sr_lut_quantizer
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:24 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_quantizer/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_quantizer} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E1 x2_4bit: loading vectors from data/golden/rtl_core/x2_4bit
+E1 x4_5bit: loading vectors from data/golden/rtl_core/x4_5bit
+E1_QUANTIZER_PASS configurations=2 vector_rows=20594 lane_checks=82376
+$finish called at time : 20594 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_quantizer.sv" Line 279
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:26 2026...
+
+=== tb_sr_lut_simplex_selector ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_simplex_selector -L xpm -s stage33_all_tb_sr_lut_simplex_selector 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.tb_sr_lut_simplex_selector
+Built simulation snapshot stage33_all_tb_sr_lut_simplex_selector
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:29 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_simplex_selector/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_simplex_selector} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E2 x2_4bit: loading 10041 simplex cases
+E2 x4_5bit: loading 10041 simplex cases
+E2_SIMPLEX_PASS configurations=2 vector_rows=20082 selector_evaluations=40164 negative_cases_x2=279 negative_cases_x4=348
+$finish called at time : 40164 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_simplex_selector.sv" Line 358
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:32 2026...
+
+=== tb_sr_lut_address_gen ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_address_gen -L xpm -s stage33_all_tb_sr_lut_address_gen 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_address_gen(LOWER_BITS=32...
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_address_gen(LOWER_BITS=32...
+Compiling module work.tb_sr_lut_address_gen
+Built simulation snapshot stage33_all_tb_sr_lut_address_gen
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:34 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_address_gen/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_address_gen} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E3 x2_4bit: loading 10041 address cases
+E3 x4_5bit: loading 10041 address cases
+E3_ADDRESS_PASS configurations=2 vector_rows=20082 address_evaluations=200820
+$finish called at time : 40164 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_address_gen.sv" Line 376
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:36 2026...
+
+=== tb_sr_lut_rom ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_rom -L xpm -s stage33_all_tb_sr_lut_rom 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=2672...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=26...
+Compiling module work.sr_lut_rom(DEPTH=32'b01010001100...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.tb_sr_lut_rom
+Built simulation snapshot stage33_all_tb_sr_lut_rom
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:38 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_rom/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_rom} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E4 ROM x2_4bit: checking all 83521 words
+E4 ROM x4_5bit: checking all 6561 words
+E4_ROM_PASS x2_words=83521 x4_words=6561 total_word_checks=90082
+$finish called at time : 900840 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_rom.sv" Line 203
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:40 2026...
+
+=== tb_sr_lut_interpolator ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_interpolator -L xpm -s stage33_all_tb_sr_lut_interpolator 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_address_gen(LOWER_BITS=32...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=2672...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=26...
+Compiling module work.sr_lut_rom(DEPTH=32'b01010001100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_quantizer(SAMPLE_BITS=32'...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_address_gen(LOWER_BITS=32...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.tb_sr_lut_interpolator
+Built simulation snapshot stage33_all_tb_sr_lut_interpolator
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_interpolator/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_interpolator} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E4 interpolator x2 direct: checking 10041 rows
+E4 interpolator x2 E1-E3 chain: checking 10041 rows
+E4 interpolator x4 direct: checking 10041 rows
+E4 interpolator x4 E1-E3 chain: checking 10041 rows
+E4_INTERPOLATOR_PASS transactions=40164 numerator_checks=401640 chain_checks=20082 latency=5
+$finish called at time : 2409856 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator.sv" Line 473
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:44 2026...
+
+=== tb_sr_lut_interpolator_throughput ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_interpolator_throughput -L xpm -s stage33_all_tb_sr_lut_interpolator_throughput 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.sr_lut_pkg
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.tb_sr_lut_interpolator_throughpu...
+Built simulation snapshot stage33_all_tb_sr_lut_interpolator_throughput
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:46 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_interpolator_throughput/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_interpolator_throughput} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_INTERPOLATOR_THROUGHPUT_PASS accepts=128 outputs=128 minimum_interval=4 hold_checks=63
+$finish called at time : 5450 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_interpolator_throughput.sv" Line 212
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:48 2026...
+
+=== tb_sr_lut_fusion_throughput ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_fusion_throughput -L xpm -s stage33_all_tb_sr_lut_fusion_throughput 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.tb_sr_lut_fusion_throughput
+Built simulation snapshot stage33_all_tb_sr_lut_fusion_throughput
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_fusion_throughput/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_fusion_throughput} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_FUSION_THROUGHPUT_PASS accepts=96 outputs=24 cycles=99
+$finish called at time : 1026 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_fusion_throughput.sv" Line 187
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:51 2026...
+
+=== tb_sr_lut_block_fifo ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_block_fifo -L xpm -s stage33_all_tb_sr_lut_block_fifo 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_block_fifo(BLOCK_BITS=32'...
+Compiling module work.tb_sr_lut_block_fifo
+Built simulation snapshot stage33_all_tb_sr_lut_block_fifo
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:53 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_block_fifo/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_block_fifo} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_BLOCK_FIFO_PASS accepted=12 emitted=12 full_stalls=3
+$finish called at time : 226 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_block_fifo.sv" Line 206
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:54 2026...
+
+=== tb_sr_lut_result_pipeline ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_result_pipeline -L xpm -s stage33_all_tb_sr_lut_result_pipeline 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_result_pipeline(DATA_BITS...
+Compiling module work.tb_sr_lut_result_pipeline
+Built simulation snapshot stage33_all_tb_sr_lut_result_pipeline
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:17:56 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_result_pipeline/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_result_pipeline} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_RESULT_PIPELINE_PASS depth=2 ready_isolated=1
+$finish called at time : 76 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_result_pipeline.sv" Line 115
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:17:57 2026...
+
+=== tb_sr_lut_e6 ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_e6 -L xpm -s stage33_all_tb_sr_lut_e6 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_quantizer(PIXEL_BITS=32'b...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_task_pipeline(SAMPLE_BITS...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=2672...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=26...
+Compiling module work.sr_lut_rom(DEPTH=32'b01010001100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_rgb_scheduler(SAMPLE_BITS...
+Compiling module work.sr_lut_rotation_map(SCALE=32'b01...
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.sr_lut_quantizer(PIXEL_BITS=32'b...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_task_pipeline(SAMPLE_BITS...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_rgb_scheduler(SAMPLE_BITS...
+Compiling module work.sr_lut_rotation_map(SCALE=32'b01...
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.tb_sr_lut_e6
+Built simulation snapshot stage33_all_tb_sr_lut_e6
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:00 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_e6/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_e6} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+E6 x2 pipeline flow=0
+E6 x2 pipeline flow=1
+E6 x4 pipeline flow=0
+E6 x4 pipeline flow=1
+E6_PIPELINE_PASS configurations=2 flow_modes=2 scheduler_blocks=576 rotation_blocks=576 fusion_blocks=144 scheduler_lanes=5760 fusion_lanes=1440 stalls=38
+$finish called at time : 16086 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_e6.sv" Line 691
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:02 2026...
+
+=== tb_sr_lut_perf_monitor ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_perf_monitor -L xpm -s stage33_all_tb_sr_lut_perf_monitor 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_perf_monitor
+Compiling module work.tb_sr_lut_perf_monitor
+Built simulation snapshot stage33_all_tb_sr_lut_perf_monitor
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_perf_monitor/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_perf_monitor} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PERF_MONITOR_PASS frame_cycles=2 input_bp=0 output_bp=0 starve=0
+$finish called at time : 106 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_perf_monitor.sv" Line 114
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:05 2026...
+
+=== tb_sr_lut_line_buffer_dynamic ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_line_buffer_dynamic -L xpm -s stage33_all_tb_sr_lut_line_buffer_dynamic 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_line_memory_2r_dynamic(DE...
+Compiling module work.sr_lut_line_buffer_dynamic_defau...
+Compiling module work.tb_sr_lut_line_buffer_dynamic
+Built simulation snapshot stage33_all_tb_sr_lut_line_buffer_dynamic
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:07 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_line_buffer_dynamic/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_line_buffer_dynamic} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DYNAMIC_LINE_BUFFER_PASS frames=13 checks=11594664
+$finish called at time : 144918836 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_line_buffer_dynamic.sv" Line 159
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 228.359 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:18 2026...
+
+=== tb_sr_lut_output_fifo_dynamic ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_output_fifo_dynamic -L xpm -s stage33_all_tb_sr_lut_output_fifo_dynamic 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_row_bank_dynamic(DEPTH=32...
+Compiling module work.sr_lut_output_fifo_dynamic(SCALE...
+Compiling module work.tb_sr_lut_output_fifo_dynamic
+Built simulation snapshot stage33_all_tb_sr_lut_output_fifo_dynamic
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_output_fifo_dynamic/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_output_fifo_dynamic} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DYNAMIC_OUTPUT_FIFO_PASS frames=13 checks=15459552
+$finish called at time : 180805046 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_output_fifo_dynamic.sv" Line 116
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:24 . Memory (MB): peak = 228.941 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 19912 KB (Peak: 19912 KB), Simulation CPU Usage: 23468 ms
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:18:46 2026...
+
+=== tb_sr_lut_axis_top_throughput ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_axis_top_throughput -L xpm -s stage33_all_tb_sr_lut_axis_top_throughput 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_line_memory_2r_dynamic(DE...
+Compiling module work.sr_lut_line_buffer_dynamic_defau...
+Compiling module work.sr_lut_quantizer(PIXEL_BITS=32'b...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_task_pipeline(SAMPLE_BITS...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_rgb_scheduler(SAMPLE_BITS...
+Compiling module work.sr_lut_rotation_map(SCALE=32'b01...
+Compiling module work.sr_lut_result_pipeline(DATA_BITS...
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.sr_lut_block_fifo_default
+Compiling module work.sr_lut_row_bank_dynamic(DEPTH=32...
+Compiling module work.sr_lut_output_fifo_dynamic(SCALE...
+Compiling module work.sr_lut_axis_top_dynamic(SCALE=32...
+Compiling module work.tb_sr_lut_axis_top_throughput
+Built simulation snapshot stage33_all_tb_sr_lut_axis_top_throughput
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:18:49 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_axis_top_throughput/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_axis_top_throughput} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SR_LUT_AXIS_TOP_IDEAL_THROUGHPUT_PASS input=129600 output=2073600 cycles=2210094 input_stalls=2057436 fps=45.246
+$finish called at time : 22100986 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_top_throughput.sv" Line 136
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:44 . Memory (MB): peak = 229.102 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 21464 KB (Peak: 21464 KB), Simulation CPU Usage: 42593 ms
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:19:35 2026...
+
+=== tb_sr_lut_axis_wrapper_dynamic ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_axis_wrapper_dynamic -L xpm -s stage33_all_tb_sr_lut_axis_wrapper_dynamic 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_line_memory_2r_dynamic(DE...
+Compiling module work.sr_lut_line_buffer_dynamic_defau...
+Compiling module work.sr_lut_quantizer(PIXEL_BITS=32'b...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_task_pipeline(SAMPLE_BITS...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8398...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=83...
+Compiling module work.sr_lut_rom(DEPTH=32'b01100110100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_rgb_scheduler(SAMPLE_BITS...
+Compiling module work.sr_lut_rotation_map(SCALE=32'b01...
+Compiling module work.sr_lut_result_pipeline(DATA_BITS...
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.sr_lut_block_fifo_default
+Compiling module work.sr_lut_row_bank_dynamic(DEPTH=32...
+Compiling module work.sr_lut_output_fifo_dynamic(SCALE...
+Compiling module work.sr_lut_axis_top_dynamic(SCALE=32...
+Compiling module work.sr_lut_perf_monitor
+Compiling module work.sr_lut_axis_wrapper_dynamic(MIN_...
+Compiling module work.tb_sr_lut_axis_wrapper_dynamic
+Built simulation snapshot stage33_all_tb_sr_lut_axis_wrapper_dynamic
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:19:38 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_axis_wrapper_dynamic/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_axis_wrapper_dynamic} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DYNAMIC_AXIS_WRAPPER_PASS scale=4 frames=2 backpressure=true
+$finish called at time : 8050 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_wrapper_dynamic.sv" Line 196
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:19:40 2026...
+
+=== tb_sr_lut_axis_wrapper_dynamic_x2 ===
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2026.1/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_sr_lut_axis_wrapper_dynamic_x2 -L xpm -s stage33_all_tb_sr_lut_axis_wrapper_dynamic_x2 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sr_lut_line_memory_2r_dynamic(DE...
+Compiling module work.sr_lut_line_buffer_dynamic_defau...
+Compiling module work.sr_lut_quantizer(PIXEL_BITS=32'b...
+Compiling module work.sr_lut_simplex_selector(SAMPLE_B...
+Compiling module work.sr_lut_task_pipeline(SAMPLE_BITS...
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=2672...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=26...
+Compiling module work.sr_lut_rom(DEPTH=32'b01010001100...
+Compiling module work.sr_lut_interpolator(ADDR_BITS=32...
+Compiling module work.sr_lut_rgb_scheduler(SAMPLE_BITS...
+Compiling module work.sr_lut_rotation_map(SCALE=32'b01...
+Compiling module work.sr_lut_result_pipeline(DATA_BITS...
+Compiling module work.sr_lut_fusion(SAMPLE_BITS=32'b01...
+Compiling module work.sr_lut_block_fifo(BLOCK_BITS=32'...
+Compiling module work.sr_lut_row_bank_dynamic(DEPTH=32...
+Compiling module work.sr_lut_output_fifo_dynamic(SCALE...
+Compiling module work.sr_lut_axis_top_dynamic(SCALE=32...
+Compiling module work.sr_lut_perf_monitor
+Compiling module work.sr_lut_axis_wrapper_dynamic(SCAL...
+Compiling module work.tb_sr_lut_axis_wrapper_dynamic(S...
+Compiling module work.tb_sr_lut_axis_wrapper_dynamic_x...
+Built simulation snapshot stage33_all_tb_sr_lut_axis_wrapper_dynamic_x2
+
+****** xsim v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Tue Oct 20 21:19:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/stage33_all_tb_sr_lut_axis_wrapper_dynamic_x2/xsim_script.tcl
+# xsim {stage33_all_tb_sr_lut_axis_wrapper_dynamic_x2} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DYNAMIC_AXIS_WRAPPER_PASS scale=2 frames=2 backpressure=true
+$finish called at time : 14110 ns : File "D:/FPGA/sr_lut_fpga/sim/pynq/tb_sr_lut_axis_wrapper_dynamic.sv" Line 196
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 20 21:19:44 2026...
+
+STAGE33_FULL_RTL_REGRESSION_PASS cases=16

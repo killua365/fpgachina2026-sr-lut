@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "platform": "pynq_x2",
+  "hardware_access": false,
+  "default_images_replaced": false,
+  "timing": {
+    "setup_wns_ns": 0.194,
+    "setup_tns_ns": 0.0,
+    "setup_failing_endpoints": 0.0,
+    "hold_wns_ns": 0.028,
+    "hold_tns_ns": 0.0,
+    "hold_failing_endpoints": 0.0,
+    "pulse_wns_ns": 0.538,
+    "pulse_tns_ns": 0.0,
+    "pulse_failing_endpoints": 0.0
+  },
+  "generated": [
+    {
+      "path": "source/build/hdmi_x2_1080p30_work/export/sr_lut_x2.bit",
+      "bytes": 4045777,
+      "sha256": "b1106899d5ad59c53b01db1f6e864c3e115edb0fbe08e8343c123f35cecd1312"
+    },
+    {
+      "path": "source/build/hdmi_x2_1080p30_work/export/sr_lut_x2.hwh",
+      "bytes": 693072,
+      "sha256": "36f888ad0cbc673ab08f7dc127f437a9b129cb4bd090281ce07560a3df1f8031"
+    },
+    {
+      "path": "source/build/hdmi_x2_1080p30_work/export/sr_lut_x2.xsa",
+      "bytes": 1396992,
+      "sha256": "3c78eaeb54e3b0af7aeea0e6fefb8f55a3068a1f7dff558cc86b9153fc3b0ff6"
+    }
+  ]
+}

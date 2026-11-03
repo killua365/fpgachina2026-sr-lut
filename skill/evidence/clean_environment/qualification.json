@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-20",
+  "passed": true,
+  "label": "clean_environment",
+  "hardware_access": false,
+  "new_board_validation": false,
+  "detached_copy": true,
+  "original_project_imports_required": false,
+  "python310_syntax_only_checked": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "venv": true
+  },
+  "commands": [
+    {
+      "command": [
+        "python",
+        "run_checks.py",
+        "--config",
+        "examples/image_threshold.json",
+        "--out",
+        "out/image"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"hardware_access\": false, \"report\": \"out\\\\image\\\\result.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "run_checks.py",
+        "--config",
+        "examples/sensor_gain.json",
+        "--out",
+        "out/sensor"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"hardware_access\": false, \"report\": \"out\\\\sensor\\\\result.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "run_checks.py",
+        "--config",
+        "evidence/project_reports.json",
+        "--out",
+        "out/project"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"hardware_access\": false, \"report\": \"out\\\\project\\\\result.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "tests/run_tests.py",
+        "--out",
+        "out/regression.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"passed\": true, \"tests\": 28, \"failures\": 0, \"errors\": 0, \"skipped\": 0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-c",
+        "import sys,run_checks; assert 'pynq' not in sys.modules; print('offline_import_without_pynq_passed')"
+      ],
+      "exit_code": 0,
+      "stdout": "offline_import_without_pynq_passed\n",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": {
+    "run_checks.py": "ed0af2799999797bf043c9c7db905d0178a668dc57d39f06af7dce76cf5cb30c",
+    "run_hardware.py": "fe8e95ee0230b16f73e62ecbf446faf1c540b60bb12d468e7377389ae8a121e5",
+    "checks/validation.py": "b0cd207649513a3a5bddce6b82fe26708360a8d2d1762a8abb7d4e7d6064c39b",
+    "checks/__init__.py": "db318d630e1efb496d2e08c88abd0bc6fc110ac7ad036c74caf51c1511f4cbd9",
+    "examples/mock_backend.py": "8e7f150d693f225b07a7913207437f85256118396bfa5dcad4fde48fd0ea3de5",
+    "examples/reference.py": "3f8db9faf9417248c8043b6934c6ff36c81fee5de6d626a5a148f9e91e44a9fd",
+    "examples/__init__.py": "b7e5710dc7d200f6da852344dc62671aece7c81b58bef3c6ca04afe0126a23c1",
+    "templates/control_hooks.py": "a286dda414742c79d9a5afdec34efdf447f38b59ed342f0e9d05c877e3cd07c6",
+    "templates/pynq_backend.py": "a18cf11858c497fef3fa7121ea18094561a13455cb8b589ee4e34058d1709273",
+    "templates/session.py": "4dcb45ff1d9504ce548d2a75ff493c4dff8851da559f90db32f00f02e0690508",
+    "templates/__init__.py": "b326d3fe4f219044d2ffd0dff42861edf35f5fa1eb2af503cdbe4a6cfd482f73",
+    "tests/run_tests.py": "341adb2005a1685ee12a99d8960ef86460ff93129acb90d4bb1377e2790941b1",
+    "tests/test_skill.py": "4daf26a1f9f0bd01b820d64152c0ca5b2d2d9564b374e4800bec6296f5b8aa74"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "files_copied": 755,
+  "independent_git": true,
+  "isolated_cache": true,
+  "system_python_on_path": false,
+  "hardware_access": false,
+  "scope": "dp_and_vga_qualified_startup_and_both_offline_interpreters",
+  "commands": [
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "demo.cmd",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "demo_vga.cmd",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "tools\\python.cmd",
+        "host",
+        "-c",
+        "import json,sys,numpy,cv2,PIL;print(json.dumps(dict(python=sys.executable,numpy=numpy.__version__,opencv=cv2.__version__,pillow=PIL.__version__)))"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "tools\\python.cmd",
+        "reference",
+        "-c",
+        "import json,sys,numpy,scipy,cv2;print(json.dumps(dict(python=sys.executable,numpy=numpy.__version__,scipy=scipy.__version__,opencv=cv2.__version__)))"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "temporary_work_directory": "D:\\FPGA\\sr_lut_development_archive_20261023\\checks\\portable"
+}

@@ -1,0 +1,22 @@
+test_bridge_loss_is_not_hidden_by_good_identity (test_business_diagnostic.BusinessTelemetryTests.test_bridge_loss_is_not_hidden_by_good_identity) ... ok
+test_control_corrupt_and_partial_scans_are_not_accepted (test_business_diagnostic.BusinessTelemetryTests.test_control_corrupt_and_partial_scans_are_not_accepted) ... ok
+test_counter_regression_and_gap_inconsistency (test_business_diagnostic.BusinessTelemetryTests.test_counter_regression_and_gap_inconsistency) ... ok
+test_crc_noise_and_truncation_fail (test_business_diagnostic.BusinessTelemetryTests.test_crc_noise_and_truncation_fail) ... ok
+test_fault_saturation_and_disabled_never_pass (test_business_diagnostic.BusinessTelemetryTests.test_fault_saturation_and_disabled_never_pass) ... ok
+test_full_transport_and_bridge_with_independent_events (test_business_diagnostic.BusinessTelemetryTests.test_full_transport_and_bridge_with_independent_events) ... ok
+test_generation_mode_scale_and_time_are_bound (test_business_diagnostic.BusinessTelemetryTests.test_generation_mode_scale_and_time_are_bound) ... ok
+test_overwritten_journal_is_not_averaged (test_business_diagnostic.BusinessTelemetryTests.test_overwritten_journal_is_not_averaged) ... ok
+test_replay_at_first_interval_is_detected (test_business_diagnostic.BusinessTelemetryTests.test_replay_at_first_interval_is_detected) ... ok
+test_requested_fps_is_business_rate (test_business_diagnostic.BusinessTelemetryTests.test_requested_fps_is_business_rate) ... ok
+test_retained_event_mutation_is_detected (test_business_diagnostic.BusinessTelemetryTests.test_retained_event_mutation_is_detected) ... ok
+test_static_image_keeps_older_mode_events_without_counting_them (test_business_diagnostic.BusinessTelemetryTests.test_static_image_keeps_older_mode_events_without_counting_them) ... ok
+test_telemetry_sequence_gap_fails_even_with_all_events (test_business_diagnostic.BusinessTelemetryTests.test_telemetry_sequence_gap_fails_even_with_all_events) ... ok
+test_chunk_corruption_and_host_clock_disagreement_fail (test_business_capture.BusinessCaptureTests.test_chunk_corruption_and_host_clock_disagreement_fail) ... ok
+test_complete_window_and_source_join (test_business_capture.BusinessCaptureTests.test_complete_window_and_source_join) ... ok
+test_duplicate_trace_and_missing_startup_fail (test_business_capture.BusinessCaptureTests.test_duplicate_trace_and_missing_startup_fail) ... ok
+test_unknown_source_identity_fails (test_business_capture.BusinessCaptureTests.test_unknown_source_identity_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.003s
+
+OK

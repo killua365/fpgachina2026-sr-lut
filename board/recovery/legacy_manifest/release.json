@@ -1,0 +1,422 @@
+{
+  "schema_version": 11,
+  "stage": 39,
+  "release_status": "formal",
+  "configuration": "Unified image, uploaded-video and USB-camera portal; physical BTN0-BTN3 mode and SW1/SW0 scale control",
+  "board": "PYNQ-Z2",
+  "part": "xc7z020clg400-1",
+  "pl_clock_hz": 100000000,
+  "vivado_project": null,
+  "vivado_build_script": "build/vivado/build_stage39_unified.ps1",
+  "geometry": {
+    "input": "independent width 32..480 and height 32..320 RGB",
+    "minimum_width": 32,
+    "maximum_width": 480,
+    "minimum_height": 32,
+    "maximum_height": 320,
+    "scales": [
+      2,
+      4
+    ],
+    "priority_cases": [
+      "480x270 -> 960x540",
+      "480x270 -> 1920x1080"
+    ],
+    "camera_capture": "640x360 YUYV at 30 FPS negotiation target",
+    "camera_fpga_input": "480x270",
+    "camera_fpga_output": "1920x1080 Q80 JPEG"
+  },
+  "implementation": {
+    "camera_s2mm_port": "hp1",
+    "vivado_strategy": "media: Performance_ExplorePostRoutePhysOpt; camera: Performance_ExtraTimingOpt",
+    "required_output_buffer_policy": "hp1-noncoherent",
+    "mode_gpio_base": "0x41230000",
+    "scale_gpio_base": "0x41240000",
+    "button_map": {
+      "BTN0": "image",
+      "BTN1": "video",
+      "BTN2": "camera",
+      "BTN3": "global_reset"
+    },
+    "led_map": {
+      "LED0": "image",
+      "LED1": "video",
+      "LED2": "camera",
+      "LED3": "transition_or_error"
+    },
+    "scale_switch_map": {
+      "00": "x2",
+      "01": "x4",
+      "10": "x2",
+      "11": "x4"
+    },
+    "control_authority": "physical_buttons_and_switches_only"
+  },
+  "rtl_sources": [
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_axis_top_dynamic.sv",
+      "sha256": "4E6710A19767678C00ED232E11F9DCFF3AB21199F8462AC5F5DFAF03C5E49E74"
+    },
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_axis_wrapper_dynamic.v",
+      "sha256": "6F8588BDE900EA9E81B3BC0C4D1C31FF72CF7D3F59BECB75FD38C2CFDCAD1ED7"
+    },
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_axis_wrapper_video.v",
+      "sha256": "AAA995CDE3B699F7BEF31FD5F4645F2D46B31E54AE0B312E155358EAFD485FAA"
+    },
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_line_buffer_dynamic.sv",
+      "sha256": "C36E015457ADAC8355F5B7E856C8868960159297A4E566B272E49D07B631F9D7"
+    },
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_output_fifo_dynamic.sv",
+      "sha256": "EEA27F5B00CD38791CD44F13A341F1E157033EACA3518699DBC3B885EABC8BCB"
+    },
+    {
+      "role": "rtl_source",
+      "path": "src/rtl/sr_lut_video420_packer.sv",
+      "sha256": "212727D2676C3BE99CABACE95B8F78A4FFA6C63BFEC0ADD6F1F5297F1E86D8A3"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "media_x2_bitstream",
+      "path": "build/frozen/media_x2/sr_lut_x2.bit",
+      "sha256": "02BBAE6C1DF3FE271BDD09363734E286D431F301B59984B8C310ED8066F781BE"
+    },
+    {
+      "role": "media_x2_hardware_handoff",
+      "path": "build/frozen/media_x2/sr_lut_x2.hwh",
+      "sha256": "1360DEE27054F07C3FF99047C5ADF78A1B6C429FDA6EEC13EA95404391AA7512"
+    },
+    {
+      "role": "media_x2_hardware_platform",
+      "path": "build/frozen/media_x2/sr_lut_x2.xsa",
+      "sha256": "9B96E7F00890835700671F5C3BB70A25FFD8CD0102581F83F8A74F3BE8B76068"
+    },
+    {
+      "role": "media_x4_bitstream",
+      "path": "build/frozen/media_x4/sr_lut_x4.bit",
+      "sha256": "D5372A9E7FB146FD68BAA99AF40343F0033F387DB132F8EC962B539E798F93A3"
+    },
+    {
+      "role": "media_x4_hardware_handoff",
+      "path": "build/frozen/media_x4/sr_lut_x4.hwh",
+      "sha256": "C7307908D2895C05B04483C193245782015B541A9D949EBFD33D487A663E22A5"
+    },
+    {
+      "role": "media_x4_hardware_platform",
+      "path": "build/frozen/media_x4/sr_lut_x4.xsa",
+      "sha256": "A8967A49CF799F0A85F6A7D75D0D028C70C25B29C5BCB3D7A0B9734432ACD948"
+    },
+    {
+      "role": "camera_x4_bitstream",
+      "path": "build/frozen/camera_x4/sr_lut_x4.bit",
+      "sha256": "C58493CA0E0C7D1CA9DCCF636CDAAB14D494712D4B2F3A60B61CBE56FCF80D01"
+    },
+    {
+      "role": "camera_x4_hardware_handoff",
+      "path": "build/frozen/camera_x4/sr_lut_x4.hwh",
+      "sha256": "C8905AD9291394A52DD2125E71C142B76648AC3B462A012CB0165FC2715D83CB"
+    },
+    {
+      "role": "camera_x4_hardware_platform",
+      "path": "build/frozen/camera_x4/sr_lut_x4.xsa",
+      "sha256": "F6F09A000F3402BB12FDA8D3092140B0E10B6C839C9E47073D347164FC831462"
+    }
+  ],
+  "test_data": {
+    "manifests": [
+      {
+        "role": "fixed_quality",
+        "path": "data/test_vectors/fixed_x4_set5/manifest.json",
+        "sha256": "9E32C553312C5A23375FFF9A8A7324C22A2BAE43C91A5F2C31EE66E810E18B87"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "role": "overlay_contract",
+      "path": "build/formal/overlay_contract.json",
+      "sha256": "CB5CEFF0BC176CA94ACFC7E3EC90D641F5A3AF9616C5DE9537D59A385F2CB364"
+    },
+    {
+      "role": "performance_gates",
+      "path": "build/formal/performance_gates.json",
+      "sha256": "84CDFF0326537F2578340A62860D2ECAC70C0C97FCE1B98E3D701513763C584E",
+      "scope": "historical_reference_only"
+    },
+    {
+      "role": "core_rtl_regression",
+      "path": "sim/formal/core_rtl_regression.txt",
+      "sha256": "842538AECBC7A585C8CCA86ABED5BE5BB7853DAEF1B4F3AFF046F7C660F96C6E",
+      "scope": "historical_reference_only"
+    },
+    {
+      "role": "video420_rtl_regression",
+      "path": "sim/formal/video420_rtl_regression.txt",
+      "sha256": "9A829BF3AA27E6D3A134FC4D917DFAA0FF61469D53D6C25EFEF9C3E5EDEACBF3",
+      "scope": "historical_reference_only"
+    },
+    {
+      "role": "media_x2_routed_utilization",
+      "path": "build/formal/vivado/media_x2/sr_lut_s39_dyn_wrapper_utilization_placed.rpt",
+      "sha256": "7653C547809D91313E73770723BABFC5EB6588EF24745D33C82066642BA2BE63"
+    },
+    {
+      "role": "media_x2_routed_timing",
+      "path": "build/formal/vivado/media_x2/sr_lut_s39_dyn_wrapper_timing_summary_routed.rpt",
+      "sha256": "FFACB0F5DBF778D1A95379FDE28AAC7111EA5DFFE983756AC3D17D5784565B09"
+    },
+    {
+      "role": "media_x2_routed_methodology",
+      "path": "build/formal/vivado/media_x2/sr_lut_s39_dyn_wrapper_methodology_drc_routed.rpt",
+      "sha256": "04FA9DEB1FAFBE1D1EDC4687B30ED1EABB32E32322FB3CA0EAC03B6CB7606F18"
+    },
+    {
+      "role": "media_x2_routed_drc",
+      "path": "build/formal/vivado/media_x2/sr_lut_s39_dyn_wrapper_drc_routed.rpt",
+      "sha256": "7F6A75D170ACD75E0BCACA94A9A9B59B8AAD390EFBFD6F382BB52C8BA22E76C4"
+    },
+    {
+      "role": "media_x2_route_status",
+      "path": "build/formal/vivado/media_x2/sr_lut_s39_dyn_wrapper_route_status.rpt",
+      "sha256": "74DD717DF2E9824EE50CD69EA00CBB2A4E32882B1990A4D96583783D36596AF1"
+    },
+    {
+      "role": "media_x4_routed_utilization",
+      "path": "build/formal/vivado/media_x4/sr_lut_s39_dyn_wrapper_utilization_placed.rpt",
+      "sha256": "2D1B3470EDDC02B0D4BEEB9D3526811FCE73A6FD0B9B21518BD58840A1BC2EBC"
+    },
+    {
+      "role": "media_x4_routed_timing",
+      "path": "build/formal/vivado/media_x4/sr_lut_s39_dyn_wrapper_timing_summary_routed.rpt",
+      "sha256": "CDD69F65C6968A3736BAD83FE4C0023E934F4C6CD8BE160E777C10357794C469"
+    },
+    {
+      "role": "media_x4_routed_methodology",
+      "path": "build/formal/vivado/media_x4/sr_lut_s39_dyn_wrapper_methodology_drc_routed.rpt",
+      "sha256": "D659E48E09FE760C5C0E6D6051B737FAB6B8E9A7137481D8C9F6148DCA29FEC4"
+    },
+    {
+      "role": "media_x4_routed_drc",
+      "path": "build/formal/vivado/media_x4/sr_lut_s39_dyn_wrapper_drc_routed.rpt",
+      "sha256": "64472C474E8B4B9CC37B25C64FD23D6770BFD896042DFFAEACF621255A4E6B97"
+    },
+    {
+      "role": "media_x4_route_status",
+      "path": "build/formal/vivado/media_x4/sr_lut_s39_dyn_wrapper_route_status.rpt",
+      "sha256": "3041EA960A0D6AC7F80B0E188433CD9D0BE3B518CC9D2C4AEF7E6054FA7C69E2"
+    },
+    {
+      "role": "camera_x4_routed_utilization",
+      "path": "build/formal/vivado/camera_x4/sr_lut_s39_dyn_wrapper_utilization_placed.rpt",
+      "sha256": "8E19D1ED1ED02BDA849C06940CBAA4C88BF96B59FE8B1E997DE1295CA3DF5894"
+    },
+    {
+      "role": "camera_x4_routed_timing",
+      "path": "build/formal/vivado/camera_x4/sr_lut_s39_dyn_wrapper_timing_summary_routed.rpt",
+      "sha256": "F13503902403CB4013C444879ECB7AE33ACC9A35CB98DC8F3F9695A6828B36B4"
+    },
+    {
+      "role": "camera_x4_routed_methodology",
+      "path": "build/formal/vivado/camera_x4/sr_lut_s39_dyn_wrapper_methodology_drc_routed.rpt",
+      "sha256": "BE7FAD33129946D7FB5414ED7F59196A7F158B540C9437055738AB4219CDA730"
+    },
+    {
+      "role": "camera_x4_routed_drc",
+      "path": "build/formal/vivado/camera_x4/sr_lut_s39_dyn_wrapper_drc_routed.rpt",
+      "sha256": "E36B1376FCACB7B5ED0E1457686624AB7A1069872E4640AB8D0405A0CA868342"
+    },
+    {
+      "role": "camera_x4_route_status",
+      "path": "build/formal/vivado/camera_x4/sr_lut_s39_dyn_wrapper_route_status.rpt",
+      "sha256": "695D515F044B0FC9F8402FC6C70141ACB8DB98C148EF6E6AA587302A746D503B"
+    }
+  ],
+  "current_verification": {
+    "vivado": "2026.1 implementations archived; current HWH contract regenerated 2026-09-07",
+    "software_contract": "passed_298_host_tests_2026_09_07",
+    "rtl_tests": "passed_17_vivado_2026_1_2026_09_07",
+    "board_acceptance": "deployed_evidence_incomplete",
+    "evidence_audit": "report/delivery/2026-09-07/evidence_audit.json"
+  },
+  "accepted_metrics": {
+    "routed_drc_errors": 0
+  },
+  "resources": {
+    "media_x2": {
+      "luts": 8692,
+      "ffs": 7366,
+      "bram_tiles": 101.0,
+      "ramb36": 100,
+      "ramb18": 2,
+      "dsp_blocks": 5,
+      "setup_wns_ns": 0.377,
+      "hold_wns_ns": 0.008
+    },
+    "media_x4": {
+      "luts": 17456,
+      "ffs": 12842,
+      "bram_tiles": 109.0,
+      "ramb36": 108,
+      "ramb18": 2,
+      "dsp_blocks": 4,
+      "setup_wns_ns": 0.129,
+      "hold_wns_ns": 0.021
+    },
+    "camera_x4": {
+      "luts": 18746,
+      "ffs": 13924,
+      "bram_tiles": 126.5,
+      "ramb36": 125,
+      "ramb18": 3,
+      "dsp_blocks": 31,
+      "setup_wns_ns": 0.015,
+      "hold_wns_ns": 0.021
+    }
+  },
+  "evidence_notes": {
+    "deployment": "Formal ZIP 6DBCF99BB2BA515C8821213C19B8D39E33A3F1A19BCD94B6D28B46F502E07909 was deployed to 8080; archived unchanged.",
+    "source_scope": "2026-09-07 path/documentation organization is not a new on-board deployment.",
+    "acceptance": "Current evidence has provenance gaps; historical performance gates and board/formal records do not qualify current artifacts.",
+    "audit": "report/delivery/2026-09-07/evidence_audit.json"
+  },
+  "historical_reference": {
+    "scope": "template_release_only_not_candidate_acceptance",
+    "current_verification": {
+      "software_contract": "298 host tests passed; reference=58, lut_data=5, test_vectors=25, pynq=210",
+      "rtl_tests": "17 cases passed; core=15, video420=2",
+      "vivado": "media_x2, media_x4 and camera_x4 implementation, timing and DRC passed",
+      "board_image": "x2 full-frame/ROI and x4 full-frame/ROI pixel exact; changed_pixels=0",
+      "board_video": "x2 and x4 each completed 30/30 frames; H.264, PC Agent and final DMA idle passed",
+      "board_camera": "480x270 FPGA input to 1920x1080 MJPEG output; latest 1800.281-second dual-stream run passed with 20.436 output FPS, 10.219 input-preview FPS, zero bad JPEGs, zero read failures and zero reopens; 180 ms causal Canvas gate remains passed",
+      "board_controls": "BTN0 through BTN3, LED mapping and SW1/SW0 truth table passed",
+      "formal_portal": "App 1.9.0 assigned to port 8080; board-only BTN/SW authority enabled",
+      "board_control_only": "passed_btn0_btn1_btn2_btn3_after_software_update; BTN3 latest run returned to idle",
+      "software_board_revalidation": "passed_image_roi_video_camera_idle_and_board_only_write_guards",
+      "latest_board_revalidation": "passed_camera_1800.281_seconds_and_switch_00_01_10_11",
+      "camera_stability_revalidation": "passed_1806_seconds_dual_mjpeg_stress; input_preview_transport_320x180; nearest_neighbor_arm_path; input-before-output_order_preserved",
+      "camera_runtime_optimization": "board verified at 18.438 producer FPS, 17.182 output Canvas FPS and 9.186 input Canvas FPS over 15.132 seconds with zero causal timeouts; capture statistics are snapshotted at most once per second; expensive timing percentiles are cached for five seconds and computed without holding the producer condition lock; output uses persistent latest-frame MJPEG rendering with createImageBitmap or Blob + Image decode fallback, then native MJPEG/sequenced single-frame fallback; 240x135 nearest-neighbor input preview is encoded every second processed frame; input preview never blocks output delivery"
+    },
+    "accepted_metrics": {
+      "python_tests": 298,
+      "rtl_tests": 17,
+      "routed_drc_errors": 0,
+      "camera_stability_seconds": 1806.282,
+      "camera_stability_browser_fps": 6.708041430083068,
+      "camera_optimized_browser_test_seconds": 15.123,
+      "camera_optimized_producer_fps": 19.309,
+      "camera_optimized_browser_display_fps": 19.133,
+      "camera_optimized_hardware_mean_ms": 37.22,
+      "camera_optimized_frame_wall_mean_ms": 46.3,
+      "camera_capture_fps": 18.827691954428026,
+      "camera_hardware_mean_ms": 40.32449214291344,
+      "camera_hardware_p99_ms": 67.45329710247464,
+      "camera_total_p99_ms": 116.02421799470906,
+      "camera_causal_test_seconds": 15.132,
+      "camera_causal_producer_fps": 18.438,
+      "camera_causal_browser_output_fps": 17.182,
+      "camera_causal_browser_input_fps": 9.186,
+      "camera_causal_gate_ms": 180,
+      "camera_causal_timeout_delta": 0,
+      "camera_causal_decode_drop_delta": 17,
+      "camera_read_failures": 0,
+      "camera_reopen_count": 0,
+      "camera_latest_stability_seconds": 1800.281,
+      "camera_latest_output_frames": 36789,
+      "camera_latest_output_fps": 20.436302774001444,
+      "camera_latest_input_preview_frames": 18397,
+      "camera_latest_input_preview_fps": 10.219003761244966,
+      "camera_latest_capture_fps": 21.35911511039945,
+      "camera_latest_read_failures": 0,
+      "camera_latest_reopen_count": 0,
+      "camera_latest_bad_jpeg_frames": 0,
+      "camera_latest_network_blocked_writes": 3,
+      "camera_latest_network_blocked_seconds": 0.16247380999993766,
+      "switch_matrix_latest": "00=x2, 01=x4, 10=x2, 11=x4"
+    },
+    "evidence_notes": {
+      "formal_boundary": "Stage 39 and App 1.9.0 are the only formal release represented in the working tree.",
+      "promotion_scope": "The Stage 39 candidate was accepted on the isolated port 8083 and the byte-identified Overlay set is promoted unchanged to port 8080.",
+      "artifact_reproducibility": "Vivado rebuilds are accepted by source/LUT identity, HWH topology, routed timing, DRC and PYNQ-Z2 board behavior.",
+      "software_only_revision": "Board-only control, persistent browser MJPEG, Blob + Image decode fallback, five-second percentile caching and decimated 240x135 nearest-neighbor input preview preserve the Stage 39 Overlay byte identities; the causal Canvas path passed 15 FPS with 17.182 output FPS and zero causal timeouts, and the latest published software passed a 1800.281-second dual-stream camera run plus the physical 00/01/10/11 switch matrix."
+    },
+    "board_evidence": [
+      {
+        "role": "portal_board_acceptance",
+        "path": "board/formal/portal_board_acceptance.json",
+        "sha256": "360E7BC1FDA33A1C76BE87066BF83F14ECA22F40B25711480D5C9CE70A13820A"
+      },
+      {
+        "role": "uploaded_video_reports",
+        "path": "board/formal/uploaded_video_reports.json",
+        "sha256": "174737A021D20F52AD048FF002BFFDC00D7AF5C9FEBC28BDA49566B7A44CFBEE"
+      },
+      {
+        "role": "camera_benchmark",
+        "path": "board/formal/camera_benchmark.json",
+        "sha256": "1AE327E009BAD0492D28544E9067C9E67D8FE78858BDF33226FDDF254A8781A7"
+      },
+      {
+        "role": "camera_stability",
+        "path": "board/formal/camera_stability.json",
+        "sha256": "D3D1A915AA8EFA53F41347013DADCD996D19FB6F050149E5DA197F9D0FC30AC1"
+      },
+      {
+        "role": "camera_stability_latest",
+        "path": "board/formal/camera_stability_latest.json",
+        "sha256": "3607DD3CA86BBEA0ED77179CDEE465F2974F9FA6082A2E2F1B79A40D66ED87B5"
+      },
+      {
+        "role": "board_revalidation_2026_09_02",
+        "path": "board/formal/board_revalidation_2026-09-02.json",
+        "sha256": "04BA117E0794B7495DC3168A43096280B1EF3AAD766472FFDD4125D278A9C125"
+      },
+      {
+        "role": "camera_sync_order",
+        "path": "board/formal/camera_sync_order.json",
+        "sha256": "88929044ADE95B0407246C294C6D556D86D9EC618D2F6519F505ACE7DB972C58"
+      },
+      {
+        "role": "camera_async_revalidation",
+        "path": "board/formal/camera_async_revalidation.json",
+        "sha256": "C620C1A0C491D0B6856EDC54690D9CD24D6540C624B6788A913FF272E5530B98"
+      },
+      {
+        "role": "stage39_acceptance",
+        "path": "board/formal/stage39_acceptance.json",
+        "sha256": "642E7F856E26026A37A2EA6C3449803A4EB33D8610F0152DDA378B6654DAA82E"
+      },
+      {
+        "role": "camera_browser_fps_optimization",
+        "path": "board/formal/camera_browser_fps_optimization.json",
+        "sha256": "904B150D77B61E4A30EC0E01145AF800B39594A3746BAFB4CD4D7458DC7181D1"
+      },
+      {
+        "role": "camera_causal_display_optimization",
+        "path": "board/formal/camera_causal_display_optimization.json",
+        "sha256": "C9D7B145DF35DE99D3E0C5C31AE0EEBC0A4E6E28EDCDE59D3D8CB2A67020D80A"
+      }
+    ],
+    "candidate_build": {
+      "generated_utc": "2026-09-06T11:09:11.7627697Z",
+      "source_git_commit": "d656d81c76acc6916a02869a13558e56a708ebd3",
+      "source_worktree_dirty": true,
+      "tool": "Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026",
+      "promotion_allowed": false,
+      "required_board_port": 8083
+    }
+  },
+  "toolchain": {
+    "vivado_version": "2026.1",
+    "vivado_build": "6511674",
+    "camera_impl_strategy": "Performance_ExtraTimingOpt"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "host_tests": 17,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "actual_rtl_uart_decoded": true,
+  "inputs": [
+    {
+      "path": "board/nexys/decode_business_diagnostic.py",
+      "sha256": "dd9c3dbd22145035382845f356a3706c15652289799bc9a33a07bd0893d8a875"
+    },
+    {
+      "path": "board/nexys/test_business_diagnostic.py",
+      "sha256": "aea218ad21f7940342885f7499ec40c450f28c082328f8434397d0a0685d6a83"
+    },
+    {
+      "path": "board/nexys/analyze_business_capture.py",
+      "sha256": "6259dc1b33aee4a02dc9169a03725531ce7934d70e7961add325a157885d20b1"
+    },
+    {
+      "path": "board/nexys/test_business_capture.py",
+      "sha256": "615eebdf5c265d9f1a56931ac484560fe3710e6b555b39698a51fe4b54008ea9"
+    },
+    {
+      "path": "board/nexys/decode_bridge_diagnostic.py",
+      "sha256": "c81636384adaaf62692130fa574418f7b4c645ba80cfa4995908c395509fe74c"
+    },
+    {
+      "path": "board/nexys/decode_frame_diagnostic.py",
+      "sha256": "ddd97ca15897b899e790e3badce13821fce9ea9652cfa36ed375cfa9d0ed073c"
+    },
+    {
+      "path": "build/nexys_bridge/verify_n5_business_host.py",
+      "sha256": "8ebca3a0daae412cd0fde40a2e12f613a989a26ff5fd2d936053f4f4bc228884"
+    }
+  ],
+  "uart_evidence": "D:\\FPGA\\_reproduction_20261018_r1\\nexys_components",
+  "uart_sha256": "b220df8bd7f53336f1725b8bd7d832106167d1a879ac0276a1691852d13df39b",
+  "hardware_access": false,
+  "n5_passed": false,
+  "n6_passed": false
+}

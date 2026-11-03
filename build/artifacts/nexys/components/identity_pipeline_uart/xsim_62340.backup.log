@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 12 21:19:05 2026
+# Process ID         : 62340
+# Current directory  : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/bridge_pipeline/xsim_script.tcl}
+# Log file           : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/xsim.log
+# Journal file       : D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846\xsim.jou
+# Running On         : LAPTOP-5M1908N8
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16573 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 59522 MB
+# Available Virtual  : 27909 MB
+#-----------------------------------------------------------
+source xsim.dir/bridge_pipeline/xsim_script.tcl
+# xsim {bridge_pipeline} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_bridge_pipeline/fifo/storage/xpm_fifo_base_inst/Initial1559_170  Scope: tb_bridge_pipeline.fifo.storage.xpm_fifo_base_inst  File: D:\vivado2026.1\2026.1\Vivado\data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+DEBUG source=         2 drop=         0 ticks=                4980 reset=1 fault=0 owner_wr=1 ref=010 wfound=1 ready=1 count=      1423
+PROGRESS: 100 complete scans with clock drift, delayed responses and retained references
+PASS: bridge_pipeline external offers, CRC descriptors, source loss/invalid frame retirement, concurrent leases, repeat accounting, CDC, link qualification, underflow fail-closed
+$finish called at time : 1214140 ns : File "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_bridge_pipeline.sv" Line 148
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct 12 21:19:07 2026...

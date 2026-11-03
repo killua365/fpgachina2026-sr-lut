@@ -1,0 +1,62 @@
+{
+  "schema": "pynq_skill_validation_v1",
+  "date": "2026-10-20T20:48:55.965053+08:00",
+  "hardware_access": false,
+  "new_board_validation": false,
+  "python": "3.12.14",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config_sha256": "13b71365ba04858f919ec1c9bb9d3a9cde1c9c02fe43535724f688e7b1875f50",
+  "checks": {
+    "files": {
+      "passed": true,
+      "files_verified": 6,
+      "hardware_function_verified": false
+    },
+    "hwh": {
+      "passed": true,
+      "required_ips": [
+        "axi_dma_0"
+      ],
+      "device": {
+        "ARCH": "zynq",
+        "BOARD": "tul.com.tw:pynq-z2:part0:1.0",
+        "DEVICE": "7z020",
+        "NAME": "sr_lut_s40_dyn",
+        "PACKAGE": "clg400",
+        "SPEEDGRADE": "-1"
+      },
+      "hardware_function_verified": false
+    },
+    "timing": {
+      "passed": true,
+      "setup_wns_ns": 0.144,
+      "setup_tns_ns": 0.0,
+      "setup_failing_endpoints": 0.0,
+      "hold_wns_ns": 0.014,
+      "hold_tns_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "pulse_wns_ns": 0.538,
+      "pulse_tns_ns": 0.0,
+      "pulse_failing_endpoints": 0.0,
+      "scope": "reported_constrained_paths_only"
+    },
+    "utilization": {
+      "passed": true,
+      "limits": {},
+      "instance": "sr_lut_s40_dyn_wrapper",
+      "lut": 19220,
+      "ff": 18035,
+      "ramb36": 111,
+      "ramb18": 4,
+      "dsp": 2,
+      "bram_36k_equivalent": 113.0,
+      "scope": "reported_usage_not_optimization_score"
+    }
+  },
+  "passed": true,
+  "not_requested": [
+    "golden",
+    "throughput"
+  ]
+}

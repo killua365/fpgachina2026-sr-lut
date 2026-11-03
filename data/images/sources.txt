@@ -1,0 +1,4 @@
+Images: existing project test vectors. Golden PNGs: integer SR-LUT reference, not HR quality references.
+Video: Pexels 2248534 city street demo, https://www.pexels.com/license/ .
+Imported on host for development; playback is entirely local on board.
+Original 24000/1001 fps is retained; this is NOT the 30 fps performance qualification clip.

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "relative_links": 73,
+  "broken_links": [],
+  "invalid_names": [],
+  "cache_entries": [],
+  "immutable_snapshot_original_names": [
+    "build/artifacts/nexys/route/source/src/rtl/nexys_hdmi/EEPROM_8b.vhd",
+    "build/artifacts/nexys/route/source/src/rtl/nexys_hdmi/TWI_SlaveCtl.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/ChannelBond.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/DVI_Constants.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/GlitchFilter.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/InputSERDES.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/PhaseAlign.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/ResyncToBUFG.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/SyncAsync.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/SyncAsyncReset.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/SyncBase.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/TMDS_Clocking.vhd",
+    "build/artifacts/nexys/route/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/TMDS_Decoder.vhd"
+  ],
+  "explicit_input_case_checked": true,
+  "scope": "active documentation plus exact-case immutable source evidence"
+}

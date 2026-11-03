@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 21 18:36:37 2026
+# Process ID         : 28292
+# Current directory  : D:/FPGA/sr_lut_fpga/build/reproduction_work/nexys_vga_26102101/power_sim_r3
+# Command line       : xsim.exe -log case_1.log -mode tcl -source {xsim.dir/power_case_1/xsim_script.tcl}
+# Log file           : D:/FPGA/sr_lut_fpga/build/reproduction_work/nexys_vga_26102101/power_sim_r3/case_1.log
+# Journal file       : D:/FPGA/sr_lut_fpga/build/reproduction_work/nexys_vga_26102101/power_sim_r3\xsim.jou
+# Running On         : LAPTOP-5M1908N8
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16573 MB
+# Swap memory        : 29726 MB
+# Total Virtual      : 46299 MB
+# Available Virtual  : 12472 MB
+#-----------------------------------------------------------
+source xsim.dir/power_case_1/xsim_script.tcl
+# xsim {power_case_1} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Note: VGA_POWER_CASE_PASS 1
+Time: 5000100 ns  Iteration: 0  Process: /power_case_1/dut/line__123  File: D:/FPGA/sr_lut_fpga/build/candidates/nexys_vga_26102101/tb_vga_power.vhd
+$finish called at time : 5000100 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 21 18:36:40 2026...

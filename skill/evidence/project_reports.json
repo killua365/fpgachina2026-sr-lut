@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "project/camera_r5_result.json",
+      "sha256": "e6575b7b15f1eda85499723d83e012e2f322935845050fd1054b27887d821d43"
+    },
+    {
+      "path": "project/render_r11_implementation.json",
+      "sha256": "a75bc05a9f78fa58cdb5401bbc1859c23073bf5548473d601bfd8ff92591332b"
+    },
+    {
+      "path": "project/render_r11_arm.json",
+      "sha256": "733b61436968dfc0b26622e5913d0bae2f95bb0c2e667e3d3bbaf1b921846697"
+    },
+    {
+      "path": "project/route_timing.rpt",
+      "sha256": "c2c8df514e70d550108ab3eb8fae861bbe2f131bd004b0df5c20a40d8b3d7d4f"
+    },
+    {
+      "path": "project/route_utilization.rpt",
+      "sha256": "bff4ddc9dd19761464d16baa915b8795e387ccbac117c33c5a942fbdde6a56f0"
+    },
+    {
+      "path": "project/overlay.hwh",
+      "sha256": "51f72a22e64dd6494907eee473a3e63a666d3eaed5ad36feac8496916a889a7d"
+    }
+  ],
+  "hwh": {
+    "path": "project/overlay.hwh",
+    "required_ips": [
+      "axi_dma_0"
+    ],
+    "dma_ip": "axi_dma_0"
+  },
+  "timing": "project/route_timing.rpt",
+  "utilization": {
+    "path": "project/route_utilization.rpt",
+    "instance": "sr_lut_s40_dyn_wrapper"
+  }
+}

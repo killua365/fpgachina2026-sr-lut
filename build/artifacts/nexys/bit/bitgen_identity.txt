@@ -1,0 +1,8 @@
+vivado=2026.1
+part=xc7a200tsbg484-1
+user_access=0x26101201
+source_dcp=D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/routed.dcp
+source_sha256=9b90300677ae0b379899fe8eefc18f7fc086cd2ae6d377d34d9ad09075aabd28
+review_sha256=b361679cf3fb44dbc5cc31be18da37022d41b5c1786996a1b49afbf8a1af1ac0
+flash_write_allowed=false
+hardware_loading_allowed=false

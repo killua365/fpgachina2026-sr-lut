@@ -1,0 +1,215 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Mon Oct 12 21:43:03 2026
+| Host         : LAPTOP-5M1908N8 running 64-bit major release  (build 9200)
+| Command      : report_timing -from [get_clocks board100] -to [get_clocks clk_pll_i] -max_paths 10 -file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_inspect_20261012_r1/root_ui_paths.rpt
+| Design       : bridge_board_top_continuous
+| Device       : 7a200t-sbg484
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             6.349ns  (required time - arrival time)
+  Source:                 mig_resetn_reg/C
+                            (rising edge-triggered cell FDCE clocked by board100  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            resetn_reg/CLR
+                            (recovery check against rising-edge clock clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pll_i rise@10.000ns - board100 rise@0.000ns)
+  Data Path Delay:        5.167ns  (logic 0.642ns (12.425%)  route 4.525ns (87.575%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        2.095ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    7.519ns = ( 17.519 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.609ns
+    Clock Pessimism Removal (CPR):    0.185ns
+  Clock Uncertainty:      0.174ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.096ns
+    Phase Error              (PE):    0.114ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock board100 rise edge)
+                                                      0.000     0.000 r  <hidden>
+    R4                                                0.000     0.000 r  clk100
+                         net (fo=0)                   0.000     0.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.475     1.475 r  board_clock_input/O
+                         net (fo=1, routed)           2.114     3.589    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096     3.685 r  board_clock_global/O
+                         net (fo=12642, routed)       1.924     5.609    root_clk
+    SLICE_X152Y86        FDCE                                         r  mig_resetn_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X152Y86        FDCE (Prop_fdce_C_Q)         0.518     6.127 r  mig_resetn_reg/Q
+                         net (fo=7, routed)           3.312     9.439    hdmi_rx_txen_OBUF
+    SLICE_X152Y152       LUT3 (Prop_lut3_I1_O)        0.124     9.563 f  reset_release[1]_i_1/O
+                         net (fo=3, routed)           1.213    10.776    reset_request
+    SLICE_X141Y147       FDCE                                         f  resetn_reg/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pll_i rise edge)
+                                                     10.000    10.000 r  <hidden>
+    R4                                                0.000    10.000 r  clk100
+                         net (fo=0)                   0.000    10.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.405    11.405 r  board_clock_input/O
+                         net (fo=1, routed)           2.004    13.409    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.500 r  board_clock_global/O
+                         net (fo=12642, routed)       1.636    15.135    memory/u_n3_mig_mig/u_ddr3_infrastructure/mmcm_clk
+    PLLE2_ADV_X1Y3       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.083    15.218 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3
+                         net (fo=1, routed)           1.289    16.507    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3_out
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.081    16.588 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O
+                         net (fo=1, routed)           0.904    17.492    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3
+    MMCME2_ADV_X1Y3      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -3.425    14.068 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKFBOUT
+                         net (fo=1, routed)           1.723    15.791    memory/u_n3_mig_mig/u_ddr3_infrastructure/clk_pll_i
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    15.882 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O
+                         net (fo=19512, routed)       1.637    17.519    ui_clk
+    SLICE_X141Y147       FDCE                                         r  resetn_reg/C
+                         clock pessimism              0.185    17.704    <hidden>
+                         clock uncertainty           -0.174    17.530    <hidden>
+    SLICE_X141Y147       FDCE (Recov_fdce_C_CLR)     -0.405    17.125    resetn_reg
+  -------------------------------------------------------------------
+                         required time                         17.125    <hidden>
+                         arrival time                         -10.776    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  6.349    <hidden>
+
+Slack (MET) :             6.454ns  (required time - arrival time)
+  Source:                 mig_resetn_reg/C
+                            (rising edge-triggered cell FDCE clocked by board100  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            reset_release_reg[1]/CLR
+                            (recovery check against rising-edge clock clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pll_i rise@10.000ns - board100 rise@0.000ns)
+  Data Path Delay:        5.109ns  (logic 0.642ns (12.567%)  route 4.467ns (87.433%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        2.097ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    7.521ns = ( 17.521 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.609ns
+    Clock Pessimism Removal (CPR):    0.185ns
+  Clock Uncertainty:      0.174ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.096ns
+    Phase Error              (PE):    0.114ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock board100 rise edge)
+                                                      0.000     0.000 r  <hidden>
+    R4                                                0.000     0.000 r  clk100
+                         net (fo=0)                   0.000     0.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.475     1.475 r  board_clock_input/O
+                         net (fo=1, routed)           2.114     3.589    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096     3.685 r  board_clock_global/O
+                         net (fo=12642, routed)       1.924     5.609    root_clk
+    SLICE_X152Y86        FDCE                                         r  mig_resetn_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X152Y86        FDCE (Prop_fdce_C_Q)         0.518     6.127 r  mig_resetn_reg/Q
+                         net (fo=7, routed)           3.312     9.439    hdmi_rx_txen_OBUF
+    SLICE_X152Y152       LUT3 (Prop_lut3_I1_O)        0.124     9.563 f  reset_release[1]_i_1/O
+                         net (fo=3, routed)           1.154    10.718    reset_request
+    SLICE_X144Y149       FDCE                                         f  reset_release_reg[1]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pll_i rise edge)
+                                                     10.000    10.000 r  <hidden>
+    R4                                                0.000    10.000 r  clk100
+                         net (fo=0)                   0.000    10.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.405    11.405 r  board_clock_input/O
+                         net (fo=1, routed)           2.004    13.409    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.500 r  board_clock_global/O
+                         net (fo=12642, routed)       1.636    15.135    memory/u_n3_mig_mig/u_ddr3_infrastructure/mmcm_clk
+    PLLE2_ADV_X1Y3       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.083    15.218 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3
+                         net (fo=1, routed)           1.289    16.507    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3_out
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.081    16.588 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O
+                         net (fo=1, routed)           0.904    17.492    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3
+    MMCME2_ADV_X1Y3      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -3.425    14.068 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKFBOUT
+                         net (fo=1, routed)           1.723    15.791    memory/u_n3_mig_mig/u_ddr3_infrastructure/clk_pll_i
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    15.882 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O
+                         net (fo=19512, routed)       1.639    17.521    ui_clk
+    SLICE_X144Y149       FDCE                                         r  reset_release_reg[1]/C
+                         clock pessimism              0.185    17.706    <hidden>
+                         clock uncertainty           -0.174    17.532    <hidden>
+    SLICE_X144Y149       FDCE (Recov_fdce_C_CLR)     -0.361    17.171    reset_release_reg[1]
+  -------------------------------------------------------------------
+                         required time                         17.171    <hidden>
+                         arrival time                         -10.718    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  6.454    <hidden>
+
+Slack (MET) :             6.496ns  (required time - arrival time)
+  Source:                 mig_resetn_reg/C
+                            (rising edge-triggered cell FDCE clocked by board100  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            reset_release_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_pll_i  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_pll_i rise@10.000ns - board100 rise@0.000ns)
+  Data Path Delay:        5.109ns  (logic 0.642ns (12.567%)  route 4.467ns (87.433%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        2.097ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    7.521ns = ( 17.521 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.609ns
+    Clock Pessimism Removal (CPR):    0.185ns
+  Clock Uncertainty:      0.174ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.096ns
+    Phase Error              (PE):    0.114ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock board100 rise edge)
+                                                      0.000     0.000 r  <hidden>
+    R4                                                0.000     0.000 r  clk100
+                         net (fo=0)                   0.000     0.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.475     1.475 r  board_clock_input/O
+                         net (fo=1, routed)           2.114     3.589    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096     3.685 r  board_clock_global/O
+                         net (fo=12642, routed)       1.924     5.609    root_clk
+    SLICE_X152Y86        FDCE                                         r  mig_resetn_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X152Y86        FDCE (Prop_fdce_C_Q)         0.518     6.127 r  mig_resetn_reg/Q
+                         net (fo=7, routed)           3.312     9.439    hdmi_rx_txen_OBUF
+    SLICE_X152Y152       LUT3 (Prop_lut3_I1_O)        0.124     9.563 f  reset_release[1]_i_1/O
+                         net (fo=3, routed)           1.154    10.718    reset_request
+    SLICE_X144Y149       FDCE                                         f  reset_release_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_pll_i rise edge)
+                                                     10.000    10.000 r  <hidden>
+    R4                                                0.000    10.000 r  clk100
+                         net (fo=0)                   0.000    10.000    clk100
+    R4                   IBUF (Prop_ibuf_I_O)         1.405    11.405 r  board_clock_input/O
+                         net (fo=1, routed)           2.004    13.409    input_clock
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.500 r  board_clock_global/O
+                         net (fo=12642, routed)       1.636    15.135    memory/u_n3_mig_mig/u_ddr3_infrastructure/mmcm_clk
+    PLLE2_ADV_X1Y3       PLLE2_ADV (Prop_plle2_adv_CLKIN1_CLKOUT3)
+                                                      0.083    15.218 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3
+                         net (fo=1, routed)           1.289    16.507    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3_out
+    BUFHCE_X1Y36         BUFH (Prop_bufh_I_O)         0.081    16.588 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O
+                         net (fo=1, routed)           0.904    17.492    memory/u_n3_mig_mig/u_ddr3_infrastructure/pll_clk3
+    MMCME2_ADV_X1Y3      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -3.425    14.068 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKFBOUT
+                         net (fo=1, routed)           1.723    15.791    memory/u_n3_mig_mig/u_ddr3_infrastructure/clk_pll_i
+    BUFGCTRL_X0Y16       BUFG (Prop_bufg_I_O)         0.091    15.882 r  memory/u_n3_mig_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O
+                         net (fo=19512, routed)       1.639    17.521    ui_clk
+    SLICE_X144Y149       FDCE                                         r  reset_release_reg[0]/C
+                         clock pessimism              0.185    17.706    <hidden>
+                         clock uncertainty           -0.174    17.532    <hidden>
+    SLICE_X144Y149       FDCE (Recov_fdce_C_CLR)     -0.319    17.213    reset_release_reg[0]
+  -------------------------------------------------------------------
+                         required time                         17.213    <hidden>
+                         arrival time                         -10.718    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  6.496    <hidden>
+
+
+
+

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "kind": "hdmi_business_development",
+  "overlays": {
+    "2": {
+      "bit": "build/artifacts/pynq_x2/sr_lut_x2.bit",
+      "bit_sha256": "58ee93d840ad639b7cb511002f4ced6dfafe6402805d73cb2a9375451eac4806",
+      "hwh": "build/artifacts/pynq_x2/sr_lut_x2.hwh",
+      "hwh_sha256": "996c69bd8511a9cb3b25ed77356fc806003adeaa8a0e5626d16204f707bab243"
+    },
+    "4": {
+      "bit": "build/artifacts/pynq_x4/sr_lut_x4.bit",
+      "bit_sha256": "61f1b211098aef8bf1c343dbfc690da87c1a31313c78023c32aca28e73943080",
+      "hwh": "build/artifacts/pynq_x4/sr_lut_x4.hwh",
+      "hwh_sha256": "51f72a22e64dd6494907eee473a3e63a666d3eaed5ad36feac8496916a889a7d"
+    }
+  },
+  "mode": "1920x1080@30",
+  "formal_release": false,
+  "business_profile": {
+    "name": "nexys_dp_bridge_v1",
+    "input_size": [
+      480,
+      270
+    ],
+    "source_fps": 30,
+    "hdmi_mode": "1920x1080@30",
+    "dp_mode": "1920x1080@60",
+    "sr_scales": [
+      2,
+      4
+    ],
+    "camera_scale": 4
+  },
+  "identity_marker": true,
+  "timing": {
+    "2": {
+      "setup_wns_ns": 0.194,
+      "setup_tns_ns": 0.0,
+      "setup_failing_endpoints": 0.0,
+      "hold_wns_ns": 0.028,
+      "hold_tns_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "pulse_wns_ns": 0.538,
+      "pulse_tns_ns": 0.0,
+      "pulse_failing_endpoints": 0.0
+    },
+    "4": {
+      "setup_wns_ns": 0.144,
+      "setup_tns_ns": 0.0,
+      "setup_failing_endpoints": 0.0,
+      "hold_wns_ns": 0.014,
+      "hold_tns_ns": 0.0,
+      "hold_failing_endpoints": 0.0,
+      "pulse_wns_ns": 0.538,
+      "pulse_tns_ns": 0.0,
+      "pulse_failing_endpoints": 0.0
+    }
+  },
+  "n5_passed": false,
+  "n6_passed": false,
+  "pixel_backend": "arm_neon_full_validation",
+  "display_composition_backend": "arm_neon_fused_power_of_two_fit",
+  "buffer_policy": {
+    "sr_output": "acp-cacheable",
+    "scanout": "HP1_RGBX_three_parked_buffers"
+  },
+  "materials": {
+    "images": [
+      "data/images/baby.png",
+      "data/images/bird.png",
+      "data/images/butterfly.png",
+      "data/images/head.png",
+      "data/images/woman.png"
+    ],
+    "golden": {
+      "2": "data/golden/smoke/golden_x2.png",
+      "4": "data/golden/smoke/golden_x4.png"
+    },
+    "clip": "data/video/demo_clip/clip.json",
+    "performance_clip": "data/video/performance_30fps/clip.json",
+    "video_golden": "data/golden/smoke/video_golden.json",
+    "image_pairs": [
+      {
+        "name": "baby",
+        "lr": {
+          "2": "data/images/paired/baby_x2.png",
+          "4": "data/images/paired/baby_x4.png"
+        },
+        "hr": "data/images/baby_original.png"
+      },
+      {
+        "name": "bird",
+        "lr": {
+          "2": "data/images/paired/bird_x2.png",
+          "4": "data/images/paired/bird_x4.png"
+        },
+        "hr": "data/images/bird_original.png"
+      },
+      {
+        "name": "butterfly",
+        "lr": {
+          "2": "data/images/paired/butterfly_x2.png",
+          "4": "data/images/paired/butterfly_x4.png"
+        },
+        "hr": "data/images/butterfly_original.png"
+      },
+      {
+        "name": "head",
+        "lr": {
+          "2": "data/images/paired/head_x2.png",
+          "4": "data/images/paired/head_x4.png"
+        },
+        "hr": "data/images/head_original.png"
+      },
+      {
+        "name": "woman",
+        "lr": {
+          "2": "data/images/paired/woman_x2.png",
+          "4": "data/images/paired/woman_x4.png"
+        },
+        "hr": "data/images/woman_original.png"
+      }
+    ]
+  },
+  "session_schema": "n5_business_launch_v1",
+  "presentation_features": {
+    "status_view": true,
+    "owned_camera_snapshot": true,
+    "continuous_wipe": true,
+    "evidence": "report/validation/historical_validation.zip!board/experiments/2026-10-18/presentation_r8",
+    "live_acceptance_pending": true
+  },
+  "metrics_features": {
+    "native_paired_images": true,
+    "compare_always_visible": true,
+    "quality": "PSNR-Y and SSIM-Y against aligned HR",
+    "fps": "2-second PYNQ VDMA new-source acknowledgement window",
+    "default_end_mode": "demo",
+    "demo_duration_seconds": null,
+    "live_acceptance_pending": true,
+    "picture_aligned": true,
+    "fps_target_mark": false,
+    "fps_fixed_color": true,
+    "font": "DejaVu Sans"
+  },
+  "presentation_style": "aligned_compare_r10",
+  "normal_demo_startup_checks": "skipped",
+  "render_background_word_fill": true,
+  "camera_fps_fit_only": true,
+  "image_compare_scale_only": true,
+  "caption_badge_clearance": true,
+  "wipe_visible_picture_extent": true,
+  "organization_revision": "r15_repack_20261020"
+}

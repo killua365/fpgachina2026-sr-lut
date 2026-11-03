@@ -1,0 +1,39 @@
+{
+  "hardware_access": false,
+  "comparison": "Exact bytes from the first Xilinx sync word to EOF; excludes BIT metadata header",
+  "results": [
+    {
+      "platform": "pynq_x2",
+      "frozen": "build/artifacts/pynq_x2/sr_lut_x2.bit",
+      "rebuild": "D:\\FPGA\\tmp\\sr_lut_build_20261020_x2\\source\\build\\hdmi_x2_1080p30_work\\export\\sr_lut_x2.bit",
+      "file_identical": false,
+      "configuration_from_sync_identical": true,
+      "frozen_sync_offset": 261,
+      "rebuild_sync_offset": 261,
+      "frozen_configuration_sha256": "5ffb59122e0ffb362ce9f6b566f75f3861f6ef496d1be23a7a39ab5de6f58c24",
+      "rebuild_configuration_sha256": "5ffb59122e0ffb362ce9f6b566f75f3861f6ef496d1be23a7a39ab5de6f58c24"
+    },
+    {
+      "platform": "pynq_x4",
+      "frozen": "build/artifacts/pynq_x4/sr_lut_x4.bit",
+      "rebuild": "D:\\FPGA\\tmp\\sr_lut_build_20261020_x4\\source\\build\\hdmi_x4_1080p30_work\\export\\sr_lut_x4.bit",
+      "file_identical": false,
+      "configuration_from_sync_identical": true,
+      "frozen_sync_offset": 261,
+      "rebuild_sync_offset": 261,
+      "frozen_configuration_sha256": "608d9f570342fa31babc96ceea1872ee2e205459b07680321f4c935d611a79d9",
+      "rebuild_configuration_sha256": "608d9f570342fa31babc96ceea1872ee2e205459b07680321f4c935d611a79d9"
+    },
+    {
+      "platform": "nexys",
+      "frozen": "build/artifacts/nexys/bit/pattern.bit",
+      "rebuild": "D:\\FPGA\\tmp\\sr_lut_build_20261020_nexys_bit\\bit\\pattern.bit",
+      "file_identical": false,
+      "configuration_from_sync_identical": true,
+      "frozen_sync_offset": 267,
+      "rebuild_sync_offset": 267,
+      "frozen_configuration_sha256": "4b5369df651096e364216730b59fcbc5f832c6e72b0797e255b690543c6e48a9",
+      "rebuild_configuration_sha256": "4b5369df651096e364216730b59fcbc5f832c6e72b0797e255b690543c6e48a9"
+    }
+  ]
+}

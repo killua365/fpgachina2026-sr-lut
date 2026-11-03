@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "actual_xilinx_vdma": true,
+  "asynchronous_1080p30_input": true,
+  "dp_60hz_scan": true,
+  "completed_scans": 5,
+  "new_raster_frames": 3,
+  "repeated_raster_frames": 2,
+  "business_new": 2,
+  "business_repeat": 3,
+  "simulated_time_ns": 199350160,
+  "golden_pixel_and_ddr_crc_passed": true,
+  "ownership_and_identity_passed": true,
+  "wall_simulation_seconds": 2261,
+  "default_images_replaced": false
+}

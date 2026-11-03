@@ -1,0 +1,15 @@
+test_candidate_packet_survives_factory_prefix_and_incomplete_suffix (test_host.TelemetryTests.test_candidate_packet_survives_factory_prefix_and_incomplete_suffix) ... ok
+test_crc_failure_cannot_start_source (test_host.TelemetryTests.test_crc_failure_cannot_start_source) ... ok
+test_default_bit_is_not_the_candidate (test_host.TelemetryTests.test_default_bit_is_not_the_candidate) ... ok
+test_dropped_packet_rejected (test_host.TelemetryTests.test_dropped_packet_rejected) ... ok
+test_untrained_link_remains_untrained (test_host.TelemetryTests.test_untrained_link_remains_untrained) ... ok
+test_bounded_test_deadlines_are_preserved (test_demo.DemoTests.test_bounded_test_deadlines_are_preserved) ... ok
+test_demo_runs_past_one_day_then_orders_source_stop_before_restore (test_demo.DemoTests.test_demo_runs_past_one_day_then_orders_source_stop_before_restore) ... ok
+test_incremental_build_uses_relocated_checkpoint (test_paths.PathTests.test_incremental_build_uses_relocated_checkpoint) ... ok
+test_loader_sources_host_tools_from_its_project (test_paths.PathTests.test_loader_sources_host_tools_from_its_project) ... ok
+test_vivado_environment_override (test_paths.PathTests.test_vivado_environment_override) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.743s
+
+OK

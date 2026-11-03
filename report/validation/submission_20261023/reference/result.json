@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "executed_tests_passed": true,
+  "tests": 58,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "skipped_cases": [],
+  "hardware_access": false,
+  "suite": "reference"
+}

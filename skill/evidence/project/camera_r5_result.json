@@ -1,0 +1,410 @@
+{
+  "kind": "camera20_complete_scan_acceptance",
+  "camera_20fps_passed": true,
+  "cases": [
+    {
+      "stage": "diagnostic",
+      "layout": "sr",
+      "generation": 12,
+      "source_submitted_fps": 22.778593515301882,
+      "complete_new_scans": 672,
+      "timings": {
+        "tick_wall_seconds": {
+          "count": 742,
+          "median": 0.03845415350224357,
+          "mean": 0.037913339190414765,
+          "total": 28.131697679287754,
+          "p95": 0.04329257800418418
+        },
+        "prepare_seconds": {
+          "count": 684,
+          "median": 0.0034821819863282144,
+          "mean": 0.0036223846899707357,
+          "total": 2.4777111279399833,
+          "p95": 0.0045986829936737195
+        },
+        "dma_sr_seconds": {
+          "count": 684,
+          "median": 0.03155906100437278,
+          "mean": 0.03215519089925485,
+          "total": 21.994150575090316,
+          "p95": 0.035971372009953484
+        },
+        "unpack_seconds": {
+          "count": 684,
+          "median": 0.0001652924984227866,
+          "mean": 0.0001845182672249186,
+          "total": 0.12621049478184432,
+          "p95": 0.00023030801094137132
+        },
+        "validation_seconds": {
+          "count": 684,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "color_convert_seconds": {
+          "count": 684,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "processing_seconds": {
+          "count": 684,
+          "median": 0.03551433850225294,
+          "mean": 0.0359620938564505,
+          "total": 24.598072197812144,
+          "p95": 0.04035081900656223
+        },
+        "pl_frame_seconds": {
+          "count": 684,
+          "median": 0.022567700000000003,
+          "mean": 0.022567093245614036,
+          "total": 15.43589177999999,
+          "p95": 0.02280016
+        },
+        "compose_seconds": {
+          "count": 684,
+          "median": 0.02791701850219397,
+          "mean": 0.028429189153466296,
+          "total": 19.445565380970947,
+          "p95": 0.032375169001170434
+        },
+        "display_submit_seconds": {
+          "count": 684,
+          "median": 0.0006365504959831014,
+          "mean": 0.0007138405145955754,
+          "total": 0.4882669119833736,
+          "p95": 0.00101421499857679
+        },
+        "fused_copy_validation_seconds": {
+          "count": 684,
+          "median": 0.026148778495553415,
+          "mean": 0.02660384803788453,
+          "total": 18.19703205791302,
+          "p95": 0.030263366003055125
+        }
+      },
+      "passed": false,
+      "diagnostic_event_spacing_fps": 22.34177004818816,
+      "receive_to_complete_ms": {
+        "count": 672,
+        "median": 56.164095,
+        "p95": 56.169809,
+        "maximum": 56.17052
+      }
+    },
+    {
+      "stage": "diagnostic",
+      "layout": "split",
+      "generation": 13,
+      "source_submitted_fps": 23.421774720297744,
+      "complete_new_scans": 682,
+      "timings": {
+        "tick_wall_seconds": {
+          "count": 778,
+          "median": 0.03668016300071031,
+          "mean": 0.03590502188824402,
+          "total": 27.93410702905385,
+          "p95": 0.04177824599901214
+        },
+        "prepare_seconds": {
+          "count": 703,
+          "median": 0.0034600799990585074,
+          "mean": 0.0036324833525221522,
+          "total": 2.553635796823073,
+          "p95": 0.004530744001385756
+        },
+        "dma_sr_seconds": {
+          "count": 703,
+          "median": 0.029792461995384656,
+          "mean": 0.030375924634556437,
+          "total": 21.354275018093176,
+          "p95": 0.0349003999872366
+        },
+        "unpack_seconds": {
+          "count": 703,
+          "median": 0.00016059599875006825,
+          "mean": 0.00017521684749795795,
+          "total": 0.12317744379106443,
+          "p95": 0.0002159870055038482
+        },
+        "validation_seconds": {
+          "count": 703,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "color_convert_seconds": {
+          "count": 703,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "processing_seconds": {
+          "count": 703,
+          "median": 0.033663206006167457,
+          "mean": 0.03418362483457655,
+          "total": 24.031088258707314,
+          "p95": 0.03865532300551422
+        },
+        "pl_frame_seconds": {
+          "count": 703,
+          "median": 0.022648,
+          "mean": 0.022610234907539117,
+          "total": 15.89499513999999,
+          "p95": 0.02291415
+        },
+        "compose_seconds": {
+          "count": 703,
+          "median": 0.02633039400097914,
+          "mean": 0.026595069607169165,
+          "total": 18.696333933839924,
+          "p95": 0.03142916898650583
+        },
+        "display_submit_seconds": {
+          "count": 703,
+          "median": 0.0006243569951038808,
+          "mean": 0.0007978315218783992,
+          "total": 0.5608755598805146,
+          "p95": 0.001070423997589387
+        },
+        "fused_copy_validation_seconds": {
+          "count": 703,
+          "median": 0.024651059007737786,
+          "mean": 0.024822673166189264,
+          "total": 17.450339235831052,
+          "p95": 0.029076842998620123
+        }
+      },
+      "passed": false,
+      "diagnostic_event_spacing_fps": 22.69992917622097,
+      "receive_to_complete_ms": {
+        "count": 682,
+        "median": 56.173640000000006,
+        "p95": 56.17566,
+        "maximum": 56.17579
+      }
+    },
+    {
+      "stage": "acceptance_capture",
+      "layout": "sr",
+      "generation": 14,
+      "source_submitted_fps": 22.559111863448173,
+      "complete_new_scans": 6749,
+      "timings": {
+        "tick_wall_seconds": {
+          "count": 7568,
+          "median": 0.038614294993749354,
+          "mean": 0.038088645445026846,
+          "total": 288.2548687279632,
+          "p95": 0.043086480000056326
+        },
+        "prepare_seconds": {
+          "count": 6994,
+          "median": 0.003503018000628799,
+          "mean": 0.0036719425583501223,
+          "total": 25.681566253100755,
+          "p95": 0.0046037720021558926
+        },
+        "dma_sr_seconds": {
+          "count": 6994,
+          "median": 0.03159956949821208,
+          "mean": 0.03230480133486553,
+          "total": 225.9397805360495,
+          "p95": 0.036048634006874636
+        },
+        "unpack_seconds": {
+          "count": 6994,
+          "median": 0.00015702800010330975,
+          "mean": 0.00017642399682096118,
+          "total": 1.2339094337658025,
+          "p95": 0.00023069499002303928
+        },
+        "validation_seconds": {
+          "count": 6994,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "color_convert_seconds": {
+          "count": 6994,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "processing_seconds": {
+          "count": 6994,
+          "median": 0.03554975050792564,
+          "mean": 0.036153167890036614,
+          "total": 252.85525622291607,
+          "p95": 0.0399845290085068
+        },
+        "pl_frame_seconds": {
+          "count": 6994,
+          "median": 0.022518545,
+          "mean": 0.02253543773091221,
+          "total": 157.6128514899994,
+          "p95": 0.02279739
+        },
+        "compose_seconds": {
+          "count": 6994,
+          "median": 0.02801538450148655,
+          "mean": 0.028522956633497347,
+          "total": 199.48955869468045,
+          "p95": 0.03260483099438716
+        },
+        "display_submit_seconds": {
+          "count": 6994,
+          "median": 0.0006250029982766137,
+          "mean": 0.0007425820838364985,
+          "total": 5.193619094352471,
+          "p95": 0.0011809169955085963
+        },
+        "fused_copy_validation_seconds": {
+          "count": 6994,
+          "median": 0.02629410800000187,
+          "mean": 0.02677613980052746,
+          "total": 187.27232176488906,
+          "p95": 0.03079038200667128
+        }
+      },
+      "passed": true,
+      "diagnostic_event_spacing_fps": 21.765334003583998,
+      "receive_to_complete_ms": {
+        "count": 6749,
+        "median": 56.18032,
+        "p95": 56.189656,
+        "maximum": 56.19029
+      },
+      "window_start_ticks": 43288397186,
+      "window_end_ticks": 73288397186,
+      "window_seconds": 300,
+      "window_new_scans": 6527,
+      "nexys_complete_new_fps": 21.756666666666668
+    },
+    {
+      "stage": "acceptance_capture",
+      "layout": "split",
+      "generation": 15,
+      "source_submitted_fps": 23.263384846986334,
+      "complete_new_scans": 6952,
+      "timings": {
+        "tick_wall_seconds": {
+          "count": 7922,
+          "median": 0.03699570449680323,
+          "mean": 0.03615072845201231,
+          "total": 286.3860707968415,
+          "p95": 0.04161430700332858
+        },
+        "prepare_seconds": {
+          "count": 7212,
+          "median": 0.003526034503011033,
+          "mean": 0.003705685862288589,
+          "total": 26.725406438825303,
+          "p95": 0.004660940001485869
+        },
+        "dma_sr_seconds": {
+          "count": 7212,
+          "median": 0.029925357004685793,
+          "mean": 0.030416586558327654,
+          "total": 219.36442225865903,
+          "p95": 0.03464515699306503
+        },
+        "unpack_seconds": {
+          "count": 7212,
+          "median": 0.00015848899784032255,
+          "mean": 0.00018162965018191663,
+          "total": 1.3099130371119827,
+          "p95": 0.00023504000273533165
+        },
+        "validation_seconds": {
+          "count": 7212,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "color_convert_seconds": {
+          "count": 7212,
+          "median": 0.0,
+          "mean": 0.0,
+          "total": 0.0,
+          "p95": 0.0
+        },
+        "processing_seconds": {
+          "count": 7212,
+          "median": 0.033956555984332226,
+          "mean": 0.034303902070798156,
+          "total": 247.39974173459632,
+          "p95": 0.038531121012056246
+        },
+        "pl_frame_seconds": {
+          "count": 7212,
+          "median": 0.022517545,
+          "mean": 0.022551137698280644,
+          "total": 162.63880507999903,
+          "p95": 0.02289517
+        },
+        "compose_seconds": {
+          "count": 7212,
+          "median": 0.02650429900677409,
+          "mean": 0.026690265237315665,
+          "total": 192.49019289152056,
+          "p95": 0.031085618000361137
+        },
+        "display_submit_seconds": {
+          "count": 7212,
+          "median": 0.0006179999982123263,
+          "mean": 0.0007531459880365334,
+          "total": 5.4316888657194795,
+          "p95": 0.001082596994820051
+        },
+        "fused_copy_validation_seconds": {
+          "count": 7212,
+          "median": 0.024738754495047033,
+          "mean": 0.0249266495937236,
+          "total": 179.7709968699346,
+          "p95": 0.029272701998706907
+        }
+      },
+      "passed": true,
+      "diagnostic_event_spacing_fps": 22.42010127125232,
+      "receive_to_complete_ms": {
+        "count": 6952,
+        "median": 56.10961,
+        "p95": 56.144459,
+        "maximum": 56.14726
+      },
+      "window_start_ticks": 74408493804,
+      "window_end_ticks": 104408493804,
+      "window_seconds": 300,
+      "window_new_scans": 6727,
+      "nexys_complete_new_fps": 22.423333333333332
+    }
+  ],
+  "input_size": [
+    480,
+    270
+  ],
+  "sr_size": [
+    1920,
+    1080
+  ],
+  "minimum_fps": 20,
+  "window_seconds": 300,
+  "clock_policy": "Only Nexys hardware ticks define acceptance windows; no cross-board timestamp subtraction",
+  "n6_all_six_cases_passed": false,
+  "formal_release": false,
+  "run_id": "228de59787e74140be1f62a6d9060c9b",
+  "package_manifest_sha256": "c051665d6d03bafb8cce0ac1800a6d9af2c90cf62c0c43c6df9cafbc78aea730",
+  "session_independently_recomputed": true,
+  "input_inventory_sha256": "d05589636b243c61c5a60aa9aac62ca0f1baf462966e4fe8f292b9b90f9a604d",
+  "analyzer_sha256": "52a432f98afa83dfca8d0704325555e617220a62537d28285db2d0a3cefddcb4"
+}

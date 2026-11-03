@@ -1,0 +1,45 @@
+{
+  "schema": "sr_lut_vendor_bundles_v1",
+  "components": [
+    {
+      "path": "src/third_party/digilent_hdmi_rx.zip",
+      "sha256": "b2dfeac6eb5b4853b35a85ef2af6eacc98cc359948476d3eb7ece72ca94510f5",
+      "bytes": 611420
+    },
+    {
+      "path": "src/third_party/digilent_nexys_video_board.zip",
+      "sha256": "6ab07a5fa1b5d880f2938cee76111ce88af9c9f391de761c2bf02d3bac975223",
+      "bytes": 14477
+    },
+    {
+      "path": "src/third_party/digilent_video.zip",
+      "sha256": "36bb75d4f82b4286c328b39223c27c99ec424d45e08d60eaa77a219cf4f96434",
+      "bytes": 712637
+    },
+    {
+      "path": "src/third_party/fpga_displayport.zip",
+      "sha256": "f9ef61594331d261829ab50be6bbb3f36026563193bf15c9512cfc5bf8f35850",
+      "bytes": 177010
+    },
+    {
+      "path": "src/third_party/hdmi_ffmpeg.zip",
+      "sha256": "cea437c894dad2b2e5c57138f1e30563706901b6f1108d1d42027be2612f2367",
+      "bytes": 20849018
+    },
+    {
+      "path": "src/third_party/hdmi_python.zip",
+      "sha256": "b23f59b8cc2a6f149b16b2c46ae4263206242aac62cddf1afca07e84ad2d356a",
+      "bytes": 1326499
+    },
+    {
+      "path": "src/third_party/mjpegzero.zip",
+      "sha256": "bf1d3bbeb6f2ebec11d4b936207c7ceb929a72b812826fce9375c7ac0000970e",
+      "bytes": 54642
+    },
+    {
+      "path": "src/third_party/algorithm_sources.zip",
+      "sha256": "fd456539a39f5c2e257dbcb525d856cfed2592185b4e9d1c431c694ef7014678",
+      "bytes": 18204
+    }
+  ]
+}

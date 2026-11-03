@@ -1,0 +1,32 @@
+{
+  "candidate_id": "26102101",
+  "part": "xc7a200tsbg484-1",
+  "implementation_revision": 2,
+  "source_patch": {
+    "path": "src/rtl/nexys_bridge/aux_channel.vhd",
+    "base_sha256": "fe1ae11915f62e96c516d2eae1da9ec44645968da8bd150d3c81b8c938ed7fd7",
+    "candidate_sha256": "c8cd3fe7d174516d8faa5986e2603f32db618b522d49f01711393f13885fd5ff"
+  },
+  "timing": {
+    "setup_wns_ns": 0.106,
+    "setup_tns_ns": 0.0,
+    "setup_failing_endpoints": 0.0,
+    "hold_wns_ns": 0.039,
+    "hold_tns_ns": 0.0,
+    "hold_failing_endpoints": 0.0,
+    "pulse_wns_ns": 0.0,
+    "pulse_tns_ns": 0.0,
+    "pulse_failing_endpoints": 0.0
+  },
+  "simulations": 9,
+  "simulations_passed": true,
+  "bitstream_generated": true,
+  "hardware_tested": false,
+  "normal_demo_eligible": false,
+  "default_files_replaced": false,
+  "flash_write_allowed": false,
+  "route_script_sha256": "5455cf0ce2bd3bb0596da0968f26cc2367899f25ed0d52acc60af47e751c115a",
+  "policy": "Allow zero pre-read; require D0 write ACK; allow zero post-read only after zero pre-read + ACK; record quirk bit4, never D0 bit3; keep all physical training checks.",
+  "base_bit_sha256": "34007d57e716776b4eeb284d2d09e7ffc06cd46764edfe2854ebc3c6e0653d7d",
+  "physical_reference_dcp_sha256": "9b90300677ae0b379899fe8eefc18f7fc086cd2ae6d377d34d9ad09075aabd28"
+}

@@ -1,0 +1,217 @@
+{
+  "path": "src/third_party/digilent_hdmi_rx.zip",
+  "sha256": "b2dfeac6eb5b4853b35a85ef2af6eacc98cc359948476d3eb7ece72ca94510f5",
+  "bytes": 611420,
+  "files": [
+    {
+      "path": "if/tmds_v1_0/tmds.xml",
+      "bytes": 908,
+      "sha256": "c6a3cbcfa3de47ca91a2fbe49de15f1f61c7196039f14381d1598a26233be489"
+    },
+    {
+      "path": "if/tmds_v1_0/tmds_rtl.xml",
+      "bytes": 3607,
+      "sha256": "f79979c9844723343c83a80cc6bb9d1e49bdeb0796729517f5e339965e70d2c1"
+    },
+    {
+      "path": "ip/dvi2rgb/.gitignore",
+      "bytes": 165,
+      "sha256": "f3b54b9401cc0437a9e06a502fc6f5ac6dce6213a0b697640cd83c0dae3066fb"
+    },
+    {
+      "path": "ip/dvi2rgb/component.xml",
+      "bytes": 61061,
+      "sha256": "a2a33a213e6981708a80eca004935b983b04bf88fcd287bc6ea20e62e7fc1522"
+    },
+    {
+      "path": "ip/dvi2rgb/docs/Advantiv_DGL_1080P_CEA.dat",
+      "bytes": 1041,
+      "sha256": "01c67d02f165795b3bc0451d268c2bb8181b5d281498b5214e52638dfac16bd2"
+    },
+    {
+      "path": "ip/dvi2rgb/docs/Advantiv_DGL_1280_1024_CEA.dat",
+      "bytes": 1041,
+      "sha256": "8a691e4d0b82aa8546b3d4a4b9a29cab8a3da28343c7708ce4a5cddce3af4604"
+    },
+    {
+      "path": "ip/dvi2rgb/docs/Advantiv_DGL_720P_CEA.dat",
+      "bytes": 1041,
+      "sha256": "1d4b5740bae04836bf072d1396f8a6b9850ab31f613a0355e3e325234b791703"
+    },
+    {
+      "path": "ip/dvi2rgb/docs/dvi2rgb.docx",
+      "bytes": 233990,
+      "sha256": "4c0e8623cd88515593b3d5a1ca43fb3e0c357c14e8d0aec161916e9649aabb3c"
+    },
+    {
+      "path": "ip/dvi2rgb/docs/dvi2rgb.pdf",
+      "bytes": 325152,
+      "sha256": "2c211e49ce222b298f50447ef562ceaed917b7594de16867250f1a971557c68c"
+    },
+    {
+      "path": "ip/dvi2rgb/gui/dvi2rgb_v1_0.gtcl",
+      "bytes": 137,
+      "sha256": "c2941550920e603709b73fb31c2e074410a0c7f21eb96e88fdbd88fe0dfb29dc"
+    },
+    {
+      "path": "ip/dvi2rgb/src/ChannelBond.vhd",
+      "bytes": 6809,
+      "sha256": "9f8359aeb6c1e60cc3cbbc9cf3ddc69895576ef86c032e85e77d0d4fdcf80f3f"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dgl_1080p_cea.data",
+      "bytes": 2304,
+      "sha256": "f4cfdb3e0df0e5a3a7ba8e76e6c19d342c3b0f0348901927a550bd4712ea8add"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dgl_1280_1024_cea.data",
+      "bytes": 2304,
+      "sha256": "e3ac222ed44202cc75a92381f8a4b56c18df5d9077774e6923396646de03e6a8"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dgl_720p_cea.data",
+      "bytes": 2304,
+      "sha256": "f067a7eda5698d5af0461ef3a10e30f72a10de3dc5a3ff8c7ec626be91b454be"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dvi2rgb.vhd",
+      "bytes": 14254,
+      "sha256": "a8577e586b4f3ea68fd8f6bcd206ee7fd2b0691349267db433d6777b8b9e8c4f"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dvi2rgb.xdc",
+      "bytes": 945,
+      "sha256": "522d6a186feca27dbece67303f4a9ac95c57ef3a870aa1d468d889adc4da4c46"
+    },
+    {
+      "path": "ip/dvi2rgb/src/dvi2rgb_ooc.xdc",
+      "bytes": 95,
+      "sha256": "0b74ab740aeab92ea0f247b5bbd931e34d4c8cffc5b118eec9f95a2d63b0e8a9"
+    },
+    {
+      "path": "ip/dvi2rgb/src/DVI_Constants.vhd",
+      "bytes": 3151,
+      "sha256": "d8dbbbc3c8696d4527ee0d3c4757f1a40d0acebc845899483bc61c2bb8270cde"
+    },
+    {
+      "path": "ip/dvi2rgb/src/EEPROM_8b.vhd",
+      "bytes": 8403,
+      "sha256": "db5cede08b24e5c4a3068d9de6e6cd5fc19d5aad2c3245b0da6f2265545ce676"
+    },
+    {
+      "path": "ip/dvi2rgb/src/GlitchFilter.vhd",
+      "bytes": 3919,
+      "sha256": "914d9844fd56b3d7f4e67720fc9f0ca965dee6c26e8cf7a5822529a34256e8ab"
+    },
+    {
+      "path": "ip/dvi2rgb/src/ila_pixclk/ila_pixclk.xci",
+      "bytes": 413833,
+      "sha256": "14da74f4d1a2a281d238298ff5ecaf52b822cd24516faa57a64fb22e19c0e082"
+    },
+    {
+      "path": "ip/dvi2rgb/src/ila_refclk/ila_refclk.xci",
+      "bytes": 412439,
+      "sha256": "38e1aad3eb8dad626c0e00205ac8be134346b69e8ec387e6cd5f5f02f3edb493"
+    },
+    {
+      "path": "ip/dvi2rgb/src/ila_timing_workaround.xdc",
+      "bytes": 3835,
+      "sha256": "6bdbdba0cd188803808ea9347bc35ed34bd832c118fb78b73b6261d293f84d47"
+    },
+    {
+      "path": "ip/dvi2rgb/src/InputSERDES.vhd",
+      "bytes": 10056,
+      "sha256": "9f28ba82371f70e4597e79648a433343d424de7c55ff48e766944f20b19adb00"
+    },
+    {
+      "path": "ip/dvi2rgb/src/PhaseAlign.vhd",
+      "bytes": 14475,
+      "sha256": "6019634663033456653d5415205fd3df21b5527c1390ce5012c0702f38490632"
+    },
+    {
+      "path": "ip/dvi2rgb/src/ResyncToBUFG.vhd",
+      "bytes": 3719,
+      "sha256": "5ede27161ccf2723207c9c55e359cdcf1c9c998cb16fcaa909fdc8d58ff81689"
+    },
+    {
+      "path": "ip/dvi2rgb/src/SyncAsync.vhd",
+      "bytes": 3727,
+      "sha256": "5561ac8099ed13f3114e97387aab5f7f30ad28a8be2fc540004cbee3f19eb3a7"
+    },
+    {
+      "path": "ip/dvi2rgb/src/SyncAsyncReset.vhd",
+      "bytes": 3734,
+      "sha256": "3ce7ade3267959da59b4d448cc6641018e4f0ac3de9f8f998d0b9ff84a3794bc"
+    },
+    {
+      "path": "ip/dvi2rgb/src/SyncBase.vhd",
+      "bytes": 3854,
+      "sha256": "10dc70c19caa969071c2c0be52c3757a62d15d661f4b1b65b3f76818671e478c"
+    },
+    {
+      "path": "ip/dvi2rgb/src/TMDS_Clocking.vhd",
+      "bytes": 12258,
+      "sha256": "488a801b4e718385fb51bff7c2e61d105609939c9faa93feeb4bb8a0de849a90"
+    },
+    {
+      "path": "ip/dvi2rgb/src/TMDS_Decoder.vhd",
+      "bytes": 10949,
+      "sha256": "e43a58f978870d512646a7b468a4c70e33a60e97f7f64ef6b9ff867b23c5e466"
+    },
+    {
+      "path": "ip/dvi2rgb/src/TWI_SlaveCtl.vhd",
+      "bytes": 11349,
+      "sha256": "b1c9a001d8a7bedb2366d9c1d6d0b061de59327b68d6867df887d0cb73f62f2f"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_3.tcl",
+      "bytes": 3478,
+      "sha256": "e507fad7f738d9995bfd7f4aa8be1a2d1e23abadbeb227603dd0e6a54935b5c8"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_4.tcl",
+      "bytes": 4394,
+      "sha256": "b46dcc0a4050a1abd3e480a8cc5f8c351b66d0e473b819607c48fb92b4129a46"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_5.tcl",
+      "bytes": 5146,
+      "sha256": "c6cf51d058b384042185e01c5d4d7414d0bbb704592e2b4dac56137db58d9b4b"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_6.tcl",
+      "bytes": 5749,
+      "sha256": "e07b498e173fe172ab3916cb74fe295802277b8cadf17b22c8d656e18bf9dba5"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_7.tcl",
+      "bytes": 5749,
+      "sha256": "e07b498e173fe172ab3916cb74fe295802277b8cadf17b22c8d656e18bf9dba5"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_8.tcl",
+      "bytes": 6424,
+      "sha256": "d6e6e8be8f28ff8904c77a143240abb8f47b8f6362be3465dbdc58b22bb3dd07"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v1_9.tcl",
+      "bytes": 6424,
+      "sha256": "d6e6e8be8f28ff8904c77a143240abb8f47b8f6362be3465dbdc58b22bb3dd07"
+    },
+    {
+      "path": "ip/dvi2rgb/xgui/dvi2rgb_v2_0.tcl",
+      "bytes": 6531,
+      "sha256": "f20148cfaaf4be467265f7a79718afae20619cb7b47eb4d4dbf175b53ad3129e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 954,
+      "sha256": "0e385b347c248910b2c9ce07d8259a68cf04770034ab9806fb852c367752e598"
+    },
+    {
+      "path": "upstream_manifest.json",
+      "bytes": 7062,
+      "sha256": "43a8e8979a7d1d8420b555470a734230e6c8201576beb1f997f50b2ddc03a5d8"
+    }
+  ]
+}

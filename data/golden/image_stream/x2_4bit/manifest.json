@@ -1,0 +1,108 @@
+{
+  "format_version": 1,
+  "configuration": "x2_4bit",
+  "scale": 2,
+  "sampling_bits": 4,
+  "axis_word": {
+    "rgb": "R[7:0], G[15:8], B[23:16]",
+    "last": "bit[24], asserted only on final frame pixel"
+  },
+  "small": {
+    "input_shape": [
+      3,
+      4,
+      3
+    ],
+    "output_shape": [
+      6,
+      8,
+      3
+    ],
+    "input_raw_sha256": "978F3D9AB7CF76A1649F38FF6A376D467BAD74BEFD3B647F88063FA8B9315352",
+    "output_raw_sha256": "D269EDC90999D8FD88F93B8767C661EA96FAEAD5BB800BEBAFEA209AB38B3CF4",
+    "neighborhood_line_order": "pixel_row_major, direction_0_to_3, channel_R_G_B",
+    "numerator_line_order": "pixel_row_major, direction_0_to_3, channel_R_G_B",
+    "fused_line_order": "pixel_row_major, channel_R_G_B",
+    "coverage": [
+      "four_corners",
+      "four_edges",
+      "four_directions",
+      "three_rgb_channels",
+      "rotation_restore",
+      "ties_to_even",
+      "clip_0_255"
+    ]
+  },
+  "full": {
+    "source_file": "data/test_vectors/source_images/lr_x2/woman_gt.png",
+    "source_file_sha256": "5C8B09DDA7012C4A026AB2CD3DA0CD438E379981FBE92603B994D716464BD944",
+    "input_shape": [
+      172,
+      114,
+      3
+    ],
+    "output_shape": [
+      344,
+      228,
+      3
+    ],
+    "input_raw_sha256": "AEE68638085CECDDF69E9CCA1D237C5D4DC54D1991045E91F996222D58E1A82D",
+    "output_raw_sha256": "D2B6371C035304C7D064368CBE7CCA7A5A30BE46C435D93300926BAAFC40BDAE"
+  },
+  "files": {
+    "small_input_axis.mem": {
+      "lines": 12,
+      "word_bits": 25,
+      "size_bytes": 96,
+      "sha256": "0E25D02141D40BD48852BB6804CD8CEE7FCF7DAE5F1935808E244BE0DF55872D"
+    },
+    "small_neighborhoods.mem": {
+      "lines": 144,
+      "word_bits": 32,
+      "size_bytes": 1296,
+      "sha256": "7458B9E5CD2FB253FAD7F1513EFAE275FEA5E8D8372AB678C7B3492535E835AE"
+    },
+    "small_native_numerators.mem": {
+      "lines": 144,
+      "word_bits": 60,
+      "size_bytes": 2304,
+      "sha256": "DF17BB4FF2D526FBCD8A8F773C4D4723D40D0AFA18EB22717096F70848180E29"
+    },
+    "small_restored_numerators.mem": {
+      "lines": 144,
+      "word_bits": 60,
+      "size_bytes": 2304,
+      "sha256": "3ABF69CDB0944CDB220467FE8C459AF1B88818491A6BDDE684B5DA69DD4E66CD"
+    },
+    "small_fused_numerators.mem": {
+      "lines": 36,
+      "word_bits": 68,
+      "size_bytes": 648,
+      "sha256": "645AB9AB0820E25017ECD5AA3885D52D073985FA5D43DF5E7A7395908C7AE5A7"
+    },
+    "small_rounded.mem": {
+      "lines": 36,
+      "word_bits": 60,
+      "size_bytes": 576,
+      "sha256": "9E61D7B9AF0876287BD34BBA757A4186F38BFACDF39E03DD3A265410C1CE06FE"
+    },
+    "small_output_axis.mem": {
+      "lines": 48,
+      "word_bits": 25,
+      "size_bytes": 384,
+      "sha256": "73569AF0DDE9988A0080E5C8734A8122C0D497ED47C40CB6F7BE0EF220928638"
+    },
+    "full_input_axis.mem": {
+      "lines": 19608,
+      "word_bits": 25,
+      "size_bytes": 156864,
+      "sha256": "795D9330529898919C891670E1596129DE320AE549A5BDA28D1D897F5D9DB4E8"
+    },
+    "full_output_axis.mem": {
+      "lines": 78432,
+      "word_bits": 25,
+      "size_bytes": 627456,
+      "sha256": "D7BF37CB54E82293685A1FD0DBEB5D4D93AE1E7D2741EFC393D73EC3E56666AD"
+    }
+  }
+}

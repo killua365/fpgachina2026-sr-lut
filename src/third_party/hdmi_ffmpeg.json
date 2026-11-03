@@ -1,0 +1,162 @@
+{
+  "path": "src/third_party/hdmi_ffmpeg.zip",
+  "sha256": "cea437c894dad2b2e5c57138f1e30563706901b6f1108d1d42027be2612f2367",
+  "bytes": 20849018,
+  "files": [
+    {
+      "path": "ffmpeg_4.4.1-3ubuntu5_armhf.deb",
+      "bytes": 1689830,
+      "sha256": "9b4934dd029e6d32b1924be53144b0f9284a615401e9c7ebc1b4edbefb1109e1"
+    },
+    {
+      "path": "libass9_0.15.2-1_armhf.deb",
+      "bytes": 80276,
+      "sha256": "c35d22c0bd38eb409ab9e6fedf8180d209a75edb6cd3ee564ee654ee4f6d2b91"
+    },
+    {
+      "path": "libavc1394-0_0.5.4-5build2_armhf.deb",
+      "bytes": 14884,
+      "sha256": "4e29d4bbf777e130d44c9f099354a1d816d94f3645fe22782b45fefbc1b80818"
+    },
+    {
+      "path": "libavdevice58_4.4.1-3ubuntu5_armhf.deb",
+      "bytes": 80552,
+      "sha256": "bc7fadbf431e33a1e2f8a30de01368a4964cfb6488187ebb92a0d29ef2dc8fed"
+    },
+    {
+      "path": "libavfilter7_4.4.1-3ubuntu5_armhf.deb",
+      "bytes": 1283212,
+      "sha256": "e65e6ce8546417ade41123a94630260658ca472714d1b7438be77b7e7540d057"
+    },
+    {
+      "path": "libbs2b0_3.1.0+dfsg-2.2build1_armhf.deb",
+      "bytes": 9288,
+      "sha256": "b5f01f04839cdb3bb31b92cbd77b1b6971f610684b7adfc3d5e57f08ebd9e35b"
+    },
+    {
+      "path": "libcaca0_0.99.beta19-2.2ubuntu4_armhf.deb",
+      "bytes": 210268,
+      "sha256": "f4de690e09049cf7a424e998c7347799eb0f328edaf65e657a6465d0a1b50a2a"
+    },
+    {
+      "path": "libcdio-cdda2_10.2+2.0.0-1build3_armhf.deb",
+      "bytes": 15874,
+      "sha256": "6c441cdf5dad08bf2f94ddcdd13bb95cce345f7e98f138bfbdc5d2b3729ba7f8"
+    },
+    {
+      "path": "libcdio-paranoia2_10.2+2.0.0-1build3_armhf.deb",
+      "bytes": 14050,
+      "sha256": "c3c2f4953c1495fe08de54db4e991e0fd40b1c253bf122f690927c17e69dccf1"
+    },
+    {
+      "path": "libcdio19_2.1.0-3build1_armhf.deb",
+      "bytes": 57086,
+      "sha256": "7007fd4208bf5145520ef0c1662ea346b8ce6f6d336d6c63003726f254193ed2"
+    },
+    {
+      "path": "libdecor-0-0_0.1.0-3build1_armhf.deb",
+      "bytes": 12114,
+      "sha256": "5424168d272ab11c20b48cb74243f6ac5a8a7d357e150ba804b0983fbc5989a4"
+    },
+    {
+      "path": "libflite1_2.2-3_armhf.deb",
+      "bytes": 13294372,
+      "sha256": "bb98bb0f7df5ab4ff8f1cb9169efa755c0dd17367f0da08a7673e1a5ff49b71d"
+    },
+    {
+      "path": "libiec61883-0_1.2.0-4build3_armhf.deb",
+      "bytes": 23718,
+      "sha256": "2898a2438a87c7261577152aa501c7a416271324c74e81b8d304a0035c084f69"
+    },
+    {
+      "path": "liblilv-0-0_0.24.12-2_armhf.deb",
+      "bytes": 36136,
+      "sha256": "f53c4fd539068d879509e6fa4cee0a97b583666e8835987daf2889c3cf79bb72"
+    },
+    {
+      "path": "libmysofa1_1.2.1~dfsg0-1_armhf.deb",
+      "bytes": 1152910,
+      "sha256": "b9bca4c2b450a449a43fa7eceee2e6c439cb5a71dbeb4e3d9fe8fe0693e98632"
+    },
+    {
+      "path": "libopenal-data_1.19.1-2build3_all.deb",
+      "bytes": 163962,
+      "sha256": "0fc7b012c00d611b5f5df3d380a80cade877f32a70b893d60409393f9a17f9bb"
+    },
+    {
+      "path": "libopenal1_1.19.1-2build3_armhf.deb",
+      "bytes": 517702,
+      "sha256": "99433ec7bed5486faf2de356e814da6751d3ab9124826d874befb4a7066cfd35"
+    },
+    {
+      "path": "libpocketsphinx3_0.8.0+real5prealpha+1-14ubuntu1_armhf.deb",
+      "bytes": 114570,
+      "sha256": "794ea3b9c1fd83192bd84d1fad560e30e9c5399a1dfb232b19750f6b5c48c216"
+    },
+    {
+      "path": "libpostproc55_4.4.1-3ubuntu5_armhf.deb",
+      "bytes": 36290,
+      "sha256": "4d14909babbbef4cef9b3470145879073e6b67605657ab12fb310c7cf8d3210c"
+    },
+    {
+      "path": "librubberband2_2.0.0-2_armhf.deb",
+      "bytes": 80028,
+      "sha256": "181264bc224a8b47bcade219be4511258c8885df16adc26260db834088fd84f9"
+    },
+    {
+      "path": "libsamplerate0_0.2.2-1build1_armhf.deb",
+      "bytes": 1357320,
+      "sha256": "bd305adad307f07cf9b29eed58223d3f3d1d93b565dac7855453c6d102568731"
+    },
+    {
+      "path": "libsdl2-2.0-0_2.0.20+dfsg-2build1_armhf.deb",
+      "bytes": 499982,
+      "sha256": "9edf997985f0e4c7e6f029230c331a24d82e900ae27ba423d86fa8d6176a9e37"
+    },
+    {
+      "path": "libserd-0-0_0.30.10-2_armhf.deb",
+      "bytes": 35000,
+      "sha256": "5ef668d6b8d4ecc832764e9aa1fe82b5cddb805fdac7ff3bca55d26363a590d2"
+    },
+    {
+      "path": "libsndio7.0_1.8.1-1.1_armhf.deb",
+      "bytes": 26338,
+      "sha256": "32a7589a72ad5d642fcf6a14a848fe6e7f64dd2e39fa61cf016f1a25afa1ec88"
+    },
+    {
+      "path": "libsord-0-0_0.16.8-2_armhf.deb",
+      "bytes": 18420,
+      "sha256": "5d24c729b1b6bf1e23fc215745fd53041b4923712a7a830e6e3c2cf5c6aecc0e"
+    },
+    {
+      "path": "libsphinxbase3_0.8+5prealpha+1-13build1_armhf.deb",
+      "bytes": 106732,
+      "sha256": "60c61f2a8692d8b5a94ef83f21cc39911dee8be7e11615572ead02488e4e8f22"
+    },
+    {
+      "path": "libsratom-0-0_0.6.8-1_armhf.deb",
+      "bytes": 15140,
+      "sha256": "1769821eb7767153c83fa5810dc27d4e0ceb4156a9a619440f8fc2cbbbdd8275"
+    },
+    {
+      "path": "libvidstab1.1_1.1.0-2_armhf.deb",
+      "bytes": 28200,
+      "sha256": "04e840311979415f86d51eebea352fa7bee3dfe6b3eb4cb34b63cc8c946a4209"
+    },
+    {
+      "path": "libzimg2_3.0.3+ds1-1_armhf.deb",
+      "bytes": 72844,
+      "sha256": "f9ddfd54f34d907f6019aa223caa3aa15a82bd808f94c63e2532b8ccb5c508be"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 12347,
+      "sha256": "7543851dcacdd469db6b13efb47b52c25e39b1365da1a8ef3380a4ad6d5871b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1080,
+      "sha256": "78e732b6f279fb37ee607f9a928b94f5d502d727ae137af4e374fb4f8a21eac1"
+    }
+  ]
+}

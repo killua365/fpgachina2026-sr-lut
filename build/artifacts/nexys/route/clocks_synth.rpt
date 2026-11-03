@@ -1,0 +1,261 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Mon Oct 12 21:32:53 2026
+| Host         : LAPTOP-5M1908N8 running 64-bit major release  (build 9200)
+| Command      : report_clocks -file D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/clocks_synth.rpt
+| Design       : bridge_board_top_continuous
+| Device       : 7a200t-sbg484
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock                                                                                                                                                      Period(ns)  Waveform(ns)    Attributes  Sources
+board100                                                                                                                                                   10.000      {0.000 5.000}   P           {clk100}
+dp_symbol135                                                                                                                                               7.407       {0.000 3.704}   P           {link/i_tx0/g_tx[0].gtpe2_i/TXOUTCLK}
+hdmi_7425                                                                                                                                                  13.468      {0.000 6.734}   P           {hdmi_clk_p}
+refclk0_p                                                                                                                                                  7.407       {0.000 3.704}   P           {refclk0_p}
+CLKFBIN                                                                                                                                                    13.468      {0.000 6.734}   P,G,A       {hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKFBOUT}
+CLK_OUT_5x_hdmi_clk                                                                                                                                        2.694       {0.000 1.347}   P,G,A       {hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKOUT0}
+PixelClk_int                                                                                                                                               13.468      {0.000 5.387}   P,G,A       {hdmi/receiver/TMDS_ClockingX/PixelClkBuffer/O}
+clk_div2_bufg_in                                                                                                                                           5.000       {0.000 2.500}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT6}
+clk_pll_i                                                                                                                                                  10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKFBOUT}
+feedback                                                                                                                                                   10.000      {0.000 5.000}   P,G,A       {reference_clock/CLKFBOUT}
+freq_refclk                                                                                                                                                1.250       {0.000 0.625}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT0}
+iserdes_clkdiv                                                                                                                                             10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/ICLKDIV}
+iserdes_clkdiv_1                                                                                                                                           10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/ICLKDIV}
+mem_refclk                                                                                                                                                 2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT1}
+mmcm_clkout0                                                                                                                                               5.000       {0.000 2.500}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT0}
+mmcm_clkout1                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT1}
+mmcm_clkout2                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT2}
+mmcm_clkout3                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT3}
+mmcm_clkout4                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT4}
+mmcm_ps_clk_bufg_in                                                                                                                                        20.000      {0.000 10.000}  P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT5}
+oserdes_clk                                                                                                                                                2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLK}
+oserdes_clk_1                                                                                                                                              2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLK}
+oserdes_clk_2                                                                                                                                              2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/OCLK}
+oserdes_clk_3                                                                                                                                              2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/OCLK}
+oserdes_clkdiv                                                                                                                                             10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLKDIV}
+oserdes_clkdiv_1                                                                                                                                           10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLKDIV}
+oserdes_clkdiv_2                                                                                                                                           5.000       {0.000 2.500}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/OCLKDIV}
+oserdes_clkdiv_3                                                                                                                                           5.000       {0.000 2.500}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/OCLKDIV}
+pll_clk3_out                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3}
+pll_clkfbout                                                                                                                                               10.000      {0.000 5.000}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKFBOUT}
+ref200_unbuffered                                                                                                                                          5.000       {0.000 2.500}   P,G,A       {reference_clock/CLKOUT0}
+sync_pulse                                                                                                                                                 40.000      {1.094 3.594}   P,G,A       {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT2}
+u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk  2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/ICLK}
+u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk  2.500       {0.000 1.250}   P,G,A       {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/ICLK}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : CLKFBIN
+Master Source       : hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKIN1
+Master Clock        : hdmi_7425
+Multiply By         : 1
+Generated Sources   : {hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKFBOUT}
+
+Generated Clock     : CLK_OUT_5x_hdmi_clk
+Master Source       : hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKIN1
+Master Clock        : hdmi_7425
+Multiply By         : 5
+Generated Sources   : {hdmi/receiver/TMDS_ClockingX/DVI_ClkGenerator/CLKOUT0}
+
+Generated Clock     : PixelClk_int
+Master Source       : hdmi/receiver/TMDS_ClockingX/PixelClkBuffer/I
+Master Clock        : CLK_OUT_5x_hdmi_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 4.040 10.774}
+Generated Sources   : {hdmi/receiver/TMDS_ClockingX/PixelClkBuffer/O}
+
+Generated Clock     : clk_div2_bufg_in
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT6}
+
+Generated Clock     : clk_pll_i
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKFBOUT}
+
+Generated Clock     : feedback
+Master Source       : reference_clock/CLKIN1
+Master Clock        : board100
+Multiply By         : 1
+Generated Sources   : {reference_clock/CLKFBOUT}
+
+Generated Clock     : freq_refclk
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKIN1
+Master Clock        : board100
+Multiply By         : 8
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT0}
+
+Generated Clock     : iserdes_clkdiv
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/ICLK
+Master Clock        : u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk
+Divide By           : 4
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/ICLKDIV}
+
+Generated Clock     : iserdes_clkdiv_1
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/ICLK
+Master Clock        : u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk
+Divide By           : 4
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/ICLKDIV}
+
+Generated Clock     : mem_refclk
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKIN1
+Master Clock        : board100
+Multiply By         : 4
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT1}
+
+Generated Clock     : mmcm_clkout0
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT0}
+
+Generated Clock     : mmcm_clkout1
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT1}
+
+Generated Clock     : mmcm_clkout2
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT2}
+
+Generated Clock     : mmcm_clkout3
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT3}
+
+Generated Clock     : mmcm_clkout4
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT4}
+
+Generated Clock     : mmcm_ps_clk_bufg_in
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKIN1
+Master Clock        : pll_clk3_out
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 5.000 10.000}
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/gen_ui_extra_clocks.mmcm_i/CLKOUT5}
+
+Generated Clock     : oserdes_clk
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/MEMREFCLK
+Master Clock        : mem_refclk
+Divide By           : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLK}
+
+Generated Clock     : oserdes_clk_1
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/MEMREFCLK
+Master Clock        : mem_refclk
+Divide By           : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLK}
+
+Generated Clock     : oserdes_clk_2
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/MEMREFCLK
+Master Clock        : mem_refclk
+Divide By           : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/OCLK}
+
+Generated Clock     : oserdes_clk_3
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/MEMREFCLK
+Master Clock        : mem_refclk
+Divide By           : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/OCLK}
+
+Generated Clock     : oserdes_clkdiv
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLK
+Master Clock        : oserdes_clk
+Divide By           : 4
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLKDIV}
+
+Generated Clock     : oserdes_clkdiv_1
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLK
+Master Clock        : oserdes_clk_1
+Divide By           : 4
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLKDIV}
+
+Generated Clock     : oserdes_clkdiv_2
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/OCLK
+Master Clock        : oserdes_clk_2
+Divide By           : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_out/OCLKDIV}
+
+Generated Clock     : oserdes_clkdiv_3
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/OCLK
+Master Clock        : oserdes_clk_3
+Divide By           : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_out/OCLKDIV}
+
+Generated Clock     : pll_clk3_out
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKIN1
+Master Clock        : board100
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3}
+
+Generated Clock     : pll_clkfbout
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKIN1
+Master Clock        : board100
+Multiply By         : 1
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKFBOUT}
+
+Generated Clock     : ref200_unbuffered
+Master Source       : reference_clock/CLKIN1
+Master Clock        : board100
+Multiply By         : 2
+Generated Sources   : {reference_clock/CLKOUT0}
+
+Generated Clock     : sync_pulse
+Master Source       : memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKIN1
+Master Clock        : board100
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {1.094 -1.406 31.094}
+Generated Sources   : {memory/u_n3_mig_mig/u_ddr3_infrastructure/plle2_i/CLKOUT2}
+
+Generated Clock     : u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/FREQREFCLK
+Master Clock        : freq_refclk
+Divide By           : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/phaser_in_gen.phaser_in/ICLK}
+
+Generated Clock     : u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk
+Master Source       : memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/FREQREFCLK
+Master Clock        : freq_refclk
+Divide By           : 2
+Generated Sources   : {memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/phaser_in_gen.phaser_in/ICLK}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+

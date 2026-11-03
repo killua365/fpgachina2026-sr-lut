@@ -1,0 +1,84 @@
+{
+  "format_version": 1,
+  "configuration": "x2_4bit",
+  "scale": 2,
+  "sampling_bits": 4,
+  "q": 16,
+  "levels": 17,
+  "lut_depth": 83521,
+  "address_bits": 17,
+  "outputs_per_entry": 4,
+  "case_count": 10041,
+  "coverage": {
+    "boundary": 8,
+    "strict_permutations": 24,
+    "ties": 9,
+    "fixed_random": 10000
+  },
+  "random_seed": 20250806,
+  "lut_source": {
+    "filename": "model_s_x2_4bit_int8.npy",
+    "sha256": "04745833137253B1BAAC2146E0D21D415C181F17D0780ECED6C33CE12DE2AC82"
+  },
+  "packing": {
+    "first_value": "least_significant_bits",
+    "signed": "twos_complement",
+    "text_encoding": "ASCII",
+    "line_ending": "LF"
+  },
+  "files": {
+    "quantizer.mem": {
+      "lines": 256,
+      "size_bytes": 2304,
+      "sha256": "50C988219007746DCB314E3DCED4BDDF003223D492C23176C67C327B2D452804",
+      "word_bits": 32
+    },
+    "case_labels.txt": {
+      "lines": 10041,
+      "size_bytes": 130630,
+      "sha256": "59485BABBD8476DBCAA9559111BFFFD5DD908CB3EDBE156431F64F1B5A156D75"
+    },
+    "inputs.mem": {
+      "lines": 10041,
+      "size_bytes": 90369,
+      "sha256": "2031BC0C63FF9E79F1470FBA09C425265C51DE57AF1C9989179E700EB4C4CC62",
+      "word_bits": 32
+    },
+    "lower.mem": {
+      "lines": 10041,
+      "size_bytes": 90369,
+      "sha256": "B301E97BFE8B0473545A8DF70BF62089AEF8CCF428C4A0714D5B2193919AE562",
+      "word_bits": 32
+    },
+    "remainders.mem": {
+      "lines": 10041,
+      "size_bytes": 90369,
+      "sha256": "FE9A1AD2F00B2323AF8C3B140215BD049C87CF9F0B894CCD4EEEC6619BE5FC87",
+      "word_bits": 32
+    },
+    "masks.mem": {
+      "lines": 10041,
+      "size_bytes": 60246,
+      "sha256": "E3FE591B7CA73CBA51E5F2A1F0780D9F4CF4AC4D816D6F148E9AE61B8489BECA",
+      "word_bits": 20
+    },
+    "weights.mem": {
+      "lines": 10041,
+      "size_bytes": 100410,
+      "sha256": "83D429BCD359E60B7B185B5CEF8AA4B861C8A8FA527D916B94AFE8C2DFD7285B",
+      "word_bits": 35
+    },
+    "addresses.mem": {
+      "lines": 10041,
+      "size_bytes": 411681,
+      "sha256": "E09ECD270093B7A69DC37DC770ADCD358131E0440C3678B550226E816231C75C",
+      "word_bits": 160
+    },
+    "numerators.mem": {
+      "lines": 10041,
+      "size_bytes": 160656,
+      "sha256": "F934182B7E582AED526251D2528C46825981701457B5C34591F11891E3CA8CF3",
+      "word_bits": 60
+    }
+  }
+}

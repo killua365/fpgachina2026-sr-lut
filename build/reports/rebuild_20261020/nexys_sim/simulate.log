@@ -1,0 +1,32 @@
+Time resolution is 1 ps
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/I_PRMRY_DATAMOVER/gen_s2mm_full/I_S2MM_FULL_WRAPPER/gen_enable_indet_btt_sf/I_INDET_BTT/I_XD_FIFO/non_blk_mem/I_SYNC_FIFOGEN_FIFO/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_726  Scope: tb_sr_identity_core.core.dma.U0.I_PRMRY_DATAMOVER.gen_s2mm_full.I_S2MM_FULL_WRAPPER.gen_enable_indet_btt_sf.I_INDET_BTT.I_XD_FIFO.non_blk_mem.I_SYNC_FIFOGEN_FIFO.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_flush_sof.gen_linebuffer.gen_async_fifo.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/gen_sprt_for_mm2s/MM2S_LINEBUFFER_I/gen_linebuf_flush_sof/gen_linebuffer/gen_async_fifo/lb_bram/I_LINEBUFFER_FIFO/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_251  Scope: tb_sr_identity_core.core.dma.U0.gen_sprt_for_mm2s.MM2S_LINEBUFFER_I.gen_linebuf_flush_sof.gen_linebuffer.gen_async_fifo.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_sr_identity_core.core.dma.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_async_fifo_flush_sof.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/dma/U0/gen_sprt_for_s2mm/S2MM_LINEBUFFER_I/gen_s2mm_flush_sof_logic/gen_linebuffer_flush_sof/gen_async_fifo_flush_sof/lb_bram/I_LINEBUFFER_FIFO/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_511  Scope: tb_sr_identity_core.core.dma.U0.gen_sprt_for_s2mm.S2MM_LINEBUFFER_I.gen_s2mm_flush_sof_logic.gen_linebuffer_flush_sof.gen_async_fifo_flush_sof.lb_bram.I_LINEBUFFER_FIFO.xpm_fifo_async_inst.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/ingress_fifo/fifo/gnuram_async_fifo.xpm_fifo_base_inst/Initial1559_984  Scope: tb_sr_identity_core.core.ingress_fifo.fifo.gnuram_async_fifo.xpm_fifo_base_inst  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+Warning: SIM_ASSERT_CHK (1) specifies simulation message reporting, messages related to potential misuse will be reported.
+Time: 1 ps  Iteration: 0  Process: /tb_sr_identity_core/core/pixels/storage/xpm_fifo_base_inst/Initial1559_1080  Scope: tb_sr_identity_core.core.pixels.storage.xpm_fifo_base_inst  File: D:/vivado2026.1/2026.1/Vivado/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv Line: 1566
+PROGRESS simulated_ns=         20000000000 raster=         0 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         40000000000 raster=         1 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         60000000000 raster=         1 SR_new=         0 scans=         0
+PROGRESS simulated_ns=         80000000000 raster=         2 SR_new=         0 scans=         0
+PROGRESS simulated_ns=        100000000000 raster=         2 SR_new=         0 scans=         0
+PROGRESS: complete written frame          1 at         100000805000
+PROGRESS simulated_ns=        120000000000 raster=         3 SR_new=         0 scans=         0
+PROGRESS: complete displayed frame          1 identity=         0 at         132678065000
+PROGRESS: complete written frame          2 at         133334105000
+PROGRESS simulated_ns=        140000000000 raster=         4 SR_new=         1 scans=         1
+PROGRESS: complete displayed frame          2 identity=         0 at         149346065000
+PROGRESS simulated_ns=        160000000000 raster=         4 SR_new=         1 scans=         2
+PROGRESS: complete displayed frame          3 identity=         1 at         166014065000
+PROGRESS: complete written frame          3 at         166667405000
+PROGRESS simulated_ns=        180000000000 raster=         5 SR_new=         1 scans=         3
+PROGRESS: complete displayed frame          4 identity=         1 at         182682065000
+PROGRESS: complete displayed frame          5 identity=         2 at         199350065000
+BUSINESS new=         2 repeat=         3 scans=         5
+PASS: sr_identity_core actual VDMA, asynchronous 1080p30 raster, golden input pixels, DDR CRC, DP60 leases and repeated scans new=         3 repeated=         2
+$finish called at time : 199350160 ns : File "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/tb_sr_identity_core.sv" Line 161
+INFO: xsimkernel Simulation Memory Usage: 133020 KB (Peak: 133020 KB), Simulation CPU Usage: 2184281 ms

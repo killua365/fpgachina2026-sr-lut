@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/project/vdmatest.gen/sources_1/ip/n3_vdma/sim/n3_vdma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'n3_vdma'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/tmp/sr_lut_build_20261020_sim/sim/source/dp_framebuffer_source.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_framebuffer_source'

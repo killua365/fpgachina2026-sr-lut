@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scale": 2,
+  "mode": "1920x1080@30",
+  "actual_hwh_sha256": "36f888ad0cbc673ab08f7dc127f437a9b129cb4bd090281ce07560a3df1f8031",
+  "frozen_hwh_sha256": "996c69bd8511a9cb3b25ed77356fc806003adeaa8a0e5626d16204f707bab243",
+  "compared": "All modules, parameters, port attributes and memory-map ranges; only relocated LUT pathname normalized, with LUT bytes checked",
+  "differences": [],
+  "hardware_access": false
+}

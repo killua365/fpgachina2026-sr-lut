@@ -1,0 +1,147 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Wed Oct 21 19:00:08 2026
+| Host         : LAPTOP-5M1908N8 running 64-bit major release  (build 9200)
+| Command      : report_incremental_reuse -file D:/FPGA/sr_lut_fpga/build/reproduction_work/nexys_vga_26102101/route_incremental/incremental_reuse.rpt
+| Design       : bridge_board_top_continuous
+| Device       : xc7a200t
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Incremental Implementation Information
+
+Table of Contents
+-----------------
+1. Incremental Flow Summary
+2. Reuse Summary
+3. Reference Checkpoint Information
+4. Comparison with Reference Run
+5. Optimization Comparison With Reference Run
+5.1 iphys_opt_replay Optimizations
+5.2 QoR Suggestion Optimizations
+6. Command Comparison with Reference Run
+6.1 Reference:
+6.2 Incremental:
+7. Non Reuse Information
+
+1. Incremental Flow Summary
+---------------------------
+
++-----------------------+------------------+
+|    Flow Information   |       Value      |
++-----------------------+------------------+
+| Synthesis Flow        |          Default |
+| Auto Incremental      |               No |
+| Incremental Directive | RuntimeOptimized |
+| Target WNS            |              0.0 |
+| QoR Suggestions       |                0 |
++-----------------------+------------------+
+
+
+2. Reuse Summary
+----------------
+
++-------+------------------------------+------------------------------------+----------------------------+--------------------+--------+
+|  Type | Matched % (of Initial Total) | Initial Reuse % (of Initial Total) | Current Reuse % (of Total) | Fixed % (of Total) |  Total |
++-------+------------------------------+------------------------------------+----------------------------+--------------------+--------+
+| Cells |                        99.57 |                              99.57 |                      99.57 |               0.36 |  56809 |
+| Nets  |                        97.58 |                              97.34 |                      97.24 |               0.00 |  47339 |
+| Pins  |                            - |                              97.21 |                      95.16 |                  - | 211410 |
+| Ports |                       100.00 |                             100.00 |                     100.00 |             100.00 |     81 |
++-------+------------------------------+------------------------------------+----------------------------+--------------------+--------+
+
+
+3. Reference Checkpoint Information
+-----------------------------------
+
++----------------+------------------------------------------------------------+
+| DCP Location:  | D:/FPGA/sr_lut_fpga/build/artifacts/nexys/route/routed.dcp |
++----------------+------------------------------------------------------------+
+
+
++--------------------------------+----------------------------+
+|         DCP Information        |            Value           |
++--------------------------------+----------------------------+
+| Vivado Version                 |                     2026.1 |
+| DCP State                      |                 POST_ROUTE |
+| Recorded WNS                   |                      0.105 |
+| Recorded WHS                   |                      0.038 |
+| Reference Speed File Version   | PRODUCTION 1.23 2018-06-13 |
+| Incremental Speed File Version | PRODUCTION 1.23 2018-06-13 |
++--------------------------------+----------------------------+
+* Recorded WNS/WHS timing numbers are estimated timing numbers. They may vary slightly from sign-off timing numbers.
+
+
+4. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:02 |       00:02 |       00:02 |       00:01 |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |             |     < 1 min |             |     < 1 min |
+| place_design    |       0.396 |       0.106 |       00:02 |       00:01 |       00:04 |       00:01 |
+| phys_opt_design |       0.396 |       0.106 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |       0.105 |       0.710 |       00:02 |       00:01 |       00:03 |       00:02 |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+5. Optimization Comparison With Reference Run
+---------------------------------------------
+
+5.1 iphys_opt_replay Optimizations
+----------------------------------
+
++-------------------------+--------+------------+
+| iphys_opt_design replay | Reused | Not Reused |
++-------------------------+--------+------------+
+
+
+5.2 QoR Suggestion Optimizations
+--------------------------------
+
++-----------------+-------+
+| QoR Suggestions | Value |
++-----------------+-------+
+
+
+6. Command Comparison with Reference Run
+----------------------------------------
+
+6.1 Reference:
+--------------
+synth_design-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  bridge_board_top_continuous -part  xc7a200tsbg484-1 
+opt_design
+place_design
+phys_opt_design
+route_design
+
+6.2 Incremental:
+----------------
+synth_design-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  bridge_board_top_continuous -part  xc7a200tsbg484-1 
+opt_design
+read_checkpoint -directive RuntimeOptimized  -incremental D:/FPGA/sr_lut_fpga/build/artifacts/nexys/route/routed.dcp
+place_design
+phys_opt_design
+route_design
+
+7. Non Reuse Information
+------------------------
+
++------------------------------------------------------+------+
+|                         Type                         |   %  |
++------------------------------------------------------+------+
+| Non-Reused Cells                                     | 0.42 |
+|   New                                                | 0.37 |
+|   Discarded illegal placement due to netlist changes | 0.03 |
+|   Discarded to improve timing                        | 0.01 |
+| Partially reused nets                                | 0.00 |
+| Non-Reused nets                                      | 2.75 |
+| Non-Reused Ports                                     | 0.00 |
++------------------------------------------------------+------+
+
+

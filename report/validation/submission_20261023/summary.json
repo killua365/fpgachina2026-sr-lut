@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-23",
+  "passed": true,
+  "hardware_access": false,
+  "tests": 348,
+  "suites": {
+    "reference": {
+      "tests": 58,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "golden": {
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "controller": {
+      "tests": 190,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "launcher": {
+      "tests": 32,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lut": {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "skill": {
+      "tests": 28,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "vga": {
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "relocated_startup_passed": true,
+  "offline_environments_passed": true,
+  "original_functional_files_verified": 694,
+  "original_bitstreams_and_payload_unchanged": true,
+  "deleted_tracked_files_preserved_in_external_archive": 14,
+  "documentation_links_checked": 63,
+  "documentation_broken_links": 0,
+  "vga_archived_evidence": {
+    "passed": true,
+    "archived_runs": 3,
+    "final_good_hdmi_frames": 1424,
+    "final_bad_hdmi_frames": 0,
+    "user_observation_bound": true
+  },
+  "scope": "submission organization, targeted host path maintenance and offline software verification"
+}

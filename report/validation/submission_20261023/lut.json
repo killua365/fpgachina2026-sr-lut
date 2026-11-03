@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "hardware_access": false,
+  "output": "test_generated_mem_file_identity (test_npy_to_mem.NpyToMemTests.test_generated_mem_file_identity) ... ok\ntest_manifest_matches_files (test_npy_to_mem.NpyToMemTests.test_manifest_matches_files) ... ok\ntest_mem_reconstructs_source_payload (test_npy_to_mem.NpyToMemTests.test_mem_reconstructs_source_payload) ... ok\ntest_rejects_invalid_data (test_npy_to_mem.NpyToMemTests.test_rejects_invalid_data) ... ok\ntest_signed_byte_order (test_npy_to_mem.NpyToMemTests.test_signed_byte_order) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.432s\n\nOK\n"
+}

@@ -1,0 +1,42 @@
+{
+  "path": "build/reports/rebuild_20261020/generated_configs.zip",
+  "sha256": "f3a345489f4ecf7989011917cc2af81362a50430fdf1779f7fdedd55ef2012c6",
+  "files": [
+    {
+      "path": "pynq_x2/sr_lut_x2.bit",
+      "bytes": 4045777,
+      "sha256": "b1106899d5ad59c53b01db1f6e864c3e115edb0fbe08e8343c123f35cecd1312"
+    },
+    {
+      "path": "pynq_x2/sr_lut_x2.xsa",
+      "bytes": 1396992,
+      "sha256": "3c78eaeb54e3b0af7aeea0e6fefb8f55a3068a1f7dff558cc86b9153fc3b0ff6"
+    },
+    {
+      "path": "pynq_x4/sr_lut_x4.bit",
+      "bytes": 4045777,
+      "sha256": "f80bb39245151b967d5c63bd656dbeb00008074733a596fa90f792efb8b4c80f"
+    },
+    {
+      "path": "pynq_x4/sr_lut_x4.xsa",
+      "bytes": 1654802,
+      "sha256": "0c4b0a868678b72eed9035ad6fc3f629a63cd9ba0b4d5a274631d91a7c99140e"
+    },
+    {
+      "path": "nexys/routed.dcp",
+      "bytes": 38405679,
+      "sha256": "90d3c702f88e0228a83e3508aeefab69ed7061a369d86cee75273400ac5d821f"
+    },
+    {
+      "path": "nexys/pattern.bit",
+      "bytes": 9730871,
+      "sha256": "ed0f624a540ad7bb7427805299b53a7d839d561f6462aa2a7b5246e4ef4ce15e"
+    }
+  ],
+  "current_demo_uses_these": false,
+  "hardware_access": false,
+  "hwh_locations": [
+    "pynq_x2/generated.hwh",
+    "pynq_x4/generated.hwh"
+  ]
+}

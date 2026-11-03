@@ -1,0 +1,591 @@
+VIOLATION CKBF-1#1
+CHECK=CKBF-1
+CLASS=drc_violation
+DESCRIPTION=The BUFG cell hdmi/receiver/GenerateBUFG.ResyncToBUFG_X/InstBUFG I pin is driven by a BUFR cell hdmi/receiver/TMDS_ClockingX/PixelClkBuffer. For 7-Series devices, this is not a recommended clock topology. Please analyze your clock network and remove the BUFR to BUFG cascade.
+FULLNAME=connects_I_driver_BUFR
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=CKBF-1#1
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=hdmi/receiver/GenerateBUFG.ResyncToBUFG_X/InstBUFG hdmi/receiver/TMDS_ClockingX/PixelClkBuffer
+PINS=
+VIOLATION LUTAR-1#1
+CHECK=LUTAR-1
+CLASS=drc_violation
+DESCRIPTION=LUT cell memory/u_n3_mig_mig/u_iodelay_ctrl/rstdiv2_sync_r[11]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__0/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__1/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__10/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__11/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__12/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__13/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__14/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__15/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__16/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__17/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__18/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__19/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__2/PRE,
+memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__20/PRE
+ (the first 15 of 34 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+FULLNAME=LUT drives async reset alert
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=LUTAR-1#1
+OBJECT_TYPES=cell pin
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_iodelay_ctrl/rstdiv2_sync_r[11]_i_1 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[9] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[8] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[7] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[6] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[5] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[4] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[3] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[2] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[1] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[11] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[10] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[0] memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__9 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__8 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__7 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__6 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__5 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__4 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__3 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__20 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__2 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__19 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__18 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__17 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__16 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__15 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__14 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__13 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__12 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__11 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__10 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__1 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__0 memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep
+PINS=memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__0/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__11/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__13/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__10/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__14/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__16/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__12/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__1/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__15/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__17/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__8/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__19/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__20/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__4/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__6/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__18/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__2/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__5/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__7/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__3/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[0]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[3]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[6]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[10]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[1]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[5]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[4]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[11]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[2]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r1_reg_rep__9/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[9]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[8]/PRE memory/u_n3_mig_mig/u_ddr3_infrastructure/rstdiv0_sync_r_reg[7]/PRE
+VIOLATION LUTAR-1#2
+CHECK=LUTAR-1
+CLASS=drc_violation
+DESCRIPTION=LUT cell reset_release[1]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) reset_release_reg[0]/CLR, reset_release_reg[1]/CLR, resetn_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+FULLNAME=LUT drives async reset alert
+ID=2
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=LUTAR-1#2
+OBJECT_TYPES=cell pin
+SEVERITY=Warning
+WAIVER=
+CELLS=reset_release[1]_i_1 resetn_reg reset_release_reg[1] reset_release_reg[0]
+PINS=resetn_reg/CLR reset_release_reg[1]/CLR reset_release_reg[0]/CLR
+VIOLATION PDRC-190#1
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDPE cell memory/u_n3_mig_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][7] in site SLICE_X163Y175 is part of a synchronized register chain that is suboptimally placed as the load FDPE cell memory/u_n3_mig_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][8] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#1
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][7] memory/u_n3_mig_mig/u_iodelay_ctrl/rst_ref_sync_r_reg[0][8]
+PINS=
+VIOLATION PDRC-190#2
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[0] in site SLICE_X38Y168 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[0] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=2
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#2
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[0] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[0]
+PINS=
+VIOLATION PDRC-190#3
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[10] in site SLICE_X37Y166 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[10] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=3
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#3
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[10] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[10]
+PINS=
+VIOLATION PDRC-190#4
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[11] in site SLICE_X38Y166 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[11] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=4
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#4
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[11] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[11]
+PINS=
+VIOLATION PDRC-190#5
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[1] in site SLICE_X38Y164 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[1] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=5
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#5
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[1] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[1]
+PINS=
+VIOLATION PDRC-190#6
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[2] in site SLICE_X39Y168 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[2] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=6
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#6
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[2] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[2]
+PINS=
+VIOLATION PDRC-190#7
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[3] in site SLICE_X39Y166 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[3] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=7
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#7
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[3] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[3]
+PINS=
+VIOLATION PDRC-190#8
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[4] in site SLICE_X41Y165 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[4] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=8
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#8
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[4] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[4]
+PINS=
+VIOLATION PDRC-190#9
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[5] in site SLICE_X40Y167 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[5] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=9
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#9
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[5] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[5]
+PINS=
+VIOLATION PDRC-190#10
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[6] in site SLICE_X36Y165 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[6] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=10
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#10
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[6] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[6]
+PINS=
+VIOLATION PDRC-190#11
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[7] in site SLICE_X40Y165 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[7] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=11
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#11
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[7] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[7]
+PINS=
+VIOLATION PDRC-190#12
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[8] in site SLICE_X40Y171 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[8] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=12
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#12
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[8] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[8]
+PINS=
+VIOLATION PDRC-190#13
+CHECK=PDRC-190
+CLASS=drc_violation
+DESCRIPTION=The FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[9] in site SLICE_X40Y169 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[9] is not placed in the same (SLICE) site.
+FULLNAME=Suboptimally placed synchronized register chain
+ID=13
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=PDRC-190#13
+OBJECT_TYPES=cell
+SEVERITY=Warning
+WAIVER=
+CELLS=memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_sync_r5_reg[9] memory/u_n3_mig_mig/temp_mon_enabled.u_tempmon/device_temp_r_reg[9]
+PINS=
+VIOLATION TIMING-9#1
+CHECK=TIMING-9
+CLASS=drc_violation
+DESCRIPTION=One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+FULLNAME=Unknown CDC Logic
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-9#1
+OBJECT_TYPES=
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-10#1
+CHECK=TIMING-10
+CLASS=drc_violation
+DESCRIPTION=One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+FULLNAME=Missing property on synchronizer
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-10#1
+OBJECT_TYPES=
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-18#1
+CHECK=TIMING-18
+CLASS=drc_violation
+DESCRIPTION=An input delay is missing on dp_rx_aux_p relative to the rising and/or falling clock edge(s) of board100.
+FULLNAME=Missing input or output delay
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-18#1
+OBJECT_TYPES=port
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-18#2
+CHECK=TIMING-18
+CLASS=drc_violation
+DESCRIPTION=An input delay is missing on dp_tx_hp_detect relative to the rising and/or falling clock edge(s) of board100.
+FULLNAME=Missing input or output delay
+ID=2
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-18#2
+OBJECT_TYPES=port
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-18#3
+CHECK=TIMING-18
+CLASS=drc_violation
+DESCRIPTION=An output delay is missing on dp_tx_aux_n relative to the rising and/or falling clock edge(s) of board100.
+FULLNAME=Missing input or output delay
+ID=3
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-18#3
+OBJECT_TYPES=port
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-18#4
+CHECK=TIMING-18
+CLASS=drc_violation
+DESCRIPTION=An output delay is missing on dp_tx_aux_p relative to the rising and/or falling clock edge(s) of board100.
+FULLNAME=Missing input or output delay
+ID=4
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-18#4
+OBJECT_TYPES=port
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION TIMING-37#1
+CHECK=TIMING-37
+CLASS=drc_violation
+DESCRIPTION=Bus skew constraint is not recommended on signals that have a fanout (see constraint position 45 in the Timing Constraint window in Vivado IDE). First endpoint covered by the constraint: link/g_health.i_gtp_health/snapshot_sync/dest_hsdata_ff_reg[13]/D
+FULLNAME=Bus skew constraint applied on signals with fanout
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=TIMING-37#1
+OBJECT_TYPES=pin
+SEVERITY=Warning
+WAIVER=
+CELLS=link/g_health.i_gtp_health/snapshot_sync/dest_hsdata_ff_reg[13]
+PINS=link/g_health.i_gtp_health/snapshot_sync/dest_hsdata_ff_reg[13]/D
+VIOLATION XDCB-5#1
+CHECK=XDCB-5
+CLASS=drc_violation
+DESCRIPTION=The option '-through : [get_pins -filter {NAME =~ */*SyncAsync*/oSyncStages_reg[0]/D} -hier]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '12' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/source/src/third_party/digilent_hdmi_rx/ip/dvi2rgb/src/dvi2rgb.xdc (Line: 13)
+FULLNAME=Runtime inefficient way to find pin objects
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=XDCB-5#1
+OBJECT_TYPES=
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION XDCB-5#2
+CHECK=XDCB-5
+CLASS=drc_violation
+DESCRIPTION=The option '-to : [get_pins -hier -include_replicated_objects -filter {NAME =~ *temp_mon_enabled.u_tempmon/device_temp_sync_r1_reg[*]/D}]' of constraint 'set_max_delay' uses inefficient query to find pin objects (see constraint position '6' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_board_20261012_r1/project/n5_bridge.gen/sources_1/ip/n3_mig/n3_mig/user_design/constraints/n3_mig.xdc (Line: 356)
+FULLNAME=Runtime inefficient way to find pin objects
+ID=2
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=XDCB-5#2
+OBJECT_TYPES=
+SEVERITY=Warning
+WAIVER=
+CELLS=
+PINS=
+VIOLATION REQP-1959#1
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[1].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=1
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#1
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[1].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#2
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[3].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=2
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#2
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[3].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#3
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[4].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=3
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#3
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[4].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#4
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[5].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=4
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#4
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[5].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#5
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[6].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=5
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#5
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[6].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#6
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[7].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=6
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#6
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[7].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#7
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[8].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=7
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#7
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[8].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#8
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[9].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=8
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#8
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/ddr_byte_group_io/input_[9].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#9
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[0].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=9
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#9
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[0].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#10
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[1].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=10
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#10
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[1].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#11
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[4].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=11
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#11
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[4].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#12
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[5].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=12
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#12
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[5].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#13
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[6].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=13
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#13
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[6].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#14
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[7].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=14
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#14
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[7].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#15
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[8].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=15
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#15
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[8].iserdes_dq_.iserdesdq
+PINS=
+VIOLATION REQP-1959#16
+CHECK=REQP-1959
+CLASS=drc_violation
+DESCRIPTION=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[9].iserdes_dq_.iserdesdq: The RST pin should only be driven by a Flip-flop.
+FULLNAME=connects_SERDES_RST_driver_not_FF
+ID=16
+IS_READ_ONLY=0
+IS_WAIVED=0
+NAME=REQP-1959#16
+OBJECT_TYPES=cell
+SEVERITY=Advisory
+WAIVER=
+CELLS=memory/u_n3_mig_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/ddr_byte_group_io/input_[9].iserdes_dq_.iserdesdq
+PINS=

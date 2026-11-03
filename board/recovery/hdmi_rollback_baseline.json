@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "baseline_tag": "2026-09-07",
+  "baseline_commit": "eb12a3fa2abf311866600897d2732afd4b9ec5fb",
+  "development_branch": "hdmi/2026-09-07",
+  "git_bundle": {
+    "path": "D:/FPGA/_backups/sr_lut_before_hdmi_2026-09-07.bundle",
+    "sha256": "543DFB0B4E6676237239FE424F2B8EBB05910DD5375C342D1B8CF9048F3A8D40",
+    "complete_history_verified": true
+  },
+  "legacy_board_package": {
+    "path": "board/recovery/releases/sr_lut_app_1.9.0_board_release.zip",
+    "sha256": "6DBCF99BB2BA515C8821213C19B8D39E33A3F1A19BCD94B6D28B46F502E07909"
+  },
+  "legacy_pc_agent": {
+    "path": "board/recovery/releases/sr_lut_app_1.9.0_pc_agent.zip",
+    "sha256": "0DB3774C252CC6507AFA75C6ECD75F868893C14B7DC132DBE4971E1C71278753"
+  },
+  "system_card_backup": {
+    "path": "D:/FPGA/_backups/pynq_original_before_hdmi_2026-09-07.img",
+    "report": "D:/FPGA/_backups/pynq_original_before_hdmi_2026-09-07.img.json",
+    "size_bytes": 31914983424,
+    "sha256": "728B6356AD152EDED6C565796C1188255405C434683EB76A4A0837CB46D78673",
+    "image_readback_verified": true,
+    "completed_utc": "2026-09-07T04:37:24.0190905Z"
+  },
+  "spare_card_readback": {
+    "record": "board/recovery/records/spare_clone_record.json",
+    "size_bytes": 31914983424,
+    "sha256": "728B6356AD152EDED6C565796C1188255405C434683EB76A4A0837CB46D78673",
+    "spare_card_write_verified": true,
+    "completed_utc": "2026-09-07T12:12:30.9523207Z",
+    "safely_ejected": true,
+    "spare_card_boot_verified": true,
+    "boot_record": "board/recovery/records/spare_boot_smoke_record.json",
+    "card_cid": "035344534333324780dba606de014500",
+    "boot_id": "6de1c357-9814-4a06-9af7-fc9a568f9d8d"
+  },
+  "spare_card_legacy_smoke": {
+    "record": "board/recovery/records/spare_boot_smoke_record.json",
+    "sha256": "2506276a6b6cd3d0f4ee6ad0116da2f883bf2d1f2b53552bca1d9091bbc00ba7",
+    "passed": true,
+    "scope": "Legacy image/ROI x4, 30-frame video x4 with PC Agent, 20-second camera smoke",
+    "hdmi_acceptance": false
+  },
+  "physical_card_rollback": {
+    "original_restore_record": "board/recovery/records/original_card_restore_record.json",
+    "round_trip_record": "board/recovery/records/physical_card_round_trip_record.json",
+    "sha256": "7bce1fa85c247aeb1206755e8b7c7d16e9987e94ffe6ec94f3cddce974819653",
+    "original_card_cid": "035344534333324780daa60693014500",
+    "original_card_restored_verified": true,
+    "returned_to_spare_verified": true,
+    "spare_return_boot_id": "0efa890c-9405-48eb-81b7-ba58a245fd86",
+    "passed": true
+  },
+  "legacy_service_rollback": {
+    "record": "board/recovery/records/legacy_service_rollback_record.json",
+    "sha256": "7A5B391DFF82D62D610829FE889702F3325B9F8E150673D620B506EE61B94ABD",
+    "passed": true,
+    "scope": "Existing legacy candidate 8083 to formal 8080 recovery; not HDMI runtime/package rollback"
+  },
+  "m0_rollback_prerequisites_verified": true,
+  "hdmi_development_board_test_allowed": true,
+  "hdmi_runtime_rollback": null,
+  "hdmi_package_rollback": null,
+  "hdmi_deployment_allowed": false,
+  "path_migration": "r15_repack_20261020; original identity evidence preserved in original_hdmi_rollback_baseline.json"
+}

@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "36f34ab687b7fa9c778b779d027f3bce63b3ace9",
+  "source_sha256": "82122fb1a992c4c2c540f31068ab6a08fe4782552562051c4d7a7548698853f1",
+  "derived_sha256": "e389b57c1645b0ac6480fe8821c8ad69cb482eb8e6ad703df78135228ee1713c",
+  "all_pin_records_unchanged": true,
+  "changes": [
+    "ModuleName only",
+    "AXI data width 32 to 128 only"
+  ],
+  "validation_scope": "Configuration derivation only; MIG generation, synthesis, implementation and DDR hardware tests are separate"
+}

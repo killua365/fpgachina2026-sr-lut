@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/sr_identity_tracker.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_identity_tracker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/bridge_uart.sv" into library work
+INFO: [VRFC 10-311] analyzing module bridge_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/bridge_pipeline_control.sv" into library work
+INFO: [VRFC 10-311] analyzing module bridge_pipeline_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/bridge_frame_owner.sv" into library work
+INFO: [VRFC 10-311] analyzing module bridge_frame_owner
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/video_pair_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module video_pair_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/video_pattern_axis.sv" into library work
+INFO: [VRFC 10-311] analyzing module video_pattern_axis
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/video_pattern_pixel.sv" into library work
+INFO: [VRFC 10-311] analyzing module video_pattern_pixel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_sr_identity_tracker.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_tracker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_bridge_uart.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_bridge_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_sr_identity_uart.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_uart
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_bridge_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_bridge_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/sr_lut_vivado2026_migration_work/build/nexys_bridge/work/n5_identity_20261012_211846/source/tb_sr_identity_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sr_identity_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/vivado2026.1/2026.1/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl

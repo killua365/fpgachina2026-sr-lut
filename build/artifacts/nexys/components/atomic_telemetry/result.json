@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "hardware_access": false,
+  "n5_passed": false,
+  "simulator": "2026.1",
+  "inputs": [
+    {
+      "path": "src/rtl/nexys_hdmi/sr_identity_tracker.sv",
+      "sha256": "b01b77ac98ac6d5318e8416780b77bbdd5790bf16cbc0348e20b5dc56f9fe3e4"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_uart.sv",
+      "sha256": "6b79d5a4683904a6477699ee1018f920932bd4611ca4ddc88ddaea7a49d7bf2c"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_telemetry.sv",
+      "sha256": "e9cd1552761647303fabf26870593cc85cab4b0ed972024cde253ecca505810b"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_pipeline_control.sv",
+      "sha256": "55f3291667e35a4cb912373fec4d66d5b5fdb0912309172710eda67211b8fd0a"
+    },
+    {
+      "path": "src/rtl/nexys_hdmi/bridge_frame_owner.sv",
+      "sha256": "ff624cf65ac4bfbea2b0e00e32e3cd6c9ad9b74b71332026098dbaae7c3bfcbe"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pair_fifo.sv",
+      "sha256": "18bb3d453e062bc764e611c4f7296fdec31c18efb7264ba34f1bfd8cf6233cc9"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_axis.sv",
+      "sha256": "19b5a668fbd15517f30a61af3b2e92ae1d11f4c5dc514f0137272844651e5cb0"
+    },
+    {
+      "path": "src/rtl/nexys_framebuffer/video_pattern_pixel.sv",
+      "sha256": "80ffde3a33f41d974653356c90cb146af90eacab29eae390e11c9d1921d1ce81"
+    },
+    {
+      "path": "sim/nexys_bridge/tb_sr_identity_telemetry.sv",
+      "sha256": "6631206611b330f88c70a3f2998c59b2a563da953ebe9bcaf31f9c9ef61942df"
+    },
+    {
+      "path": "build/nexys_bridge/simulate_n5_identity.py",
+      "sha256": "5c0e92442c1d66f83ccfed0630c1c3d78d373f55bfe9165e8b919dc94055d634"
+    }
+  ],
+  "tests": [
+    "sr_identity_telemetry"
+  ]
+}

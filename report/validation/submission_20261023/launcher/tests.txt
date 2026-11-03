@@ -1,0 +1,37 @@
+test_baseline_needs_explicit_confirmation_and_binds_run (test_demo_session.EvidenceTests.test_baseline_needs_explicit_confirmation_and_binds_run) ... ok
+test_cancel_before_start_does_not_prepare_session (test_demo_session.EvidenceTests.test_cancel_before_start_does_not_prepare_session) ... ok
+test_check_does_not_prepare_or_start_hardware (test_demo_session.EvidenceTests.test_check_does_not_prepare_or_start_hardware) ... ok
+test_close_is_idempotent_and_never_overwrites_foreign_request (test_demo_session.EvidenceTests.test_close_is_idempotent_and_never_overwrites_foreign_request) ... ok
+test_launcher_cannot_borrow_old_qualification_after_edit (test_demo_session.EvidenceTests.test_launcher_cannot_borrow_old_qualification_after_edit) ... ok
+test_malformed_status_is_not_replaced_with_cached_success (test_demo_session.EvidenceTests.test_malformed_status_is_not_replaced_with_cached_success) ... ok
+test_never_started_source_is_distinct_from_unknown_source (test_demo_session.EvidenceTests.test_never_started_source_is_distinct_from_unknown_source) ... ok
+test_old_or_foreign_controller_cannot_close (test_demo_session.EvidenceTests.test_old_or_foreign_controller_cannot_close) ... ok
+test_persistent_status_read_failure_remains_failure (test_demo_session.EvidenceTests.test_persistent_status_read_failure_remains_failure) ... ok
+test_prior_incomplete_session_blocks_new_launch (test_demo_session.EvidenceTests.test_prior_incomplete_session_blocks_new_launch) ... ok
+test_second_launcher_cannot_acquire_lock (test_demo_session.EvidenceTests.test_second_launcher_cannot_acquire_lock) ... ok
+test_status_read_retries_transient_windows_sharing_error (test_demo_session.EvidenceTests.test_status_read_retries_transient_windows_sharing_error) ... ok
+test_camera_campaign_automatically_closes_before_source_stop (test_demo_session.LifecycleTests.test_camera_campaign_automatically_closes_before_source_stop) ... ok
+test_dp_not_ready_never_starts_source (test_demo_session.LifecycleTests.test_dp_not_ready_never_starts_source) ... ok
+test_exception_after_start_still_closes_before_stopping (test_demo_session.LifecycleTests.test_exception_after_start_still_closes_before_stopping) ... ok
+test_full_start_password_display_close_stop_recovery (test_demo_session.LifecycleTests.test_full_start_password_display_close_stop_recovery) ... ok
+test_console_mode_restored_on_failure (test_demo_session.PasswordTests.test_console_mode_restored_on_failure) ... ok
+test_controller_closure_aborts_password_input (test_demo_session.PasswordTests.test_controller_closure_aborts_password_input) ... ok
+test_ctrl_c_during_password_requests_ordered_stop (test_demo_session.PasswordTests.test_ctrl_c_during_password_requests_ordered_stop) ... ok
+test_normal_control_keys_ignore_text_and_detect_ctrl_c (test_demo_session.PasswordTests.test_normal_control_keys_ignore_text_and_detect_ctrl_c) ... ok
+test_password_not_echoed_and_backspace_supported (test_demo_session.PasswordTests.test_password_not_echoed_and_backspace_supported) ... ok
+test_cancel_startup_and_no_source_launch (test_demo_session.PolicyTests.test_cancel_startup_and_no_source_launch) ... ok
+test_closing_never_starts_source (test_demo_session.PolicyTests.test_closing_never_starts_source) ... ok
+test_completed_remote_recovery_can_precede_local_ssh_exit (test_demo_session.PolicyTests.test_completed_remote_recovery_can_precede_local_ssh_exit) ... ok
+test_controller_crash_stops_source_but_marks_order_unknown (test_demo_session.PolicyTests.test_controller_crash_stops_source_but_marks_order_unknown) ... ok
+test_failure_ack_timeout_is_not_reported_as_ordered (test_demo_session.PolicyTests.test_failure_ack_timeout_is_not_reported_as_ordered) ... ok
+test_ordered_ctrl_c_uses_real_monitor_ack (test_demo_session.PolicyTests.test_ordered_ctrl_c_uses_real_monitor_ack) ... ok
+test_source_exit_requests_close_without_claiming_recovery (test_demo_session.PolicyTests.test_source_exit_requests_close_without_claiming_recovery) ... ok
+test_start_requires_ready_and_live_controller (test_demo_session.PolicyTests.test_start_requires_ready_and_live_controller) ... ok
+test_actual_powershell_native_input_password_and_etx (test_demo_session.TransportTests.test_actual_powershell_native_input_password_and_etx) ... ok
+test_hidden_real_windows_console_handles_ctrl_c_and_restores_mode (test_demo_session.TransportTests.test_hidden_real_windows_console_handles_ctrl_c_and_restores_mode) ... ok
+test_launcher_help_works_from_unrelated_directory (test_demo_session.TransportTests.test_launcher_help_works_from_unrelated_directory) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 10.723s
+
+OK

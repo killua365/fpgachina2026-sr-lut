@@ -1,0 +1,17 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_fpga/src/rtl/nexys_bridge/dp_aux_messages.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'dp_aux_messages'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_fpga/build/candidates/nexys_vga_26102101/aux_channel.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'aux_channel'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_fpga/build/candidates/nexys_vga_26102101/tb_vga_power.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'aux_interface'
+INFO: [VRFC 10-3107] analyzing entity 'tb_vga_power'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA/sr_lut_fpga/build/reproduction_work/nexys_vga_26102101/power_sim_r3/wrappers.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'power_case_0'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_1'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_2'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_3'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_4'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_5'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_6'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_7'
+INFO: [VRFC 10-3107] analyzing entity 'power_case_8'

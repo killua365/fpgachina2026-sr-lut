@@ -1,0 +1,19 @@
+{
+  "schema": "sr_lut_offline_runtimes_v1",
+  "environments": {
+    "host": {
+      "path": "runtime/host_python_3_12_14.zip",
+      "sha256": "fab7f52737cfccb69b97777db625bb40c4e42f71146a6b3a04a365ddd3e3c4a0",
+      "bytes": 78177656,
+      "inventory": "runtime/host_python_3_12_14.json",
+      "executable": "python.exe"
+    },
+    "reference": {
+      "path": "runtime/reference_python_3_12_14.zip",
+      "sha256": "2efbc794d948b0641a9e226b0207539f3bb1f7df184d1e90f9bb5cad6c446249",
+      "bytes": 122505895,
+      "inventory": "runtime/reference_python_3_12_14.json",
+      "executable": "python.exe"
+    }
+  }
+}
